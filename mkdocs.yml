@@ -1,5 +1,5 @@
 site_name: SubSurface.io
-site_url: https://mydomain.org/subsurfaceio
+site_url: https://docs.subsurface.io/
 theme:
   name: material
   favicon: https://www.subsurfaceio.app/dash/assets/logo_vector.svg
