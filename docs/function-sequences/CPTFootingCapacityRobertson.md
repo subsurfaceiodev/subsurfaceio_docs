@@ -1,0 +1,17 @@
+## Description
+
+None
+
+
+## References
+
+- [Robertson and Cabal (2024). GUIDE TO CONE PENETRATION TESTING](https://cpt-robertson.com/publications/)
+
+
+## Formulae
+
+* [`get_is_invalid_data`](../../functions/cpt/#get_is_invalid_data)  
+* [`get_corrected_cone_tip_resistance`](../../functions/cpt/#get_corrected_cone_tip_resistance)  
+* [`get_footing_influence_depth`](../../functions/footing/#get_footing_influence_depth)  
+* [`get_mean_corrected_cone_tip_resistance`](../../functions/cpt/#get_mean_corrected_cone_tip_resistance)  
+* [`get_ultimate_bearing_capacity_cpt`](../../functions/cpt/#get_ultimate_bearing_capacity_cpt)  
