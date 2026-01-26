@@ -8,6 +8,8 @@ engineering parameters automatically
 
 ---
 
+**Documentation**: [https://docs.subsurfaceio.app/](https://docs.subsurfaceio.app/){:target="_blank"}
+
 **Web app**: [https://subsurfaceio.app/](https://subsurfaceio.app/){:target="_blank"}
 
 **Interactive API documentation**: [https://www.subsurfaceio.app/docs](https://www.subsurfaceio.app/docs){:target="_blank"}
