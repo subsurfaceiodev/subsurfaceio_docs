@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Saye et al. (2017). Linear trendlines to assess soil classification from cone penetration test data](https://doi.org/10.1061/(ASCE)GT.1943-5606.0001729)
+* [`saye2017linear`](../../references/#saye2017linear)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_below_water_table`](../../functions/base/#get_below_water_table)  
 * [`get_thickness`](../../functions/base/#get_thickness)  

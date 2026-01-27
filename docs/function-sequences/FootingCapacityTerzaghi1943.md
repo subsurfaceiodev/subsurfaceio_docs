@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Terzaghi (1943). Theoretical soil mechanics](https://isbnsearch.org/isbn/9780471853053)
+* [`terzaghi1943theoretical`](../../references/#terzaghi1943theoretical)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_footing_total_stress`](../../functions/footing/#get_footing_total_stress)  
 * [`get_footing_pore_water_pressure`](../../functions/footing/#get_footing_pore_water_pressure)  

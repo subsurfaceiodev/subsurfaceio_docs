@@ -2,8 +2,6 @@
 title: cpt.py
 ---
 
-## Formulae
-
 #### `_get_cross_correlation_function`
 
 ##### latex { data-search-exclude }

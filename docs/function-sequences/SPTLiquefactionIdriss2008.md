@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Idriss and Boulanger (2008). Soil liquefaction during earthquakes](https://isbnsearch.org/isbn/9781932884364)
+* [`idriss2008soil`](../../references/#idriss2008soil)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_soil_type`](../../functions/base/#get_soil_type)  
 * [`get_soil_type2`](../../functions/base/#get_soil_type2)  

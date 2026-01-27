@@ -2,8 +2,6 @@
 title: soil_classification.py
 ---
 
-## Formulae
-
 #### `_get_soil_classification__usda1993soil_scalar`
 
 ##### latex { data-search-exclude }

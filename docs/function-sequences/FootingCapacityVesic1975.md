@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Vesic (1975). Bearing capacity of shallow foundations](https://scholar.google.com/scholar?q=Bearing%20capacity%20of%20shallow%20foundations%201975)
+* [`vesic1975bearing`](../../references/#vesic1975bearing)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_footing_total_stress`](../../functions/footing/#get_footing_total_stress)  
 * [`get_footing_pore_water_pressure`](../../functions/footing/#get_footing_pore_water_pressure)  

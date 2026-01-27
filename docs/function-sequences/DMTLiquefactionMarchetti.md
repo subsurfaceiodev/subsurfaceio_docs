@@ -1,15 +1,15 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Robertson (2012). The James K. Mitchell Lecture: Interpretation of in-situ tests–some insights](https://cpt-robertson.com/publications/)  
-- [Robertson and Cabal (2024). GUIDE TO CONE PENETRATION TESTING](https://cpt-robertson.com/publications/)
+* [`robertson2012interpretation`](../../references/#robertson2012interpretation)  
+* [`robertson2024guide`](../../references/#robertson2024guide)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_below_water_table`](../../functions/base/#get_below_water_table)  
 * [`get_thickness`](../../functions/base/#get_thickness)  

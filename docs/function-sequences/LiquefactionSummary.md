@@ -1,17 +1,17 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Ishihara (1985). Stability of natural deposits during earthquakes](https://scholar.google.com/scholar?q=Stability%20of%20natural%20deposits%20during%20earthquakes%201985)  
-- [Iwasaki (1978). A practical method for assessing soil liquefaction potential based on case studies at various sites in Japan](https://scholar.google.com/scholar?q=A%20practical%20method%20for%20assessing%20soil%20liquefaction%20potential%20based%20on%20case%20studies%20at%20various%20sites%20in%20Japan%201978)  
-- [Maurer et al. (2015). Moving towards an improved index for assessing liquefaction hazard: Lessons from historical data](https://doi.org/10.1016/j.sandf.2015.06.010)  
-- [Van et al. (2014). Assessment of liquefaction-induced land damage for residential Christchurch](https://doi.org/10.1193/031813eqs070m)
+* [`ishihara1985stability`](../../references/#ishihara1985stability)  
+* [`iwasaki1978practical`](../../references/#iwasaki1978practical)  
+* [`maurer2015moving`](../../references/#maurer2015moving)  
+* [`van2014assessment`](../../references/#van2014assessment)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_thickness_non_liquefiable_layer`](../../functions/liquefaction/#get_thickness_non_liquefiable_layer)  
 * [`get_thickness_liquefiable_layer`](../../functions/liquefaction/#get_thickness_liquefiable_layer)  

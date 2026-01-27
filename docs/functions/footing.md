@@ -2,8 +2,6 @@
 title: footing.py
 ---
 
-## Formulae
-
 #### `get_average_friction_angle__bowles1996foundation`
 
 ##### latex { data-search-exclude }

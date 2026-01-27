@@ -2,8 +2,6 @@
 title: liquefaction.py
 ---
 
-## Formulae
-
 #### `get_area_replacement_ratio`
 
 ##### latex { data-search-exclude }

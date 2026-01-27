@@ -2,8 +2,6 @@
 title: dmt.py
 ---
 
-## Formulae
-
 #### `get_coefficient_of_earth_pressure_at_rest__marchetti1981flat`
 
 ##### latex { data-search-exclude }

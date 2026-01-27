@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [NIST (2012). Soil-structure interaction for building structures](https://www.nist.gov/publications/soil-structure-interaction-building-structures)
+* [`nist2012soil`](../../references/#nist2012soil)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_footing_zone`](../../functions/ssi/#get_footing_zone)  
 * [`get_vertical_stiffness_intensity`](../../functions/ssi/#get_vertical_stiffness_intensity)  

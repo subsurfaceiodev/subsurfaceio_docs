@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Meyerhof and Hanna (1978). Ultimate bearing capacity of foundations on layered soils under inclined load](https://doi.org/10.1139/t78-060)
+* [`meyerhof1978ultimate`](../../references/#meyerhof1978ultimate)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_footing_total_stress`](../../functions/footing/#get_footing_total_stress)  
 * [`get_footing_pore_water_pressure`](../../functions/footing/#get_footing_pore_water_pressure)  

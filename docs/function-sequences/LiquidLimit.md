@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 ASTM D4318
 
 
-## References
+#### `references`
 
-- [ASTM International (2017). Standard Test Methods for Liquid Limit, Plastic Limit, and Plasticity Index of Soils](https://doi.org/10.1520/D4318-17E01)
+* [`astm2017d4318`](../../references/#astm2017d4318)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_moisture_mass`](../../functions/soil_lab/#get_moisture_mass)  
 * [`get_dry_soil_mass`](../../functions/soil_lab/#get_dry_soil_mass)  

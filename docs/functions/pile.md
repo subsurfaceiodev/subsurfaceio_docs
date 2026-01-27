@@ -2,8 +2,6 @@
 title: pile.py
 ---
 
-## Formulae
-
 #### `_get_average_pile_tip_resistance`
 
 ##### latex { data-search-exclude }

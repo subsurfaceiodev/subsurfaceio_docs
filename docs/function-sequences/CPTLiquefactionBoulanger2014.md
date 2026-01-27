@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Boulanger and Idriss (2014). CPT and SPT based liquefaction triggering procedures](https://scholar.google.com/scholar?q=CPT%20and%20SPT%20based%20liquefaction%20triggering%20procedures%202014)
+* [`boulanger2014cpt`](../../references/#boulanger2014cpt)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_below_water_table`](../../functions/base/#get_below_water_table)  
 * [`get_thickness`](../../functions/base/#get_thickness)  

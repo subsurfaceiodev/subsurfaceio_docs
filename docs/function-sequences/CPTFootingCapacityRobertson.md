@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Robertson and Cabal (2024). GUIDE TO CONE PENETRATION TESTING](https://cpt-robertson.com/publications/)
+* [`robertson2024guide`](../../references/#robertson2024guide)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_is_invalid_data`](../../functions/cpt/#get_is_invalid_data)  
 * [`get_corrected_cone_tip_resistance`](../../functions/cpt/#get_corrected_cone_tip_resistance)  

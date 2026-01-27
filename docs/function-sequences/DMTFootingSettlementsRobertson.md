@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Marchetti and Crapps (1981). Flat dilatometer manual](https://scholar.google.com/scholar?q=Flat%20dilatometer%20manual%201981)
+* [`marchetti1981flat`](../../references/#marchetti1981flat)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_below_water_table`](../../functions/base/#get_below_water_table)  
 * [`get_thickness`](../../functions/base/#get_thickness)  

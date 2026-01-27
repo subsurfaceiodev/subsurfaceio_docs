@@ -1,13 +1,13 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [ASTM International (2015). Standard Practice for Classification of Soils and Soil-Aggregate Mixtures for Highway Construction Purposes](https://doi.org/10.1520/D3282-15)
+* [`astm2015d3282`](../../references/#astm2015d3282)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_soil_classification_aashto__astm2015d3282`](../../functions/soil_classification/#get_soil_classification_aashto__astm2015d3282)  

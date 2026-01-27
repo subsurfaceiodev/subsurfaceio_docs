@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 ASTM D422
 
 
-## References
+#### `references`
 
-- [ASTM International (2007). Standard Test Method for Particle-Size Analysis of Soils](https://doi.org/10.1520/D0422-63R07)
+* [`astm2007d422`](../../references/#astm2007d422)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_temperature_correction`](../../functions/soil_lab/#get_temperature_correction)  
 * [`get_specific_gravity_correction`](../../functions/soil_lab/#get_specific_gravity_correction)  

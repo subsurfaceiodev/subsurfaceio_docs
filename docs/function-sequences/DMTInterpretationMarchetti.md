@@ -1,15 +1,15 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Marchetti and Crapps (1981). Flat dilatometer manual](https://scholar.google.com/scholar?q=Flat%20dilatometer%20manual%201981)  
-- [Amoroso (2013). Prediction of the Shear Wave Velocity V S from CPT and DMT](https://doi.org/10.1007/s11709-013-0234-6)
+* [`marchetti1981flat`](../../references/#marchetti1981flat)  
+* [`amoroso2013prediction`](../../references/#amoroso2013prediction)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_below_water_table`](../../functions/base/#get_below_water_table)  
 * [`get_thickness`](../../functions/base/#get_thickness)  

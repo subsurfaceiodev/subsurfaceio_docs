@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [NIST (2012). Soil-structure interaction for building structures](https://www.nist.gov/publications/soil-structure-interaction-building-structures)
+* [`nist2012soil`](../../references/#nist2012soil)  
 
 
-## Formulae
+#### `functions`
 
 * [`pile_group_router`](../../functions/ssi/#pile_group_router)  
 * [`get_pile_group_efficiency_factor`](../../functions/ssi/#get_pile_group_efficiency_factor)  

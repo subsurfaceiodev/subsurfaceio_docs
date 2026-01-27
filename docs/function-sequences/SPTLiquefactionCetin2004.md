@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Cetin et al. (2004). Standard penetration test-based probabilistic and deterministic assessment of seismic soil liquefaction potential](https://doi.org/10.1061/(ASCE)1090-0241(2004)130:12(1314))
+* [`cetin2004standard`](../../references/#cetin2004standard)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_soil_type`](../../functions/base/#get_soil_type)  
 * [`get_soil_type2`](../../functions/base/#get_soil_type2)  

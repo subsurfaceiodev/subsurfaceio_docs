@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [NIST (2012). Soil-structure interaction for building structures](https://www.nist.gov/publications/soil-structure-interaction-building-structures)
+* [`nist2012soil`](../../references/#nist2012soil)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_footing_router`](../../functions/ssi/#get_footing_router)  
 * [`get_effective_profile_depth`](../../functions/ssi/#get_effective_profile_depth)  

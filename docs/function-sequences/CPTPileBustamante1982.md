@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Bustamante and Gianeselli (1982). Pile bearing capacity prediction by means of static penetrometer CPT](https://scholar.google.com/scholar?q=Pile%20bearing%20capacity%20prediction%20by%20means%20of%20static%20penetrometer%20CPT%201982)
+* [`bustamante1982pile`](../../references/#bustamante1982pile)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_thickness`](../../functions/base/#get_thickness)  
 * [`get_is_invalid_data`](../../functions/cpt/#get_is_invalid_data)  

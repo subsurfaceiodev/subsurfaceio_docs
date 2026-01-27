@@ -2,8 +2,6 @@
 title: spt.py
 ---
 
-## Formulae
-
 #### `_get_coefficient_of_consolidation__navfac1982soil_scalar`
 
 ##### latex { data-search-exclude }

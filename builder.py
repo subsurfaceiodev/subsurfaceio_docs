@@ -124,8 +124,6 @@ def sequence_to_markdown(
 title: {module_name}.py
 ---
 ''']
-
-    md.append('## Formulae\n')
     for function in sequence.functions:
         function_name = function.__name__
         md.append(f'#### `{function_name}`\n')
@@ -161,15 +159,16 @@ def sequence_to_markdown_links(
         sequence: FunctionSequence,
 ):
     md = []
-    md.append('## Description\n')
+    md.append('#### `description`\n')
     md.append(f'{sequence.description}')
     md.append('\n')
 
-    md.append('## References\n')
-    md.append(REFERENCES.as_markdown_links(sequence.references or []))
+    md.append('#### `references`\n')
+    for reference in sequence.references or []:
+        md.append(f'* [`{reference}`](../../references/#{reference})  ')
     md.append('\n')
 
-    md.append('## Formulae\n')
+    md.append('#### `functions`\n')
     for function in sequence.functions:
         function_name = function.__name__
         md.append(f'* [`{function_name}`](../../functions/{function.__module__.rsplit('.', 1)[-1]}/#{function_name})  ')

@@ -2,8 +2,6 @@
 title: soil_lab.py
 ---
 
-## Formulae
-
 #### `get_a_parameter`
 
 ##### latex { data-search-exclude }

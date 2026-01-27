@@ -2,8 +2,6 @@
 title: ssi.py
 ---
 
-## Formulae
-
 #### `_get_dashpot_edge_factor_scalar`
 
 ##### latex { data-search-exclude }

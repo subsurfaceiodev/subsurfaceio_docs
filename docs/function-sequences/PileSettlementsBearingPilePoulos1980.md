@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Poulos and Davis (1980). Pile foundation analysis and design](https://isbnsearch.org/isbn/9780471020844)
+* [`poulos1980pile`](../../references/#poulos1980pile)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_pile_length_to_diameter_ratio`](../../functions/pile/#get_pile_length_to_diameter_ratio)  
 * [`get_pile_stiffness_factor__poulos1980pile`](../../functions/pile/#get_pile_stiffness_factor__poulos1980pile)  

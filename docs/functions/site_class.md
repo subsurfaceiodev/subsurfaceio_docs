@@ -2,8 +2,6 @@
 title: site_class.py
 ---
 
-## Formulae
-
 #### `get_average_blow_count`
 
 ##### latex { data-search-exclude }

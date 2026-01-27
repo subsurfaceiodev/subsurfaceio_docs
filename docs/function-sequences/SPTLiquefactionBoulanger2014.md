@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Boulanger and Idriss (2014). CPT and SPT based liquefaction triggering procedures](https://scholar.google.com/scholar?q=CPT%20and%20SPT%20based%20liquefaction%20triggering%20procedures%202014)
+* [`boulanger2014cpt`](../../references/#boulanger2014cpt)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_soil_type`](../../functions/base/#get_soil_type)  
 * [`get_soil_type2`](../../functions/base/#get_soil_type2)  

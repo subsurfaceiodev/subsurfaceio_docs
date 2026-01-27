@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Bray and Macedo (2017). 6th Ishihara lecture: Simplified procedure for estimating liquefaction-induced building settlement](https://doi.org/10.1016/j.soildyn.2017.08.026)
+* [`bray2017simplified`](../../references/#bray2017simplified)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_liquefaction_building_settlement_index__bray2017simplified`](../../functions/liquefaction/#get_liquefaction_building_settlement_index__bray2017simplified)  
 * [`get_liquefaction_shear_induced_building_settlement__bray2017simplified`](../../functions/liquefaction/#get_liquefaction_shear_induced_building_settlement__bray2017simplified)  

@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 ASTM D421
 
 
-## References
+#### `references`
 
-- [ASTM International (2007). Standard Practice for Dry Preparation of Soil Samples for Particle-Size Analysis and Determination of Soil Constants (Withdrawn 2016)](https://doi.org/10.1520/D0421-85R07)
+* [`astm2007d421`](../../references/#astm2007d421)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_particle_size_from_sieve_number`](../../functions/soil_lab/#get_particle_size_from_sieve_number)  
 * [`get_cumulative_mass_retained`](../../functions/soil_lab/#get_cumulative_mass_retained)  

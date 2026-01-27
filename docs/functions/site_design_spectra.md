@@ -2,8 +2,6 @@
 title: site_design_spectra.py
 ---
 
-## Formulae
-
 #### `_get_factors__carlton2018simplified`
 
 ##### latex { data-search-exclude }

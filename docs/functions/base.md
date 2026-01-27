@@ -2,8 +2,6 @@
 title: base.py
 ---
 
-## Formulae
-
 #### `get_below_water_table`
 
 ##### latex { data-search-exclude }

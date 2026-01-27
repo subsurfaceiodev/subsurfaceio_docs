@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [U.S. Army Corps of Engineers (1991). Design of Pile Foundations: Engineer Manual EM 1110-2-2906](https://www.publications.usace.army.mil/portals/76/publications/engineermanuals/em_1110-2-2906.pdf)
+* [`usace1991design`](../../references/#usace1991design)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_thickness`](../../functions/base/#get_thickness)  
 * [`get_effective_stress__usace1991design`](../../functions/pile/#get_effective_stress__usace1991design)  

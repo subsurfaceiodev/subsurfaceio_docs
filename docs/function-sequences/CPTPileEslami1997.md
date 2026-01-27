@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Eslami and Fellenius (1997). Pile capacity by direct CPT and CPTu methods applied to 102 case histories](https://doi.org/10.1139/t97-056)
+* [`eslami1997pile`](../../references/#eslami1997pile)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_thickness`](../../functions/base/#get_thickness)  
 * [`get_is_invalid_data`](../../functions/cpt/#get_is_invalid_data)  

@@ -1,13 +1,13 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Bowles (1996). Foundation analysis and design](https://isbnsearch.org/isbn/9780079122476)
+* [`bowles1996foundation`](../../references/#bowles1996foundation)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_average_parameters__bowles1996foundation`](../../functions/footing/#get_average_parameters__bowles1996foundation)  

@@ -1,14 +1,14 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [Cetin et al. (2018). The use of the SPT-based seismic soil liquefaction triggering evaluation methodology in engineering hazard assessments](https://doi.org/10.1016/j.mex.2018.11.016)
+* [`cetin2018use`](../../references/#cetin2018use)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_soil_type`](../../functions/base/#get_soil_type)  
 * [`get_soil_type2`](../../functions/base/#get_soil_type2)  

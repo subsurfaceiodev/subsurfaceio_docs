@@ -1,13 +1,13 @@
-## Description
+#### `description`
 
 None
 
 
-## References
+#### `references`
 
-- [ASTM International (2017). Standard Practice for Classification of Soils for Engineering Purposes (Unified Soil Classification System)](https://doi.org/10.1520/D2487-17)
+* [`astm2017d2487`](../../references/#astm2017d2487)  
 
 
-## Formulae
+#### `functions`
 
 * [`get_soil_classification_uscs__astm2017d2487`](../../functions/soil_classification/#get_soil_classification_uscs__astm2017d2487)  
