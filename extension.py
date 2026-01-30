@@ -1,5 +1,5 @@
 import griffe
-from subsurfaceio.functions.utils import generate_function_docstring
+from function_docstrings import docstrings
 
 logger = griffe.get_logger(__name__)
 
@@ -29,7 +29,7 @@ class DynamicDocstrings(griffe.Extension):
             return
 
         if not func.name.startswith('_'):
-            docstring = generate_function_docstring(runtime_obj)
+            docstring = docstrings[func.parent.path.split('.')[-1]][func.name]
             func.docstring = griffe.Docstring(
                 docstring,
                 parent=func,
