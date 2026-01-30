@@ -8,14 +8,43 @@ theme:
     primary: white
   features:
     - content.code.copy
+    - content.tooltips
 
 plugins:
   - search
-  - exclude-search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+            separate_signature: true
+            show_root_heading: true
+            show_symbol_type_heading: true
+            summary: true
+            filters:
+              - '!^_'
+            extensions:
+              - griffe_pydantic
+              - extension:DynamicDocstrings:
+                  object_paths: [
+                    subsurfaceio.functions.base,
+                    subsurfaceio.functions.cpt,
+                    subsurfaceio.functions.dmt,
+                    subsurfaceio.functions.footing,
+                    subsurfaceio.functions.liquefaction,
+                    subsurfaceio.functions.pile,
+                    subsurfaceio.functions.site_class,
+                    subsurfaceio.functions.site_design_spectra,
+                    subsurfaceio.functions.soil_classification,
+                    subsurfaceio.functions.soil_lab,
+                    subsurfaceio.functions.spt,
+                    subsurfaceio.functions.ssi,
+                  ]
   - meta
   - literate-nav
 
 markdown_extensions:
+  - abbr
   - attr_list
   - pymdownx.blocks.caption
   - pymdownx.arithmatex:

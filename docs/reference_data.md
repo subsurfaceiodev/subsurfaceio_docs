@@ -1,6 +1,6 @@
 #### BSSSiteClass
 
-| site_class | Description                   | average_shear_velocity | average_blow_count | average_undrained_shear_strength |
+| site_class | description                   | average_shear_velocity | average_blow_count | average_undrained_shear_strength |
 |------------|-------------------------------|------------------------|--------------------|----------------------------------|
 | A          | Hard rock                     | >1500                  |                    |                                  |
 | B          | Rock                          | 760 - 1500             |                    |                                  |
@@ -11,7 +11,7 @@
 
 #### BSSSiteClassOther
 
-| site_class | Description                              | Condition                                                                                             |
+| site_class | description                              | condition                                                                                             |
 |------------|------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | E          | Soft soil                                | Any profile with more than 3 m of soil having PI (%) > 20 & wc (%) ≥ 40 & Su (kPa) < 24               |
 | F          | Soil requiring site-specific evaluations | Soils vulnerable to potential failure or collapse under seismic loading such as liquefiable soils, q… |
@@ -342,6 +342,19 @@
 | 30          | 0.01298 | 0.01276 | 0.01256 | 0.01236 | 0.01217 | 0.01199 | 0.01182 | 0.01165 | 0.01149 |
 
 
+#### ModelCoefficientsCetin
+
+| theta | 2004  | 2018    |
+|-------|-------|---------|
+| 1     | 0.004 | 0.00167 |
+| 2     | 29.53 | 27.352  |
+| 3     | 3.7   | 3.958   |
+| 4     | 0.05  | 0.089   |
+| 5     | 16.85 | 16.084  |
+| 6     | 13.32 | 11.771  |
+| ε     | 2.7   | 2.95    |
+
+
 #### PileFrictionCoefficientBustamante1982
 
 | nature_of_soil | IA  | IB  | IIA | IIB |
@@ -368,6 +381,145 @@
 | 6              | 0.3  | 0.3  | 0.4  | 0.4  |
 
 
+#### PoissonRatioBowles1996
+
+| material                                | min  | max  |
+|-----------------------------------------|------|------|
+| Clay.Saturated                          | 0.4  | 0.5  |
+| Clay.Unsaturated                        | 0.1  | 0.3  |
+| Clay.Sandy                              | 0.2  | 0.3  |
+| Silt                                    | 0.3  | 0.35 |
+| Sand, gravelly sand                     | 0.3  | 0.4  |
+| Rock                                    | 0.1  | 0.4  |
+| Loess                                   | 0.1  | 0.3  |
+| Concrete                                | 0.15 | 0.15 |
+| Steel                                   | 0.33 | 0.33 |
+| Most clay soils                         | 0.4  | 0.5  |
+| Saturated clay soils                    | 0.45 | 0.5  |
+| Cohesionless—medium and dense           | 0.3  | 0.4  |
+| Cohesionless—loose to medium            | 0.2  | 0.35 |
+| Peat, organic (from Long et al. (2022)) | 0.2  | 0.25 |
+| All soils                               | 0.0  | 0.5  |
+
+
+#### SoilClassificationSymbology
+
+| key              | en                               | es                                  | fr                                    |
+|------------------|----------------------------------|-------------------------------------|---------------------------------------|
+| O-C              | organic clay                     | arcilla orgánica                    | argile organique                      |
+| O-M              | organic silt                     | limo orgánico                       | limon organique                       |
+| C                | clay                             | arcilla                             | argile                                |
+| C-ey             | clayey                           | arcillosa                           | argileux                              |
+| M                | silt                             | limo                                | limon                                 |
+| M-ey             | silty                            | limosa                              | limoneux                              |
+| [C/M]            | [clay/silt]                      | [arcilla/limo]                      | [argile/limon]                        |
+| [C/M]-ey         | [clayey/silty]                   | [arcillosa/limosa]                  | [argileux/limoneux]                   |
+| CL-ML            | silty clay                       | arcilla limosa                      | argile limoneux                       |
+| CL-ML-ey         | silty, clayey                    | limosa, arcillosa                   | limoneux, argileux                    |
+| CH-MH            | silty clay                       | arcilla limosa                      | argile limoneux                       |
+| CH-MH-ey         | silty, clayey                    | limosa, arcillosa                   | limoneux, argileux                    |
+| S                | sand                             | arena                               | sable                                 |
+| S-ey             | sandy                            | arenosa                             | sableux                               |
+| G                | gravel                           | grava                               | gravier                               |
+| G-ey             | gravelly                         | gravosa                             | graveleux                             |
+| [S/G]            | [sand/gravel]                    | [arena/grava]                       | [sable/gravier]                       |
+| [S/G]-ey         | [sandy/gravelly]                 | [arenosa/gravosa]                   | [sableux/graveleux]                   |
+| L                | low plasticity                   | de baja plasticidad                 | peu plastique                         |
+| H                | high plasticity                  | de alta plasticidad                 | très plastique                        |
+| [L/H]            | [low/high plasticity]            | [de baja/alta plasticidad]          | [peu/très plastique]                  |
+| W                | well-graded                      | bien graduada                       | bien calibré                          |
+| P                | poorly-graded                    | mal graduada                        | mal calibré                           |
+| [W/P]            | [well/poorly]-graded             | [bien/mal] graduada                 | [bien/mal] calibré                    |
+| combination_str  | with                             | con                                 | avec                                  |
+| combination_str2 | and                              | y                                   | et                                    |
+| A-1              | stone fragments, gravel and sand | fragmentos de piedra, grava y arena | fragments de pierre, gravier et sable |
+| A-1-a            | stone fragments, gravel and sand | fragmentos de piedra, grava y arena | fragments de pierre, gravier et sable |
+| A-1-b            | stone fragments, gravel and sand | fragmentos de piedra, grava y arena | fragments de pierre, gravier et sable |
+| A-3              | fine sand                        | arena fina                          | sable fin                             |
+| A-2              | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
+| A-2-4            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
+| A-2-5            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
+| A-2-6            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
+| A-2-7            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
+| A-4              | silty soils                      | suelos limosos                      | sols limoneux                         |
+| A-5              | silty soils                      | suelos limosos                      | sols limoneux                         |
+| A-6              | clayey soils                     | suelos arcillosos                   | sols argileux                         |
+| A-7              | clayey soils                     | suelos arcillosos                   | sols argileux                         |
+| A-7-5            | clayey soils                     | suelos arcillosos                   | sols argileux                         |
+| A-7-6            | clayey soils                     | suelos arcillosos                   | sols argileux                         |
+| Cl               | clay                             | arcilla                             | argile                                |
+| SiCl             | silty clay                       | arcilla limosa                      | argile limoneux                       |
+| SaCl             | sandy clay                       | arcilla arenosa                     | argile sableux                        |
+| ClLo             | clay loam                        | franco arcilloso                    | limon argileux                        |
+| SiClLo           | silty clay loam                  | franco arcilloso-limoso             | limon argileux limoneux               |
+| SaClLo           | sandy clay loam                  | franco arcilloso-arenoso            | limon argileux sableux                |
+| Lo               | loam                             | franco                              | limon                                 |
+| SiLo             | silt loam                        | franco limoso                       | limon sableux                         |
+| SaLo             | sandy loam                       | franco arenoso                      | limon fin                             |
+| Si               | silt                             | limo                                | limon très fin                        |
+| LoSa             | loamy sand                       | areno franco                        | sable limoneuse                       |
+| Sa               | sand                             | arena                               | sable                                 |
+
+
+#### USCSSoilTypes
+
+| key            | soil_type      | soil_type2     | soil_type3                     |
+|----------------|----------------|----------------|--------------------------------|
+| Other          | Other          | Other          | Other                          |
+| Rock           | Rock           | Other          | Other                          |
+| Weathered Rock | Weathered Rock | Other          | Other                          |
+| Residual Soil  | Residual Soil  | Other          | Other                          |
+| Fill           | Fill           | Other          | Other                          |
+| Artificial     | Artificial     | Other          | Other                          |
+| Peat           | Peat           | Highly organic | Other                          |
+| Pt             | Peat           | Highly organic | Other                          |
+| Organic        | Organic        | Fine           | Other                          |
+| OL             | Organic        | Fine           | Other                          |
+| OH             | Organic        | Fine           | Other                          |
+| Clay           | Clay           | Fine           | Other                          |
+| CL             | Clay           | Fine           | Other                          |
+| CL-ML          | Clay           | Fine           | Other                          |
+| CH             | Clay           | Fine           | Other                          |
+| Silt           | Silt           | Fine           | Other                          |
+| ML             | Silt           | Fine           | Other                          |
+| MH             | Silt           | Fine           | Other                          |
+| Sand           | Sand           | Coarse         | Other                          |
+| SW             | Sand           | Coarse         | Clean sand                     |
+| SP             | Sand           | Coarse         | Clean sand                     |
+| SP-SW          | Sand           | Coarse         | Clean sand                     |
+| SW-SM          | Sand           | Coarse         | Clean sand/Sand with fines     |
+| SW-SC          | Sand           | Coarse         | Clean sand/Sand with fines     |
+| SP-SM          | Sand           | Coarse         | Clean sand/Sand with fines     |
+| SP-SC          | Sand           | Coarse         | Clean sand/Sand with fines     |
+| SM             | Sand           | Coarse         | Sand with fines                |
+| SC             | Sand           | Coarse         | Sand with fines                |
+| SC-SM          | Sand           | Coarse         | Sand with fines                |
+| Gravel         | Gravel         | Coarse         | Other                          |
+| GW             | Gravel         | Coarse         | Clean gravel                   |
+| GP             | Gravel         | Coarse         | Clean gravel                   |
+| GP-GW          | Gravel         | Coarse         | Clean gravel                   |
+| GW-GM          | Gravel         | Coarse         | Clean gravel/Gravel with fines |
+| GW-GC          | Gravel         | Coarse         | Clean gravel/Gravel with fines |
+| GP-GM          | Gravel         | Coarse         | Clean gravel/Gravel with fines |
+| GP-GC          | Gravel         | Coarse         | Clean gravel/Gravel with fines |
+| GM             | Gravel         | Coarse         | Gravel with fines              |
+| GC             | Gravel         | Coarse         | Gravel with fines              |
+| GC-GM          | Gravel         | Coarse         | Gravel with fines              |
+
+
+#### UnitSideFrictionCoefficientEslami1997
+
+| soil_type_index | unit_side_friction_coefficient |
+|-----------------|--------------------------------|
+| 0               | 0.0                            |
+| 1               | 0.08                           |
+| 2               | 0.05                           |
+| 3               | 0.025                          |
+| 4a              | 0.015                          |
+| 4b              | 0.01                           |
+| 5               | 0.004                          |
+
+
 #### UnitSideFrictionLimitBustamante1982
 
 | nature_of_soil | IA    | IB    | IIA   | IIB   |
@@ -392,4 +544,35 @@
 | 4              | 0.08  | 0.08  | 0.08  | null  |
 | 5              | 0.12  | 0.08  | 0.12  | null  |
 | 6              | 0.15  | 0.12  | 0.15  | null  |
+
+
+#### UnitWeightCoduto2001
+
+| key | above_wt_min | above_wt_max | below_wt_min | below_wt_max |
+|-----|--------------|--------------|--------------|--------------|
+| GP  | 17.5         | 20.5         | 19.5         | 22.0         |
+| GW  | 17.5         | 22.0         | 19.5         | 23.5         |
+| GM  | 16.0         | 20.5         | 19.5         | 22.0         |
+| GC  | 16.0         | 20.5         | 19.5         | 22.0         |
+| SP  | 15.0         | 19.5         | 19.0         | 21.0         |
+| SW  | 15.0         | 21.0         | 19.0         | 23.0         |
+| SM  | 12.5         | 21.0         | 17.5         | 22.0         |
+| SC  | 13.5         | 20.5         | 17.5         | 21.0         |
+| ML  | 11.5         | 17.5         | 12.5         | 20.5         |
+| MH  | 11.5         | 17.5         | 11.5         | 20.5         |
+| CL  | 12.5         | 17.5         | 11.5         | 20.5         |
+| CH  | 12.5         | 17.5         | 11.0         | 19.5         |
+
+
+#### UnitWeightOther
+
+| key            | above_wt_min | above_wt_max | below_wt_min | below_wt_max |
+|----------------|--------------|--------------|--------------|--------------|
+| Organic        | 15           | 15           | 15           | 15           |
+| Peat           | 12           | 12           | 12           | 12           |
+| Rock           | 22           | 27           | 24           | 28           |
+| Weathered Rock | 19           | 23           | 20           | 24           |
+| Residual Soil  | 17           | 21           | 18           | 22           |
+| Fill           | 16           | 21           | 17           | 22           |
+| Artificial     | 16           | 21           | 17           | 22           |
 

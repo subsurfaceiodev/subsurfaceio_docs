@@ -5,9 +5,9 @@ None
 
 #### `references`
 
-* [`astm2017d2487`](../../references/#astm2017d2487)  
+* [`astm2017d2487`](../references.md#astm2017d2487)  
 
 
 #### `functions`
 
-* [`get_soil_classification_uscs__astm2017d2487`](../../functions/soil_classification/#get_soil_classification_uscs__astm2017d2487)  
+* [`get_soil_classification_uscs__astm2017d2487`](../functions/soil_classification.md#subsurfaceio.functions.soil_classification.get_soil_classification_uscs__astm2017d2487)  

@@ -75,86 +75,6 @@ title: {example_label}
 ''')
 
 
-def escape_textrm_special_chars(latex: str) -> str:
-    """
-    Escapes special LaTeX characters inside \textrm{...} :
-    Skips already escaped versions.
-    """
-
-    def replace_in_textrm(match):
-        content = match.group(1)
-
-        def escape_if_needed(m):
-            char = m.group(2)  # the special char
-            backslash = m.group(1)  # \ or None
-            if backslash:
-                return m.group(0)  # already escaped → keep as is
-            return '\\' + char
-
-        # Replace only unescaped special chars
-        fixed = re.sub(r'(\\)?([_%&#${}])', escape_if_needed, content)
-        return r'\textrm{' + fixed + r'}'
-
-    # Pattern for balanced braces up to depth 2
-    pattern = r'\\textrm\{((?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*)\}'
-    result = re.sub(pattern, replace_in_textrm, latex, flags=re.DOTALL)
-    return result
-
-
-def sequence_to_markdown(
-        title,
-        sequence: FunctionSequence,
-):
-    # TODO link reference to indirect functions
-    import inspect
-    from subsurfaceio.latex import latexify_function
-
-    def parameters_div(parameters_subset, **kwargs):
-        parameters_subset_ = [x for x in parameters_subset if x in PARAMETERS]
-        if not parameters_subset_:
-            return None
-        return parameters_as_tex(PARAMETERS.get_subset(
-            parameters_subset_
-        ),
-            fields=['label_with_unit'],
-            **kwargs
-        )
-
-    md = [f'''---
-title: {module_name}.py
----
-''']
-    for function in sequence.functions:
-        function_name = function.__name__
-        md.append(f'#### `{function_name}`\n')
-        md.append(f'##### latex {{ data-search-exclude }}\n')
-        try:
-            tex = latexify_function(
-                function,
-                mode='itex'
-            )
-            tex = escape_textrm_special_chars(tex)
-            md.append(f'{tex}\n')
-        except Exception as e:
-            warnings.warn(f'tex not available for {function.__name__=}: {e}')
-
-        returned_parameters = list(function.returns)
-        function_parameters = returned_parameters + list(inspect.signature(function).parameters.keys())
-
-        if function_parameters is not None and function_parameters:
-            symbols = parameters_div(
-                function_parameters,
-                sort=False,
-                include_header=False,
-                mode='itex'
-            )
-            if symbols is not None:
-                md.append(f'{symbols}\n')
-
-    md = '\n'.join(md)
-    return md
-
-
 def sequence_to_markdown_links(
         sequence: FunctionSequence,
 ):
@@ -165,25 +85,17 @@ def sequence_to_markdown_links(
 
     md.append('#### `references`\n')
     for reference in sequence.references or []:
-        md.append(f'* [`{reference}`](../../references/#{reference})  ')
+        md.append(f'* [`{reference}`](../references.md#{reference})  ')
     md.append('\n')
 
     md.append('#### `functions`\n')
     for function in sequence.functions:
         function_name = function.__name__
-        md.append(f'* [`{function_name}`](../../functions/{function.__module__.rsplit('.', 1)[-1]}/#{function_name})  ')
+        module_ = function.__module__.rsplit('.', 1)[-1]
+        md.append(f'* [`{function_name}`](../functions/{module_}.md#subsurfaceio.functions.{module_}.{function_name})  ')
     md = '\n'.join(md)
     return md
 
-
-from subsurfaceio.functions.utils import get_public_functions
-
-for module_name, module_functions in get_public_functions(nested=True).items():
-    with open(f'docs/functions/{module_name}.md', 'w', encoding='utf-8') as file:
-        file.write(sequence_to_markdown(
-            title=module_name,
-            sequence=FunctionSequence(list(module_functions.values())))
-        )
 
 for sequence_name, sequence in FunctionSequences().as_dict.items():
     with open(f'docs/function-sequences/{sequence_name}.md', 'w', encoding='utf-8') as file:
@@ -245,20 +157,4 @@ for reference_data_id, reference_data in ReferenceData().as_dict.items():
     md.append('\n')
 md = '\n'.join(md)
 with open(f'docs/reference_data.md', 'w', encoding='utf-8') as file:
-    file.write(md)
-
-from subsurfaceio.data_maps import DataMaps
-
-md = []
-for data_map_id, data_map in DataMaps().as_dict.items():
-    if data_map_id == 'get_uscs_symbology':
-        continue
-
-    md.append(f'#### {data_map_id}\n')
-    md.append(
-        data_map.as_reference_data().as_markdown_table()
-    )
-    md.append('\n')
-md = '\n'.join(md)
-with open(f'docs/data_maps.md', 'w', encoding='utf-8') as file:
     file.write(md)

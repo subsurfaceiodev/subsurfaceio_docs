@@ -5,9 +5,9 @@ None
 
 #### `references`
 
-* [`nist2012soil`](../../references/#nist2012soil)  
+* [`nist2012soil`](../references.md#nist2012soil)  
 
 
 #### `functions`
 
-* [`calculate_node_data`](../../functions/ssi/#calculate_node_data)  
+* [`_calculate_node_data`](../functions/ssi.md#subsurfaceio.functions.ssi._calculate_node_data)  
