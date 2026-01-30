@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: subsurfaceio-docs
+Version: 0.1.0
+Summary: MkDocs + Griffe extensions for SubSurface.io
+Requires-Python: >=3.13
+Requires-Dist: mkdocs
+Requires-Dist: mkdocs-material
+Requires-Dist: mkdocstrings[python]
+Requires-Dist: griffe

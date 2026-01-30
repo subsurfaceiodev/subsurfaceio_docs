@@ -1,0 +1,9 @@
+pyproject.toml
+src/dynamic_docstrings/__init__.py
+src/dynamic_docstrings/extension.py
+src/dynamic_docstrings/function_docstrings.py
+src/subsurfaceio_docs.egg-info/PKG-INFO
+src/subsurfaceio_docs.egg-info/SOURCES.txt
+src/subsurfaceio_docs.egg-info/dependency_links.txt
+src/subsurfaceio_docs.egg-info/requires.txt
+src/subsurfaceio_docs.egg-info/top_level.txt
