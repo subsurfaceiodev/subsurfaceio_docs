@@ -25,7 +25,8 @@ jobs:
             mkdocs \
             mkdocs-material \
             mkdocs-literate-nav \
-            mkdocstrings[python]
+            mkdocstrings[python] \
+            griffe-pydantic
 
       - name: Deploy
         run: |
