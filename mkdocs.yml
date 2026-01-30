@@ -25,7 +25,7 @@ plugins:
               - '!^_'
             extensions:
               - griffe_pydantic
-              - extension:DynamicDocstrings:
+              - dynamic_docstrings:DynamicDocstrings:
                   object_paths: [
                     subsurfaceio.functions.base,
                     subsurfaceio.functions.cpt,

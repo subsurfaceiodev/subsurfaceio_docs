@@ -19,14 +19,9 @@ jobs:
         with:
           python-version: "3.13.11"
 
-      - name: Install MkDocs and plugins
+      - name: Install docs package (editable)
         run: |
-          pip install \
-            mkdocs \
-            mkdocs-material \
-            mkdocs-literate-nav \
-            mkdocstrings[python] \
-            griffe-pydantic
+          pip install -e .
 
       - name: Deploy
         run: |
