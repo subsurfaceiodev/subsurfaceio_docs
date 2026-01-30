@@ -16,3 +16,9 @@ dependencies = [
   "griffe-pydantic",
   "subsurfaceio @ git+https://github.com/subsurfaceiodev/subsurfaceio.git",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
