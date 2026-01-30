@@ -24,8 +24,8 @@ jobs:
           pip install \
             mkdocs \
             mkdocs-material \
-            mkdocs-exclude-search \
-            mkdocs-literate-nav
+            mkdocs-literate-nav \
+            mkdocstrings
 
       - name: Deploy
         run: |
