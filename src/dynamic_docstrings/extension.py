@@ -15,6 +15,7 @@ class DynamicDocstrings(griffe.Extension):
             **kwargs,
     ) -> None:
         logger.warning(f"FUNC PATH: {func.parent.path}")
+        logger.warning(self.object_paths)
         if self.object_paths and func.parent.path not in self.object_paths:
             return  # Skip objects that were not selected.
 
