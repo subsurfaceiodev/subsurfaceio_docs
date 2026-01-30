@@ -14,7 +14,7 @@ class DynamicDocstrings(griffe.Extension):
             loader: griffe.GriffeLoader,
             **kwargs,
     ) -> None:
-        print(func.parent)
+        print(f'hello! {func.parent}')
         if self.object_paths and func.parent.path not in self.object_paths:
             return  # Skip objects that were not selected.
 
