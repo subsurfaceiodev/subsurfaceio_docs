@@ -19,9 +19,11 @@ jobs:
         with:
           python-version: "3.13.11"
 
+      - name: Configure git auth
+        run: |
+          git config --global url."https://x-access-token:${{ secrets.SUBSURFACEIO_FINE_PAT }}@github.com/".insteadOf "https://github.com/"
+
       - name: Install project + deps
-        env:
-          PIP_EXTRA_INDEX_URL: https://x-access-token:${{ secrets.SUBSURFACEIO_FINE_PAT }}@github.com
         run: |
           pip install --upgrade pip
           pip install -e .
