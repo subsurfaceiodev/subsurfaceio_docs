@@ -19,9 +19,10 @@ jobs:
         with:
           python-version: "3.13.11"
 
-      - name: Install docs package (editable)
+      - name: Install docs tooling + project
         run: |
           pip install -e .
+          pip install git+https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/subsurfaceiodev/subsurfaceio.git
 
       - name: Deploy
         run: |
