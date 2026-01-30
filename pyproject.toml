@@ -12,6 +12,7 @@ dependencies = [
   "mkdocs",
   "mkdocs-material",
   "mkdocs-literate-nav",
+  "black",
   "mkdocstrings[python]",
   "griffe-pydantic",
   "subsurfaceio @ git+https://github.com/subsurfaceiodev/subsurfaceio.git",
