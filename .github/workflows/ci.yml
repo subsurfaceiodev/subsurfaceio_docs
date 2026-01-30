@@ -19,11 +19,12 @@ jobs:
         with:
           python-version: "3.13.11"
 
-      - name: Install docs tooling + project
+      - name: Install project + deps
+        env:
+          PIP_EXTRA_INDEX_URL: https://x-access-token:${{ secrets.SUBSURFACEIO_FINE_PAT }}@github.com
         run: |
           pip install --upgrade pip
           pip install -e .
-          pip install git+https://x-access-token:${{ secrets.SUBSURFACEIO_FINE_PAT }}@github.com/subsurfaceiodev/subsurfaceio.git
 
       - name: Deploy
         run: |
