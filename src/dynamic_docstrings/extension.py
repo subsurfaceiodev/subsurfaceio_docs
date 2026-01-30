@@ -17,7 +17,7 @@ class DynamicDocstrings(griffe.Extension):
         if self.object_paths and func.parent.path not in self.object_paths:
             return  # Skip objects that were not selected.
 
-        if not func.name.startswith('_'):
+        if func.name.startswith('_'):
             return
 
         try:
