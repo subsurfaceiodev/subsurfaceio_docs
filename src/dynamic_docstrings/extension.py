@@ -18,6 +18,8 @@ class DynamicDocstrings(griffe.Extension):
             return  # Skip objects that were not selected.
 
         # Import object to get its evaluated docstring.
+        logger.warning(f"FUNC PATH: {func.parent.path}")
+        logger.warning(self.object_paths)
         try:
             runtime_obj = griffe.dynamic_import(func.path)
             docstring = runtime_obj.__doc__
@@ -27,11 +29,8 @@ class DynamicDocstrings(griffe.Extension):
         except AttributeError:
             logger.debug(f"Object {func.path} does not have a __doc__ attribute")
             return
-        logger.warning(f"FUNC PATH: {func.parent.path}")
-        logger.warning(self.object_paths)
         if not func.name.startswith('_'):
             docstring = docstrings[func.parent.path.split('.')[-1]][func.name]
-            logger.warning(docstring)
             func.docstring = griffe.Docstring(
                 docstring,
                 parent=func,
