@@ -1,14 +1,28 @@
 site_name: SubSurface.io
+site_description: SubSurface.io is a multipurpose web application suite designed to estimate geotechnical, structural and earthquake engineering parameters automatically
 site_url: https://docs.subsurfaceio.app/
 theme:
   name: material
-  favicon: https://www.subsurfaceio.app/dash/assets/logo_vector.svg
-  logo: https://www.subsurfaceio.app/dash/assets/logo_vector.svg
   palette:
-    primary: white
+    scheme: default
+    primary: teal
+    accent: orange
   features:
     - content.code.copy
     - content.tooltips
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+  favicon: https://www.subsurfaceio.app/dash/assets/logo_vector.svg
+  logo: https://www.subsurfaceio.app/dash/assets/logo_vector.svg
+  language: en
 
 plugins:
   - search
