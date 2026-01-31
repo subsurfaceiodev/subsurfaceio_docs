@@ -10,6 +10,7 @@ theme:
   features:
     - content.code.copy
     - content.tooltips
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
@@ -55,7 +56,7 @@ plugins:
                     subsurfaceio.functions.ssi,
                   ]
   - meta
-  - literate-nav
+  - awesome-pages
 
 markdown_extensions:
   - abbr

@@ -1,4 +1,0 @@
-- [SubSurface.io](index.md)
-- */
-- *.md
-- [API](api/)
