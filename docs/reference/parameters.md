@@ -49,6 +49,7 @@ value='A-5' value_secondary=None color=None
 value='A-6' value_secondary=None color=None  
 value='A-7-5' value_secondary=None color=None  
 value='A-7-6' value_secondary=None color=None  
+value='A-8' value_secondary=None color=None  
 
 ### `acceleration`
 **symbol**: $a$  
