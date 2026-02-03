@@ -7,6 +7,7 @@ params = dict(
 )
 
 data = dict(
+    language='en',
     fines_content=34,
     percent_sand=64,
     percent_gravel=2,

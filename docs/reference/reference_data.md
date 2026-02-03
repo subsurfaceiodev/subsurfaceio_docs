@@ -404,61 +404,68 @@
 
 #### SoilClassificationSymbology
 
-| key              | en                               | es                                  | fr                                    |
-|------------------|----------------------------------|-------------------------------------|---------------------------------------|
-| O-C              | organic clay                     | arcilla orgánica                    | argile organique                      |
-| O-M              | organic silt                     | limo orgánico                       | limon organique                       |
-| C                | clay                             | arcilla                             | argile                                |
-| C-ey             | clayey                           | arcillosa                           | argileux                              |
-| M                | silt                             | limo                                | limon                                 |
-| M-ey             | silty                            | limosa                              | limoneux                              |
-| [C/M]            | [clay/silt]                      | [arcilla/limo]                      | [argile/limon]                        |
-| [C/M]-ey         | [clayey/silty]                   | [arcillosa/limosa]                  | [argileux/limoneux]                   |
-| CL-ML            | silty clay                       | arcilla limosa                      | argile limoneux                       |
-| CL-ML-ey         | silty, clayey                    | limosa, arcillosa                   | limoneux, argileux                    |
-| CH-MH            | silty clay                       | arcilla limosa                      | argile limoneux                       |
-| CH-MH-ey         | silty, clayey                    | limosa, arcillosa                   | limoneux, argileux                    |
-| S                | sand                             | arena                               | sable                                 |
-| S-ey             | sandy                            | arenosa                             | sableux                               |
-| G                | gravel                           | grava                               | gravier                               |
-| G-ey             | gravelly                         | gravosa                             | graveleux                             |
-| [S/G]            | [sand/gravel]                    | [arena/grava]                       | [sable/gravier]                       |
-| [S/G]-ey         | [sandy/gravelly]                 | [arenosa/gravosa]                   | [sableux/graveleux]                   |
-| L                | low plasticity                   | de baja plasticidad                 | peu plastique                         |
-| H                | high plasticity                  | de alta plasticidad                 | très plastique                        |
-| [L/H]            | [low/high plasticity]            | [de baja/alta plasticidad]          | [peu/très plastique]                  |
-| W                | well-graded                      | bien graduada                       | bien calibré                          |
-| P                | poorly-graded                    | mal graduada                        | mal calibré                           |
-| [W/P]            | [well/poorly]-graded             | [bien/mal] graduada                 | [bien/mal] calibré                    |
-| combination_str  | with                             | con                                 | avec                                  |
-| combination_str2 | and                              | y                                   | et                                    |
-| A-1              | stone fragments, gravel and sand | fragmentos de piedra, grava y arena | fragments de pierre, gravier et sable |
-| A-1-a            | stone fragments, gravel and sand | fragmentos de piedra, grava y arena | fragments de pierre, gravier et sable |
-| A-1-b            | stone fragments, gravel and sand | fragmentos de piedra, grava y arena | fragments de pierre, gravier et sable |
-| A-3              | fine sand                        | arena fina                          | sable fin                             |
-| A-2              | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
-| A-2-4            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
-| A-2-5            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
-| A-2-6            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
-| A-2-7            | silty or clayey gravel and sand  | grava limosa o arcillosa y arena    | gravier limoneux ou argileux et sable |
-| A-4              | silty soils                      | suelos limosos                      | sols limoneux                         |
-| A-5              | silty soils                      | suelos limosos                      | sols limoneux                         |
-| A-6              | clayey soils                     | suelos arcillosos                   | sols argileux                         |
-| A-7              | clayey soils                     | suelos arcillosos                   | sols argileux                         |
-| A-7-5            | clayey soils                     | suelos arcillosos                   | sols argileux                         |
-| A-7-6            | clayey soils                     | suelos arcillosos                   | sols argileux                         |
-| Cl               | clay                             | arcilla                             | argile                                |
-| SiCl             | silty clay                       | arcilla limosa                      | argile limoneux                       |
-| SaCl             | sandy clay                       | arcilla arenosa                     | argile sableux                        |
-| ClLo             | clay loam                        | franco arcilloso                    | limon argileux                        |
-| SiClLo           | silty clay loam                  | franco arcilloso-limoso             | limon argileux limoneux               |
-| SaClLo           | sandy clay loam                  | franco arcilloso-arenoso            | limon argileux sableux                |
-| Lo               | loam                             | franco                              | limon                                 |
-| SiLo             | silt loam                        | franco limoso                       | limon sableux                         |
-| SaLo             | sandy loam                       | franco arenoso                      | limon fin                             |
-| Si               | silt                             | limo                                | limon très fin                        |
-| LoSa             | loamy sand                       | areno franco                        | sable limoneuse                       |
-| Sa               | sand                             | arena                               | sable                                 |
+| key                   | en                               | es                                  | fr                                    |
+|-----------------------|----------------------------------|-------------------------------------|---------------------------------------|
+| S                     | sand                             | arena                               | sable                                 |
+| S-ey                  | sandy                            | arenosa                             | sableux                               |
+| G                     | gravel                           | grava                               | gravier                               |
+| G-ey                  | gravelly                         | gravosa                             | graveleux                             |
+| CL                    | low plasticity clay              | arcilla de baja plasticidad         | argile peu plastique                  |
+| CL-ML                 | silty clay                       | arcilla limosa                      | argile limoneux                       |
+| ML                    | low plasticity silt              | limo de baja plasticidad            | limon peu plastique                   |
+| OL-c                  | organic clay                     | arcilla orgánica                    | argile organique                      |
+| OL-m                  | organic silt                     | limo orgánico                       | limon organique                       |
+| CH                    | high plasticity clay             | arcilla de alta plasticidad         | argile très plastique                 |
+| MH                    | high plasticity silt             | limo de alta plasticidad            | limon très plastique                  |
+| OH-c                  | organic clay                     | arcilla orgánica                    | argile organique                      |
+| OH-m                  | organic silt                     | limo orgánico                       | limon organique                       |
+| GW                    | well-graded gravel               | grava bien graduada                 | gravier bien calibré                  |
+| GP                    | poorly-graded gravel             | grava mal graduada                  | gravier mal calibré                   |
+| GW-GM                 | well-graded gravel with silt     | grava bien graduada con limo        | gravier bien calibré avec limon       |
+| GW-GC                 | well-graded gravel with clay     | grava bien graduada con arcilla     | gravier bien calibré avec argile      |
+| GP-GM                 | poorly-graded gravel with silt   | grava mal graduada con limo         | gravier mal calibré avec limon        |
+| GP-GC                 | poorly-graded gravel with clay   | grava mal graduada con arcilla      | gravier mal calibré avec argile       |
+| GM                    | silty gravel                     | grava limosa                        | gravier limoneux                      |
+| GC                    | clayey gravel                    | grava arcillosa                     | gravier argileux                      |
+| GC-GM                 | silty, clayey gravel             | grava limosa, arcillosa             | gravier limoneux, argileux            |
+| SW                    | well-graded sand                 | arena bien graduada                 | sable bien calibré                    |
+| SP                    | poorly-graded sand               | arena mal graduada                  | sable mal calibré                     |
+| SW-SM                 | well-graded sand with silt       | arena bien graduada con limo        | sable bien calibré avec limon         |
+| SW-SC                 | well-graded sand with clay       | arena bien graduada con arcilla     | sable bien calibré avec argile        |
+| SP-SM                 | poorly-graded sand with silt     | arena mal graduada con limo         | sable mal calibré avec limon          |
+| SP-SC                 | poorly-graded sand with clay     | arena mal graduada con arcilla      | sable mal calibré avec argile         |
+| SM                    | silty sand                       | arena limosa                        | sable limoneux                        |
+| SC                    | clayey sand                      | arena arcillosa                     | sable argileux                        |
+| SC-SM                 | silty, clayey sand               | arena limosa, arcillosa             | sable limoneux, argileux              |
+| concatenator_for_with | with                             | con                                 | avec                                  |
+| concatenator_for_and  | and                              | y                                   | et                                    |
+| A-1                   | Stone fragments, gravel and sand | Fragmentos de piedra, grava y arena | Fragments de pierre, gravier et sable |
+| A-1-a                 | Stone fragments, gravel and sand | Fragmentos de piedra, grava y arena | Fragments de pierre, gravier et sable |
+| A-1-b                 | Stone fragments, gravel and sand | Fragmentos de piedra, grava y arena | Fragments de pierre, gravier et sable |
+| A-3                   | Fine sand                        | Arena fina                          | Sable fin                             |
+| A-2                   | Silty or clayey gravel and sand  | Grava limosa o arcillosa y arena    | Gravier limoneux ou argileux et sable |
+| A-2-4                 | Silty or clayey gravel and sand  | Grava limosa o arcillosa y arena    | Gravier limoneux ou argileux et sable |
+| A-2-5                 | Silty or clayey gravel and sand  | Grava limosa o arcillosa y arena    | Gravier limoneux ou argileux et sable |
+| A-2-6                 | Silty or clayey gravel and sand  | Grava limosa o arcillosa y arena    | Gravier limoneux ou argileux et sable |
+| A-2-7                 | Silty or clayey gravel and sand  | Grava limosa o arcillosa y arena    | Gravier limoneux ou argileux et sable |
+| A-4                   | Silty soils                      | Suelos limosos                      | Sols limoneux                         |
+| A-5                   | Silty soils                      | Suelos limosos                      | Sols limoneux                         |
+| A-6                   | Clayey soils                     | Suelos arcillosos                   | Sols argileux                         |
+| A-7                   | Clayey soils                     | Suelos arcillosos                   | Sols argileux                         |
+| A-7-5                 | Clayey soils                     | Suelos arcillosos                   | Sols argileux                         |
+| A-7-6                 | Clayey soils                     | Suelos arcillosos                   | Sols argileux                         |
+| Cl                    | Clay                             | Arcilla                             | Argile                                |
+| SiCl                  | Silty clay                       | Arcilla limosa                      | Argile limoneux                       |
+| SaCl                  | Sandy clay                       | Arcilla arenosa                     | Argile sableux                        |
+| ClLo                  | Clay loam                        | Franco arcilloso                    | Limon argileux                        |
+| SiClLo                | Silty clay loam                  | Franco arcilloso-limoso             | Limon argileux limoneux               |
+| SaClLo                | Sandy clay loam                  | Franco arcilloso-arenoso            | Limon argileux sableux                |
+| Lo                    | Loam                             | Franco                              | Limon                                 |
+| SiLo                  | Silt loam                        | Franco limoso                       | Limon sableux                         |
+| SaLo                  | Sandy loam                       | Franco arenoso                      | Limon fin                             |
+| Si                    | Silt                             | Limo                                | Limon très fin                        |
+| LoSa                  | Loamy sand                       | Areno franco                        | Sable limoneuse                       |
+| Sa                    | Sand                             | Arena                               | Sable                                 |
 
 
 #### USCSSoilTypes
