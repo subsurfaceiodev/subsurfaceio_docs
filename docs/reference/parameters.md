@@ -1597,42 +1597,6 @@ value='continuous' value_secondary=None color=None
 **corresponding_parameter_name**: `None`  
     
 
-### `footing_width_from`
-**symbol**: $B_{from}$  
-**label**: Footing width from  
-**unit**: m  
-**description**: Starting footing width for parametric analysis  
-**data_type**: `float`  
-**corresponding_parameter_name**: `None`  
-    
-
-### `footing_width_is_variable`
-**symbol**: $\text{footing\_width\_is\_variable}$  
-**label**: Footing width is variable  
-**unit**: None  
-**description**: Indicates parametric foundation width analysis  
-**data_type**: `bool`  
-**corresponding_parameter_name**: `None`  
-    
-
-### `footing_width_step`
-**symbol**: $B_{step}$  
-**label**: Footing width step  
-**unit**: m  
-**description**: Footing width increment step for parametric analysis  
-**data_type**: `float`  
-**corresponding_parameter_name**: `None`  
-    
-
-### `footing_width_to`
-**symbol**: $B_{to}$  
-**label**: Footing width to  
-**unit**: m  
-**description**: Ending footing width for parametric analysis  
-**data_type**: `float`  
-**corresponding_parameter_name**: `None`  
-    
-
 ### `footing_zone`
 **symbol**: $\text{footing\_zone}$  
 **label**: Footing zone  
