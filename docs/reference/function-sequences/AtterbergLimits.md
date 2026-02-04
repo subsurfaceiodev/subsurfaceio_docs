@@ -10,6 +10,6 @@ ASTM D4318
 
 #### `functions`
 
-* [`get_liquid_limit`](../functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_liquid_limit)  
-* [`get_plasticity_index`](../functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_plasticity_index)  
-* [`get_liquidity_index`](../functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_liquidity_index)  
+* [`soil_lab.get_liquid_limit`](../functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_liquid_limit)  
+* [`soil_lab.get_plasticity_index`](../functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_plasticity_index)  
+* [`soil_lab.get_liquidity_index`](../functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_liquidity_index)  
