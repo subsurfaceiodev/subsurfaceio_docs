@@ -14,8 +14,6 @@
 ![DiameterAt50PercentFinerSaye2017](images/DiameterAt50PercentFinerSaye2017.svg)
 ### FinesContentSaye2017
 ![FinesContentSaye2017](images/FinesContentSaye2017.svg)
-### FootingFoundationCapacity
-![FootingFoundationCapacity](images/FootingFoundationCapacity.svg)
 ### HydrometerAnalysis
 ![HydrometerAnalysis](images/HydrometerAnalysis.svg)
 ### LiquefactionDamage
