@@ -1,10 +1,6 @@
 import requests
 
-url = 'https://www.subsurfaceio.app/function-sequence'
-
-params = dict(
-    function_sequence='SoilClassificationUSCS'
-)
+base_url = 'https://www.subsurfaceio.app'
 
 data = dict(
     language='en',
@@ -15,10 +11,20 @@ data = dict(
     plasticity_index=12,
 )
 
-response = requests.post(
-    url,
-    params=params,
+model_response = requests.post(
+    f'{base_url}/soil-classification',
+    json=dict(
+        model=dict(system='USCS') | data
+    ),
+)
+
+function_sequence_response = requests.post(
+    f'{base_url}/function-sequence',
+    params=dict(
+        function_sequence='SoilClassificationUSCS'
+    ),
     json=data,
 )
 
-print(response.json())
+print(model_response.json())
+print(function_sequence_response.json())
