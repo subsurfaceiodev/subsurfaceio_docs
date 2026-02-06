@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`marchetti1981flat`](../references.md#marchetti1981flat)  
+* [`marchetti1981flat`](../references/catalog.md#marchetti1981flat)  
 
 
 #### `functions`

@@ -5,10 +5,10 @@ None
 
 #### `references`
 
-* [`ishihara1985stability`](../references.md#ishihara1985stability)  
-* [`iwasaki1978practical`](../references.md#iwasaki1978practical)  
-* [`maurer2015moving`](../references.md#maurer2015moving)  
-* [`van2014assessment`](../references.md#van2014assessment)  
+* [`ishihara1985stability`](../references/catalog.md#ishihara1985stability)  
+* [`iwasaki1978practical`](../references/catalog.md#iwasaki1978practical)  
+* [`maurer2015moving`](../references/catalog.md#maurer2015moving)  
+* [`van2014assessment`](../references/catalog.md#van2014assessment)  
 
 
 #### `functions`

@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`saye2017linear`](../references.md#saye2017linear)  
+* [`saye2017linear`](../references/catalog.md#saye2017linear)  
 
 
 #### `functions`

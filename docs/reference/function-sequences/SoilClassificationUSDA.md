@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`usda1993soil`](../references.md#usda1993soil)  
+* [`usda1993soil`](../references/catalog.md#usda1993soil)  
 
 
 #### `functions`

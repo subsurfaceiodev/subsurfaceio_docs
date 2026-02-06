@@ -5,8 +5,8 @@ None
 
 #### `references`
 
-* [`robertson2012interpretation`](../references.md#robertson2012interpretation)  
-* [`robertson2024guide`](../references.md#robertson2024guide)  
+* [`robertson2012interpretation`](../references/catalog.md#robertson2012interpretation)  
+* [`robertson2024guide`](../references/catalog.md#robertson2024guide)  
 
 
 #### `functions`

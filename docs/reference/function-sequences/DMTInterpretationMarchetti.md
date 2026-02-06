@@ -5,8 +5,8 @@ None
 
 #### `references`
 
-* [`marchetti1981flat`](../references.md#marchetti1981flat)  
-* [`amoroso2013prediction`](../references.md#amoroso2013prediction)  
+* [`marchetti1981flat`](../references/catalog.md#marchetti1981flat)  
+* [`amoroso2013prediction`](../references/catalog.md#amoroso2013prediction)  
 
 
 #### `functions`

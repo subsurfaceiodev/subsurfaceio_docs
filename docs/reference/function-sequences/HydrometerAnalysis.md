@@ -5,7 +5,7 @@ ASTM D422
 
 #### `references`
 
-* [`astm2007d422`](../references.md#astm2007d422)  
+* [`astm2007d422`](../references/catalog.md#astm2007d422)  
 
 
 #### `functions`

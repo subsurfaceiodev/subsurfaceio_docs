@@ -5,7 +5,7 @@ ASTM D4318
 
 #### `references`
 
-* [`astm2017d4318`](../references.md#astm2017d4318)  
+* [`astm2017d4318`](../references/catalog.md#astm2017d4318)  
 
 
 #### `functions`

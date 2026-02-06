@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`astm2017d2487`](../references.md#astm2017d2487)  
+* [`astm2017d2487`](../references/catalog.md#astm2017d2487)  
 
 
 #### `functions`

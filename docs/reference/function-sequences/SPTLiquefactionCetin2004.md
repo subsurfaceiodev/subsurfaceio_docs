@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`cetin2004standard`](../references.md#cetin2004standard)  
+* [`cetin2004standard`](../references/catalog.md#cetin2004standard)  
 
 
 #### `functions`

@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`bowles1996foundation`](../references.md#bowles1996foundation)  
+* [`bowles1996foundation`](../references/catalog.md#bowles1996foundation)  
 
 
 #### `functions`

@@ -5,7 +5,7 @@ ASTM D421
 
 #### `references`
 
-* [`astm2007d421`](../references.md#astm2007d421)  
+* [`astm2007d421`](../references/catalog.md#astm2007d421)  
 
 
 #### `functions`

@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`moreno2018clay`](../references.md#moreno2018clay)  
+* [`moreno2018clay`](../references/catalog.md#moreno2018clay)  
 
 
 #### `functions`

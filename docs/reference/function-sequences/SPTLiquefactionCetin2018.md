@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`cetin2018use`](../references.md#cetin2018use)  
+* [`cetin2018use`](../references/catalog.md#cetin2018use)  
 
 
 #### `functions`

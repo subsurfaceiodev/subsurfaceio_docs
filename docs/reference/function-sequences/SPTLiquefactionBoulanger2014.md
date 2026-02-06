@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`boulanger2014cpt`](../references.md#boulanger2014cpt)  
+* [`boulanger2014cpt`](../references/catalog.md#boulanger2014cpt)  
 
 
 #### `functions`

@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`nist2012soil`](../references.md#nist2012soil)  
+* [`nist2012soil`](../references/catalog.md#nist2012soil)  
 
 
 #### `functions`

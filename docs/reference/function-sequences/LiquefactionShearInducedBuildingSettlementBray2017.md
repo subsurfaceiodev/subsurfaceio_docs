@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`bray2017simplified`](../references.md#bray2017simplified)  
+* [`bray2017simplified`](../references/catalog.md#bray2017simplified)  
 
 
 #### `functions`

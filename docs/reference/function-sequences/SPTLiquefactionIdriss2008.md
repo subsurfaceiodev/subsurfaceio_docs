@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`idriss2008soil`](../references.md#idriss2008soil)  
+* [`idriss2008soil`](../references/catalog.md#idriss2008soil)  
 
 
 #### `functions`

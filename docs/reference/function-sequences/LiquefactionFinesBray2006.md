@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`bray2006assessment`](../references.md#bray2006assessment)  
+* [`bray2006assessment`](../references/catalog.md#bray2006assessment)  
 
 
 #### `functions`

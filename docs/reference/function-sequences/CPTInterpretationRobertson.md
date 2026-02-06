@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`robertson2024guide`](../references.md#robertson2024guide)  
+* [`robertson2024guide`](../references/catalog.md#robertson2024guide)  
 
 
 #### `functions`

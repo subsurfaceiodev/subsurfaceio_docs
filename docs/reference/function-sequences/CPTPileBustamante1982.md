@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`bustamante1982pile`](../references.md#bustamante1982pile)  
+* [`bustamante1982pile`](../references/catalog.md#bustamante1982pile)  
 
 
 #### `functions`

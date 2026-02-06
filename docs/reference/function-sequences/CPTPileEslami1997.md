@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`eslami1997pile`](../references.md#eslami1997pile)  
+* [`eslami1997pile`](../references/catalog.md#eslami1997pile)  
 
 
 #### `functions`

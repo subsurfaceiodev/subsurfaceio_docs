@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`meyerhof1978ultimate`](../references.md#meyerhof1978ultimate)  
+* [`meyerhof1978ultimate`](../references/catalog.md#meyerhof1978ultimate)  
 
 
 #### `functions`

@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`terzaghi1943theoretical`](../references.md#terzaghi1943theoretical)  
+* [`terzaghi1943theoretical`](../references/catalog.md#terzaghi1943theoretical)  
 
 
 #### `functions`

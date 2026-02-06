@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`vesic1975bearing`](../references.md#vesic1975bearing)  
+* [`vesic1975bearing`](../references/catalog.md#vesic1975bearing)  
 
 
 #### `functions`

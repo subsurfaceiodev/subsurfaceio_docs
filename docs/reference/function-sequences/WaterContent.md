@@ -5,7 +5,7 @@ ASTM D2216
 
 #### `references`
 
-* [`astm2019d2216`](../references.md#astm2019d2216)  
+* [`astm2019d2216`](../references/catalog.md#astm2019d2216)  
 
 
 #### `functions`

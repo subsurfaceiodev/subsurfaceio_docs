@@ -5,7 +5,7 @@ None
 
 #### `references`
 
-* [`youd2002revised`](../references.md#youd2002revised)  
+* [`youd2002revised`](../references/catalog.md#youd2002revised)  
 
 
 #### `functions`
