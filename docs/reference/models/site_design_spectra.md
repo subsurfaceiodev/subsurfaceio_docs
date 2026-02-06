@@ -1,1 +1,1 @@
-::: subsurfaceio.site_design_spectra
+::: subsurfaceio.site_design_spectra.model

@@ -1,1 +1,1 @@
-::: subsurfaceio.footing_foundation
+::: subsurfaceio.footing_foundation.model

@@ -32,6 +32,7 @@ plugins:
         python:
           options:
             show_source: false
+            show_signature_annotations: true
             separate_signature: true
             show_root_heading: true
             show_symbol_type_heading: true

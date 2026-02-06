@@ -1,1 +1,1 @@
-::: subsurfaceio.soil_classification
+::: subsurfaceio.soil_classification.model
