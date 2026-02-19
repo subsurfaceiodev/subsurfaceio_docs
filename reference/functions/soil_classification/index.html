@@ -1,0 +1,4572 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="SubSurface.io is a multipurpose web application suite designed to estimate geotechnical, structural and earthquake engineering parameters automatically">
+      
+      
+      
+        <link rel="canonical" href="https://docs.subsurfaceio.app/reference/functions/soil_classification/">
+      
+      
+        <link rel="prev" href="../site_design_spectra/">
+      
+      
+        <link rel="next" href="../soil_lab/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="https://www.subsurfaceio.app/dash/assets/logo_vector.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>soil_classification.py - SubSurface.io</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#subsurfaceio.functions.soil_classification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="SubSurface.io" class="md-header__button md-logo" aria-label="SubSurface.io" data-md-component="logo">
+      
+  <img src="https://www.subsurfaceio.app/dash/assets/logo_vector.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SubSurface.io
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              soil_classification.py
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  SubSurface.io
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../examples/api/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Examples
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../function-sequences/catalog/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Reference
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="SubSurface.io" class="md-nav__button md-logo" aria-label="SubSurface.io" data-md-component="logo">
+      
+  <img src="https://www.subsurfaceio.app/dash/assets/logo_vector.svg" alt="logo">
+
+    </a>
+    SubSurface.io
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SubSurface.io
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examples
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Examples
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../examples/api/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../examples/api/in_situ_test_interpretation_cpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In situ test interpretation CPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../examples/api/in_situ_test_interpretation_dmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In situ test interpretation DMT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../examples/api/parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parameters info
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../examples/api/parametric_calculation_cpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parametric calculation CPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../examples/api/parametric_calculation_dmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parametric calculation DMT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../examples/api/plot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../examples/api/soil_classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calculate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Function sequences
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Function sequences
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../function-sequences/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../function-sequences/models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Functions
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    base.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    cpt.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    dmt.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../footing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    footing.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../liquefaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    liquefaction.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pile.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../site_class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    site_class.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../site_design_spectra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    site_design_spectra.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    soil_classification.py
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    soil_classification.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        soil_classification
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="soil_classification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.ReferenceFigureRegistry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ReferenceFigureRegistry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_a_line_position" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_a_line_position
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_aashto_group_index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_aashto_group_index
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_aashto_symbol_coarse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_aashto_symbol_coarse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_aashto_symbol_fine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_aashto_symbol_fine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_coarse_graded_symbol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_coarse_graded_symbol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_coarse_group_symbol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_coarse_group_symbol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification__usda1993soil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification__usda1993soil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_aashto__astm2015d3282" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_aashto__astm2015d3282
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs__astm2017d2487" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_uscs__astm2017d2487
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs_coarse__astm2017d2487" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_uscs_coarse__astm2017d2487
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs_fine__astm2017d2487" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_uscs_fine__astm2017d2487
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_usda__moreno2018clay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_usda__moreno2018clay
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../soil_lab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    soil_lab.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    spt.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ssi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ssi.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Models
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Models
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../models/footing_foundation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Footing foundation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../models/pile_foundation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pile foundation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../models/site_design_spectra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site design spectra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../models/soil_classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Soil classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parameters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Parameters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parameters/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../parameters/literals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference-figures/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference data
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference_data/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    References
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        soil_classification
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="soil_classification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.ReferenceFigureRegistry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ReferenceFigureRegistry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_a_line_position" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_a_line_position
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_aashto_group_index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_aashto_group_index
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_aashto_symbol_coarse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_aashto_symbol_coarse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_aashto_symbol_fine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_aashto_symbol_fine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_coarse_graded_symbol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_coarse_graded_symbol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_coarse_group_symbol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_coarse_group_symbol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification__usda1993soil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification__usda1993soil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_aashto__astm2015d3282" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_aashto__astm2015d3282
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs__astm2017d2487" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_uscs__astm2017d2487
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs_coarse__astm2017d2487" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_uscs_coarse__astm2017d2487
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs_fine__astm2017d2487" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_uscs_fine__astm2017d2487
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsurfaceio.functions.soil_classification.get_soil_classification_usda__moreno2018clay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        get_soil_classification_usda__moreno2018clay
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    SubSurface.io
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../function-sequences/catalog/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Reference
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Functions
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>soil_classification.py</h1>
+
+<div class="doc doc-object doc-module">
+
+
+
+<h2 id="subsurfaceio.functions.soil_classification" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-module"></code>            <span class="doc doc-object-name doc-module-name">subsurfaceio.functions.soil_classification</span>
+
+
+</h2>
+
+    <div class="doc doc-contents first">
+
+        <p>Soil classification functions.</p>
+
+
+
+
+
+
+
+
+
+
+<p><span class="doc-section-title">Classes:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-class&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-class-name&quot;&gt;ReferenceFigureRegistry&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.ReferenceFigureRegistry&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.ReferenceFigureRegistry">ReferenceFigureRegistry</a></code></td>
+            <td>
+              <div class="doc-md-description">
+                <p>Pre-instantiated reference figures</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+
+<p><span class="doc-section-title">Functions:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_a_line_position&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_a_line_position&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_a_line_position">get_a_line_position</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_aashto_group_index&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_aashto_group_index&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_aashto_group_index">get_aashto_group_index</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_aashto_symbol_coarse&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_aashto_symbol_coarse&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_aashto_symbol_coarse">get_aashto_symbol_coarse</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_aashto_symbol_fine&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_aashto_symbol_fine&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_aashto_symbol_fine">get_aashto_symbol_fine</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_coarse_graded_symbol&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_coarse_graded_symbol&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_coarse_graded_symbol">get_coarse_graded_symbol</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_coarse_group_symbol&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_coarse_group_symbol&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_coarse_group_symbol">get_coarse_group_symbol</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_soil_classification__usda1993soil&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_soil_classification__usda1993soil&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_soil_classification__usda1993soil">get_soil_classification__usda1993soil</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_soil_classification_aashto__astm2015d3282&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_soil_classification_aashto__astm2015d3282&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_soil_classification_aashto__astm2015d3282">get_soil_classification_aashto__astm2015d3282</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_soil_classification_uscs__astm2017d2487&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_soil_classification_uscs__astm2017d2487&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs__astm2017d2487">get_soil_classification_uscs__astm2017d2487</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_soil_classification_uscs_coarse__astm2017d2487&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_soil_classification_uscs_coarse__astm2017d2487&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs_coarse__astm2017d2487">get_soil_classification_uscs_coarse__astm2017d2487</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_soil_classification_uscs_fine__astm2017d2487&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_soil_classification_uscs_fine__astm2017d2487&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_soil_classification_uscs_fine__astm2017d2487">get_soil_classification_uscs_fine__astm2017d2487</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+            <tr class="doc-section-item">
+              <td><code><a class="autorefs autorefs-internal" title="&lt;code class=&quot;doc-symbol doc-symbol-heading doc-symbol-function&quot;&gt;&lt;/code&gt;            &lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;get_soil_classification_usda__moreno2018clay&lt;/span&gt; (&lt;code&gt;subsurfaceio.functions.soil_classification.get_soil_classification_usda__moreno2018clay&lt;/code&gt;)" href="#subsurfaceio.functions.soil_classification.get_soil_classification_usda__moreno2018clay">get_soil_classification_usda__moreno2018clay</a></code></td>
+              <td>
+                <div class="doc-md-description">
+                  <p>Calculation function.</p>
+                </div>
+              </td>
+            </tr>
+      </tbody>
+    </table>
+
+
+
+
+
+<div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<h3 id="subsurfaceio.functions.soil_classification.ReferenceFigureRegistry" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-class"></code>            <span class="doc doc-object-name doc-class-name">ReferenceFigureRegistry</span>
+
+
+</h3>
+
+
+    <div class="doc doc-contents ">
+
+
+
+        <p>Pre-instantiated reference figures</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_a_line_position" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_a_line_position</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_a_line_position</span><span class="p">(</span><span class="n">liquid_limit</span><span class="p">,</span> <span class="n">plasticity_index</span><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_a\_line\_position}(LL, PI) \\ \hspace{1em} \textrm{" Returns the corresponding A line position "} \\ \hspace{1em} \mathrm{a\_line} \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( LL \le 25.5, 4.0, 0.73 \mathopen{}\left( LL - 20 \mathclose{}\right) \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_1} \gets PI \ge \mathrm{a\_line} \\ \hspace{1em} \mathrm{choice\_1} \gets \textrm{"above"} \\ \hspace{1em} \mathrm{condition\_2} \gets PI &lt; \mathrm{a\_line} \\ \hspace{1em} \mathrm{choice\_2} \gets \textrm{"below"} \\ \hspace{1em} \mathrm{a\_line\_position} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathrm{a\_line\_position} \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>a_line_position</code></td>            <td>
+                  <code><span title="Any">Any</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>a_line_position</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_aashto_group_index" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_aashto_group_index</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_aashto_group_index</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">aashto_symbol</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">fines_content</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">plasticity_index</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">liquid_limit</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">non_plastic</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_aashto\_group\_index}(\mathrm{aashto\_symbol}, FC, PI, LL, NP) \\ \hspace{1em} \textrm{"Values are rounded to nearest integer, with 0.5 rounding up to 1"} \\ \hspace{1em} PI \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( NP, 0, PI \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_1} \gets \mathrm{np}.\mathrm{isin} \mathopen{}\left( \mathrm{aashto\_symbol}, \mathopen{}\left[ \textrm{"A-1-a"}, \textrm{"A-1-b"}, \textrm{"A-3"}, \textrm{"A-2-4"}, \textrm{"A-2-5"} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_1} \gets 0 \\ \hspace{1em} \mathrm{condition\_2} \gets \mathopen{}\left( PI = 0 \mathclose{}\right) \mathbin{\&amp;} \mathrm{is\_null} \mathopen{}\left( LL \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_2} \gets 0 \\ \hspace{1em} \mathrm{group\_index\_plasticity\_index\_portion} \gets 0.01 \mathopen{}\left( FC - 15 \mathclose{}\right) \mathopen{}\left( PI - 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_3} \gets \mathrm{np}.\mathrm{isin} \mathopen{}\left( \mathrm{aashto\_symbol}, \mathopen{}\left[ \textrm{"A-2-6"}, \textrm{"A-2-7"} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_3} \gets \mathrm{group\_index\_plasticity\_index\_portion} \\ \hspace{1em} \mathrm{default} \gets \mathopen{}\left( FC - 35 \mathclose{}\right) \mathopen{}\left( 0.2 + 0.005 \mathopen{}\left( LL - 40 \mathclose{}\right) \mathclose{}\right) + \mathrm{group\_index\_plasticity\_index\_portion} \\ \hspace{1em} \mathrm{group\_index} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{group\_index} \gets \mathrm{np}.\mathrm{clip} \mathopen{}\left( \mathrm{group\_index}, 0, \mathrm{None} \mathclose{}\right) \\ \hspace{1em} \mathrm{group\_index} \gets \mathopen{}\left\lceil \mathrm{group\_index} - 0.5 \mathclose{}\right\rceil \\ \hspace{1em} \mathbf{return} \ \mathrm{group\_index} \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>aashto_symbol</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>AASHTO classification system symbol</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>fines_content</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage of fines passing No. 200 sieve</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>non_plastic</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates non-plastic soil (PI=0)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>aashto_group_index</code></td>            <td>
+                  <code><span title="int">int</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>AASHTO classification system group index</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_aashto_symbol_coarse" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_aashto_symbol_coarse</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_aashto_symbol_coarse</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">fines_content</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">percent_passing_no10</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">percent_passing_no40</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">liquid_limit</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">plasticity_index</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="n">non_plastic</span><span class="p">,</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_aashto\_symbol\_coarse}(FC, P_{10}, P_{40}, LL, PI, NP) \\ \hspace{1em} PI \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( NP, 0, PI \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_1} \gets \mathopen{}\left( P_{10} \le 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( P_{40} \le 30 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( FC \le 15 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le 6 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_1} \gets \textrm{"A-1-a"} \\ \hspace{1em} \mathrm{condition\_2} \gets \mathopen{}\left( P_{40} \le 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( FC \le 25 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le 6 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_2} \gets \textrm{"A-1-b"} \\ \hspace{1em} \mathrm{condition\_3} \gets \mathopen{}\left( P_{40} &gt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( FC \le 10 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI = 0 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_3} \gets \textrm{"A-3"} \\ \hspace{1em} \mathrm{condition\_4} \gets \mathopen{}\left( LL \le 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_4} \gets \textrm{"A-2-4"} \\ \hspace{1em} \mathrm{condition\_5} \gets \mathopen{}\left( LL &gt; 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_5} \gets \textrm{"A-2-5"} \\ \hspace{1em} \mathrm{condition\_6} \gets \mathopen{}\left( LL \le 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_6} \gets \textrm{"A-2-6"} \\ \hspace{1em} \mathrm{condition\_7} \gets \mathopen{}\left( LL &gt; 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_7} \gets \textrm{"A-2-7"} \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3}, \mathrm{condition\_4}, \mathrm{condition\_5}, \mathrm{condition\_6}, \mathrm{condition\_7} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3}, \mathrm{choice\_4}, \mathrm{choice\_5}, \mathrm{choice\_6}, \mathrm{choice\_7} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathrm{symbol} \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>fines_content</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage of fines passing No. 200 sieve</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_passing_no10</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage passing No. 10 sieve</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_passing_no40</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage passing No. 40 sieve</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>non_plastic</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates non-plastic soil (PI=0)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>aashto_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>AASHTO classification system symbol</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_aashto_symbol_fine" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_aashto_symbol_fine</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_aashto_symbol_fine</span><span class="p">(</span><span class="n">plasticity_index</span><span class="p">,</span> <span class="n">liquid_limit</span><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_aashto\_symbol\_fine}(PI, LL) \\ \hspace{1em} \mathrm{condition\_1} \gets \mathopen{}\left( LL \le 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_1} \gets \textrm{"A-4"} \\ \hspace{1em} \mathrm{condition\_2} \gets \mathopen{}\left( LL &gt; 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_2} \gets \textrm{"A-5"} \\ \hspace{1em} \mathrm{condition\_3} \gets \mathopen{}\left( LL \le 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; 10 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_3} \gets \textrm{"A-6"} \\ \hspace{1em} \mathrm{condition\_4} \gets \mathopen{}\left( LL &gt; 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; 10 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le LL - 30 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_4} \gets \textrm{"A-7-5"} \\ \hspace{1em} \mathrm{condition\_5} \gets \mathopen{}\left( LL &gt; 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; 10 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; LL - 30 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_5} \gets \textrm{"A-7-6"} \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3}, \mathrm{condition\_4}, \mathrm{condition\_5} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3}, \mathrm{choice\_4}, \mathrm{choice\_5} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathrm{symbol} \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>aashto_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>AASHTO classification system symbol</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_coarse_graded_symbol" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_coarse_graded_symbol</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_coarse_graded_symbol</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">group_symbol</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">uniformity_coefficient</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">curvature_coefficient</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_coarse\_graded\_symbol}(\mathrm{group\_symbol}, C_u, C_c) \\ \hspace{1em} \textrm{" Returns the corresponding coarse graded symbol "} \\ \hspace{1em} \mathrm{condition\_1} \gets \mathopen{}\left( \mathrm{group\_symbol} = \textrm{"G"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( C_u \ge 4 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( 1 \le C_c \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( C_c \le 3 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_1} \gets \textrm{"W"} \\ \hspace{1em} \mathrm{condition\_2} \gets \mathopen{}\left( \mathrm{group\_symbol} = \textrm{"G"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( C_u &lt; 4 \mathclose{}\right) \mathbin{|} \mathopen{}\left( 1 &gt; C_c \mathclose{}\right) \mathbin{|} \mathopen{}\left( C_c &gt; 3 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_2} \gets \textrm{"P"} \\ \hspace{1em} \mathrm{condition\_3} \gets \mathopen{}\left( \mathrm{group\_symbol} = \textrm{"S"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( C_u \ge 6 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( 1 \le C_c \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( C_c \le 3 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_3} \gets \textrm{"W"} \\ \hspace{1em} \mathrm{condition\_4} \gets \mathopen{}\left( \mathrm{group\_symbol} = \textrm{"S"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( C_u &lt; 6 \mathclose{}\right) \mathbin{|} \mathopen{}\left( 1 &gt; C_c \mathclose{}\right) \mathbin{|} \mathopen{}\left( C_c &gt; 3 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_4} \gets \textrm{"P"} \\ \hspace{1em} \mathrm{graded\_symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3}, \mathrm{condition\_4} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3}, \mathrm{choice\_4} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathrm{graded\_symbol} \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>group_symbol</code>
+            </td>
+            <td>
+                  <code><span title="Any">Any</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>group_symbol</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>uniformity_coefficient</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Uniformity coefficient for particle size distribution</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>curvature_coefficient</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Curvature coefficient for particle size distribution</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>graded_symbol</code></td>            <td>
+                  <code><span title="Any">Any</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>graded_symbol</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_coarse_group_symbol" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_coarse_group_symbol</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_coarse_group_symbol</span><span class="p">(</span><span class="n">percent_sand</span><span class="p">,</span> <span class="n">percent_gravel</span><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_coarse\_group\_symbol}(\mathrm{percent\_sand}, \mathrm{percent\_gravel}) \\ \hspace{1em} \textrm{" Returns the corresponding coarse group symbol "} \\ \hspace{1em} \mathrm{condition\_1} \gets \mathrm{percent\_sand} \ge \mathrm{percent\_gravel} \\ \hspace{1em} \mathrm{choice\_1} \gets \textrm{"S"} \\ \hspace{1em} \mathrm{condition\_2} \gets \mathrm{percent\_sand} &lt; \mathrm{percent\_gravel} \\ \hspace{1em} \mathrm{choice\_2} \gets \textrm{"G"} \\ \hspace{1em} \mathrm{group\_symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathrm{group\_symbol} \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_sand</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Sand percentage (% passing No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_gravel</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Gravel percentage (% retained on No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>group_symbol</code></td>            <td>
+                  <code><span title="Any">Any</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>group_symbol</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_soil_classification__usda1993soil" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_soil_classification__usda1993soil</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_soil_classification__usda1993soil</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">language</span><span class="p">,</span> <span class="n">percent_sand</span><span class="p">,</span> <span class="n">percent_clay</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_soil\_classification\_\_usda1993soil}(\mathrm{language}, \mathrm{percent\_sand}, \mathrm{percent\_clay}) \\ \hspace{1em} \mathrm{symbology} \gets \mathrm{ReferenceDataSets}.\mathrm{SoilClassificationSymbology}.\mathrm{to\_index\_map} \mathopen{}\left( \textrm{"key"}, \mathrm{language}.\mathrm{item} \mathopen{}\left( \mathclose{}\right) \mathclose{}\right) \\ \hspace{1em} \mathbf{if} \ \mathrm{np}.\mathrm{any} \mathopen{}\left( \mathrm{percent\_sand} + \mathrm{percent\_clay} &gt; 100 \mathclose{}\right) \\ \hspace{2em} \mathrm{raise\_value\_error} \mathopen{}\left( \textrm{"Sum of sand \&amp; clay \% can't be &gt; 100\%"} \mathclose{}\right) \\ \hspace{1em} \mathbf{end \ if} \\ \hspace{1em} \mathrm{percent\_silt} \gets 100 - \mathrm{percent\_sand} - \mathrm{percent\_clay} \\ \hspace{1em} \mathrm{condition\_1} \gets \mathrm{percent\_silt} + 1.5 \mathrm{percent\_clay} &lt; 15 \\ \hspace{1em} \mathrm{choice\_1} \gets \textrm{"Sa"} \\ \hspace{1em} \mathrm{condition\_2} \gets \mathopen{}\left( \mathrm{percent\_silt} + 1.5 \mathrm{percent\_clay} \ge 15 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} + 2 \mathrm{percent\_clay} &lt; 30 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_2} \gets \textrm{"LoSa"} \\ \hspace{1em} \mathrm{condition\_3} \gets \mathopen{}\left( 7 \le \mathrm{percent\_clay} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 20 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} &gt; 52 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} + 2 \mathrm{percent\_clay} \ge 30 \mathclose{}\right) \mathbin{|} \mathopen{}\left( \mathrm{percent\_clay} &lt; 7 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} + 2 \mathrm{percent\_clay} \ge 30 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_3} \gets \textrm{"SaLo"} \\ \hspace{1em} \mathrm{condition\_4} \gets \mathopen{}\left( 7 \le \mathrm{percent\_clay} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 27 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( 28 \le \mathrm{percent\_silt} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} \le 52 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_4} \gets \textrm{"Lo"} \\ \hspace{1em} \mathrm{condition\_5} \gets \mathopen{}\left( \mathrm{percent\_silt} \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( 12 \le \mathrm{percent\_clay} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 27 \mathclose{}\right) \mathbin{|} \mathopen{}\left( 50 \le \mathrm{percent\_silt} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} &lt; 80 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 12 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_5} \gets \textrm{"SiLo"} \\ \hspace{1em} \mathrm{condition\_6} \gets \mathopen{}\left( \mathrm{percent\_silt} \ge 80 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 12 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_6} \gets \textrm{"Si"} \\ \hspace{1em} \mathrm{condition\_7} \gets \mathopen{}\left( 20 \le \mathrm{percent\_clay} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 35 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} &lt; 28 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} &gt; 45 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_7} \gets \textrm{"SaClLo"} \\ \hspace{1em} \mathrm{condition\_8} \gets \mathopen{}\left( 27 \le \mathrm{percent\_clay} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( 20 &lt; \mathrm{percent\_sand} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} \le 45 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_8} \gets \textrm{"ClLo"} \\ \hspace{1em} \mathrm{condition\_9} \gets \mathopen{}\left( 27 \le \mathrm{percent\_clay} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_clay} &lt; 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} \le 20 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_9} \gets \textrm{"SiClLo"} \\ \hspace{1em} \mathrm{condition\_10} \gets \mathopen{}\left( \mathrm{percent\_clay} \ge 35 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} &gt; 45 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_10} \gets \textrm{"SaCl"} \\ \hspace{1em} \mathrm{condition\_11} \gets \mathopen{}\left( \mathrm{percent\_clay} \ge 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_silt} \ge 40 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_11} \gets \textrm{"SiCl"} \\ \hspace{1em} \mathrm{condition\_12} \gets \mathopen{}\left( \mathrm{percent\_clay} \ge 40 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( 40 &gt; \mathrm{percent\_silt} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} \le 45 \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_12} \gets \textrm{"Cl"} \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3}, \mathrm{condition\_4}, \mathrm{condition\_5}, \mathrm{condition\_6}, \mathrm{condition\_7}, \mathrm{condition\_8}, \mathrm{condition\_9}, \mathrm{condition\_10}, \mathrm{condition\_11}, \mathrm{condition\_12} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3}, \mathrm{choice\_4}, \mathrm{choice\_5}, \mathrm{choice\_6}, \mathrm{choice\_7}, \mathrm{choice\_8}, \mathrm{choice\_9}, \mathrm{choice\_10}, \mathrm{choice\_11}, \mathrm{choice\_12} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{replace\_from\_mapping} \mathopen{}\left( \mathrm{symbol}, \mathrm{symbology} \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathopen{}\left( \mathrm{symbol}, \mathrm{description} \mathclose{}\right) \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>language</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Language</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_sand</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Sand percentage (% passing No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_clay</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Clay percentage for USDA classification</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>usda_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>USDA soil classification symbol</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+<td><code>usda_description</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>USDA soil classification description</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_soil_classification_aashto__astm2015d3282" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_soil_classification_aashto__astm2015d3282</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_soil_classification_aashto__astm2015d3282</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">language</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">fines_content</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">percent_passing_no10</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">percent_passing_no40</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">liquid_limit</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="n">plasticity_index</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="n">non_plastic</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_soil\_classification\_aashto\_\_astm2015d3282}(\mathrm{language}, FC, P_{10}, P_{40}, LL, PI, NP) \\ \hspace{1em} \mathrm{symbology} \gets \mathrm{ReferenceDataSets}.\mathrm{SoilClassificationSymbology}.\mathrm{to\_index\_map} \mathopen{}\left( \textrm{"key"}, \mathrm{language}.\mathrm{item} \mathopen{}\left( \mathclose{}\right) \mathclose{}\right) \\ \hspace{1em} PI \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( NP, 0, PI \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_1} \gets FC \le 35 \\ \hspace{1em} \mathrm{choice\_1} \gets \mathrm{get\_aashto\_symbol\_coarse} \mathopen{}\left( FC, P_{10}, P_{40}, LL, PI, NP \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_2} \gets FC &gt; 35 \\ \hspace{1em} \mathrm{choice\_2} \gets \mathrm{get\_aashto\_symbol\_fine} \mathopen{}\left( PI, LL \mathclose{}\right) \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{replace\_from\_mapping} \mathopen{}\left( \mathrm{symbol}, \mathrm{symbology} \mathclose{}\right) \\ \hspace{1em} \mathrm{group\_index} \gets \mathrm{get\_aashto\_group\_index} \mathopen{}\left( \mathrm{symbol}, FC, PI, LL, NP \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathopen{}\left( \mathrm{symbol}, \mathrm{group\_index}, \mathrm{description} \mathclose{}\right) \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>language</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Language</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>fines_content</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage of fines passing No. 200 sieve</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_passing_no10</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage passing No. 10 sieve</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_passing_no40</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage passing No. 40 sieve</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>non_plastic</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates non-plastic soil (PI=0)</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>aashto_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>AASHTO classification system symbol</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+<td><code>aashto_group_index</code></td>            <td>
+                  <code><span title="int">int</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>AASHTO classification system group index</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+<td><code>aashto_description</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>AASHTO classification system description</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_soil_classification_uscs__astm2017d2487" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_soil_classification_uscs__astm2017d2487</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_soil_classification_uscs__astm2017d2487</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">language</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">fines_content</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">percent_sand</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">percent_gravel</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">liquid_limit</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="n">plasticity_index</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="n">uniformity_coefficient</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="n">curvature_coefficient</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    <span class="n">non_plastic</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    <span class="n">moreno_alonso_plasticity_modification</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    <span class="n">has_organic_fines</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_soil\_classification\_uscs\_\_astm2017d2487}(\mathrm{language}, FC, \mathrm{percent\_sand}, \mathrm{percent\_gravel}, LL, PI, C_u, C_c, NP, \mathrm{moreno\_alonso\_plasticity\_modification}, \mathrm{has\_organic\_fines}) \\ \hspace{1em} PI \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( NP, 0, PI \mathclose{}\right) \\ \hspace{1em} LL \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( NP \mathbin{\&amp;} \mathrm{is\_null} \mathopen{}\left( LL \mathclose{}\right), 0, LL \mathclose{}\right) \\ \hspace{1em} \mathrm{sum\_to\_validate} \gets FC + \mathrm{percent\_sand} + \mathrm{percent\_gravel} \\ \hspace{1em} \mathbf{if} \ \mathrm{np}.\mathrm{any} \mathopen{}\left( \mathord{\sim} \mathrm{np}.\mathrm{isclose} \mathopen{}\left( \mathrm{sum\_to\_validate}_{\mathord{\sim} \mathrm{np}.\mathrm{isnan} \mathopen{}\left( \mathrm{sum\_to\_validate} \mathclose{}\right)}, 100 \mathclose{}\right) \mathclose{}\right) \\ \hspace{2em} \mathrm{raise\_value\_error} \mathopen{}\left( \textrm{"Sum of fines, sand \&amp; gravel \% not close to 100\%"} \mathclose{}\right) \\ \hspace{1em} \mathbf{end \ if} \\ \hspace{1em} \mathrm{condition\_1} \gets FC &lt; 50 \\ \hspace{1em} \mathopen{}\left( \mathrm{symbol\_1}, \mathrm{description\_1} \mathclose{}\right) \gets \mathrm{get\_soil\_classification\_uscs\_coarse\_\_astm2017d2487} \mathopen{}\left( \mathrm{language}, FC, \mathrm{percent\_sand}, \mathrm{percent\_gravel}, C_u, C_c, LL, PI, \mathrm{moreno\_alonso\_plasticity\_modification}, \mathrm{has\_organic\_fines} \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_2} \gets FC \ge 50 \\ \hspace{1em} \mathopen{}\left( \mathrm{symbol\_2}, \mathrm{description\_2} \mathclose{}\right) \gets \mathrm{get\_soil\_classification\_uscs\_fine\_\_astm2017d2487} \mathopen{}\left( \mathrm{language}, LL, PI, \mathrm{percent\_sand}, \mathrm{percent\_gravel}, \mathrm{has\_organic\_fines}, \mathrm{moreno\_alonso\_plasticity\_modification} \mathclose{}\right) \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2} \mathclose{}\right], \mathopen{}\left[ \mathrm{symbol\_1}, \mathrm{symbol\_2} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2} \mathclose{}\right], \mathopen{}\left[ \mathrm{description\_1}, \mathrm{description\_2} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathopen{}\left( \mathrm{symbol}, \mathrm{description} \mathclose{}\right) \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>language</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Language</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>fines_content</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage of fines passing No. 200 sieve</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_sand</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Sand percentage (% passing No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_gravel</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Gravel percentage (% retained on No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>uniformity_coefficient</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Uniformity coefficient for particle size distribution</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>curvature_coefficient</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Curvature coefficient for particle size distribution</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>non_plastic</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates non-plastic soil (PI=0)</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>moreno_alonso_plasticity_modification</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity chart modification per Moreno &amp; Alonso (2018)</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>has_organic_fines</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates if the soil contains organic fines</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>uscs_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Unified Soil Classification System symbol</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+<td><code>uscs_description</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Unified Soil Classification System description</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_soil_classification_uscs_coarse__astm2017d2487" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_soil_classification_uscs_coarse__astm2017d2487</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_soil_classification_uscs_coarse__astm2017d2487</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">language</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">fines_content</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">percent_sand</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">percent_gravel</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">uniformity_coefficient</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="n">curvature_coefficient</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="n">liquid_limit</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="n">plasticity_index</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    <span class="n">moreno_alonso_plasticity_modification</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    <span class="n">has_organic_fines</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_soil\_classification\_uscs\_coarse\_\_astm2017d2487}(\mathrm{language}, FC, \mathrm{percent\_sand}, \mathrm{percent\_gravel}, C_u, C_c, LL, PI, \mathrm{moreno\_alonso\_plasticity\_modification}, \mathrm{has\_organic\_fines}) \\ \hspace{1em} \mathrm{symbology} \gets \mathrm{ReferenceDataSets}.\mathrm{SoilClassificationSymbology}.\mathrm{to\_index\_map} \mathopen{}\left( \textrm{"key"}, \mathrm{language}.\mathrm{item} \mathopen{}\left( \mathclose{}\right) \mathclose{}\right) \\ \hspace{1em} \mathrm{group\_symbol} \gets \mathrm{get\_coarse\_group\_symbol} \mathopen{}\left( \mathrm{percent\_sand}, \mathrm{percent\_gravel} \mathclose{}\right) \\ \hspace{1em} \mathrm{graded\_symbol} \gets \mathrm{get\_coarse\_graded\_symbol} \mathopen{}\left( \mathrm{group\_symbol}, C_u, C_c \mathclose{}\right) \\ \hspace{1em} \mathopen{}\left( \mathrm{fine\_symbol}, \mathrm{fine\_description} \mathclose{}\right) \gets \mathrm{get\_soil\_classification\_uscs\_fine\_\_astm2017d2487} \mathopen{}\left( \mathrm{language}, LL, PI, \mathrm{percent\_sand}, \mathrm{percent\_gravel}, \mathrm{False}, \mathrm{moreno\_alonso\_plasticity\_modification} \mathclose{}\right) \\ \hspace{1em} \mathrm{is\_silt} \gets \mathrm{np}.\mathrm{isin} \mathopen{}\left( \mathrm{fine\_symbol}, \mathopen{}\left[ \textrm{"ML"}, \textrm{"MH"} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{is\_clay} \gets \mathrm{np}.\mathrm{isin} \mathopen{}\left( \mathrm{fine\_symbol}, \mathopen{}\left[ \textrm{"CL"}, \textrm{"CH"} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{is\_dual} \gets \mathrm{np}.\mathrm{isin} \mathopen{}\left( \mathrm{fine\_symbol}, \mathopen{}\left[ \textrm{"CL-ML"}, \textrm{"CH-MH"} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{condition\_1} \gets FC &lt; 5 \\ \hspace{1em} \mathrm{choice\_1} \gets \mathrm{group\_symbol} + \mathrm{graded\_symbol} \\ \hspace{1em} \mathrm{condition\_2} \gets \mathopen{}\left( 5 \le FC \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( FC \le 12 \mathclose{}\right) \mathbin{\&amp;} \mathrm{is\_silt} \\ \hspace{1em} \mathrm{choice\_2} \gets \mathrm{group\_symbol} + \mathrm{graded\_symbol} + \textrm{"-"} + \mathrm{group\_symbol} + \textrm{"M"} \\ \hspace{1em} \mathrm{condition\_3} \gets \mathopen{}\left( 5 \le FC \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( FC \le 12 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{is\_clay} \mathbin{|} \mathrm{is\_dual} \mathclose{}\right) \\ \hspace{1em} \mathrm{choice\_3} \gets \mathrm{group\_symbol} + \mathrm{graded\_symbol} + \textrm{"-"} + \mathrm{group\_symbol} + \textrm{"C"} \\ \hspace{1em} \mathrm{condition\_4} \gets \mathopen{}\left( FC &gt; 12 \mathclose{}\right) \mathbin{\&amp;} \mathrm{is\_silt} \\ \hspace{1em} \mathrm{choice\_4} \gets \mathrm{group\_symbol} + \textrm{"M"} \\ \hspace{1em} \mathrm{condition\_5} \gets \mathopen{}\left( FC &gt; 12 \mathclose{}\right) \mathbin{\&amp;} \mathrm{is\_clay} \\ \hspace{1em} \mathrm{choice\_5} \gets \mathrm{group\_symbol} + \textrm{"C"} \\ \hspace{1em} \mathrm{condition\_6} \gets \mathopen{}\left( FC &gt; 12 \mathclose{}\right) \mathbin{\&amp;} \mathrm{is\_dual} \\ \hspace{1em} \mathrm{choice\_6} \gets \mathrm{group\_symbol} + \textrm{"C"} + \textrm{"-"} + \mathrm{group\_symbol} + \textrm{"M"} \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3}, \mathrm{condition\_4}, \mathrm{condition\_5}, \mathrm{condition\_6} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3}, \mathrm{choice\_4}, \mathrm{choice\_5}, \mathrm{choice\_6} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{replace\_from\_mapping} \mathopen{}\left( \mathrm{symbol}, \mathrm{symbology} \mathclose{}\right) \\ \hspace{1em} \mathrm{concatenator} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathopen{}\left( FC &lt; 5 \mathclose{}\right) \mathbin{|} \mathopen{}\left( FC &gt; 12 \mathclose{}\right), \mathopen{}\left( 5 \le FC \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( FC \le 12 \mathclose{}\right) \mathclose{}\right], \mathopen{}\left[ \mathrm{symbology}_{\textrm{"concatenator\_for\_with"}}, \mathrm{symbology}_{\textrm{"concatenator\_for\_and"}} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{suffix} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathopen{}\left( \mathrm{group\_symbol} = \textrm{"G"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} \ge 15 \mathclose{}\right), \mathopen{}\left( \mathrm{group\_symbol} = \textrm{"S"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_gravel} \ge 15 \mathclose{}\right) \mathclose{}\right], \mathopen{}\left[ \mathrm{concatenator} + \textrm{" "} + \mathrm{symbology}_{\textrm{"S"}}, \mathrm{concatenator} + \textrm{" "} + \mathrm{symbology}_{\textrm{"G"}} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( \mathrm{suffix}.\mathrm{astype} \mathopen{}\left( \mathrm{bool} \mathclose{}\right), \mathrm{description} + \textrm{" "} + \mathrm{suffix}, \mathrm{description} \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( \mathrm{has\_organic\_fines}, \mathrm{description} + \textrm{" with organic fines"}, \mathrm{description} \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{np}.\mathrm{strings}.\mathrm{capitalize} \mathopen{}\left( \mathrm{description} \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathopen{}\left( \mathrm{symbol}, \mathrm{description} \mathclose{}\right) \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>language</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Language</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>fines_content</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Percentage of fines passing No. 200 sieve</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_sand</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Sand percentage (% passing No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_gravel</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Gravel percentage (% retained on No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>uniformity_coefficient</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Uniformity coefficient for particle size distribution</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>curvature_coefficient</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Curvature coefficient for particle size distribution</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                  <code>None</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>moreno_alonso_plasticity_modification</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity chart modification per Moreno &amp; Alonso (2018)</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>has_organic_fines</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates if the soil contains organic fines</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>uscs_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Unified Soil Classification System symbol</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+<td><code>uscs_description</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Unified Soil Classification System description</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_soil_classification_uscs_fine__astm2017d2487" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_soil_classification_uscs_fine__astm2017d2487</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_soil_classification_uscs_fine__astm2017d2487</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">language</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">liquid_limit</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">plasticity_index</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">percent_sand</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">percent_gravel</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="n">has_organic_fines</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="n">moreno_alonso_plasticity_modification</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_soil\_classification\_uscs\_fine\_\_astm2017d2487}(\mathrm{language}, LL, PI, \mathrm{percent\_sand}, \mathrm{percent\_gravel}, \mathrm{has\_organic\_fines}, \mathrm{moreno\_alonso\_plasticity\_modification}) \\ \hspace{1em} \mathrm{symbology} \gets \mathrm{ReferenceDataSets}.\mathrm{SoilClassificationSymbology}.\mathrm{to\_index\_map} \mathopen{}\left( \textrm{"key"}, \mathrm{language}.\mathrm{item} \mathopen{}\left( \mathclose{}\right) \mathclose{}\right) \\ \hspace{1em} \mathbf{if} \ \mathrm{moreno\_alonso\_plasticity\_modification}.\mathrm{item} \mathopen{}\left( \mathclose{}\right) \\ \hspace{2em} \mathrm{c\_line\_value} \gets \frac{LL}{2} \\ \hspace{2em} \mathrm{m\_line\_value} \gets \frac{LL}{3} \\ \hspace{2em} \mathrm{condition\_1} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; \mathrm{c\_line\_value} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_1} \gets \textrm{"CL"} \\ \hspace{2em} \mathrm{condition\_2} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; \mathrm{m\_line\_value} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_2} \gets \textrm{"CL-ML"} \\ \hspace{2em} \mathrm{condition\_3} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le \mathrm{m\_line\_value} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_3} \gets \textrm{"ML"} \\ \hspace{2em} \mathrm{condition\_4} \gets \mathopen{}\left( LL \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; \mathrm{c\_line\_value} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_4} \gets \textrm{"CH"} \\ \hspace{2em} \mathrm{condition\_5} \gets \mathopen{}\left( LL \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI &gt; \mathrm{m\_line\_value} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_5} \gets \textrm{"CH-MH"} \\ \hspace{2em} \mathrm{condition\_6} \gets \mathopen{}\left( LL \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le \mathrm{m\_line\_value} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_6} \gets \textrm{"MH"} \\ \hspace{2em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3}, \mathrm{condition\_4}, \mathrm{condition\_5}, \mathrm{condition\_6} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3}, \mathrm{choice\_4}, \mathrm{choice\_5}, \mathrm{choice\_6} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{else} \\ \hspace{2em} \mathrm{a\_line\_position} \gets \mathrm{get\_a\_line\_position} \mathopen{}\left( LL, PI \mathclose{}\right) \\ \hspace{2em} \mathrm{condition\_1} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathord{\sim} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( PI &gt; 7 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"above"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_1} \gets \textrm{"CL"} \\ \hspace{2em} \mathrm{condition\_2} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathord{\sim} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( PI \ge 4 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( PI \le 7 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"above"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_2} \gets \textrm{"CL-ML"} \\ \hspace{2em} \mathrm{condition\_3} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathord{\sim} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( \mathopen{}\left( PI &lt; 4 \mathclose{}\right) \mathbin{|} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"below"} \mathclose{}\right) \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_3} \gets \textrm{"ML"} \\ \hspace{2em} \mathrm{condition\_4} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"above"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_4} \gets \textrm{"OL-c"} \\ \hspace{2em} \mathrm{condition\_5} \gets \mathopen{}\left( LL &lt; 50 \mathclose{}\right) \mathbin{\&amp;} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"below"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_5} \gets \textrm{"OL-m"} \\ \hspace{2em} \mathrm{condition\_6} \gets \mathopen{}\left( LL \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathord{\sim} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"above"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_6} \gets \textrm{"CH"} \\ \hspace{2em} \mathrm{condition\_7} \gets \mathopen{}\left( LL \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathord{\sim} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"below"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_7} \gets \textrm{"MH"} \\ \hspace{2em} \mathrm{condition\_8} \gets \mathopen{}\left( LL \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"above"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_8} \gets \textrm{"OH-c"} \\ \hspace{2em} \mathrm{condition\_9} \gets \mathopen{}\left( LL \ge 50 \mathclose{}\right) \mathbin{\&amp;} \mathrm{has\_organic\_fines} \mathbin{\&amp;} \mathopen{}\left( \mathrm{a\_line\_position} = \textrm{"below"} \mathclose{}\right) \\ \hspace{2em} \mathrm{choice\_9} \gets \textrm{"OH-m"} \\ \hspace{2em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathrm{condition\_1}, \mathrm{condition\_2}, \mathrm{condition\_3}, \mathrm{condition\_4}, \mathrm{condition\_5}, \mathrm{condition\_6}, \mathrm{condition\_7}, \mathrm{condition\_8}, \mathrm{condition\_9} \mathclose{}\right], \mathopen{}\left[ \mathrm{choice\_1}, \mathrm{choice\_2}, \mathrm{choice\_3}, \mathrm{choice\_4}, \mathrm{choice\_5}, \mathrm{choice\_6}, \mathrm{choice\_7}, \mathrm{choice\_8}, \mathrm{choice\_9} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathbf{end \ if} \\ \hspace{1em} \mathrm{description} \gets \mathrm{replace\_from\_mapping} \mathopen{}\left( \mathrm{symbol}, \mathrm{symbology} \mathclose{}\right) \\ \hspace{1em} \mathrm{coarse\_group\_symbol} \gets \mathrm{get\_coarse\_group\_symbol} \mathopen{}\left( \mathrm{percent\_sand}, \mathrm{percent\_gravel} \mathclose{}\right) \\ \hspace{1em} \mathrm{percent\_coarse} \gets \mathrm{percent\_sand} + \mathrm{percent\_gravel} \\ \hspace{1em} \mathrm{prefix\_abbreviation} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathopen{}\left( \mathrm{percent\_coarse} \ge 30 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{coarse\_group\_symbol} = \textrm{"S"} \mathclose{}\right), \mathopen{}\left( \mathrm{percent\_coarse} \ge 30 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{coarse\_group\_symbol} = \textrm{"G"} \mathclose{}\right) \mathclose{}\right], \mathopen{}\left[ \textrm{"S-ey"}, \textrm{"G-ey"} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{suffix\_abbreviation} \gets \mathrm{np}.\mathrm{select} \mathopen{}\left( \mathopen{}\left[ \mathopen{}\left( \mathrm{percent\_coarse} \ge 15 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_coarse} &lt; 30 \mathclose{}\right), \mathopen{}\left( \mathrm{percent\_coarse} \ge 30 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{coarse\_group\_symbol} = \textrm{"S"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_gravel} \ge 15 \mathclose{}\right), \mathopen{}\left( \mathrm{percent\_coarse} \ge 30 \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{coarse\_group\_symbol} = \textrm{"G"} \mathclose{}\right) \mathbin{\&amp;} \mathopen{}\left( \mathrm{percent\_sand} \ge 15 \mathclose{}\right) \mathclose{}\right], \mathopen{}\left[ \mathrm{coarse\_group\_symbol}, \textrm{"G"}, \textrm{"S"} \mathclose{}\right] \mathclose{}\right) \\ \hspace{1em} \mathrm{prefix} \gets \mathrm{replace\_from\_mapping} \mathopen{}\left( \mathrm{prefix\_abbreviation}, \mathrm{symbology} \mathclose{}\right) \\ \hspace{1em} \mathbf{if} \ \mathrm{language} = \textrm{"es"} \\ \hspace{2em} \mathrm{prefix} \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( \mathrm{np}.\mathrm{isin} \mathopen{}\left( \mathrm{symbol}, \mathopen{}\left[ \textrm{"ML"}, \textrm{"MH"}, \textrm{"OL-m"}, \textrm{"OH-m"} \mathclose{}\right] \mathclose{}\right), \mathrm{np}.\mathrm{strings}.\mathrm{replace} \mathopen{}\left( \mathrm{prefix}, \textrm{"osa"}, \textrm{"oso"} \mathclose{}\right), \mathrm{prefix} \mathclose{}\right) \\ \hspace{1em} \mathbf{end \ if} \\ \hspace{1em} \mathrm{suffix} \gets \mathrm{replace\_from\_mapping} \mathopen{}\left( \mathrm{suffix\_abbreviation}, \mathrm{symbology} \mathclose{}\right) \\ \hspace{1em} \mathrm{concatenator\_for\_with} \gets \mathrm{symbology}_{\textrm{"concatenator\_for\_with"}} \\ \hspace{1em} \mathrm{description} \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( \mathrm{prefix\_abbreviation}.\mathrm{astype} \mathopen{}\left( \mathrm{bool} \mathclose{}\right), \left\{ \begin{array}{ll} \mathrm{prefix} + \textrm{" "} + \mathrm{description}, &amp; \mathrm{if} \ \mathrm{language} = \textrm{"en"} \\ \mathrm{description} + \textrm{" "} + \mathrm{prefix}, &amp; \mathrm{otherwise} \end{array} \right., \mathrm{description} \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( \mathrm{suffix\_abbreviation}.\mathrm{astype} \mathopen{}\left( \mathrm{bool} \mathclose{}\right), \mathrm{description} + \textrm{" \{\} "}.\mathrm{format} \mathopen{}\left( \mathrm{concatenator\_for\_with} \mathclose{}\right) + \mathrm{suffix}, \mathrm{description} \mathclose{}\right) \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{strings}.\mathrm{replace} \mathopen{}\left( \mathrm{symbol}, \textrm{"-m"}, \textrm{""} \mathclose{}\right) \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{np}.\mathrm{strings}.\mathrm{replace} \mathopen{}\left( \mathrm{symbol}, \textrm{"-c"}, \textrm{""} \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{np}.\mathrm{strings}.\mathrm{capitalize} \mathopen{}\left( \mathrm{description} \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathopen{}\left( \mathrm{symbol}, \mathrm{description} \mathclose{}\right) \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>language</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Language</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_sand</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Sand percentage (% passing No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_gravel</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Gravel percentage (% retained on No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>has_organic_fines</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates if the soil contains organic fines</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>moreno_alonso_plasticity_modification</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity chart modification per Moreno &amp; Alonso (2018)</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>uscs_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Unified Soil Classification System symbol</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+<td><code>uscs_description</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Unified Soil Classification System description</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h3 id="subsurfaceio.functions.soil_classification.get_soil_classification_usda__moreno2018clay" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <span class="doc doc-object-name doc-function-name">get_soil_classification_usda__moreno2018clay</span>
+
+
+</h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">get_soil_classification_usda__moreno2018clay</span><span class="p">(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">language</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">percent_sand</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">liquid_limit</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">plasticity_index</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">non_plastic</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">)</span>
+</span></code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Calculation function.</p>
+<div class="arithmatex">\[
+\begin{array}{l} \mathbf{function} \ \mathrm{get\_soil\_classification\_usda\_\_moreno2018clay}(\mathrm{language}, \mathrm{percent\_sand}, LL, PI, NP) \\ \hspace{1em} \mathrm{symbology} \gets \mathrm{ReferenceDataSets}.\mathrm{SoilClassificationSymbology}.\mathrm{to\_index\_map} \mathopen{}\left( \textrm{"key"}, \mathrm{language}.\mathrm{item} \mathopen{}\left( \mathclose{}\right) \mathclose{}\right) \\ \hspace{1em} PI \gets \mathrm{np}.\mathrm{where} \mathopen{}\left( NP, 0, PI \mathclose{}\right) \\ \hspace{1em} \mathrm{symbol} \gets \mathrm{ReferenceFigureRegistry}.\mathrm{USDAMoreno2018Chart}.\mathrm{assign\_polygons\_labels\_from\_xy\_data} \mathopen{}\left( \mathrm{percent\_sand}, \mathrm{np}.\mathrm{clip} \mathopen{}\left( \frac{PI}{LL}, 0.0001, 1 \mathclose{}\right) \mathclose{}\right) \\ \hspace{1em} \mathrm{description} \gets \mathrm{replace\_from\_mapping} \mathopen{}\left( \mathrm{symbol}, \mathrm{symbology} \mathclose{}\right) \\ \hspace{1em} \mathbf{return} \ \mathopen{}\left( \mathrm{symbol}, \mathrm{description} \mathclose{}\right) \\ \mathbf{end \ function} \end{array}
+\]</div>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>language</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Language</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>percent_sand</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Sand percentage (% passing No. 4 sieve)</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>liquid_limit</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Liquid limit of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>plasticity_index</code>
+            </td>
+            <td>
+                  <code><span title="float">float</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Plasticity index of soil</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>non_plastic</code>
+            </td>
+            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Indicates non-plastic soil (PI=0)</p>
+              </div>
+            </td>
+            <td>
+                  <code>False</code>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>usda_symbol</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>USDA soil classification symbol</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+<td><code>usda_description</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>USDA soil classification description</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+
+
+  </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../site_design_spectra/" class="md-footer__link md-footer__link--prev" aria-label="Previous: site_design_spectra.py">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                site_design_spectra.py
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../soil_lab/" class="md-footer__link md-footer__link--next" aria-label="Next: soil_lab.py">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                soil_lab.py
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
