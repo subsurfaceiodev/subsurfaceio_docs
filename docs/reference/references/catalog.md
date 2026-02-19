@@ -14,7 +14,7 @@
     
 
 ### `amoroso2013prediction`
-**title**: Prediction of the Shear Wave Velocity V S from CPT and DMT  
+**title**: Prediction of the Shear Wave Velocity Vs from CPT and DMT  
 **author**: Amoroso, Sara  
 **year**: 2013  
 **link**: [https://doi.org/10.1007/s11709-013-0234-6](https://doi.org/10.1007/s11709-013-0234-6){:target="_blank"}
@@ -98,7 +98,7 @@
     
 
 ### `boore2004estimating`
-**title**: Estimating V s (30)(or NEHRP site classes) from shallow velocity models (depths< 30 m)  
+**title**: Estimating Vs(30) (or NEHRP site classes) from shallow velocity models (depths < 30 m)  
 **author**: Boore, David M  
 **year**: 2004  
 **link**: [https://doi.org/10.1785/0120030105](https://doi.org/10.1785/0120030105){:target="_blank"}
@@ -423,14 +423,14 @@
 **title**: Estimating Kα for use in evaluating cyclic resistance of sloping ground  
 **author**: Idriss, IM and Boulanger, Ross W  
 **year**: 2003  
-**link**: [https://scholar.google.com/scholar?q=Estimating%20K%24%5Calpha%24%20for%20use%20in%20evaluating%20cyclic%20resistance%20of%20sloping%20ground%202003](https://scholar.google.com/scholar?q=Estimating%20K%24%5Calpha%24%20for%20use%20in%20evaluating%20cyclic%20resistance%20of%20sloping%20ground%202003){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Estimating%20K%CE%B1%20for%20use%20in%20evaluating%20cyclic%20resistance%20of%20sloping%20ground%202003](https://scholar.google.com/scholar?q=Estimating%20K%CE%B1%20for%20use%20in%20evaluating%20cyclic%20resistance%20of%20sloping%20ground%202003){:target="_blank"}
     
 
 ### `idriss2003relating`
 **title**: Relating Kα and Kσ to SPT blow count and to CPT tip resistance for use in evaluating liquefaction potential  
 **author**: Idriss, IM and Boulanger, Ross W  
 **year**: 2003  
-**link**: [https://scholar.google.com/scholar?q=Relating%20K%24%5Calpha%24%20and%20K%24%5Csigma%24%20to%20SPT%20blow%20count%20and%20to%20CPT%20tip%20resistance%20for%20use%20in%20evaluating%20liquefaction%20potential%202003](https://scholar.google.com/scholar?q=Relating%20K%24%5Calpha%24%20and%20K%24%5Csigma%24%20to%20SPT%20blow%20count%20and%20to%20CPT%20tip%20resistance%20for%20use%20in%20evaluating%20liquefaction%20potential%202003){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Relating%20K%CE%B1%20and%20K%CF%83%20to%20SPT%20blow%20count%20and%20to%20CPT%20tip%20resistance%20for%20use%20in%20evaluating%20liquefaction%20potential%202003](https://scholar.google.com/scholar?q=Relating%20K%CE%B1%20and%20K%CF%83%20to%20SPT%20blow%20count%20and%20to%20CPT%20tip%20resistance%20for%20use%20in%20evaluating%20liquefaction%20potential%202003){:target="_blank"}
     
 
 ### `idriss2006semi`
@@ -892,7 +892,7 @@
 **title**: Estimating in-situ soil permeability from CPT & CPTu  
 **author**: Robertson, Peter K  
 **year**: 2010  
-**link**: [https://scholar.google.com/scholar?q=Estimating%20in-situ%20soil%20permeability%20from%20CPT%20%5C%26%20CPTu%202010](https://scholar.google.com/scholar?q=Estimating%20in-situ%20soil%20permeability%20from%20CPT%20%5C%26%20CPTu%202010){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Estimating%20in-situ%20soil%20permeability%20from%20CPT%20%26%20CPTu%202010](https://scholar.google.com/scholar?q=Estimating%20in-situ%20soil%20permeability%20from%20CPT%20%26%20CPTu%202010){:target="_blank"}
     
 
 ### `robertson2010evaluation`
@@ -910,7 +910,7 @@
     
 
 ### `robertson2012interpretation`
-**title**: The James K. Mitchell Lecture: Interpretation of in-situ tests–some insights  
+**title**: The James K. Mitchell Lecture: Interpretation of in-situ tests--some insights  
 **author**: Robertson, PK  
 **year**: 2012  
 **link**: [https://cpt-robertson.com/publications/](https://cpt-robertson.com/publications/){:target="_blank"}
@@ -945,7 +945,7 @@
     
 
 ### `saye2021common`
-**title**: Common-origin approach to assess level-ground liquefaction susceptibility and triggering in CPT-compatible soils using Δ Q  
+**title**: Common-origin approach to assess level-ground liquefaction susceptibility and triggering in CPT-compatible soils using ΔQ  
 **author**: Saye, Steven R and Olson, Scott M and Franke, Kevin W  
 **year**: 2021  
 **link**: [https://doi.org/10.1061/(ASCE)GT.1943-5606.0002515](https://doi.org/10.1061/(ASCE)GT.1943-5606.0002515){:target="_blank"}
@@ -1044,7 +1044,7 @@
 
 ### `sorensen2013correlation`
 **title**: Correlation between drained shear strength and plasticity index of undisturbed overconsolidated clays  
-**author**: Sørensen, Kenny Kataoka and Okkels, N  
+**author**: Sorensen, Kenny Kataoka and Okkels, N  
 **year**: 2013  
 **link**: [https://www.issmge.org/publications/publication/correlation-between-drained-shear-strength-and-plasticity-index-of-undisturbed-overconsolidated-clays](https://www.issmge.org/publications/publication/correlation-between-drained-shear-strength-and-plasticity-index-of-undisturbed-overconsolidated-clays){:target="_blank"}
     
@@ -1169,7 +1169,7 @@
     
 
 ### `vardanega2014undrained`
-**title**: The undrained strength–liquidity index relationship  
+**title**: The undrained strength--liquidity index relationship  
 **author**: Vardanega, PJ and Haigh, Stuart K  
 **year**: 2014  
 **link**: [https://doi.org/10.1139/cgj-2013-0169](https://doi.org/10.1139/cgj-2013-0169){:target="_blank"}
@@ -1193,7 +1193,7 @@
 **title**: Relations entre les propriétés physico-chimiques et les caractéristiques mécaniques des sols compressibles  
 **author**: Vidalie, Jean-François  
 **year**: 1977  
-**link**: [https://scholar.google.com/scholar?q=Relations%20entre%20les%20propri%7B%5C%27e%7Dt%7B%5C%27e%7Ds%20physico-chimiques%20et%20les%20caract%7B%5C%27e%7Dristiques%20m%7B%5C%27e%7Dcaniques%20des%20sols%20compressibles%201977](https://scholar.google.com/scholar?q=Relations%20entre%20les%20propri%7B%5C%27e%7Dt%7B%5C%27e%7Ds%20physico-chimiques%20et%20les%20caract%7B%5C%27e%7Dristiques%20m%7B%5C%27e%7Dcaniques%20des%20sols%20compressibles%201977){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Relations%20entre%20les%20propri%C3%A9t%C3%A9s%20physico-chimiques%20et%20les%20caract%C3%A9ristiques%20m%C3%A9caniques%20des%20sols%20compressibles%201977](https://scholar.google.com/scholar?q=Relations%20entre%20les%20propri%C3%A9t%C3%A9s%20physico-chimiques%20et%20les%20caract%C3%A9ristiques%20m%C3%A9caniques%20des%20sols%20compressibles%201977){:target="_blank"}
     
 
 ### `wair2012guidelines`
@@ -1267,21 +1267,20 @@
     
 
 ### `2020SciPy-NMeth`
-**title**: SciPy 1.0: Fundamental Algorithms for Scientific
-Computing in Python  
+**title**: SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python  
 **author**: Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and
 Haberland, Matt and Reddy, Tyler and Cournapeau, David and
 Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and
-Bright, Jonathan and van der Walt, Stéfan J. and
+Bright, Jonathan and {van der Walt}, Stéfan J. and
 Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and
 Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and
 Kern, Robert and Larson, Eric and Carey, C J and
 Polat, İlhan and Feng, Yu and Moore, Eric W. and
-VanderPlas, Jake and Laxalde, Denis and Perktold, Josef and
+{VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and
 Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and
 Harris, Charles R. and Archibald, Anne M. and
 Ribeiro, Antônio H. and Pedregosa, Fabian and
-van Mulbregt, Paul and SciPy 1.0 Contributors  
+{van Mulbregt}, Paul and {SciPy 1.0 Contributors  
 **year**: 2020  
 **link**: [https://doi.org/10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2){:target="_blank"}
     
