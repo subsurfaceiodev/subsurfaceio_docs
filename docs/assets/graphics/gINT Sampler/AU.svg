@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="AU" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_AUGER01" patternUnits="userSpaceOnUse" x="0" y="0" width="100.0" height="48.0" viewBox="0 0 48.0 48.0" preserveAspectRatio="none">
+  <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polygon points="16.8 48 31.2 48 31.2 0 16.8 0" stroke="#000"/>
+   <polygon points="35.424 14.4 36 12 35.424 9.6" stroke="#000"/>
+   <polygon points="31.2 19.104 33.696 16.8 35.424 14.4" stroke="#000"/>
+   <polygon points="35.424 9.6 33.696 7.2 31.2 4.896" stroke="#000"/>
+   <polygon points="31.2 4.896 31.2 19.104 35.424 14.4" stroke="#000"/>
+   <polygon points="31.2 4.896 35.424 14.4 35.424 9.6" stroke="#000"/>
+   <polygon points="12.576 33.6 12 36 12.576 38.4" stroke="#000"/>
+   <polygon points="16.8 28.896 14.304 31.2 12.576 33.6" stroke="#000"/>
+   <polygon points="12.576 38.4 14.304 40.8 16.8 43.104" stroke="#000"/>
+   <polygon points="12.576 38.4 16.8 43.104 16.8 28.896" stroke="#000"/>
+   <polygon points="12.576 38.4 16.8 28.896 12.576 33.6" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_AUGER01)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+</svg>
+
+</svg>

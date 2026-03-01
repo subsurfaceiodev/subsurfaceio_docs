@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="GYPSUM" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_DIAM01" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="26.4567" height="26.4567">
+  <svg width="26.457" height="26.457" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0 6.6142 5.6693 6.6142" fill="none" stroke="#000"/>
+   <polyline points="13.228 12.283 17.008 6.6142 13.228 0.94488 9.4488 6.6142 13.228 12.283" fill="none" stroke="#000"/>
+   <polyline points="20.787 6.6142 26.457 6.6142" fill="none" stroke="#000"/>
+   <polyline points="0 14.173 3.7795 19.843 0 25.512" fill="none" stroke="#000"/>
+   <polyline points="7.5591 19.843 18.898 19.843" fill="none" stroke="#000"/>
+   <polyline points="26.457 14.173 22.677 19.843 26.457 25.512" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_DIAM01)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+</svg>
+
+</svg>

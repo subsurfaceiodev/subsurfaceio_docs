@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="CMNT42" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_LINEDSH17" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="28.8" height="28.8">
+  <svg width="28.8" height="28.8" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0 28.8 28.8 0" fill="none" stroke="#000"/>
+   <polyline points="28.8 28.8 0 0" fill="none" stroke="#000"/>
+   <polyline points="23.136 28.8 25.92 25.92" fill="none" stroke="#000"/>
+   <polyline points="17.28 28.8 23.04 23.04" fill="none" stroke="#000"/>
+   <polyline points="11.52 28.8 20.16 20.16" fill="none" stroke="#000"/>
+   <polyline points="5.664 28.8 17.28 17.28" fill="none" stroke="#000"/>
+   <polyline points="28.8 5.664 25.92 2.88" fill="none" stroke="#000"/>
+   <polyline points="28.8 11.52 23.04 5.76" fill="none" stroke="#000"/>
+   <polyline points="28.8 17.28 20.16 8.64" fill="none" stroke="#000"/>
+   <polyline points="28.8 23.136 17.28 11.52" fill="none" stroke="#000"/>
+   <polyline points="5.664 0 2.88 2.88" fill="none" stroke="#000"/>
+   <polyline points="11.52 0 5.76 5.76" fill="none" stroke="#000"/>
+   <polyline points="17.28 0 8.64 8.64" fill="none" stroke="#000"/>
+   <polyline points="23.136 0 11.52 11.52" fill="none" stroke="#000"/>
+   <polyline points="0 23.136 2.88 25.92" fill="none" stroke="#000"/>
+   <polyline points="0 17.28 5.76 23.04" fill="none" stroke="#000"/>
+   <polyline points="0 11.52 8.64 20.16" fill="none" stroke="#000"/>
+   <polyline points="0 5.664 11.52 17.28" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_LINEDSH17)" stroke="none" x="0.0%" width="56.0%" height="100.0%"/>
+  </g>
+<line x1="56.0%" x2="56.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_LINEDSH17)" stroke="none" x="66.0%" width="12.0%" height="100.0%"/>
+  </g>
+<line x1="66.0%" x2="66.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="78.0%" x2="78.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_LINEDSH17)" stroke="none" x="88.0%" width="12.0%" height="100.0%"/>
+  </g>
+<line x1="88.0%" x2="88.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+</svg>
+
+</svg>
