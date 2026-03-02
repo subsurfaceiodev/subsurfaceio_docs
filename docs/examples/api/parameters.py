@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://www.subsurfaceio.app/parameters'
+url = 'https://www.subsurfaceio.app/parameter_registry'
 
 response = requests.get(
     url,

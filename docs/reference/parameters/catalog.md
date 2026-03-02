@@ -137,7 +137,7 @@ parameter_name: site_class
 
 left=0.0 right=15.0 value='E' color=None  
 left=15.0 right=50.0 value='D' color=None  
-left=50.0 right=inf value='C' color=None  
+left=50.0 right=None value='C' color=None  
 
 ### `average_bottom_depth`
 **symbol**: $z_{bottom}$  
@@ -182,7 +182,7 @@ left=0.0 right=180.0 value='E' color=None
 left=180.0 right=360.0 value='D' color=None  
 left=360.0 right=760.0 value='C' color=None  
 left=760.0 right=1500.0 value='B' color=None  
-left=1500.0 right=inf value='A' color=None  
+left=1500.0 right=None value='A' color=None  
 
 ### `average_shear_velocity_12m`
 **symbol**: $V_{s12}$  
@@ -216,7 +216,7 @@ parameter_name: site_class
 
 left=0.0 right=50.0 value='E' color=None  
 left=50.0 right=100.0 value='D' color=None  
-left=100.0 right=inf value='C' color=None  
+left=100.0 right=None value='C' color=None  
 
 ### `basic_influence_factor_i1`
 **symbol**: $I_1$  
@@ -338,9 +338,9 @@ left=100.0 right=inf value='C' color=None
 
 parameter_name: borehole_diameter_correction
 
-left=0.0 right=115.1 value=1 color=None  
+left=0.0 right=115.1 value=1.0 color=None  
 left=115.1 right=150.1 value=1.05 color=None  
-left=150.1 right=inf value=1.15 color=None  
+left=150.1 right=None value=1.15 color=None  
 
 ### `borehole_diameter_correction`
 **symbol**: $C_B$  
@@ -677,29 +677,29 @@ left=0.0 right=4.0 value='Very loose' color='gainsboro'
 left=4.0 right=10.0 value='Loose' color='lightgray'  
 left=10.0 right=30.0 value='Medium' color='silver'  
 left=30.0 right=50.0 value='Dense' color='darkgray'  
-left=50.0 right=inf value='Very dense' color='gray'  
+left=50.0 right=None value='Very dense' color='gray'  
 parameter_name: unit_weight.Coarse.Moist
 
 left=0.0 right=4.0 value=15.7 color=None  
 left=4.0 right=10.0 value=17.3 color=None  
 left=10.0 right=30.0 value=18.9 color=None  
-left=30.0 right=inf value=19.6 color=None  
+left=30.0 right=None value=19.6 color=None  
 parameter_name: unit_weight.Coarse.Saturated
 
 left=0.0 right=4.0 value=17.3 color=None  
 left=4.0 right=10.0 value=18.9 color=None  
 left=10.0 right=30.0 value=19.6 color=None  
-left=30.0 right=inf value=21.2 color=None  
+left=30.0 right=None value=21.2 color=None  
 parameter_name: unit_weight.Fine.Moist
 
 left=0.0 right=4.0 value=15.7 color=None  
 left=4.0 right=8.0 value=17.3 color=None  
-left=8.0 right=inf value=18.1 color=None  
+left=8.0 right=None value=18.1 color=None  
 parameter_name: unit_weight.Fine.Saturated
 
 left=0.0 right=4.0 value=17.3 color=None  
 left=4.0 right=8.0 value=18.9 color=None  
-left=8.0 right=inf value=19.6 color=None  
+left=8.0 right=None value=19.6 color=None  
 
 ### `corrected_cone_tip_resistance`
 **symbol**: $q_t$  
@@ -996,7 +996,7 @@ left=0.0 right=3.0 value=0.75 color=None
 left=3.0 right=4.0 value=0.8 color=None  
 left=4.0 right=6.0 value=0.85 color=None  
 left=6.0 right=10.0 value=0.95 color=None  
-left=10.0 right=inf value=1 color=None  
+left=10.0 right=None value=1.0 color=None  
 
 ### `depth_top`
 **symbol**: $z_{top}$  
@@ -1401,14 +1401,14 @@ left=0.0 right=10.0 value=1.0 color=None
 left=10.0 right=25.0 value=2.0 color=None  
 left=25.0 right=50.0 value=4.0 color=None  
 left=50.0 right=75.0 value=5.0 color=None  
-left=75.0 right=inf value=5.0 color=None  
+left=75.0 right=None value=5.0 color=None  
 parameter_name: normalized_cone_resistance_fines_inc
 
 left=0.0 right=10.0 value=10.0 color=None  
 left=10.0 right=25.0 value=25.0 color=None  
 left=25.0 right=50.0 value=45.0 color=None  
 left=50.0 right=75.0 value=55.0 color=None  
-left=75.0 right=inf value=55.0 color=None  
+left=75.0 right=None value=55.0 color=None  
 
 ### `fines_content_factor`
 **symbol**: $C_{FINES}$  
@@ -1685,7 +1685,7 @@ left=0.0 right=28.0 value='Very loose' color='gainsboro'
 left=28.0 right=30.0 value='Loose' color='lightgray'  
 left=30.0 right=36.0 value='Medium' color='silver'  
 left=36.0 right=41.0 value='Dense' color='darkgray'  
-left=41.0 right=inf value='Very dense' color='gray'  
+left=41.0 right=None value='Very dense' color='gray'  
 
 ### `friction_angle_bottom_layer`
 **symbol**: $ϕ_{bottom}$  
@@ -2203,7 +2203,7 @@ parameter_name: liquefaction_potential_index_label
 
 left=0.0 right=5.0 value='Low' color='yellow'  
 left=5.0 right=15.0 value='Moderate' color='orange'  
-left=15.0 right=inf value='High' color='red'  
+left=15.0 right=None value='High' color='red'  
 
 ### `liquefaction_potential_index_inc`
 **symbol**: $LPI_i$  
@@ -2257,7 +2257,7 @@ parameter_name: liquefaction_potential_index_sum_label
 
 left=0.0 right=5.0 value='Low' color='yellow'  
 left=5.0 right=15.0 value='Moderate' color='orange'  
-left=15.0 right=inf value='High' color='red'  
+left=15.0 right=None value='High' color='red'  
 
 ### `liquefaction_potential_index_sum_label`
 **symbol**: $ΣLPI_{label}$  
@@ -2354,7 +2354,7 @@ left=10.0 right=20.0 value='Minor' color='blue'
 left=20.0 right=30.0 value='Moderate' color='gold'  
 left=30.0 right=40.0 value='Moderate to severe' color='yellow'  
 left=40.0 right=50.0 value='Mayor' color='orange'  
-left=50.0 right=inf value='Severe damage' color='red'  
+left=50.0 right=None value='Severe damage' color='red'  
 
 ### `liquefaction_severity_number_inc`
 **symbol**: $LSN_i$  
@@ -2409,7 +2409,7 @@ left=10.0 right=20.0 value='Minor' color='blue'
 left=20.0 right=30.0 value='Moderate' color='gold'  
 left=30.0 right=40.0 value='Moderate to severe' color='yellow'  
 left=40.0 right=50.0 value='Mayor' color='orange'  
-left=50.0 right=inf value='Severe damage' color='red'  
+left=50.0 right=None value='Severe damage' color='red'  
 
 ### `liquefaction_severity_number_sum_label`
 **symbol**: $ΣLSN_{label}$  
@@ -2898,7 +2898,7 @@ left=0.0 right=3.0 value='Very loose' color='gainsboro'
 left=3.0 right=8.0 value='Loose' color='lightgray'  
 left=8.0 right=25.0 value='Medium' color='silver'  
 left=25.0 right=42.0 value='Dense' color='darkgray'  
-left=42.0 right=inf value='Very dense' color='gray'  
+left=42.0 right=None value='Very dense' color='gray'  
 
 ### `normalized_blow_count_fines_inc`
 **symbol**: $ΔN_{160}$  
@@ -3158,7 +3158,7 @@ left=0.0 right=1.0 value='UC' color='gainsboro'
 left=1.0 right=1.2 value='NC' color='lightgray'  
 left=1.2 right=4.0 value='LOC' color='silver'  
 left=4.0 right=10.0 value='MOC' color='darkgray'  
-left=10.0 right=inf value='HOC' color='gray'  
+left=10.0 right=None value='HOC' color='gray'  
 
 ### `overconsolidation_ratio_factor`
 **symbol**: $k$  
@@ -3414,7 +3414,7 @@ left=0.0 right=1e-09 value='Impermeable' color='gainsboro'
 left=1e-09 right=1e-07 value='Very low' color='lightgray'  
 left=1e-07 right=1e-05 value='Low' color='silver'  
 left=1e-05 right=0.001 value='Medium' color='darkgray'  
-left=0.001 right=inf value='High' color='gray'  
+left=0.001 right=None value='High' color='gray'  
 
 ### `pile_area_ratio`
 **symbol**: $R_A$  
@@ -4085,7 +4085,7 @@ left=0.0 right=15.0 value='Very loose' color='gainsboro'
 left=15.0 right=35.0 value='Loose' color='lightgray'  
 left=35.0 right=65.0 value='Medium' color='silver'  
 left=65.0 right=85.0 value='Dense' color='darkgray'  
-left=85.0 right=inf value='Very dense' color='gray'  
+left=85.0 right=None value='Very dense' color='gray'  
 
 ### `relative_density_constant`
 **symbol**: $k_{D_r}$  
@@ -4788,7 +4788,7 @@ left=15.0 right=19.0 value='5' color='#213b69'
 left=19.0 right=31.0 value='4' color='#42577d'  
 left=31.0 right=70.0 value='3' color='#61d961'  
 left=70.0 right=90.0 value='2' color='#D19C00'  
-left=90.0 right=inf value='1' color='#FF8A3B'  
+left=90.0 right=None value='1' color='#FF8A3B'  
 parameter_name: soil_classification_index_uscs_symbol
 
 left=0.0 right=15.0 value='OL,OH,Pt' color='#9e3300'  
@@ -4796,7 +4796,7 @@ left=15.0 right=19.0 value='MH,CH' color='#213b69'
 left=19.0 right=31.0 value='ML,CL' color='#42577d'  
 left=31.0 right=70.0 value='SM,SC,GM,GC' color='#61d961'  
 left=70.0 right=90.0 value='SP-SM,SP-SC' color='#D19C00'  
-left=90.0 right=inf value='SP,SW' color='#FF8A3B'  
+left=90.0 right=None value='SP,SW' color='#FF8A3B'  
 
 ### `soil_classification_index_label`
 **symbol**: $ΔQ_{label}$  
@@ -5558,7 +5558,7 @@ left=12.5 right=25.0 value='Soft' color='lightgray'
 left=25.0 right=50.0 value='Medium' color='silver'  
 left=50.0 right=100.0 value='Stiff' color='darkgray'  
 left=100.0 right=200.0 value='Very stiff' color='gray'  
-left=200.0 right=inf value='Hard' color='dimgray'  
+left=200.0 right=None value='Hard' color='dimgray'  
 
 ### `undrained_shear_strength_bottom_layer`
 **symbol**: $S_{u\ bottom}$  

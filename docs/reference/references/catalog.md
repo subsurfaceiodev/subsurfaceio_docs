@@ -1269,18 +1269,18 @@
 ### `2020SciPy-NMeth`
 **title**: SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python  
 **author**: Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and
-Haberland, Matt and Reddy, Tyler and Cournapeau, David and
-Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and
-Bright, Jonathan and {van der Walt}, Stéfan J. and
-Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and
-Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and
-Kern, Robert and Larson, Eric and Carey, C J and
-Polat, İlhan and Feng, Yu and Moore, Eric W. and
-{VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and
-Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and
-Harris, Charles R. and Archibald, Anne M. and
-Ribeiro, Antônio H. and Pedregosa, Fabian and
-{van Mulbregt}, Paul and {SciPy 1.0 Contributors  
+ Haberland, Matt and Reddy, Tyler and Cournapeau, David and
+ Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and
+ Bright, Jonathan and {van der Walt}, Stéfan J. and
+ Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and
+ Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and
+ Kern, Robert and Larson, Eric and Carey, C J and
+ Polat, İlhan and Feng, Yu and Moore, Eric W. and
+            {VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and
+ Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and
+ Harris, Charles R. and Archibald, Anne M. and
+ Ribeiro, Antônio H. and Pedregosa, Fabian and
+            {van Mulbregt}, Paul and {SciPy 1.0 Contributors  
 **year**: 2020  
 **link**: [https://doi.org/10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2){:target="_blank"}
     
