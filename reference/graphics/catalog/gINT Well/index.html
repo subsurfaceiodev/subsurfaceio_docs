@@ -1,0 +1,3692 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="SubSurface.io is a multipurpose web application suite designed to estimate geotechnical, structural and earthquake engineering parameters automatically">
+      
+      
+      
+        <link rel="canonical" href="https://docs.subsurfaceio.app/reference/graphics/catalog/gINT%20Well/">
+      
+      
+        <link rel="prev" href="../gINT%20Sampler/">
+      
+      
+        <link rel="next" href="../../../models/footing_foundation/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="https://www.subsurfaceio.app/dash/assets/logo_vector.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>gINT Well - SubSurface.io</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="SubSurface.io" class="md-header__button md-logo" aria-label="SubSurface.io" data-md-component="logo">
+      
+  <img src="https://www.subsurfaceio.app/dash/assets/logo_vector.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SubSurface.io
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              gINT Well
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  SubSurface.io
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../examples/api/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Examples
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../base_data/graphics/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Reference
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="SubSurface.io" class="md-nav__button md-logo" aria-label="SubSurface.io" data-md-component="logo">
+      
+  <img src="https://www.subsurfaceio.app/dash/assets/logo_vector.svg" alt="logo">
+
+    </a>
+    SubSurface.io
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SubSurface.io
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examples
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Examples
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../examples/api/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../examples/api/in_situ_test_interpretation_cpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In situ test interpretation CPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../examples/api/in_situ_test_interpretation_dmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In situ test interpretation DMT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../examples/api/parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parameters info
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../examples/api/parametric_calculation_cpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parametric calculation CPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../examples/api/parametric_calculation_dmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parametric calculation DMT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../examples/api/plot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../examples/api/soil_classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calculate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base data
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../base_data/graphics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graphics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../base_data/tiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tiles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Function sequences
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Function sequences
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../function-sequences/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../function-sequences/models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../functions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Functions
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    base.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/cpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    cpt.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/dmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    dmt.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/footing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    footing.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/liquefaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    liquefaction.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/pile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pile.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/site_class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    site_class.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/site_design_spectra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    site_design_spectra.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/soil_classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    soil_classification.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/soil_lab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    soil_lab.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/spt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    spt.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/ssi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ssi.py
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graphics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Graphics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Catalog
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USGS%20Metamorphic%20lithology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USGS Metamorphic lithology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USGS%20Sedimentary%20lithology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USGS Sedimentary lithology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gINT%20Material/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    gINT Material
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gINT%20Sampler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    gINT Sampler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    gINT Well
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Models
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Models
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../models/footing_foundation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Footing foundation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../models/pile_foundation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pile foundation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../models/site_design_spectra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site design spectra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../models/soil_classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Soil classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parameters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Parameters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../parameters/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../parameters/literals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference-figures/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference data
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference_data/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    References
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../references/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tiles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tiles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tiles/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tiles/models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    SubSurface.io
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../../base_data/graphics/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Reference
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../models/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Graphics
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../USGS%20Metamorphic%20lithology/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Catalog
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>gINT Well</h1>
+
+<style>
+.graphic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+    align-items: start;
+}
+
+.graphic-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.graphic-item img {
+  border: 0.5px dashed grey;
+}
+.graphic-item .graphic-name {
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+  color: var(--md-default-fg-color--light);
+  word-break: break-all;
+}
+.graphic-item .graphic-description {
+  font-size: 0.4rem;
+  margin-top: 0.1rem;
+  color: var(--md-default-fg-color--light);
+  word-break: break-all;
+}
+
+</style>
+
+<div class="graphic-grid">
+
+<div class="graphic-item">
+<div class="graphic-name">BENT11</div>
+<div class="graphic-description">Bentonite Seal:  1 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/BENT11.svg" alt="BENT11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT21</div>
+<div class="graphic-description">Bentonite Seal:  2 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/BENT21.svg" alt="BENT21">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT22</div>
+<div class="graphic-description">Bentonite Seal:  2 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT22.svg" alt="BENT22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT31</div>
+<div class="graphic-description">Bentonite Seal:  3 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/BENT31.svg" alt="BENT31">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT32</div>
+<div class="graphic-description">Bentonite Seal:  3 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT32.svg" alt="BENT32">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT33</div>
+<div class="graphic-description">Bentonite Seal:  3 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT33.svg" alt="BENT33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT41</div>
+<div class="graphic-description">Bentonite Seal:  4 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/BENT41.svg" alt="BENT41">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT42</div>
+<div class="graphic-description">Bentonite Seal:  4 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT42.svg" alt="BENT42">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT43</div>
+<div class="graphic-description">Bentonite Seal:  4 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT43.svg" alt="BENT43">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT44</div>
+<div class="graphic-description">Bentonite Seal:  4 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT44.svg" alt="BENT44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT51</div>
+<div class="graphic-description">Bentonite Seal:  5 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT51.svg" alt="BENT51">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT52</div>
+<div class="graphic-description">Bentonite Seal:  5 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT52.svg" alt="BENT52">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT53</div>
+<div class="graphic-description">Bentonite Seal:  5 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT53.svg" alt="BENT53">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT54</div>
+<div class="graphic-description">Bentonite Seal:  5 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT54.svg" alt="BENT54">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT55</div>
+<div class="graphic-description">Bentonite Seal:  5 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT55.svg" alt="BENT55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT61</div>
+<div class="graphic-description">Bentonite Seal:  6 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT61.svg" alt="BENT61">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT62</div>
+<div class="graphic-description">Bentonite Seal:  6 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT62.svg" alt="BENT62">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT63</div>
+<div class="graphic-description">Bentonite Seal:  6 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT63.svg" alt="BENT63">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT64</div>
+<div class="graphic-description">Bentonite Seal:  6 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT64.svg" alt="BENT64">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT65</div>
+<div class="graphic-description">Bentonite Seal:  6 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT65.svg" alt="BENT65">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENT66</div>
+<div class="graphic-description">Bentonite Seal:  6 pipe group, 6 pipes</div>
+<img src="/assets/graphics/gINT Well/BENT66.svg" alt="BENT66">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BENTBOTT</div>
+<div class="graphic-description">Bentonite:  Bottom of hole</div>
+<img src="/assets/graphics/gINT Well/BENTBOTT.svg" alt="BENTBOTT">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">BLANK</div>
+<div class="graphic-description">Blank section</div>
+<img src="/assets/graphics/gINT Well/BLANK.svg" alt="BLANK">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CAPPED RISER 1</div>
+<div class="graphic-description">Capped Riser:  1 pipe group</div>
+<img src="/assets/graphics/gINT Well/CAPPED RISER 1.svg" alt="CAPPED RISER 1">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CAPPED RISER 2</div>
+<div class="graphic-description">Capped Riser:  2 pipe group</div>
+<img src="/assets/graphics/gINT Well/CAPPED RISER 2.svg" alt="CAPPED RISER 2">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CAPPED RISER 3</div>
+<div class="graphic-description">Capped Riser:  3 pipe group</div>
+<img src="/assets/graphics/gINT Well/CAPPED RISER 3.svg" alt="CAPPED RISER 3">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CAPPED RISER 4</div>
+<div class="graphic-description">Capped Riser:  4 pipe group</div>
+<img src="/assets/graphics/gINT Well/CAPPED RISER 4.svg" alt="CAPPED RISER 4">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CAPPED RISER 5</div>
+<div class="graphic-description">Capped Riser:  5 pipe group</div>
+<img src="/assets/graphics/gINT Well/CAPPED RISER 5.svg" alt="CAPPED RISER 5">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CAPPED RISER 6</div>
+<div class="graphic-description">Capped Riser:  6 pipe group</div>
+<img src="/assets/graphics/gINT Well/CAPPED RISER 6.svg" alt="CAPPED RISER 6">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT11</div>
+<div class="graphic-description">Cement Seal:  1 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/CMNT11.svg" alt="CMNT11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT21</div>
+<div class="graphic-description">Cement Seal:  2 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/CMNT21.svg" alt="CMNT21">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT22</div>
+<div class="graphic-description">Cement Seal:  2 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT22.svg" alt="CMNT22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT31</div>
+<div class="graphic-description">Cement Seal:  3 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/CMNT31.svg" alt="CMNT31">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT32</div>
+<div class="graphic-description">Cement Seal:  3 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT32.svg" alt="CMNT32">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT33</div>
+<div class="graphic-description">Cement Seal:  3 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT33.svg" alt="CMNT33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT41</div>
+<div class="graphic-description">Cement Seal:  4 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/CMNT41.svg" alt="CMNT41">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT42</div>
+<div class="graphic-description">Cement Seal:  4 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT42.svg" alt="CMNT42">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT43</div>
+<div class="graphic-description">Cement Seal:  4 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT43.svg" alt="CMNT43">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT44</div>
+<div class="graphic-description">Cement Seal:  4 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT44.svg" alt="CMNT44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT51</div>
+<div class="graphic-description">Cement Seal:  5 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT51.svg" alt="CMNT51">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT52</div>
+<div class="graphic-description">Cement Seal:  5 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT52.svg" alt="CMNT52">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT53</div>
+<div class="graphic-description">Cement Seal:  5 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT53.svg" alt="CMNT53">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT54</div>
+<div class="graphic-description">Cement Seal:  5 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT54.svg" alt="CMNT54">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT55</div>
+<div class="graphic-description">Cement Seal:  5 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT55.svg" alt="CMNT55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT61</div>
+<div class="graphic-description">Cement Seal:  6 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT61.svg" alt="CMNT61">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT62</div>
+<div class="graphic-description">Cement Seal:  6 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT62.svg" alt="CMNT62">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT63</div>
+<div class="graphic-description">Cement Seal:  6 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT63.svg" alt="CMNT63">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT64</div>
+<div class="graphic-description">Cement Seal:  6 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT64.svg" alt="CMNT64">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT65</div>
+<div class="graphic-description">Cement Seal:  6 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT65.svg" alt="CMNT65">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNT66</div>
+<div class="graphic-description">Cement Seal:  6 pipe group, 6 pipes</div>
+<img src="/assets/graphics/gINT Well/CMNT66.svg" alt="CMNT66">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">CMNTBOTT</div>
+<div class="graphic-description">Cement:  Bottom of hole</div>
+<img src="/assets/graphics/gINT Well/CMNTBOTT.svg" alt="CMNTBOTT">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT11</div>
+<div class="graphic-description">Filter Pack:  1 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/FILT11.svg" alt="FILT11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT21</div>
+<div class="graphic-description">Filter Pack:  2 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/FILT21.svg" alt="FILT21">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT22</div>
+<div class="graphic-description">Filter Pack:  2 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT22.svg" alt="FILT22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT31</div>
+<div class="graphic-description">Filter Pack:  3 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/FILT31.svg" alt="FILT31">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT32</div>
+<div class="graphic-description">Filter Pack:  3 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT32.svg" alt="FILT32">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT33</div>
+<div class="graphic-description">Filter Pack:  3 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT33.svg" alt="FILT33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT41</div>
+<div class="graphic-description">Filter Pack:  4 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/FILT41.svg" alt="FILT41">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT42</div>
+<div class="graphic-description">Filter Pack:  4 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT42.svg" alt="FILT42">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT43</div>
+<div class="graphic-description">Filter Pack:  4 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT43.svg" alt="FILT43">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT44</div>
+<div class="graphic-description">Filter Pack:  4 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT44.svg" alt="FILT44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT51</div>
+<div class="graphic-description">Filter Pack:  5 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT51.svg" alt="FILT51">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT52</div>
+<div class="graphic-description">Filter Pack:  5 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT52.svg" alt="FILT52">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT53</div>
+<div class="graphic-description">Filter Pack:  5 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT53.svg" alt="FILT53">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT54</div>
+<div class="graphic-description">Filter Pack:  5 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT54.svg" alt="FILT54">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT55</div>
+<div class="graphic-description">Filter Pack:  5 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT55.svg" alt="FILT55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT61</div>
+<div class="graphic-description">Filter Pack:  6 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT61.svg" alt="FILT61">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT62</div>
+<div class="graphic-description">Filter Pack:  6 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT62.svg" alt="FILT62">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT63</div>
+<div class="graphic-description">Filter Pack:  6 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT63.svg" alt="FILT63">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT64</div>
+<div class="graphic-description">Filter Pack:  6 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT64.svg" alt="FILT64">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT65</div>
+<div class="graphic-description">Filter Pack:  6 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT65.svg" alt="FILT65">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILT66</div>
+<div class="graphic-description">Filter Pack:  6 pipe group, 6 pipes</div>
+<img src="/assets/graphics/gINT Well/FILT66.svg" alt="FILT66">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">FILTBOTT</div>
+<div class="graphic-description">Filter Pack:  Bottom of hole</div>
+<img src="/assets/graphics/gINT Well/FILTBOTT.svg" alt="FILTBOTT">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">NOBACKFILL11</div>
+<div class="graphic-description">No Backfill (just pipe):  1 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/NOBACKFILL11.svg" alt="NOBACKFILL11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">NOBACKFILL22</div>
+<div class="graphic-description">No Backfill (just pipe):  2 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/NOBACKFILL22.svg" alt="NOBACKFILL22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">NOBACKFILL33</div>
+<div class="graphic-description">No Backfill (just pipe):  3 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/NOBACKFILL33.svg" alt="NOBACKFILL33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">NOBACKFILL44</div>
+<div class="graphic-description">No Backfill (just pipe):  4 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/NOBACKFILL44.svg" alt="NOBACKFILL44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">NOBACKFILL55</div>
+<div class="graphic-description">No Backfill (just pipe):  5 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/NOBACKFILL55.svg" alt="NOBACKFILL55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">NOBACKFILL66</div>
+<div class="graphic-description">No Backfill (just pipe):  6 pipe group, 6 pipes</div>
+<img src="/assets/graphics/gINT Well/NOBACKFILL66.svg" alt="NOBACKFILL66">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP11</div>
+<div class="graphic-description">Pipe Cap:  1 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/PCAP11.svg" alt="PCAP11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP21</div>
+<div class="graphic-description">Pipe Cap:  2 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/PCAP21.svg" alt="PCAP21">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP22</div>
+<div class="graphic-description">Pipe Cap:  2 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP22.svg" alt="PCAP22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP31</div>
+<div class="graphic-description">Pipe Cap:  3 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP31.svg" alt="PCAP31">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP32</div>
+<div class="graphic-description">Pipe Cap:  3 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP32.svg" alt="PCAP32">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP33</div>
+<div class="graphic-description">Pipe Cap:  3 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP33.svg" alt="PCAP33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP41</div>
+<div class="graphic-description">Pipe Cap:  4 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/PCAP41.svg" alt="PCAP41">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP42</div>
+<div class="graphic-description">Pipe Cap:  4 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP42.svg" alt="PCAP42">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP43</div>
+<div class="graphic-description">Pipe Cap:  4 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP43.svg" alt="PCAP43">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP44</div>
+<div class="graphic-description">Pipe Cap:  4 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP44.svg" alt="PCAP44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP51</div>
+<div class="graphic-description">Pipe Cap:  5 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP51.svg" alt="PCAP51">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP52</div>
+<div class="graphic-description">Pipe Cap:  5 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP52.svg" alt="PCAP52">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP53</div>
+<div class="graphic-description">Pipe Cap:  5 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP53.svg" alt="PCAP53">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP54</div>
+<div class="graphic-description">Pipe Cap:  5 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP54.svg" alt="PCAP54">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP55</div>
+<div class="graphic-description">Pipe Cap:  5 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP55.svg" alt="PCAP55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP61</div>
+<div class="graphic-description">Pipe Cap:  6 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP61.svg" alt="PCAP61">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP62</div>
+<div class="graphic-description">Pipe Cap:  6 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP62.svg" alt="PCAP62">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP63</div>
+<div class="graphic-description">Pipe Cap:  6 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP63.svg" alt="PCAP63">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP64</div>
+<div class="graphic-description">Pipe Cap:  6 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP64.svg" alt="PCAP64">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP65</div>
+<div class="graphic-description">Pipe Cap:  6 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP65.svg" alt="PCAP65">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PCAP66</div>
+<div class="graphic-description">Pipe Cap:  6 pipe group, 6 pipes</div>
+<img src="/assets/graphics/gINT Well/PCAP66.svg" alt="PCAP66">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">PROTECTIVE CASING</div>
+<div class="graphic-description">None</div>
+<img src="/assets/graphics/gINT Well/PROTECTIVE CASING.svg" alt="PROTECTIVE CASING">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT11</div>
+<div class="graphic-description">Slotted Pipe:  1 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLOT11.svg" alt="SLOT11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT21</div>
+<div class="graphic-description">Slotted Pipe:  2 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLOT21.svg" alt="SLOT21">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT22</div>
+<div class="graphic-description">Slotted Pipe:  2 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT22.svg" alt="SLOT22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT31</div>
+<div class="graphic-description">Slotted Pipe:  3 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLOT31.svg" alt="SLOT31">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT32</div>
+<div class="graphic-description">Slotted Pipe:  3 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT32.svg" alt="SLOT32">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT33</div>
+<div class="graphic-description">Slotted Pipe:  3 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT33.svg" alt="SLOT33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT41</div>
+<div class="graphic-description">Slotted Pipe:  4 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT41.svg" alt="SLOT41">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT42</div>
+<div class="graphic-description">Slotted Pipe:  4 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT42.svg" alt="SLOT42">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT43</div>
+<div class="graphic-description">Slotted Pipe:  4 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT43.svg" alt="SLOT43">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT44</div>
+<div class="graphic-description">Slotted Pipe:  4 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT44.svg" alt="SLOT44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT51</div>
+<div class="graphic-description">Slotted Pipe:  5 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT51.svg" alt="SLOT51">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT52</div>
+<div class="graphic-description">Slotted Pipe:  5 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT52.svg" alt="SLOT52">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT53</div>
+<div class="graphic-description">Slotted Pipe:  5 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT53.svg" alt="SLOT53">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT54</div>
+<div class="graphic-description">Slotted Pipe:  5 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT54.svg" alt="SLOT54">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT55</div>
+<div class="graphic-description">Slotted Pipe:  5 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT55.svg" alt="SLOT55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT61</div>
+<div class="graphic-description">Slotted Pipe:  6 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT61.svg" alt="SLOT61">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT62</div>
+<div class="graphic-description">Slotted Pipe:  6 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT62.svg" alt="SLOT62">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT63</div>
+<div class="graphic-description">Slotted Pipe:  6 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT63.svg" alt="SLOT63">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT64</div>
+<div class="graphic-description">Slotted Pipe:  6 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT64.svg" alt="SLOT64">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT65</div>
+<div class="graphic-description">Slotted Pipe:  6 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT65.svg" alt="SLOT65">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLOT66</div>
+<div class="graphic-description">Slotted Pipe:  6 pipe group, 6 pipes</div>
+<img src="/assets/graphics/gINT Well/SLOT66.svg" alt="SLOT66">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF11</div>
+<div class="graphic-description">Slough Backfill:  1 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLUF11.svg" alt="SLUF11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF21</div>
+<div class="graphic-description">Slough Backfill:  2 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLUF21.svg" alt="SLUF21">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF22</div>
+<div class="graphic-description">Slough Backfill:  2 pipe group, 2 pipe</div>
+<img src="/assets/graphics/gINT Well/SLUF22.svg" alt="SLUF22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF31</div>
+<div class="graphic-description">Slough Backfill:  3 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLUF31.svg" alt="SLUF31">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF32</div>
+<div class="graphic-description">Slough Backfill:  3 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF32.svg" alt="SLUF32">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF33</div>
+<div class="graphic-description">Slough Backfill:  3 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF33.svg" alt="SLUF33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF41</div>
+<div class="graphic-description">Slough Backfill:  4 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLUF41.svg" alt="SLUF41">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF42</div>
+<div class="graphic-description">Slough Backfill:  4 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF42.svg" alt="SLUF42">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF43</div>
+<div class="graphic-description">Slough Backfill:  4 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF43.svg" alt="SLUF43">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF44</div>
+<div class="graphic-description">Slough Backfill:  4 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF44.svg" alt="SLUF44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF51</div>
+<div class="graphic-description">Slough Backfill:  5 pipe group, 1 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF51.svg" alt="SLUF51">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF52</div>
+<div class="graphic-description">Slough Backfill:  5 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF52.svg" alt="SLUF52">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF53</div>
+<div class="graphic-description">Slough Backfill:  5 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF53.svg" alt="SLUF53">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF54</div>
+<div class="graphic-description">Slough Backfill:  5 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF54.svg" alt="SLUF54">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF55</div>
+<div class="graphic-description">Slough Backfill:  5 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF55.svg" alt="SLUF55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF61</div>
+<div class="graphic-description">Slough Backfill:  6 pipe group, 1 pipe</div>
+<img src="/assets/graphics/gINT Well/SLUF61.svg" alt="SLUF61">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF62</div>
+<div class="graphic-description">Slough Backfill:  6 pipe group, 2 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF62.svg" alt="SLUF62">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF63</div>
+<div class="graphic-description">Slough Backfill:  6 pipe group, 3 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF63.svg" alt="SLUF63">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF64</div>
+<div class="graphic-description">Slough Backfill:  6 pipe group, 4 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF64.svg" alt="SLUF64">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF65</div>
+<div class="graphic-description">Slough Backfill:  6 pipe group, 5 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF65.svg" alt="SLUF65">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUF66</div>
+<div class="graphic-description">Slough Backfill:  6 pipe group, 6 pipes</div>
+<img src="/assets/graphics/gINT Well/SLUF66.svg" alt="SLUF66">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">SLUFBOTT</div>
+<div class="graphic-description">Slough at bottom of hole</div>
+<img src="/assets/graphics/gINT Well/SLUFBOTT.svg" alt="SLUFBOTT">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP11</div>
+<div class="graphic-description">Top Cap:  1 pipe group, 1st pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP11.svg" alt="TCAP11">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP21</div>
+<div class="graphic-description">Top Cap:  2 pipe group, 1st pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP21.svg" alt="TCAP21">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP22</div>
+<div class="graphic-description">Top Cap:  2 pipe group, 2nd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP22.svg" alt="TCAP22">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP31</div>
+<div class="graphic-description">Top Cap:  3 pipe group, 1st pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP31.svg" alt="TCAP31">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP32</div>
+<div class="graphic-description">Top Cap:  3 pipe group, 2nd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP32.svg" alt="TCAP32">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP33</div>
+<div class="graphic-description">Top Cap:  3 pipe group, 3rd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP33.svg" alt="TCAP33">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP41</div>
+<div class="graphic-description">Top Cap:  4 pipe group, 1st pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP41.svg" alt="TCAP41">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP42</div>
+<div class="graphic-description">Top Cap:  4 pipe group, 2nd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP42.svg" alt="TCAP42">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP43</div>
+<div class="graphic-description">Top Cap:  4 pipe group, 3rd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP43.svg" alt="TCAP43">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP44</div>
+<div class="graphic-description">Top Cap:  4 pipe group, 4th pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP44.svg" alt="TCAP44">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP51</div>
+<div class="graphic-description">Top Cap:  5 pipe group, 1st pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP51.svg" alt="TCAP51">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP52</div>
+<div class="graphic-description">Top Cap:  5 pipe group, 2nd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP52.svg" alt="TCAP52">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP53</div>
+<div class="graphic-description">Top Cap:  5 pipe group, 3rd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP53.svg" alt="TCAP53">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP54</div>
+<div class="graphic-description">Top Cap:  5 pipe group, 4th pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP54.svg" alt="TCAP54">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP55</div>
+<div class="graphic-description">Top Cap:  5 pipe group, 5th pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP55.svg" alt="TCAP55">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP61</div>
+<div class="graphic-description">Top Cap:  6 pipe group, 1st pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP61.svg" alt="TCAP61">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP62</div>
+<div class="graphic-description">Top Cap:  6 pipe group, 2nd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP62.svg" alt="TCAP62">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP63</div>
+<div class="graphic-description">Top Cap:  6 pipe group, 3rd pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP63.svg" alt="TCAP63">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP64</div>
+<div class="graphic-description">Top Cap:  6 pipe group, 4th pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP64.svg" alt="TCAP64">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP65</div>
+<div class="graphic-description">Top Cap:  6 pipe group, 5th pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP65.svg" alt="TCAP65">
+</div>
+
+<div class="graphic-item">
+<div class="graphic-name">TCAP66</div>
+<div class="graphic-description">Top Cap:  6 pipe group, 6th pipe</div>
+<img src="/assets/graphics/gINT Well/TCAP66.svg" alt="TCAP66">
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../gINT%20Sampler/" class="md-footer__link md-footer__link--prev" aria-label="Previous: gINT Sampler">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                gINT Sampler
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../../models/footing_foundation/" class="md-footer__link md-footer__link--next" aria-label="Next: Footing foundation">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Footing foundation
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
