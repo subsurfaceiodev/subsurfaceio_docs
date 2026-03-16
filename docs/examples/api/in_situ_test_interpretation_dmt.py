@@ -21,7 +21,7 @@ def get_results():
     )
 
     response = requests.post(
-        f'{base_url}/calculate',
+        f'{base_url}/function-sequence',
         params=params,
         json=data,
     )
