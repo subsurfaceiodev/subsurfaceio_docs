@@ -61,7 +61,7 @@ def plot_results(data):
 base_url = 'https://www.subsurfaceio.app'
 
 basic_data = pd.read_csv(
-    f'{base_url}/dash/assets/CPTU-1.csv',
+    'https://docs.subsurfaceio.app/assets/CPTU-1.csv',
     skiprows=9,
     nrows=280
 )

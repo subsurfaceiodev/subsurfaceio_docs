@@ -36,7 +36,7 @@ def get_results(**kwargs):
 base_url = 'https://www.subsurfaceio.app'
 
 basic_data = pd.read_csv(
-    f'{base_url}/dash/assets/DMT-1_data.csv',
+    'https://docs.subsurfaceio.app/assets/DMT-1_data.csv',
 )
 
 basic_data = basic_data.replace({np.nan: None})
