@@ -7,7 +7,7 @@ symbol *, pattern * {
 }
 </style>
 <defs>
-  <pattern id="gint_LINEHRZ02" patternUnits="userSpaceOnUse" x="0" y="0" width="100.0" height="6.6142" viewBox="0 0 37.7953 6.6142" preserveAspectRatio="none">
+  <pattern id="gint_LINEHRZ02_w100" patternUnits="userSpaceOnUse" x="0" y="0" width="100.0" height="6.6142" viewBox="0 0 37.7953 6.6142" preserveAspectRatio="none">
   <svg width="37.795" height="6.6142" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <polyline points="0 0 37.795 0" fill="none" stroke="#000"/>
    <polyline points="0 2.2677 37.795 2.2677" fill="none" stroke="#000"/>
@@ -16,7 +16,7 @@ symbol *, pattern * {
 </defs>
 <g class="tile-block" opacity="0.999">
   <g transform="scale(1.0)">
-    <rect fill="url(#gint_LINEHRZ02)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+    <rect fill="url(#gint_LINEHRZ02_w100)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
   </g>
 </g>
 </svg>

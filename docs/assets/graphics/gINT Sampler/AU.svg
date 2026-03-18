@@ -7,7 +7,7 @@ symbol *, pattern * {
 }
 </style>
 <defs>
-  <pattern id="gint_AUGER01" patternUnits="userSpaceOnUse" x="0" y="0" width="100.0" height="48.0" viewBox="0 0 48.0 48.0" preserveAspectRatio="none">
+  <pattern id="gint_AUGER01_w100" patternUnits="userSpaceOnUse" x="0" y="0" width="100.0" height="48.0" viewBox="0 0 48.0 48.0" preserveAspectRatio="none">
   <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <polygon points="16.8 48 31.2 48 31.2 0 16.8 0" stroke="#000"/>
    <polygon points="35.424 14.4 36 12 35.424 9.6" stroke="#000"/>
@@ -25,7 +25,7 @@ symbol *, pattern * {
 </defs>
 <g class="tile-block" opacity="0.999">
   <g transform="scale(1.0)">
-    <rect fill="url(#gint_AUGER01)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+    <rect fill="url(#gint_AUGER01_w100)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
   </g>
 </g>
 </svg>

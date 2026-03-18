@@ -7,7 +7,7 @@ symbol *, pattern * {
 }
 </style>
 <defs>
-  <pattern id="gint_MISC05" patternUnits="userSpaceOnUse" x="0" y="0" width="100.0" height="37.7953" viewBox="0 0 37.7953 37.7953" preserveAspectRatio="none">
+  <pattern id="gint_MISC05_w100" patternUnits="userSpaceOnUse" x="0" y="0" width="100.0" height="37.7953" viewBox="0 0 37.7953 37.7953" preserveAspectRatio="none">
   <svg width="37.795" height="37.795" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <polygon points="7.5704 15.877 0.018898 18.898 3.7946 20.786" stroke="#000"/>
    <polygon points="9.4583 9.4583 0.018898 15.122 7.5704 15.877" stroke="#000"/>
@@ -32,7 +32,7 @@ symbol *, pattern * {
 </defs>
 <g class="tile-block" opacity="0.999">
   <g transform="scale(1.0)">
-    <rect fill="url(#gint_MISC05)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+    <rect fill="url(#gint_MISC05_w100)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
   </g>
 </g>
 </svg>

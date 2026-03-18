@@ -12,7 +12,7 @@ symbol *, pattern * {
    <polyline points="0 4.8 4.8 0" fill="none" stroke="#000"/>
   </svg>
   </pattern>
-  <pattern id="gint_LINEVRT01" patternUnits="userSpaceOnUse" x="0" y="0" width="4.8" height="100.0" viewBox="0 0 4.8 96.0" preserveAspectRatio="none">
+  <pattern id="gint_LINEVRT01_h100" patternUnits="userSpaceOnUse" x="0" y="0" width="4.8" height="100.0" viewBox="0 0 4.8 96.0" preserveAspectRatio="none">
   <svg width="4.8" height="96" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <polyline points="4.8 96 4.8 0" fill="none" stroke="#000"/>
   </svg>
@@ -25,7 +25,7 @@ symbol *, pattern * {
 </g>
 <g class="tile-block" opacity="0.999">
   <g transform="scale(1.0)">
-    <rect fill="url(#gint_LINEVRT01)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+    <rect fill="url(#gint_LINEVRT01_h100)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
   </g>
 </g>
 </svg>

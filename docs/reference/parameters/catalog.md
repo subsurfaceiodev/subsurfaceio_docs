@@ -1299,7 +1299,7 @@ left=10.0 right=None value=1.0 color=None
 **symbol**: $\text{elevation}$  
 **label**: Elevation  
 **unit**: m  
-**description**: Elevation of ground surface or soil layer bottom depth  
+**description**: Elevation of soil layer bottom depth  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
@@ -4232,11 +4232,16 @@ value='High' value_secondary='Gravel' color='gray'
 #### discrete_data
 is_categorical: False
 
+value='AU' value_secondary=None color=None  
 value='GB' value_secondary=None color=None  
-value='SPT' value_secondary=None color=None  
-value='ST' value_secondary=None color=None  
+value='MC' value_secondary=None color=None  
+value='NR' value_secondary=None color=None  
 value='RC' value_secondary=None color=None  
+value='SPT' value_secondary=None color=None  
 value='SS' value_secondary=None color=None  
+value='ST' value_secondary=None color=None  
+value='UD' value_secondary=None color=None  
+value='VA' value_secondary=None color=None  
 
 ### `sand_fineness`
 **symbol**: $\text{sand\_fineness}$  

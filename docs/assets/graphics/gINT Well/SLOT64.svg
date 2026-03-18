@@ -69,7 +69,7 @@ symbol *, pattern * {
    <line x1="6.096" x2="5.616" y1="2.88" y2="3.36" stroke="#000"/>
   </svg>
   </pattern>
-  <pattern id="gint_LINEHRZ01" patternUnits="userSpaceOnUse" x="0" y="0" width="10.0" height="9.6" viewBox="0 0 96.0 9.6" preserveAspectRatio="none">
+  <pattern id="gint_LINEHRZ01_w10" patternUnits="userSpaceOnUse" x="0" y="0" width="10.0" height="9.6" viewBox="0 0 96.0 9.6" preserveAspectRatio="none">
   <svg width="96" height="9.6" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <polyline points="0 0 96 0" fill="none" stroke="#000"/>
   </svg>
@@ -87,7 +87,7 @@ symbol *, pattern * {
 </g>
 <g class="tile-block" opacity="0.999">
   <g transform="scale(0.5)">
-    <rect fill="url(#gint_LINEHRZ01)" stroke="none" x="80.0%" width="10.0%" height="200.0%"/>
+    <rect fill="url(#gint_LINEHRZ01_w10)" stroke="none" x="80.0%" width="10.0%" height="200.0%"/>
   </g>
 </g>
 <g class="tile-block" opacity="0.999">
