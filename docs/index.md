@@ -1,6 +1,6 @@
 # SubSurface.io
 
-![Logo](https://www.subsurfaceio.app/dash/assets/logo_vector.svg){ width="300" }
+![Logo](https://docs.subsurfaceio.app/assets/logo_vector.svg){ width="300" }
 /// caption
 SubSurface.io is a multipurpose web application suite designed to estimate geotechnical, structural and earthquake
 engineering parameters automatically
