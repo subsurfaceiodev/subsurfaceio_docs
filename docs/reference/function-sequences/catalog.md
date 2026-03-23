@@ -56,6 +56,7 @@ None
 * [`spt.get_overburden_correction__liao1986overburden`](../functions/spt.md#subsurfaceio.functions.spt.get_overburden_correction__liao1986overburden)  
 * [`cpt.get_stress_normalized_cone_resistance`](../functions/cpt.md#subsurfaceio.functions.cpt.get_stress_normalized_cone_resistance)  
 * [`cpt.get_soil_behavior_type_index`](../functions/cpt.md#subsurfaceio.functions.cpt.get_soil_behavior_type_index)  
+* [`cpt.get_soil_transition`](../functions/cpt.md#subsurfaceio.functions.cpt.get_soil_transition)  
 * [`cpt.get_constrained_modulus__robertson2022evaluation`](../functions/cpt.md#subsurfaceio.functions.cpt.get_constrained_modulus__robertson2022evaluation)  
 * [`footing.get_stress_influence_factor`](../functions/footing.md#subsurfaceio.functions.footing.get_stress_influence_factor)  
 * [`footing.get_imposed_stress`](../functions/footing.md#subsurfaceio.functions.footing.get_imposed_stress)  
