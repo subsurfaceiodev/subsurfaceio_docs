@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="CORAL" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_CIRC05" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="19.2" height="19.2">
+  <svg width="19.2" height="19.2" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="9.6 12 11.328 11.232 12 9.6 11.328 7.872 9.6 7.2 7.968 7.872 7.2 9.6 7.968 11.232 9.6 12" fill="none" stroke="#000"/>
+   <polyline points="12.48 9.6 13.44 9.6" fill="none" stroke="#000"/>
+   <polyline points="11.808 7.392 12.384 6.816" fill="none" stroke="#000"/>
+   <polyline points="9.6 6.72 9.6 5.76" fill="none" stroke="#000"/>
+   <polyline points="7.488 7.392 6.912 7.008" fill="none" stroke="#000"/>
+   <polyline points="6.72 9.6 5.76 9.6" fill="none" stroke="#000"/>
+   <polyline points="7.488 11.712 6.912 12.288" fill="none" stroke="#000"/>
+   <polyline points="9.6 12.48 9.6 13.44" fill="none" stroke="#000"/>
+   <polyline points="11.808 11.712 12.384 12.288" fill="none" stroke="#000"/>
+   <polyline points="2.4 19.2 1.728 17.472 0 16.8" fill="none" stroke="#000"/>
+   <polyline points="2.88 19.2 3.84 19.2" fill="none" stroke="#000"/>
+   <polyline points="2.208 16.992 2.784 16.416" fill="none" stroke="#000"/>
+   <polyline points="19.2 16.8 17.568 17.472 16.8 19.2" fill="none" stroke="#000"/>
+   <polyline points="19.2 16.32 19.2 15.36" fill="none" stroke="#000"/>
+   <polyline points="17.088 16.992 16.512 16.608" fill="none" stroke="#000"/>
+   <polyline points="16.8 0 17.568 1.632 19.2 2.4" fill="none" stroke="#000"/>
+   <polyline points="16.32 0 15.36 0" fill="none" stroke="#000"/>
+   <polyline points="17.088 2.112 16.512 2.688" fill="none" stroke="#000"/>
+   <polyline points="0 2.4 1.728 1.632 2.4 0" fill="none" stroke="#000"/>
+   <polyline points="0 2.88 0 3.84" fill="none" stroke="#000"/>
+   <polyline points="2.208 2.112 2.784 2.688" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_CIRC05)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+</svg>
+
+</svg>
