@@ -5245,7 +5245,6 @@ value='Sand to Sandy Gravel' value_secondary='Sand to Sandy Gravel' color='#EB9D
 #### discrete_data
 is_categorical: False
 
-value='none' value_secondary=None color=None  
 value='triangular' value_secondary=None color=None  
 value='rectangular' value_secondary=None color=None  
 

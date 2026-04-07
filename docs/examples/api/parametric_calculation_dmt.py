@@ -14,6 +14,7 @@ def get_results(**kwargs):
         water_table_present=True,
         water_table=1.5,
         elasticity_to_constrained_modulus_ratio=0.8,
+        stone_column_arrangement=None,
         depth=basic_data['Depth (m)'],
         corrected_pressure_p0=basic_data['P0 (kPa)'],
         corrected_pressure_p1=basic_data['P1 (kPa)'],

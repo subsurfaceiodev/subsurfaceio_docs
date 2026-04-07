@@ -24,6 +24,7 @@ def get_results(**kwargs):
         lateral_displacement_min_thickness=0,
         site_ground_condition='level_ground',
         liquefaction_potential_index_method='iwasaki1978',
+        stone_column_arrangement=None,
         depth=basic_data['SCPT_DPTH'],
         cone_tip_resistance=basic_data['SCPT_RES'],
         sleeve_friction=basic_data['SCPT_FRES'],
