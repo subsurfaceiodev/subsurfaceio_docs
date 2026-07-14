@@ -678,28 +678,6 @@ left=4.0 right=10.0 value='Loose' color='lightgray'
 left=10.0 right=30.0 value='Medium' color='silver'  
 left=30.0 right=50.0 value='Dense' color='darkgray'  
 left=50.0 right=None value='Very dense' color='gray'  
-parameter_name: unit_weight.Coarse.Moist
-
-left=0.0 right=4.0 value=15.7 color=None  
-left=4.0 right=10.0 value=17.3 color=None  
-left=10.0 right=30.0 value=18.9 color=None  
-left=30.0 right=None value=19.6 color=None  
-parameter_name: unit_weight.Coarse.Saturated
-
-left=0.0 right=4.0 value=17.3 color=None  
-left=4.0 right=10.0 value=18.9 color=None  
-left=10.0 right=30.0 value=19.6 color=None  
-left=30.0 right=None value=21.2 color=None  
-parameter_name: unit_weight.Fine.Moist
-
-left=0.0 right=4.0 value=15.7 color=None  
-left=4.0 right=8.0 value=17.3 color=None  
-left=8.0 right=None value=18.1 color=None  
-parameter_name: unit_weight.Fine.Saturated
-
-left=0.0 right=4.0 value=17.3 color=None  
-left=4.0 right=8.0 value=18.9 color=None  
-left=8.0 right=None value=19.6 color=None  
 
 ### `corrected_cone_tip_resistance`
 **symbol**: $q_t$  
@@ -917,11 +895,20 @@ left=8.0 right=None value=19.6 color=None
 **corresponding_parameter_name**: `None`  
     
 
-### `default_unit_weight`
-**symbol**: $γ_{default}$  
-**label**: Default unit weight  
+### `default_moist_unit_weight`
+**symbol**: $γ_{default\ moist}$  
+**label**: Default moist unit weight  
 **unit**: kN/m3  
-**description**: Unit weight used for missing or undefined values  
+**description**: Moist unit weight used for missing or undefined values  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `default_saturated_unit_weight`
+**symbol**: $γ_{default\ saturated}$  
+**label**: Default saturated unit weight  
+**unit**: kN/m3  
+**description**: Saturated unit weight used for missing or undefined values  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     

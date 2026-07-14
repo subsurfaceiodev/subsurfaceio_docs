@@ -1063,7 +1063,6 @@ None
 * [`spt.get_borehole_diameter_correction__skempton1986standard`](../functions/spt.md#subsurfaceio.functions.spt.get_borehole_diameter_correction__skempton1986standard)  
 * [`spt.get_rod_length_correction__skempton1986standard`](../functions/spt.md#subsurfaceio.functions.spt.get_rod_length_correction__skempton1986standard)  
 * [`spt.get_corrected_blow_count__skempton1986standard`](../functions/spt.md#subsurfaceio.functions.spt.get_corrected_blow_count__skempton1986standard)  
-* [`spt.get_unit_weight__cetin2018use`](../functions/spt.md#subsurfaceio.functions.spt.get_unit_weight__cetin2018use)  
 * [`base.get_thickness`](../functions/base.md#subsurfaceio.functions.base.get_thickness)  
 * [`base.get_total_stress`](../functions/base.md#subsurfaceio.functions.base.get_total_stress)  
 * [`base.get_pore_water_pressure`](../functions/base.md#subsurfaceio.functions.base.get_pore_water_pressure)  
@@ -1383,6 +1382,24 @@ None
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+### SPTUnitWeightCorrelation
+`description`
+
+None
+
+`references`
+
+
+
+`functions`
+
+* [`base.get_soil_type2`](../functions/base.md#subsurfaceio.functions.base.get_soil_type2)  
+* [`base.get_below_water_table`](../functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
+* [`spt.get_energy_ratio_correction__skempton1986standard`](../functions/spt.md#subsurfaceio.functions.spt.get_energy_ratio_correction__skempton1986standard)  
+* [`spt.get_borehole_diameter_correction__skempton1986standard`](../functions/spt.md#subsurfaceio.functions.spt.get_borehole_diameter_correction__skempton1986standard)  
+* [`spt.get_rod_length_correction__skempton1986standard`](../functions/spt.md#subsurfaceio.functions.spt.get_rod_length_correction__skempton1986standard)  
+* [`spt.get_corrected_blow_count__skempton1986standard`](../functions/spt.md#subsurfaceio.functions.spt.get_corrected_blow_count__skempton1986standard)  
+* [`spt.get_unit_weight__cetin2018use`](../functions/spt.md#subsurfaceio.functions.spt.get_unit_weight__cetin2018use)  
 ### SSIEffects
 `description`
 
