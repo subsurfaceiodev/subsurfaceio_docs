@@ -1372,6 +1372,23 @@ left=10.0 right=None value=1.0 color=None
 **corresponding_parameter_name**: `None`  
     
 
+### `fine_type`
+**symbol**: $\text{fine\_type}$  
+**label**: Fine type  
+**unit**: None  
+**description**: Fine-grained soil type used internally for USCS classification  
+**data_type**: `str`  
+**corresponding_parameter_name**: `None`  
+    
+#### discrete_data
+is_categorical: False
+
+value='silt' value_secondary=None color=None  
+value='clay' value_secondary=None color=None  
+value='dual' value_secondary=None color=None  
+value='organic_silt' value_secondary=None color=None  
+value='organic_clay' value_secondary=None color=None  
+
 ### `fines_content`
 **symbol**: $FC$  
 **label**: Fines content  

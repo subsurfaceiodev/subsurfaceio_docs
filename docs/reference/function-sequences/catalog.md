@@ -1597,7 +1597,7 @@ None
 
 `functions`
 
-* [`soil_classification.get_soil_classification_aashto__astm2015d3282`](../functions/soil_classification.md#subsurfaceio.functions.soil_classification.get_soil_classification_aashto__astm2015d3282)  
+* [`soil_classification_aashto.get_soil_classification_aashto__astm2015d3282`](../functions/soil_classification_aashto.md#subsurfaceio.functions.soil_classification_aashto.get_soil_classification_aashto__astm2015d3282)  
 ### SoilClassificationUSCS
 `description`
 
@@ -1610,7 +1610,7 @@ None
 
 `functions`
 
-* [`soil_classification.get_soil_classification_uscs__astm2017d2487`](../functions/soil_classification.md#subsurfaceio.functions.soil_classification.get_soil_classification_uscs__astm2017d2487)  
+* [`soil_classification_uscs.get_soil_classification_uscs__astm2017d2487`](../functions/soil_classification_uscs.md#subsurfaceio.functions.soil_classification_uscs.get_soil_classification_uscs__astm2017d2487)  
 ### SoilClassificationUSDA
 `description`
 
@@ -1623,7 +1623,7 @@ None
 
 `functions`
 
-* [`soil_classification.get_soil_classification__usda1993soil`](../functions/soil_classification.md#subsurfaceio.functions.soil_classification.get_soil_classification__usda1993soil)  
+* [`soil_classification_usda.get_soil_classification__usda1993soil`](../functions/soil_classification_usda.md#subsurfaceio.functions.soil_classification_usda.get_soil_classification__usda1993soil)  
 ### SoilClassificationUSDAMoreno2018
 `description`
 
@@ -1636,7 +1636,7 @@ None
 
 `functions`
 
-* [`soil_classification.get_soil_classification_usda__moreno2018clay`](../functions/soil_classification.md#subsurfaceio.functions.soil_classification.get_soil_classification_usda__moreno2018clay)  
+* [`soil_classification_usda.get_soil_classification_usda__moreno2018clay`](../functions/soil_classification_usda.md#subsurfaceio.functions.soil_classification_usda.get_soil_classification_usda__moreno2018clay)  
 ### WaterContent
 `description`
 
