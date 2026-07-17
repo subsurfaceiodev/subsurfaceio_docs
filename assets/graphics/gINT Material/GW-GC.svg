@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="GW-GC" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_GRAV02" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="38.4" height="38.4">
+  <svg width="38.4" height="38.4" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polygon points="1.536 3.552 0.384 4.608 0.768 5.856" stroke="#000"/>
+   <polygon points="0.768 5.856 1.344 7.296 2.592 7.488" stroke="#000"/>
+   <polygon points="4.032 4.8 3.072 3.072 1.536 3.552" stroke="#000"/>
+   <polygon points="2.592 7.488 4.032 6.336 4.032 4.8" stroke="#000"/>
+   <polygon points="0.768 5.856 2.592 7.488 4.032 4.8" stroke="#000"/>
+   <polygon points="0.768 5.856 4.032 4.8 1.536 3.552" stroke="#000"/>
+   <polygon points="4.128 17.952 5.472 17.664 5.76 16.224" stroke="#000"/>
+   <polygon points="5.568 15.072 3.936 14.496 3.168 15.552" stroke="#000"/>
+   <polygon points="3.168 15.552 3.072 16.896 4.128 17.952" stroke="#000"/>
+   <polygon points="3.168 15.552 4.128 17.952 5.76 16.224" stroke="#000"/>
+   <polygon points="3.168 15.552 5.76 16.224 5.568 15.072" stroke="#000"/>
+   <polygon points="32.448 2.496 32.352 1.248 31.872 0" stroke="#000"/>
+   <polygon points="32.736 7.68 33.312 5.376 32.544 4.032" stroke="#000"/>
+   <polygon points="23.04 7.392 24.48 8.544 26.496 9.12" stroke="#000"/>
+   <polygon points="32.544 4.032 32.448 2.496 31.872 0" stroke="#000"/>
+   <polygon points="20.928 2.88 21.696 5.184 23.04 7.392" stroke="#000"/>
+   <polygon points="30.624 8.928 32.736 7.68 32.544 4.032" stroke="#000"/>
+   <polygon points="21.216 0 20.928 2.88 23.04 7.392" stroke="#000"/>
+   <polygon points="23.04 7.392 26.496 9.12 30.624 8.928" stroke="#000"/>
+   <polygon points="30.624 8.928 32.544 4.032 31.872 0" stroke="#000"/>
+   <polygon points="23.04 7.392 30.624 8.928 31.872 0" stroke="#000"/>
+   <polygon points="23.04 7.392 31.872 0 21.216 0" stroke="#000"/>
+   <polygon points="36.672 14.496 37.632 14.976 38.4 14.88" stroke="#000"/>
+   <polygon points="36.576 12.096 35.904 13.152 36.672 14.496" stroke="#000"/>
+   <polygon points="36.672 14.496 38.4 14.88 38.4 12.672" stroke="#000"/>
+   <polygon points="36.672 14.496 38.4 12.672 36.576 12.096" stroke="#000"/>
+   <polygon points="38.4 20.736 37.344 19.776 35.52 19.296" stroke="#000"/>
+   <polygon points="31.392 27.264 32.928 28.992 34.848 29.664" stroke="#000"/>
+   <polygon points="25.344 20.544 24.768 21.792 27.072 24.48" stroke="#000"/>
+   <polygon points="33.216 18.432 31.488 17.568 28.8 18.048" stroke="#000"/>
+   <polygon points="38.4 20.736 35.52 19.296 33.216 18.432" stroke="#000"/>
+   <polygon points="28.8 18.048 25.344 20.544 27.072 24.48" stroke="#000"/>
+   <polygon points="31.392 27.264 34.848 29.664 38.4 29.28" stroke="#000"/>
+   <polygon points="33.216 18.432 28.8 18.048 27.072 24.48" stroke="#000"/>
+   <polygon points="33.216 18.432 27.072 24.48 31.392 27.264" stroke="#000"/>
+   <polygon points="31.392 27.264 38.4 29.28 38.4 20.736" stroke="#000"/>
+   <polygon points="31.392 27.264 38.4 20.736 33.216 18.432" stroke="#000"/>
+   <polygon points="21.216 38.4 31.872 38.4 29.184 37.632 23.904 37.152" stroke="#000"/>
+   <polygon points="11.328 34.848 8.544 35.904 7.104 38.4" stroke="#000"/>
+   <polygon points="11.328 34.848 7.104 38.4 15.648 38.4" stroke="#000"/>
+   <polygon points="11.328 34.848 15.648 38.4 14.112 35.904" stroke="#000"/>
+   <polygon points="0 29.28 3.168 28.128 4.512 25.056" stroke="#000"/>
+   <polygon points="0 20.736 0 29.28 4.512 25.056" stroke="#000"/>
+   <polygon points="0 20.736 4.512 25.056 3.168 21.888" stroke="#000"/>
+   <polygon points="0 14.88 0.48 13.632 0 12.672" stroke="#000"/>
+   <polygon points="7.104 0 7.104 1.152 7.872 2.784" stroke="#000"/>
+   <polygon points="13.344 5.472 15.072 4.512 15.744 3.648" stroke="#000"/>
+   <polygon points="10.464 4.512 11.712 5.376 13.344 5.472" stroke="#000"/>
+   <polygon points="7.872 2.784 9.12 3.648 10.464 4.512" stroke="#000"/>
+   <polygon points="10.464 4.512 13.344 5.472 15.744 3.648" stroke="#000"/>
+   <polygon points="7.104 0 7.872 2.784 10.464 4.512" stroke="#000"/>
+   <polygon points="10.464 4.512 15.744 3.648 15.648 0" stroke="#000"/>
+   <polygon points="10.464 4.512 15.648 0 7.104 0" stroke="#000"/>
+   <polygon points="21.239 11.895 20.279 13.335 20.855 14.583" stroke="#000"/>
+   <polygon points="20.855 14.583 22.487 15.063 23.735 14.199" stroke="#000"/>
+   <polygon points="23.735 14.199 23.735 12.375 21.239 11.895" stroke="#000"/>
+   <polygon points="20.855 14.583 23.735 14.199 21.239 11.895" stroke="#000"/>
+   <polygon points="3.7226 30.807 3.2866 32.902 5.4665 33.513" stroke="#000"/>
+   <polygon points="8.1696 32.815 9.7392 30.982 8.4312 29.324" stroke="#000"/>
+   <polygon points="8.1696 32.815 8.4312 29.324 5.9025 29.236" stroke="#000"/>
+   <polygon points="5.4665 33.513 8.1696 32.815 5.9025 29.236" stroke="#000"/>
+   <polygon points="3.7226 30.807 5.4665 33.513 5.9025 29.236" stroke="#000"/>
+   <polygon points="13.598 10.237 12.158 9.5651 10.814 10.813" stroke="#000"/>
+   <polygon points="16.094 12.637 15.326 10.909 13.598 10.237" stroke="#000"/>
+   <polygon points="17.822 21.757 19.07 20.701 19.454 18.109" stroke="#000"/>
+   <polygon points="9.6625 19.837 11.102 21.469 13.118 22.045" stroke="#000"/>
+   <polygon points="17.822 21.757 19.454 18.109 18.206 16.669" stroke="#000"/>
+   <polygon points="10.814 10.813 9.9505 14.365 9.9505 16.093" stroke="#000"/>
+   <polygon points="16.094 12.637 13.598 10.237 10.814 10.813" stroke="#000"/>
+   <polygon points="9.9505 16.093 9.6625 19.837 13.118 22.045" stroke="#000"/>
+   <polygon points="17.822 21.757 18.206 16.669 17.054 15.037" stroke="#000"/>
+   <polygon points="16.094 12.637 10.814 10.813 9.9505 16.093" stroke="#000"/>
+   <polygon points="17.054 15.037 16.094 12.637 9.9505 16.093" stroke="#000"/>
+   <polygon points="13.118 22.045 17.822 21.757 17.054 15.037" stroke="#000"/>
+   <polygon points="9.9505 16.093 13.118 22.045 17.054 15.037" stroke="#000"/>
+   <polygon points="18.419 30.886 18.803 32.806 20.531 33.382" stroke="#000"/>
+   <polygon points="20.531 33.382 22.259 32.998 23.699 31.558" stroke="#000"/>
+   <polygon points="22.259 28.198 18.982 26.007 18.323 28.39" stroke="#000"/>
+   <polygon points="22.259 28.198 18.323 28.39 18.419 30.886" stroke="#000"/>
+   <polygon points="18.419 30.886 20.531 33.382 23.699 31.558" stroke="#000"/>
+   <polygon points="18.419 30.886 23.699 31.558 22.259 28.198" stroke="#000"/>
+  </svg>
+  </pattern>
+  <pattern id="gint_LINE45D01" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="4.8" height="4.8">
+  <svg width="4.8" height="4.8" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0 4.8 4.8 0" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_GRAV02)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.5)">
+    <rect fill="url(#gint_LINE45D01)" stroke="none" x="33.333333333333336%" width="33.333333333333336%" height="66.66666666666667%"/>
+  </g>
+<line x1="50.0%" x2="50.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+</svg>
+
+</svg>

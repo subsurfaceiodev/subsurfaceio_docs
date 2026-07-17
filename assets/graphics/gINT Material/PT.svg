@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="PT" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_MISC04" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="37.7953" height="34.0157">
+  <svg width="37.795" height="34.016" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="3.7795 8.5039 15.118 8.5039" fill="none" stroke="#000"/>
+   <polyline points="5.6693 6.6142 3.7795 3.7795" fill="none" stroke="#000"/>
+   <polyline points="7.5591 4.7244 6.6142 0.94488" fill="none" stroke="#000"/>
+   <polyline points="11.339 4.7244 12.283 0.94488" fill="none" stroke="#000"/>
+   <polyline points="13.228 6.6142 15.118 3.7795" fill="none" stroke="#000"/>
+   <polyline points="22.677 8.5039 34.016 8.5039" fill="none" stroke="#000"/>
+   <polyline points="24.567 6.6142 22.677 3.7795" fill="none" stroke="#000"/>
+   <polyline points="26.457 4.7244 25.512 0.94488" fill="none" stroke="#000"/>
+   <polyline points="30.236 4.7244 31.181 0.94488" fill="none" stroke="#000"/>
+   <polyline points="32.126 6.6142 34.016 3.7795" fill="none" stroke="#000"/>
+   <polyline points="0 25.512 5.6693 25.512" fill="none" stroke="#000"/>
+   <polyline points="13.228 25.512 24.567 25.512" fill="none" stroke="#000"/>
+   <polyline points="1.8898 21.732 2.8346 17.953" fill="none" stroke="#000"/>
+   <polyline points="3.7795 23.622 5.6693 20.787" fill="none" stroke="#000"/>
+   <polyline points="15.118 23.622 13.228 20.787" fill="none" stroke="#000"/>
+   <polyline points="17.008 21.732 16.063 17.953" fill="none" stroke="#000"/>
+   <polyline points="20.787 21.732 21.732 17.953" fill="none" stroke="#000"/>
+   <polyline points="22.677 23.622 24.567 20.787" fill="none" stroke="#000"/>
+   <polyline points="32.126 25.512 37.795 25.512" fill="none" stroke="#000"/>
+   <polyline points="34.016 23.622 32.126 20.787" fill="none" stroke="#000"/>
+   <polyline points="35.906 21.732 34.961 17.953" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_MISC04)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+</svg>
+
+</svg>

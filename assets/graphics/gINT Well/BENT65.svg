@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="BENT65" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="#000" stroke="none" x="0.0%" width="25.0%" height="100.0%"/>
+  </g>
+<line x1="25.0%" x2="25.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="#000" stroke="none" x="30.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="30.0%" x2="30.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="40.0%" x2="40.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="#000" stroke="none" x="45.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="45.0%" x2="45.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="55.0%" x2="55.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="#000" stroke="none" x="60.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="60.0%" x2="60.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="70.0%" x2="70.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="#000" stroke="none" x="75.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="75.0%" x2="75.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="85.0%" x2="85.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="#000" stroke="none" x="90.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="90.0%" x2="90.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+</svg>
+
+</svg>

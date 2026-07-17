@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="OHSH" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_WAVES01" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="7.68" height="4.8">
+  <svg width="7.68" height="4.8" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0 0.96 1.056 3.744 3.84 4.8 6.528 3.744 7.68 0.96" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+  <pattern id="gint_MISC01" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="24.0" height="24.0">
+  <svg width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0 19.488 1.248 19.2" fill="none" stroke="#000"/>
+   <polyline points="24 19.488 22.752 19.872 20.544 21.6 19.2 24" fill="none" stroke="#000"/>
+   <polyline points="19.2 0 19.2 2.4 20.448 4.128 22.752 4.8 24 4.512" fill="none" stroke="#000"/>
+   <polyline points="0 4.512 1.248 4.128 3.456 2.4 4.8 0" fill="none" stroke="#000"/>
+   <polyline points="13.248 7.2 10.752 7.872 8.544 9.6 7.2 12 7.2 14.4 8.448 16.128 10.752 16.8 13.248 16.128 15.456 14.4 16.8 12" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_WAVES01)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_MISC01)" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+</svg>
+
+</svg>
