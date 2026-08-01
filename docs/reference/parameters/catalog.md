@@ -2563,7 +2563,6 @@ value='multi_point' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary='Other' color='#9e3300'  
 value='Mud and/or Peat' value_secondary='MUD AND/OR PEAT' color='#9e3300'  
 value='Mud' value_secondary='MUD' color='#9e3300'  
 value='Clay' value_secondary='CLAY' color='green'  
@@ -2679,7 +2678,6 @@ left=3.3 right=10.0 value='Sand' color='grey'
 #### discrete_data
 is_categorical: True
 
-value='0' value_secondary=None color=None  
 value='1' value_secondary=None color=None  
 value='2' value_secondary=None color=None  
 value='3' value_secondary=None color=None  
@@ -2730,7 +2728,6 @@ value='Sand like' value_secondary=None color='#ff8a3b'
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary='Other' color='#FF0000'  
 value='CSS' value_secondary='Clay-like - Contractive - Sensitive' color='#DD514A'  
 value='CC' value_secondary='Clay-like - Contractive' color='#2E8EE2'  
 value='CD' value_secondary='Clay-like - Dilative' color='#26207A'  
@@ -2804,7 +2801,6 @@ value='SD' value_secondary='Sand-like - Dilative' color='#C0A264'
 #### discrete_data
 is_categorical: True
 
-value='0' value_secondary=None color=None  
 value='1' value_secondary=None color=None  
 value='2' value_secondary=None color=None  
 value='3' value_secondary=None color=None  
@@ -2823,7 +2819,6 @@ value='6' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary=None color='#FF0000'  
 value='Soft clay and mud' value_secondary=None color='#9e3300'  
 value='Moderately compact clay' value_secondary=None color='green'  
 value='Silt and loose sand' value_secondary=None color='darkorange'  
@@ -3023,7 +3018,6 @@ left=42.0 right=None value='Very dense' color='gray'
 #### discrete_data
 is_categorical: True
 
-value='0' value_secondary=None color=None  
 value='1' value_secondary=None color=None  
 value='2' value_secondary=None color=None  
 value='3' value_secondary=None color=None  
@@ -3045,7 +3039,6 @@ value='9' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary='Other' color='#FF0000'  
 value='Sensitive fine grained' value_secondary='Sensitive fine grained' color='#D42A1D'  
 value='Organic soil' value_secondary='Organic material' color='#B46B40'  
 value='Clay' value_secondary='Clay to silty clay' color='#4B5878'  
@@ -4199,7 +4192,7 @@ value='High' value_secondary='Gravel' color='gray'
     
 
 ### `sample_id`
-**symbol**: $ID$  
+**symbol**: $\text{sample\_id}$  
 **label**: Sample ID  
 **unit**: None  
 **description**: Identifier for soil sample  
@@ -4208,7 +4201,7 @@ value='High' value_secondary='Gravel' color='gray'
     
 
 ### `sample_name`
-**symbol**: $ID$  
+**symbol**: $\text{sample\_name}$  
 **label**: Sample name  
 **unit**: None  
 **description**: Sample name  
@@ -4665,7 +4658,6 @@ value='free_face' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='0' value_secondary=None color=None  
 value='1' value_secondary=None color=None  
 value='2' value_secondary=None color=None  
 value='3' value_secondary=None color=None  
@@ -4733,7 +4725,6 @@ value='Organic soils' value_secondary='Organic soils & clay' color='#9e3300'
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary='Other' color='#FF0000'  
 value='Sensitive fine grained' value_secondary='Sensitive fine grained' color='#D42A1D'  
 value='Organic soil' value_secondary='Organic material' color='#B46B40'  
 value='Clay' value_secondary='Clay to silty clay' color='#4B5878'  
@@ -4755,7 +4746,6 @@ value='Very stiff fine grained' value_secondary='Very stiff fine grained' color=
 #### discrete_data
 is_categorical: True
 
-value='0' value_secondary=None color=None  
 value='1a' value_secondary=None color=None  
 value='1b' value_secondary=None color=None  
 value='1c' value_secondary=None color=None  
@@ -4773,7 +4763,6 @@ value='3' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary='Other' color='#FF0000'  
 value='Clay and/or Silt' value_secondary="SILTS and 'Low Ir' CLAYS" color='#7EC4A0'  
 value='Clay' value_secondary='CLAYS' color='#4B5878'  
 value='Sensitive clay' value_secondary='Sensitive CLAYS' color='#7d8599'  
@@ -4818,7 +4807,6 @@ left=90.0 right=None value='SP,SW' color='#FF8A3B'
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary=None color='black'  
 value='6' value_secondary=None color='#9e3300'  
 value='5' value_secondary=None color='#213b69'  
 value='4' value_secondary=None color='#42577d'  
@@ -4837,7 +4825,6 @@ value='1' value_secondary=None color='#FF8A3B'
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary=None color='black'  
 value='OL,OH,Pt' value_secondary=None color='#9e3300'  
 value='MH,CH' value_secondary=None color='#213b69'  
 value='ML,CL' value_secondary=None color='#42577d'  
@@ -4972,7 +4959,6 @@ value='diluvial' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary=None color='#FF0000'  
 value='Rock' value_secondary=None color='#FF0000'  
 value='Weathered Rock' value_secondary=None color='#FF0000'  
 value='Residual Soil' value_secondary=None color='#FF0000'  
@@ -4996,7 +4982,6 @@ value='Gravel' value_secondary=None color='orange'
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary=None color=None  
 value='Highly organic' value_secondary=None color=None  
 value='Fine' value_secondary=None color=None  
 value='Coarse' value_secondary=None color=None  
@@ -5012,7 +4997,6 @@ value='Coarse' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary=None color=None  
 value='Clean sand' value_secondary=None color=None  
 value='Clean sand/Sand with fines' value_secondary=None color=None  
 value='Sand with fines' value_secondary=None color=None  
@@ -5031,7 +5015,6 @@ value='Gravel with fines' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='0' value_secondary=None color=None  
 value='1' value_secondary=None color=None  
 value='2' value_secondary=None color=None  
 value='3' value_secondary=None color=None  
@@ -5050,7 +5033,6 @@ value='5' value_secondary=None color=None
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary='Other' color='#FF0000'  
 value='Very soft clays' value_secondary='Very Soft Clays, or Sensitive or Collapsible Soils' color='#A5ABBB'  
 value='Clay and/or Silt' value_secondary='Clay and/or Silt' color='#4B5878'  
 value='Clayey Silt and/or Silty Clay' value_secondary='Clayey Silt and/or Silty Clay' color='#479085'  
@@ -5705,7 +5687,6 @@ left=200.0 right=None value='Hard' color='dimgray'
 #### discrete_data
 is_categorical: True
 
-value='Other' value_secondary=None color='#FF0000'  
 value='Rock' value_secondary=None color='#FF0000'  
 value='Weathered Rock' value_secondary=None color='#FF0000'  
 value='Residual Soil' value_secondary=None color='#FF0000'  

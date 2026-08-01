@@ -164,7 +164,6 @@
 
 |   nature_of_soil |   IA |   IB |   IIA |   IIB |
 |------------------|------|------|-------|-------|
-|                0 |   60 |   60 |    60 |    60 |
 |                1 |   30 |   30 |    30 |    30 |
 |                2 |   40 |   80 |    40 |    80 |
 |                3 |   60 |  150 |    60 |   120 |
@@ -177,7 +176,6 @@
 
 |   nature_of_soil |   IA |   IB |   IIA |   IIB |
 |------------------|------|------|-------|-------|
-|                0 | 0.2  | 0.2  |  0.2  |  0.2  |
 |                1 | 0.4  | 0.4  |  0.5  |  0.5  |
 |                2 | 0.35 | 0.35 |  0.45 |  0.45 |
 |                3 | 0.4  | 0.4  |  0.5  |  0.5  |
@@ -277,25 +275,24 @@
 
 | key            | soil_type      | soil_type2     | soil_type3                     |
 |----------------|----------------|----------------|--------------------------------|
-| Other          | Other          | Other          | Other                          |
-| Rock           | Rock           | Other          | Other                          |
-| Weathered Rock | Weathered Rock | Other          | Other                          |
-| Residual Soil  | Residual Soil  | Other          | Other                          |
-| Fill           | Fill           | Other          | Other                          |
-| Artificial     | Artificial     | Other          | Other                          |
-| Peat           | Peat           | Highly organic | Other                          |
-| Pt             | Peat           | Highly organic | Other                          |
-| Organic        | Organic        | Fine           | Other                          |
-| OL             | Organic        | Fine           | Other                          |
-| OH             | Organic        | Fine           | Other                          |
-| Clay           | Clay           | Fine           | Other                          |
-| CL             | Clay           | Fine           | Other                          |
-| CL-ML          | Clay           | Fine           | Other                          |
-| CH             | Clay           | Fine           | Other                          |
-| Silt           | Silt           | Fine           | Other                          |
-| ML             | Silt           | Fine           | Other                          |
-| MH             | Silt           | Fine           | Other                          |
-| Sand           | Sand           | Coarse         | Other                          |
+| Rock           | Rock           |                |                                |
+| Weathered Rock | Weathered Rock |                |                                |
+| Residual Soil  | Residual Soil  |                |                                |
+| Fill           | Fill           |                |                                |
+| Artificial     | Artificial     |                |                                |
+| Peat           | Peat           | Highly organic |                                |
+| Pt             | Peat           | Highly organic |                                |
+| Organic        | Organic        | Fine           |                                |
+| OL             | Organic        | Fine           |                                |
+| OH             | Organic        | Fine           |                                |
+| Clay           | Clay           | Fine           |                                |
+| CL             | Clay           | Fine           |                                |
+| CL-ML          | Clay           | Fine           |                                |
+| CH             | Clay           | Fine           |                                |
+| Silt           | Silt           | Fine           |                                |
+| ML             | Silt           | Fine           |                                |
+| MH             | Silt           | Fine           |                                |
+| Sand           | Sand           | Coarse         |                                |
 | SW             | Sand           | Coarse         | Clean sand                     |
 | SP             | Sand           | Coarse         | Clean sand                     |
 | SP-SW          | Sand           | Coarse         | Clean sand                     |
@@ -306,7 +303,7 @@
 | SM             | Sand           | Coarse         | Sand with fines                |
 | SC             | Sand           | Coarse         | Sand with fines                |
 | SC-SM          | Sand           | Coarse         | Sand with fines                |
-| Gravel         | Gravel         | Coarse         | Other                          |
+| Gravel         | Gravel         | Coarse         |                                |
 | GW             | Gravel         | Coarse         | Clean gravel                   |
 | GP             | Gravel         | Coarse         | Clean gravel                   |
 | GP-GW          | Gravel         | Coarse         | Clean gravel                   |
@@ -323,7 +320,6 @@
 
 | soil_type_index   |   unit_side_friction_coefficient |
 |-------------------|----------------------------------|
-| 0                 |                            0     |
 | 1                 |                            0.08  |
 | 2                 |                            0.05  |
 | 3                 |                            0.025 |
@@ -334,28 +330,26 @@
 
 #### UnitSideFrictionLimitBustamante1982
 
-|   nature_of_soil |      IA |      IB |     IIA |     IIB |
-|------------------|---------|---------|---------|---------|
-|                0 | inf     | inf     | inf     | inf     |
-|                1 |   0.015 |   0.015 |   0.015 |   0.015 |
-|                2 |   0.035 |   0.035 |   0.035 |   0.035 |
-|                3 |   0.035 |   0.035 |   0.035 |   0.035 |
-|                4 |   0.035 |   0.035 |   0.035 |   0.035 |
-|                5 |   0.08  |   0.035 |   0.08  |   0.08  |
-|                6 |   0.12  |   0.08  |   0.12  |   0.12  |
+|   nature_of_soil |    IA |    IB |   IIA |   IIB |
+|------------------|-------|-------|-------|-------|
+|                1 | 0.015 | 0.015 | 0.015 | 0.015 |
+|                2 | 0.035 | 0.035 | 0.035 | 0.035 |
+|                3 | 0.035 | 0.035 | 0.035 | 0.035 |
+|                4 | 0.035 | 0.035 | 0.035 | 0.035 |
+|                5 | 0.08  | 0.035 | 0.08  | 0.08  |
+|                6 | 0.12  | 0.08  | 0.12  | 0.12  |
 
 
 #### UnitSideFrictionLimitCareBustamante1982
 
-|   nature_of_soil |      IA |      IB |     IIA |     IIB |
-|------------------|---------|---------|---------|---------|
-|                0 | inf     | inf     | inf     | inf     |
-|                1 |   0.015 |   0.015 |   0.015 |   0.015 |
-|                2 |   0.08  |   0.08  |   0.08  |         |
-|                3 |   0.035 |   0.035 |   0.035 |   0.035 |
-|                4 |   0.08  |   0.08  |   0.08  |         |
-|                5 |   0.12  |   0.08  |   0.12  |         |
-|                6 |   0.15  |   0.12  |   0.15  |         |
+|   nature_of_soil |    IA |    IB |   IIA |   IIB |
+|------------------|-------|-------|-------|-------|
+|                1 | 0.015 | 0.015 | 0.015 | 0.015 |
+|                2 | 0.08  | 0.08  | 0.08  |       |
+|                3 | 0.035 | 0.035 | 0.035 | 0.035 |
+|                4 | 0.08  | 0.08  | 0.08  |       |
+|                5 | 0.12  | 0.08  | 0.12  |       |
+|                6 | 0.15  | 0.12  | 0.15  |       |
 
 
 #### UnitWeightCoduto2001
