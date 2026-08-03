@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="SLUF55" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_GRAV14" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="24.0" height="16.8">
+  <svg width="24" height="16.8" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0 0.576 1.536 1.44 2.304 3.552 0.96 5.568 0 5.76" fill="none" stroke="#000"/>
+   <polyline points="3.168 0 3.36 1.44 4.128 3.072 5.376 3.264 6.624 3.264 8.16 2.112 8.544 0" fill="none" stroke="#000"/>
+   <polyline points="9.12 0 9.312 1.824 10.272 3.072 11.616 3.456 13.824 3.168 15.744 2.784 16.704 1.536 17.088 0" fill="none" stroke="#000"/>
+   <polyline points="24 0.576 19.968 0.864 18.912 1.248 17.568 3.264 18.336 4.512 19.68 5.376 21.696 5.664 24 5.856" fill="none" stroke="#000"/>
+   <polyline points="0 6.816 1.92 5.76 3.552 5.664 5.856 6.72 4.8 9.12 2.976 9.408 1.344 9.6 0 9.312" fill="none" stroke="#000"/>
+   <polyline points="10.464 9.12 12 8.352 12.384 6.528 11.52 4.992 10.176 4.224 8.928 3.264 7.68 3.456 6.816 4.512 6.432 5.76 6.816 7.392 7.584 8.448 10.464 9.12" fill="none" stroke="#000"/>
+   <polyline points="15.84 9.312 17.088 9.12 18.144 8.928 18.624 7.968 18.72 6.912 18.144 5.376 17.76 4.224 16.896 3.744 15.264 3.36 14.208 3.456 12.96 3.936 12.672 6.048 13.152 7.872 14.208 8.928 14.688 9.216 15.84 9.312" fill="none" stroke="#000"/>
+   <polyline points="24 6.912 23.136 7.2 22.272 7.968 22.464 8.736 23.136 9.024 24 9.312" fill="none" stroke="#000"/>
+   <polyline points="20.544 11.424 21.696 11.136 21.984 9.312 22.08 7.776 21.792 6.72 21.12 6.144 19.872 6.048 19.296 6.432 18.816 7.872 18.432 10.08 18.816 10.944 20.544 11.424" fill="none" stroke="#000"/>
+   <polyline points="3.072 16.8 2.88 14.784 3.552 13.824 4.32 13.536 6.72 13.632 7.488 14.592 7.584 15.648 8.544 16.8" fill="none" stroke="#000"/>
+   <polyline points="9.024 16.8 8.928 15.072 9.024 13.728 9.984 12.768 12.864 12.864 13.92 13.632 15.168 13.92 16.224 13.92 16.8 14.784 17.088 16.8" fill="none" stroke="#000"/>
+   <polyline points="1.056 16.704 2.4 15.36 2.688 13.344 2.496 10.272 1.344 10.08 0.384 12.48 0.288 14.208 1.056 16.704" fill="none" stroke="#000"/>
+   <polyline points="7.104 12.864 8.832 12.576 10.752 11.424 10.944 9.696 8.64 9.216 6.816 8.64 5.088 9.216 3.648 10.464 3.168 12 7.104 12.864" fill="none" stroke="#000"/>
+   <polyline points="17.376 13.536 18.72 13.152 18.144 10.752 16.416 9.888 14.976 9.792 12.672 9.312 11.328 10.656 11.52 11.616 13.728 12.288 15.744 13.152 17.376 13.536" fill="none" stroke="#000"/>
+   <polyline points="20.16 16.128 21.408 16.128 22.272 15.264 23.712 14.208 23.232 12.192 22.752 11.52 21.504 11.712 20.16 12.192 19.2 13.344 18.72 14.784 18.72 15.552 20.16 16.128" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_GRAV14)" stroke="none" x="0.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="10.0%" x2="10.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_GRAV14)" stroke="none" x="18.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="18.0%" x2="18.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="28.0%" x2="28.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_GRAV14)" stroke="none" x="36.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="36.0%" x2="36.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="46.0%" x2="46.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_GRAV14)" stroke="none" x="54.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="54.0%" x2="54.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="64.0%" x2="64.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_GRAV14)" stroke="none" x="72.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="72.0%" x2="72.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+<line x1="82.0%" x2="82.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="url(#gint_GRAV14)" stroke="none" x="90.0%" width="10.0%" height="100.0%"/>
+  </g>
+<line x1="90.0%" x2="90.0%" stroke="#000" fill="none" y1="0" y2="100%"></line>
+</g>
+</svg>
+
+</svg>

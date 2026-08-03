@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="SPT" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <symbol id="gint_X05" x="0" y="0" viewBox="0 0 96.0 96.0" preserveAspectRatio="none">
+  <svg width="96" height="96" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polygon points="48 48 96 0 0 0" stroke="#000"/>
+   <polygon points="0 96 96 96 48 48" stroke="#000"/>
+  </svg>
+  </symbol>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.0)">
+    <rect fill="none" stroke="none" x="0.0%" width="100.0%" height="100.0%"/>
+<use href="#gint_X05" x="0.0%" width="100.0%" height="100.0%"/>
+  </g>
+</g>
+</svg>
+
+</svg>

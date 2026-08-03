@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="SC" class="graphic" width="100%" height="100%">
+<style>
+symbol *, pattern * {
+  vector-effect: non-scaling-stroke;
+}
+</style>
+<defs>
+  <pattern id="gint_SAND02" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="38.4" height="38.4">
+  <svg width="38.4" height="38.4" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <line x1="17.616" x2="17.136" y1="2.88" y2="3.36" stroke="#000"/>
+   <line x1="36.816" x2="36.336" y1="2.88" y2="3.36" stroke="#000"/>
+   <line x1=".336" x2="-.144" y1="4.8" y2="5.28" stroke="#000"/>
+   <line x1="27.216" x2="26.736" y1="4.8" y2="5.28" stroke="#000"/>
+   <line x1="4.176" x2="3.696" y1="6.72" y2="7.2" stroke="#000"/>
+   <line x1="15.696" x2="15.216" y1="6.72" y2="7.2" stroke="#000"/>
+   <line x1="21.456" x2="20.976" y1="6.72" y2="7.2" stroke="#000"/>
+   <line x1="34.896" x2="34.416" y1="6.72" y2="7.2" stroke="#000"/>
+   <line x1="8.016" x2="7.536" y1="8.64" y2="9.12" stroke="#000"/>
+   <line x1="36.816" x2="36.336" y1="16.32" y2="16.8" stroke="#000"/>
+   <line x1=".336" x2="-.144" y1="18.24" y2="18.72" stroke="#000"/>
+   <line x1="27.216" x2="26.736" y1="18.24" y2="18.72" stroke="#000"/>
+   <line x1="6.096" x2="5.616" y1="20.16" y2="20.64" stroke="#000"/>
+   <line x1="19.536" x2="19.056" y1="20.16" y2="20.64" stroke="#000"/>
+   <line x1="34.896" x2="34.416" y1="20.16" y2="20.64" stroke="#000"/>
+   <line x1="4.176" x2="3.696" y1="25.92" y2="26.4" stroke="#000"/>
+   <line x1="25.296" x2="24.816" y1="25.92" y2="26.4" stroke="#000"/>
+   <line x1="11.856" x2="11.376" y1="27.84" y2="28.32" stroke="#000"/>
+   <line x1="31.056" x2="30.576" y1="27.84" y2="28.32" stroke="#000"/>
+   <line x1=".336" x2="-.144" y1="29.76" y2="30.24" stroke="#000"/>
+   <line x1="21.456" x2="20.976" y1="29.76" y2="30.24" stroke="#000"/>
+   <line x1="6.096" x2="5.616" y1="31.68" y2="32.16" stroke="#000"/>
+   <line x1="15.696" x2="15.216" y1="31.68" y2="32.16" stroke="#000"/>
+   <line x1="34.896" x2="34.416" y1="31.68" y2="32.16" stroke="#000"/>
+   <line x1="2.256" x2="1.776" y1="33.6" y2="34.08" stroke="#000"/>
+   <line x1="25.296" x2="24.816" y1="33.6" y2="34.08" stroke="#000"/>
+   <line x1="31.056" x2="30.576" y1="8.64" y2="9.12" stroke="#000"/>
+   <line x1="2.256" x2="1.776" y1="10.56" y2="11.04" stroke="#000"/>
+   <line x1="15.88" x2="15.4" y1="20.945" y2="21.425" stroke="#000"/>
+   <line x1="12.916" x2="12.436" y1="16.931" y2="17.411" stroke="#000"/>
+   <line x1="13.177" x2="12.697" y1="4.6255" y2="5.1055" stroke="#000"/>
+   <line x1="16.665" x2="16.185" y1="11.084" y2="11.564" stroke="#000"/>
+   <line x1="34.279" x2="33.799" y1="13.004" y2="13.484" stroke="#000"/>
+   <line x1="18.322" x2="17.842" y1="25.92" y2="26.4" stroke="#000"/>
+   <line x1="29.222" x2="28.742" y1="31.68" y2="32.16" stroke="#000"/>
+   <line x1="36.284" x2="35.804" y1="25.484" y2="25.964" stroke="#000"/>
+   <line x1="24.422" x2="23.942" y1="15.447" y2="15.927" stroke="#000"/>
+   <line x1="29.654" x2="29.174" y1="12.742" y2="13.222" stroke="#000"/>
+   <line x1="24.51" x2="24.03" y1="1.92" y2="2.4" stroke="#000"/>
+   <line x1="13.776" x2="13.296" y1="35.52" y2="36" stroke="#000"/>
+   <line x1="38.304" x2="37.824" y1="35.52" y2="36" stroke="#000"/>
+   <line x1="19.536" x2="19.056" y1="37.44" y2="37.92" stroke="#000"/>
+   <line x1="32.976" x2="32.496" y1="37.44" y2="37.92" stroke="#000"/>
+   <line x1="25.296" x2="24.816" y1="10.56" y2="11.04" stroke="#000"/>
+   <line x1="11.856" x2="11.376" y1="12.48" y2="12.96" stroke="#000"/>
+   <line x1="38.064" x2="37.584" y1="12.48" y2="12.96" stroke="#000"/>
+   <line x1="4.176" x2="3.696" y1="14.4" y2="14.88" stroke="#000"/>
+   <line x1="17.616" x2="17.136" y1="14.4" y2="14.88" stroke="#000"/>
+   <line x1="8.016" x2="7.536" y1="16.32" y2="16.8" stroke="#000"/>
+   <line x1="31.056" x2="30.576" y1="16.32" y2="16.8" stroke="#000"/>
+   <line x1="9.936" x2="9.456" y1="22.08" y2="22.56" stroke="#000"/>
+   <line x1="23.376" x2="22.896" y1="22.08" y2="22.56" stroke="#000"/>
+   <line x1="13.776" x2="13.296" y1="24" y2="24.48" stroke="#000"/>
+   <line x1="29.136" x2="28.656" y1="24" y2="24.48" stroke="#000"/>
+   <line x1="2.256" x2="1.776" y1=".96" y2="1.44" stroke="#000"/>
+   <line x1="11.856" x2="11.376" y1=".96" y2="1.44" stroke="#000"/>
+   <line x1="31.056" x2="30.576" y1=".96" y2="1.44" stroke="#000"/>
+   <line x1="6.096" x2="5.616" y1="2.88" y2="3.36" stroke="#000"/>
+  </svg>
+  </pattern>
+  <pattern id="gint_LINE45D01" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0" width="4.8" height="4.8">
+  <svg width="4.8" height="4.8" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0 4.8 4.8 0" fill="none" stroke="#000"/>
+  </svg>
+  </pattern>
+</defs>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(0.75)">
+    <rect fill="url(#gint_SAND02)" stroke="none" x="0.0%" width="133.33333333333334%" height="133.33333333333334%"/>
+  </g>
+</g>
+<g class="tile-block" opacity="0.999">
+  <g transform="scale(1.5)">
+    <rect fill="url(#gint_LINE45D01)" stroke="none" x="0.0%" width="66.66666666666667%" height="66.66666666666667%"/>
+  </g>
+</g>
+</svg>
+
+</svg>
