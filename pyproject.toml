@@ -9,14 +9,12 @@ description = "MkDocs + Griffe extensions for SubSurface.io"
 requires-python = ">=3.13"
 
 dependencies = [
-  "mkdocs",
-  "mkdocs-material",
+  "zensical",
   "mkdocs-literate-nav",
   "black",
   "mkdocstrings[python]",
   "mkdocs-awesome-pages-plugin",
   "griffe-pydantic",
-  "mkdocs-gen-files",
   "subsurfaceio @ git+https://github.com/subsurfaceiodev/subsurfaceio.git",
 ]
 

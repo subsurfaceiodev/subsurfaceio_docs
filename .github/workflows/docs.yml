@@ -1,23 +1,26 @@
-name: Deploy MkDocs
+name: Documentation
 
 on:
   push:
     branches:
       - master
+      - main
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: "3.13.11"
+          python-version: "3.13.14"
 
       - name: Configure git auth
         run: |
@@ -30,4 +33,4 @@ jobs:
 
       - name: Deploy
         run: |
-          mkdocs gh-deploy --force
+          zensical build --clean

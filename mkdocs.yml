@@ -2,7 +2,6 @@ site_name: SubSurface.io
 site_description: SubSurface.io is a multipurpose web application suite designed to estimate geotechnical, structural and earthquake engineering parameters automatically
 site_url: https://docs.subsurfaceio.app/
 theme:
-  name: material
   palette:
     scheme: default
     primary: teal
@@ -59,9 +58,6 @@ plugins:
                     subsurfaceio.functions.spt,
                     subsurfaceio.functions.ssi,
                   ]
-  - gen-files:
-      scripts:
-        - src/gen_pages.py
   - meta
   - awesome-pages
 

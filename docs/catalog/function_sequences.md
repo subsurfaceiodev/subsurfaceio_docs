@@ -5,7 +5,7 @@ None
 
 `references`
 
-* [`astm2017d4318`](references.md/#astm2017d4318)  
+* [`astm2017d4318`](references/#astm2017d4318)  
 
 
 `functions`
@@ -20,7 +20,7 @@ None
 
 `references`
 
-* [`robertson2024guide`](references.md/#robertson2024guide)  
+* [`robertson2024guide`](references/#robertson2024guide)  
 
 
 `functions`
@@ -37,7 +37,7 @@ None
 
 `references`
 
-* [`robertson2024guide`](references.md/#robertson2024guide)  
+* [`robertson2024guide`](references/#robertson2024guide)  
 
 
 `functions`
@@ -72,7 +72,7 @@ None
 
 `references`
 
-* [`robertson2024guide`](references.md/#robertson2024guide)  
+* [`robertson2024guide`](references/#robertson2024guide)  
 
 
 `functions`
@@ -145,7 +145,7 @@ None
 
 `references`
 
-* [`boulanger2014cpt`](references.md/#boulanger2014cpt)  
+* [`boulanger2014cpt`](references/#boulanger2014cpt)  
 
 
 `functions`
@@ -227,7 +227,7 @@ None
 
 `references`
 
-* [`idriss2008soil`](references.md/#idriss2008soil)  
+* [`idriss2008soil`](references/#idriss2008soil)  
 
 
 `functions`
@@ -308,7 +308,7 @@ None
 
 `references`
 
-* [`robertson2024guide`](references.md/#robertson2024guide)  
+* [`robertson2024guide`](references/#robertson2024guide)  
 
 
 `functions`
@@ -386,7 +386,7 @@ None
 
 `references`
 
-* [`saye2017linear`](references.md/#saye2017linear)  
+* [`saye2017linear`](references/#saye2017linear)  
 
 
 `functions`
@@ -463,7 +463,7 @@ None
 
 `references`
 
-* [`bustamante1982pile`](references.md/#bustamante1982pile)  
+* [`bustamante1982pile`](references/#bustamante1982pile)  
 
 
 `functions`
@@ -541,7 +541,7 @@ None
 
 `references`
 
-* [`eslami1997pile`](references.md/#eslami1997pile)  
+* [`eslami1997pile`](references/#eslami1997pile)  
 
 
 `functions`
@@ -571,7 +571,7 @@ None
 
 `references`
 
-* [`marchetti1981flat`](references.md/#marchetti1981flat)  
+* [`marchetti1981flat`](references/#marchetti1981flat)  
 
 
 `functions`
@@ -601,8 +601,8 @@ None
 
 `references`
 
-* [`marchetti1981flat`](references.md/#marchetti1981flat)  
-* [`amoroso2013prediction`](references.md/#amoroso2013prediction)  
+* [`marchetti1981flat`](references/#marchetti1981flat)  
+* [`amoroso2013prediction`](references/#amoroso2013prediction)  
 
 
 `functions`
@@ -639,8 +639,8 @@ None
 
 `references`
 
-* [`robertson2012interpretation`](references.md/#robertson2012interpretation)  
-* [`robertson2024guide`](references.md/#robertson2024guide)  
+* [`robertson2012interpretation`](references/#robertson2012interpretation)  
+* [`robertson2024guide`](references/#robertson2024guide)  
 
 
 `functions`
@@ -704,7 +704,7 @@ None
 
 `references`
 
-* [`bowles1996foundation`](references.md/#bowles1996foundation)  
+* [`bowles1996foundation`](references/#bowles1996foundation)  
 
 
 `functions`
@@ -717,7 +717,7 @@ None
 
 `references`
 
-* [`meyerhof1978ultimate`](references.md/#meyerhof1978ultimate)  
+* [`meyerhof1978ultimate`](references/#meyerhof1978ultimate)  
 
 
 `functions`
@@ -742,7 +742,7 @@ None
 
 `references`
 
-* [`meyerhof1978ultimate`](references.md/#meyerhof1978ultimate)  
+* [`meyerhof1978ultimate`](references/#meyerhof1978ultimate)  
 
 
 `functions`
@@ -770,7 +770,7 @@ None
 
 `references`
 
-* [`meyerhof1978ultimate`](references.md/#meyerhof1978ultimate)  
+* [`meyerhof1978ultimate`](references/#meyerhof1978ultimate)  
 
 
 `functions`
@@ -790,7 +790,7 @@ None
 
 `references`
 
-* [`terzaghi1943theoretical`](references.md/#terzaghi1943theoretical)  
+* [`terzaghi1943theoretical`](references/#terzaghi1943theoretical)  
 
 
 `functions`
@@ -810,7 +810,7 @@ None
 
 `references`
 
-* [`vesic1975bearing`](references.md/#vesic1975bearing)  
+* [`vesic1975bearing`](references/#vesic1975bearing)  
 
 
 `functions`
@@ -837,7 +837,7 @@ None
 
 `references`
 
-* [`astm2007d422`](references.md/#astm2007d422)  
+* [`astm2007d422`](references/#astm2007d422)  
 
 
 `functions`
@@ -860,7 +860,7 @@ None
 
 `references`
 
-* [`bray2006assessment`](references.md/#bray2006assessment)  
+* [`bray2006assessment`](references/#bray2006assessment)  
 
 
 `functions`
@@ -874,7 +874,7 @@ None
 
 `references`
 
-* [`bray2017simplified`](references.md/#bray2017simplified)  
+* [`bray2017simplified`](references/#bray2017simplified)  
 
 
 `functions`
@@ -888,10 +888,10 @@ None
 
 `references`
 
-* [`ishihara1985stability`](references.md/#ishihara1985stability)  
-* [`iwasaki1978practical`](references.md/#iwasaki1978practical)  
-* [`maurer2015moving`](references.md/#maurer2015moving)  
-* [`van2014assessment`](references.md/#van2014assessment)  
+* [`ishihara1985stability`](references/#ishihara1985stability)  
+* [`iwasaki1978practical`](references/#iwasaki1978practical)  
+* [`maurer2015moving`](references/#maurer2015moving)  
+* [`van2014assessment`](references/#van2014assessment)  
 
 
 `functions`
@@ -919,7 +919,7 @@ None
 
 `references`
 
-* [`youd2002revised`](references.md/#youd2002revised)  
+* [`youd2002revised`](references/#youd2002revised)  
 
 
 `functions`
@@ -933,7 +933,7 @@ None
 
 `references`
 
-* [`astm2017d4318`](references.md/#astm2017d4318)  
+* [`astm2017d4318`](references/#astm2017d4318)  
 
 
 `functions`
@@ -949,7 +949,7 @@ None
 
 `references`
 
-* [`usace1991design`](references.md/#usace1991design)  
+* [`usace1991design`](references/#usace1991design)  
 
 
 `functions`
@@ -992,7 +992,7 @@ None
 
 `references`
 
-* [`poulos1980pile`](references.md/#poulos1980pile)  
+* [`poulos1980pile`](references/#poulos1980pile)  
 
 
 `functions`
@@ -1013,7 +1013,7 @@ None
 
 `references`
 
-* [`poulos1980pile`](references.md/#poulos1980pile)  
+* [`poulos1980pile`](references/#poulos1980pile)  
 
 
 `functions`
@@ -1034,7 +1034,7 @@ None
 
 `references`
 
-* [`astm2017d4318`](references.md/#astm2017d4318)  
+* [`astm2017d4318`](references/#astm2017d4318)  
 
 
 `functions`
@@ -1100,7 +1100,7 @@ None
 
 `references`
 
-* [`boulanger2014cpt`](references.md/#boulanger2014cpt)  
+* [`boulanger2014cpt`](references/#boulanger2014cpt)  
 
 
 `functions`
@@ -1172,7 +1172,7 @@ None
 
 `references`
 
-* [`cetin2004standard`](references.md/#cetin2004standard)  
+* [`cetin2004standard`](references/#cetin2004standard)  
 
 
 `functions`
@@ -1244,7 +1244,7 @@ None
 
 `references`
 
-* [`cetin2018use`](references.md/#cetin2018use)  
+* [`cetin2018use`](references/#cetin2018use)  
 
 
 `functions`
@@ -1318,7 +1318,7 @@ None
 
 `references`
 
-* [`idriss2008soil`](references.md/#idriss2008soil)  
+* [`idriss2008soil`](references/#idriss2008soil)  
 
 
 `functions`
@@ -1407,7 +1407,7 @@ None
 
 `references`
 
-* [`nist2012soil`](references.md/#nist2012soil)  
+* [`nist2012soil`](references/#nist2012soil)  
 
 
 `functions`
@@ -1427,7 +1427,7 @@ None
 
 `references`
 
-* [`nist2012soil`](references.md/#nist2012soil)  
+* [`nist2012soil`](references/#nist2012soil)  
 
 
 `functions`
@@ -1451,7 +1451,7 @@ None
 
 `references`
 
-* [`nist2012soil`](references.md/#nist2012soil)  
+* [`nist2012soil`](references/#nist2012soil)  
 
 
 `functions`
@@ -1470,7 +1470,7 @@ None
 
 `references`
 
-* [`nist2012soil`](references.md/#nist2012soil)  
+* [`nist2012soil`](references/#nist2012soil)  
 
 
 `functions`
@@ -1487,7 +1487,7 @@ None
 
 `references`
 
-* [`nist2012soil`](references.md/#nist2012soil)  
+* [`nist2012soil`](references/#nist2012soil)  
 
 
 `functions`
@@ -1500,7 +1500,7 @@ None
 
 `references`
 
-* [`nist2012soil`](references.md/#nist2012soil)  
+* [`nist2012soil`](references/#nist2012soil)  
 
 
 `functions`
@@ -1526,7 +1526,7 @@ None
 
 `references`
 
-* [`nist2012soil`](references.md/#nist2012soil)  
+* [`nist2012soil`](references/#nist2012soil)  
 
 
 `functions`
@@ -1542,7 +1542,7 @@ None
 
 `references`
 
-* [`astm2007d421`](references.md/#astm2007d421)  
+* [`astm2007d421`](references/#astm2007d421)  
 
 
 `functions`
@@ -1592,7 +1592,7 @@ None
 
 `references`
 
-* [`astm2015d3282`](references.md/#astm2015d3282)  
+* [`astm2015d3282`](references/#astm2015d3282)  
 
 
 `functions`
@@ -1605,7 +1605,7 @@ None
 
 `references`
 
-* [`astm2017d2487`](references.md/#astm2017d2487)  
+* [`astm2017d2487`](references/#astm2017d2487)  
 
 
 `functions`
@@ -1618,7 +1618,7 @@ None
 
 `references`
 
-* [`usda1993soil`](references.md/#usda1993soil)  
+* [`usda1993soil`](references/#usda1993soil)  
 
 
 `functions`
@@ -1631,7 +1631,7 @@ None
 
 `references`
 
-* [`moreno2018clay`](references.md/#moreno2018clay)  
+* [`moreno2018clay`](references/#moreno2018clay)  
 
 
 `functions`
@@ -1644,7 +1644,7 @@ None
 
 `references`
 
-* [`astm2019d2216`](references.md/#astm2019d2216)  
+* [`astm2019d2216`](references/#astm2019d2216)  
 
 
 `functions`
