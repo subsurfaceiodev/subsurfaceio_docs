@@ -5,5 +5,9 @@ Summary: MkDocs + Griffe extensions for SubSurface.io
 Requires-Python: >=3.13
 Requires-Dist: mkdocs
 Requires-Dist: mkdocs-material
+Requires-Dist: mkdocs-literate-nav
+Requires-Dist: black
 Requires-Dist: mkdocstrings[python]
-Requires-Dist: griffe
+Requires-Dist: mkdocs-awesome-pages-plugin
+Requires-Dist: griffe-pydantic
+Requires-Dist: subsurfaceio @ git+https://github.com/subsurfaceiodev/subsurfaceio.git

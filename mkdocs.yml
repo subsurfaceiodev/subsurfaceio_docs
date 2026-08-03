@@ -31,6 +31,7 @@ plugins:
       handlers:
         python:
           options:
+            show_if_no_docstring: true
             show_source: false
             show_signature_annotations: true
             separate_signature: true
@@ -58,6 +59,9 @@ plugins:
                     subsurfaceio.functions.spt,
                     subsurfaceio.functions.ssi,
                   ]
+  - gen-files:
+      scripts:
+        - src/gen_pages.py
   - meta
   - awesome-pages
 
