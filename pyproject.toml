@@ -16,6 +16,7 @@ dependencies = [
   "mkdocstrings[python]",
   "mkdocs-awesome-pages-plugin",
   "griffe-pydantic",
+  "mkdocs-gen-files",
   "subsurfaceio @ git+https://github.com/subsurfaceiodev/subsurfaceio.git",
 ]
 
