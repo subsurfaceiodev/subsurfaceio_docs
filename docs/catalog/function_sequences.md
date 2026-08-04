@@ -1,12 +1,7 @@
 ### AtterbergLimits
 `description`
 
-None
-
-`references`
-
-* [`astm2017d4318`](references/#astm2017d4318)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -16,12 +11,7 @@ None
 ### CPTFootingCapacityRobertson
 `description`
 
-None
-
-`references`
-
-* [`robertson2024guide`](references/#robertson2024guide)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -33,12 +23,7 @@ None
 ### CPTFootingSettlementsRobertson
 `description`
 
-None
-
-`references`
-
-* [`robertson2024guide`](references/#robertson2024guide)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -68,12 +53,7 @@ None
 ### CPTInterpretationRobertson
 `description`
 
-None
-
-`references`
-
-* [`robertson2024guide`](references/#robertson2024guide)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -141,12 +121,7 @@ None
 ### CPTLiquefactionBoulanger2014
 `description`
 
-None
-
-`references`
-
-* [`boulanger2014cpt`](references/#boulanger2014cpt)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -223,12 +198,7 @@ None
 ### CPTLiquefactionIdriss2008
 `description`
 
-None
-
-`references`
-
-* [`idriss2008soil`](references/#idriss2008soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -304,12 +274,7 @@ None
 ### CPTLiquefactionRobertson
 `description`
 
-None
-
-`references`
-
-* [`robertson2024guide`](references/#robertson2024guide)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -382,12 +347,7 @@ None
 ### CPTLiquefactionSaye2021
 `description`
 
-None
-
-`references`
-
-* [`saye2017linear`](references/#saye2017linear)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -459,12 +419,7 @@ None
 ### CPTPileBustamante1982
 `description`
 
-None
-
-`references`
-
-* [`bustamante1982pile`](references/#bustamante1982pile)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -497,11 +452,7 @@ None
 ### CPTPileBustamante1982Fellenius
 `description`
 
-None
-
-`references`
-
-
+FunctionSequence class.
 
 `functions`
 
@@ -537,12 +488,7 @@ None
 ### CPTPileEslami1997
 `description`
 
-None
-
-`references`
-
-* [`eslami1997pile`](references/#eslami1997pile)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -567,12 +513,7 @@ None
 ### DMTFootingSettlementsRobertson
 `description`
 
-None
-
-`references`
-
-* [`marchetti1981flat`](references/#marchetti1981flat)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -597,13 +538,7 @@ None
 ### DMTInterpretationMarchetti
 `description`
 
-None
-
-`references`
-
-* [`marchetti1981flat`](references/#marchetti1981flat)  
-* [`amoroso2013prediction`](references/#amoroso2013prediction)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -635,13 +570,7 @@ None
 ### DMTLiquefactionMarchetti
 `description`
 
-None
-
-`references`
-
-* [`robertson2012interpretation`](references/#robertson2012interpretation)  
-* [`robertson2024guide`](references/#robertson2024guide)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -700,12 +629,7 @@ None
 ### FootingAverageParameters
 `description`
 
-None
-
-`references`
-
-* [`bowles1996foundation`](references/#bowles1996foundation)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -713,12 +637,7 @@ None
 ### FootingCapacityMeyerhof1978StrongSandOnSoftSaturatedClay
 `description`
 
-None
-
-`references`
-
-* [`meyerhof1978ultimate`](references/#meyerhof1978ultimate)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -738,12 +657,7 @@ None
 ### FootingCapacityMeyerhof1978StrongSandOnWeakSand
 `description`
 
-None
-
-`references`
-
-* [`meyerhof1978ultimate`](references/#meyerhof1978ultimate)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -766,12 +680,7 @@ None
 ### FootingCapacityMeyerhof1978StrongSaturatedClayOnSoftSaturatedClay
 `description`
 
-None
-
-`references`
-
-* [`meyerhof1978ultimate`](references/#meyerhof1978ultimate)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -786,12 +695,7 @@ None
 ### FootingCapacityTerzaghi1943
 `description`
 
-None
-
-`references`
-
-* [`terzaghi1943theoretical`](references/#terzaghi1943theoretical)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -806,12 +710,7 @@ None
 ### FootingCapacityVesic1975
 `description`
 
-None
-
-`references`
-
-* [`vesic1975bearing`](references/#vesic1975bearing)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -833,12 +732,7 @@ None
 ### HydrometerAnalysis
 `description`
 
-None
-
-`references`
-
-* [`astm2007d422`](references/#astm2007d422)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -856,12 +750,7 @@ None
 ### LiquefactionFinesBray2006
 `description`
 
-None
-
-`references`
-
-* [`bray2006assessment`](references/#bray2006assessment)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -870,12 +759,7 @@ None
 ### LiquefactionShearInducedBuildingSettlementBray2017
 `description`
 
-None
-
-`references`
-
-* [`bray2017simplified`](references/#bray2017simplified)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -884,15 +768,7 @@ None
 ### LiquefactionSummary
 `description`
 
-None
-
-`references`
-
-* [`ishihara1985stability`](references/#ishihara1985stability)  
-* [`iwasaki1978practical`](references/#iwasaki1978practical)  
-* [`maurer2015moving`](references/#maurer2015moving)  
-* [`van2014assessment`](references/#van2014assessment)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -915,12 +791,7 @@ None
 ### LiquefactionYoud2002LateralDisplacement
 `description`
 
-None
-
-`references`
-
-* [`youd2002revised`](references/#youd2002revised)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -929,12 +800,7 @@ None
 ### LiquidLimit
 `description`
 
-None
-
-`references`
-
-* [`astm2017d4318`](references/#astm2017d4318)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -945,12 +811,7 @@ None
 ### PileCapacityUSACE1991
 `description`
 
-None
-
-`references`
-
-* [`usace1991design`](references/#usace1991design)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -968,11 +829,7 @@ None
 ### PileRockingStiffness
 `description`
 
-None
-
-`references`
-
-
+FunctionSequence class.
 
 `functions`
 
@@ -988,12 +845,7 @@ None
 ### PileSettlementsBearingPilePoulos1980
 `description`
 
-None
-
-`references`
-
-* [`poulos1980pile`](references/#poulos1980pile)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1009,12 +861,7 @@ None
 ### PileSettlementsFloatingPilePoulos1980
 `description`
 
-None
-
-`references`
-
-* [`poulos1980pile`](references/#poulos1980pile)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1030,12 +877,7 @@ None
 ### PlasticLimit
 `description`
 
-None
-
-`references`
-
-* [`astm2017d4318`](references/#astm2017d4318)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1046,11 +888,7 @@ None
 ### SPTInterpretation
 `description`
 
-None
-
-`references`
-
-
+FunctionSequence class.
 
 `functions`
 
@@ -1096,12 +934,7 @@ None
 ### SPTLiquefactionBoulanger2014
 `description`
 
-None
-
-`references`
-
-* [`boulanger2014cpt`](references/#boulanger2014cpt)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1168,12 +1001,7 @@ None
 ### SPTLiquefactionCetin2004
 `description`
 
-None
-
-`references`
-
-* [`cetin2004standard`](references/#cetin2004standard)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1240,12 +1068,7 @@ None
 ### SPTLiquefactionCetin2018
 `description`
 
-None
-
-`references`
-
-* [`cetin2018use`](references/#cetin2018use)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1314,12 +1137,7 @@ None
 ### SPTLiquefactionIdriss2008
 `description`
 
-None
-
-`references`
-
-* [`idriss2008soil`](references/#idriss2008soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1385,11 +1203,7 @@ None
 ### SPTUnitWeightCorrelation
 `description`
 
-None
-
-`references`
-
-
+FunctionSequence class.
 
 `functions`
 
@@ -1403,12 +1217,7 @@ None
 ### SSIEffects
 `description`
 
-None
-
-`references`
-
-* [`nist2012soil`](references/#nist2012soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1423,12 +1232,7 @@ None
 ### SSIFootingStiffness
 `description`
 
-None
-
-`references`
-
-* [`nist2012soil`](references/#nist2012soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1447,12 +1251,7 @@ None
 ### SSIFootingStiffnessIntensities
 `description`
 
-None
-
-`references`
-
-* [`nist2012soil`](references/#nist2012soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1466,12 +1265,7 @@ None
 ### SSIIntermediate
 `description`
 
-None
-
-`references`
-
-* [`nist2012soil`](references/#nist2012soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1483,12 +1277,7 @@ None
 ### SSINodeData
 `description`
 
-None
-
-`references`
-
-* [`nist2012soil`](references/#nist2012soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1496,12 +1285,7 @@ None
 ### SSIPileStiffness
 `description`
 
-None
-
-`references`
-
-* [`nist2012soil`](references/#nist2012soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1522,12 +1306,7 @@ None
 ### SSIPileStiffnessInGroup
 `description`
 
-None
-
-`references`
-
-* [`nist2012soil`](references/#nist2012soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1538,12 +1317,7 @@ None
 ### SieveAnalysis
 `description`
 
-None
-
-`references`
-
-* [`astm2007d421`](references/#astm2007d421)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1558,11 +1332,7 @@ None
 ### SieveAnalysisIndexProperties
 `description`
 
-None
-
-`references`
-
-
+FunctionSequence class.
 
 `functions`
 
@@ -1574,11 +1344,7 @@ None
 ### SieveAnalysisPercentFiner
 `description`
 
-None
-
-`references`
-
-
+FunctionSequence class.
 
 `functions`
 
@@ -1588,12 +1354,7 @@ None
 ### SoilClassificationAASHTO
 `description`
 
-None
-
-`references`
-
-* [`astm2015d3282`](references/#astm2015d3282)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1601,12 +1362,7 @@ None
 ### SoilClassificationUSCS
 `description`
 
-None
-
-`references`
-
-* [`astm2017d2487`](references/#astm2017d2487)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1614,12 +1370,7 @@ None
 ### SoilClassificationUSDA
 `description`
 
-None
-
-`references`
-
-* [`usda1993soil`](references/#usda1993soil)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1627,12 +1378,7 @@ None
 ### SoilClassificationUSDAMoreno2018
 `description`
 
-None
-
-`references`
-
-* [`moreno2018clay`](references/#moreno2018clay)  
-
+FunctionSequence class.
 
 `functions`
 
@@ -1640,12 +1386,7 @@ None
 ### WaterContent
 `description`
 
-None
-
-`references`
-
-* [`astm2019d2216`](references/#astm2019d2216)  
-
+FunctionSequence class.
 
 `functions`
 
