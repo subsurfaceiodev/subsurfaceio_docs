@@ -1,0 +1,318 @@
+{
+  "figure": {
+    "title": "REGISTRO DE PERFORACI\u00d3N {test_id}",
+    "wspace": 0,
+    "y_values_per_page": 10
+  },
+  "titles": {
+    "size": "10%"
+  },
+  "header": {
+    "nrows": 8
+  },
+  "columns": [
+    {
+      "title": {
+        "title": "PROF. (m)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "axis"
+      }
+    },
+    {
+      "title": {
+        "title": "LOG\nGR\u00c1FICO",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "lithology",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "hatch"
+      }
+    },
+    {
+      "title": {
+        "title": "COLOR",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.1,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "lithology",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "color_field": "color"
+      }
+    },
+    {
+      "title": {
+        "title": "DESCRIPCI\u00d3N DEL MATERIAL"
+      },
+      "width_ratio": 1.5,
+      "model": {
+        "column_type": "text",
+        "data_source": "lithology",
+        "wrap": true,
+        "text_field": "description",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.02
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "MUESTREADOR",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.075,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "samples",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "sampler_type"
+      }
+    },
+    {
+      "title": {
+        "title": "MUESTREADOR\nN\u00daMERO",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "samples",
+        "text_field": "{sampler_type}\n{sample}",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "RECUPERACI\u00d3N\n(%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "samples",
+        "text_field": "recovery",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "N\u00daMERO\nGOLPES",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.25,
+      "model": {
+        "data_source": "samples",
+        "text_field": "reported_blow_count",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "column_type": "text",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "Su TORVANE\n(kPa)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "undrained_shear_strength_torvane",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "qu (UCS)\n(kPa)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "unconfined_compressive_strength",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "PESO VOL.\n(kN/m3)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "{unit_weight:.2f}",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "P4 (%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "percent_passing_no4",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "P10 (%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "percent_passing_no10",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "CONTENIDO\nHUMEDAD (%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "water_content",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "L\u00cdMITE\nL\u00cdQUIDO (%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "liquid_limit",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "L\u00cdMITE\nPL\u00c1STICO (%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "plastic_limit",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "\u00cdNDICE\nPLASTICIDAD (%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "plasticity_index",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "FINOS\n(%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "fines_content",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    }
+  ]
+}

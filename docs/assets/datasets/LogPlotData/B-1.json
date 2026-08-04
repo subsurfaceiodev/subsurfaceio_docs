@@ -1,0 +1,384 @@
+{
+  "data_map": {
+    "metadata": {
+      "client": "ABC Corporation",
+      "project_id": "ABC-12345",
+      "project_name": "gINT Example",
+      "location": "Somewhere, SOMEPLACE",
+      "test_id": "B-1",
+      "date_start": "4/28/2008",
+      "date_end": "4/28/2008",
+      "contractor": "ABC Drilling",
+      "method": "Hollow Stem Auger 2\"",
+      "engineer": "A. Bore / Y. Me",
+      "remarks": "General remarks",
+      "surface_elevation": 37.6,
+      "Hole size": "0.15m to 7.5m, NX to BOH",
+      "G.W.L. AT TIME OF DRILLING (m)": "4.55 m / Elev 33.05 m",
+      "G.W.L. AT END OF DRILLING": "3.65 m / Elev 33.95 m",
+      "G.W.L. 24hrs AFTER DRILLING": "7.50 m / Elev 30.10 m"
+    },
+    "lithology": [
+      {
+        "depth_top": 0.0,
+        "depth": 0.3,
+        "hatch": "ASPHALT",
+        "color": null,
+        "description": "ASPHALT"
+      },
+      {
+        "depth_top": 0.3,
+        "depth": 1.8,
+        "hatch": "SW-SM",
+        "color": null,
+        "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) 10 % gravel, 80 % sand, 10 % fines, green, well graded, rounded, fine to medium grained, moist, very loose, trace chert"
+      },
+      {
+        "depth_top": 1.8,
+        "depth": 3.65,
+        "hatch": "SW-SM",
+        "color": null,
+        "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) 10 % gravel, 80 % sand, 10 % fines, light brownish gray and light blueish green (10YR4/3), well graded, well rounded, fine to medium grained, dry to moist, loose, fissured, with chert, and coal, trace coarse gravel, no odor, weak cementation,\r\nhydrocarbon staining, weak HCL reaction, Alluvium fill, some comments"
+      },
+      {
+        "depth_top": 3.65,
+        "depth": 5.5,
+        "hatch": "SW-SM",
+        "color": null,
+        "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) 10 % gravel, 80 % sand, 10 % fines, brown and olive, well graded, well rounded, fine to medium grained, moist, medium dense, trace clay, little ferrous nodules, and chert, hydrocarbon odor, strong cementation, iron oxide staining, weak HCL reaction, more comments"
+      },
+      {
+        "depth_top": 5.5,
+        "depth": 7.35,
+        "hatch": "CL",
+        "color": null,
+        "description": "SANDY LEAN CLAY, SANDY CLAY, (CL) 10 % gravel, 25 % sand, 65 % fines, brown and green, moist to moist, very stiff, medium plasticity, slow dilatancy, medium toughness, high dry strength, trace medium to coarse sand, some ferrous nodules, and mica, chemical odor, strong cementation, hydrocarbon staining, weak HCL reaction, comments about the clay"
+      },
+      {
+        "depth_top": 7.35,
+        "depth": 8.25,
+        "hatch": "CH",
+        "color": null,
+        "description": "SANDY FAT CLAY, (CH) gray, hard, high plasticity"
+      },
+      {
+        "depth_top": 8.25,
+        "depth": 10.65,
+        "hatch": "CH",
+        "color": null,
+        "description": "SANDY FAT CLAY, SANDY FAT CLAY, (CH) 5 % gravel, 25 % sand, 70 % fines, gray, dry to moist, hard, fissured, high plasticity, no dilatancy, high toughness, high dry strength, trace clayey silt, little coal refuse, hydrocarbon odor, moderate cementation, hydrocarbon staining, moderate HCL reaction, PWR fill, more comments"
+      },
+      {
+        "depth_top": 10.65,
+        "depth": 14.1,
+        "hatch": "SHALE",
+        "color": null,
+        "description": "CLAYEY SHALE, freshly weathered to completely weathered, thinly bedded, inclined, disturbed, dark brownish gray to light olive green (10YR4/3), finely crystalline, Minerology, hard to medium hard, medium to medium fracture spacing, 15\u00b0 to 45\u00b0 bedding angle, dry to flowing, no staining, [Geologic Formation] Local Name, 80, Layer RQD = Layer RQD% rock comments"
+      }
+    ],
+    "samples": [
+      {
+        "depth_top": 1.5,
+        "depth": 1.8,
+        "sample": "O-1",
+        "sampler_type": "GB",
+        "recovery": null,
+        "first_interval_blow_count": null,
+        "second_interval_blow_count": null,
+        "third_interval_blow_count": null,
+        "fourth_interval_blow_count": null,
+        "blow_count": null
+      },
+      {
+        "depth_top": 3.0,
+        "depth": 3.6,
+        "sample": "S-1",
+        "sampler_type": "SPT",
+        "recovery": "92",
+        "first_interval_blow_count": 1,
+        "second_interval_blow_count": 2,
+        "third_interval_blow_count": 3,
+        "fourth_interval_blow_count": 4,
+        "blow_count": 5
+      },
+      {
+        "depth_top": 4.5,
+        "depth": 5.1,
+        "sample": "S-2",
+        "sampler_type": "SPT",
+        "recovery": "75",
+        "first_interval_blow_count": 4,
+        "second_interval_blow_count": 5,
+        "third_interval_blow_count": 6,
+        "fourth_interval_blow_count": 7,
+        "blow_count": 11
+      },
+      {
+        "depth_top": 6.0,
+        "depth": 6.6,
+        "sample": "S-3",
+        "sampler_type": "SPT",
+        "recovery": "67",
+        "first_interval_blow_count": 8,
+        "second_interval_blow_count": 9,
+        "third_interval_blow_count": 10,
+        "fourth_interval_blow_count": 11,
+        "blow_count": 19
+      },
+      {
+        "depth_top": 7.3,
+        "depth": 7.9,
+        "sample": "T-1",
+        "sampler_type": "ST",
+        "recovery": "75",
+        "first_interval_blow_count": null,
+        "second_interval_blow_count": null,
+        "third_interval_blow_count": null,
+        "fourth_interval_blow_count": null,
+        "blow_count": null
+      },
+      {
+        "depth_top": 8.25,
+        "depth": 8.65,
+        "sample": "S-4",
+        "sampler_type": "SPT",
+        "recovery": "75",
+        "first_interval_blow_count": 45,
+        "second_interval_blow_count": 46,
+        "third_interval_blow_count": 50,
+        "fourth_interval_blow_count": null,
+        "blow_count": 100
+      },
+      {
+        "depth_top": 8.85,
+        "depth": 9.05,
+        "sample": "S-5",
+        "sampler_type": "SPT",
+        "recovery": "75",
+        "first_interval_blow_count": 45,
+        "second_interval_blow_count": 50,
+        "third_interval_blow_count": null,
+        "fourth_interval_blow_count": null,
+        "blow_count": 100
+      },
+      {
+        "depth_top": 9.45,
+        "depth": 9.48,
+        "sample": "S-6",
+        "sampler_type": "SPT",
+        "recovery": "33",
+        "first_interval_blow_count": 50,
+        "second_interval_blow_count": null,
+        "third_interval_blow_count": null,
+        "fourth_interval_blow_count": null,
+        "blow_count": 100
+      },
+      {
+        "depth_top": 10.7,
+        "depth": 12.2,
+        "sample": "R-1",
+        "sampler_type": "RC",
+        "recovery": "97\r\n(90)",
+        "first_interval_blow_count": null,
+        "second_interval_blow_count": null,
+        "third_interval_blow_count": null,
+        "fourth_interval_blow_count": null,
+        "blow_count": null
+      },
+      {
+        "depth_top": 12.2,
+        "depth": 13.7,
+        "sample": "R-2",
+        "sampler_type": "RC",
+        "recovery": "83\r\n(73)",
+        "first_interval_blow_count": null,
+        "second_interval_blow_count": null,
+        "third_interval_blow_count": null,
+        "fourth_interval_blow_count": null,
+        "blow_count": null
+      }
+    ],
+    "specimens": [
+      {
+        "depth_top": 1.5,
+        "depth": 1.8,
+        "specimen": "O-1",
+        "undrained_shear_strength_pocket_pen": 75,
+        "unit_weight": 1.52,
+        "water_content": 17,
+        "liquid_limit": 38,
+        "plastic_limit": 15,
+        "plasticity_index": 23,
+        "fines_content": 72,
+        "environmental_data": null
+      },
+      {
+        "depth_top": 3.0,
+        "depth": 3.6,
+        "specimen": "S-1",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": null,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": "FID = 20\r\nGRO = 30\r\nPID = 1\r\nSOV = 60\r\nTPH = 50\r\nVapor = 93"
+      },
+      {
+        "depth_top": 4.5,
+        "depth": 5.1,
+        "specimen": "S-2",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": 15,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": "FID = 20\r\nPID = 10"
+      },
+      {
+        "depth_top": 6.0,
+        "depth": 6.6,
+        "specimen": "S-3",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": 19,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": "GRO = 10"
+      },
+      {
+        "depth_top": 7.3,
+        "depth": 7.9,
+        "specimen": "T-1",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": null,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": null
+      },
+      {
+        "depth_top": 8.25,
+        "depth": 8.65,
+        "specimen": "S-4",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": null,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": null
+      },
+      {
+        "depth_top": 8.85,
+        "depth": 9.05,
+        "specimen": "S-5",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": null,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": null
+      },
+      {
+        "depth_top": 9.45,
+        "depth": 9.48,
+        "specimen": "S-6",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": null,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": null
+      },
+      {
+        "depth_top": 10.7,
+        "depth": 12.2,
+        "specimen": "R-1",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": null,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": null
+      },
+      {
+        "depth_top": 12.2,
+        "depth": 13.7,
+        "specimen": "R-2",
+        "undrained_shear_strength_pocket_pen": null,
+        "unit_weight": null,
+        "water_content": null,
+        "liquid_limit": null,
+        "plastic_limit": null,
+        "plasticity_index": null,
+        "fines_content": null,
+        "environmental_data": null
+      }
+    ],
+    "well": [
+      {
+        "depth_top": 0.0,
+        "depth": 3.6,
+        "hatch": "CMNT11",
+        "text": "Cement 5%\r\nBentonite Grout"
+      },
+      {
+        "depth_top": 3.6,
+        "depth": 4.2,
+        "hatch": "BENT11",
+        "text": "Bentonite Seal"
+      },
+      {
+        "depth_top": 4.2,
+        "depth": 5.0,
+        "hatch": "FILT11",
+        "text": "Sand (#3)"
+      },
+      {
+        "depth_top": 5.0,
+        "depth": 11.9,
+        "hatch": "SLOT11",
+        "text": null
+      },
+      {
+        "depth_top": 11.9,
+        "depth": 12.0,
+        "hatch": "PCAP11",
+        "text": null
+      },
+      {
+        "depth_top": 12.0,
+        "depth": 12.6,
+        "hatch": "BENTBOTT",
+        "text": "Bentonite Seal"
+      },
+      {
+        "depth_top": 12.6,
+        "depth": 13.2,
+        "hatch": "CMNTBOTT",
+        "text": "Cement 5%\r\nBentonite Grout"
+      },
+      {
+        "depth_top": 13.2,
+        "depth": 14.1,
+        "hatch": "SLUFBOTT",
+        "text": "Cave-in"
+      }
+    ]
+  }
+}

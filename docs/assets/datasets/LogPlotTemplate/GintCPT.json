@@ -1,0 +1,130 @@
+{
+  "figure": {
+    "title": "LOG OF CPT {test_id}",
+    "wspace": 0,
+    "y_values_per_page": 5
+  },
+  "titles": {
+    "size": "10%"
+  },
+  "header": {
+    "nrows": 8
+  },
+  "columns": [
+    {
+      "title": {
+        "title": "DEPTH (m)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.5,
+      "model": {
+        "column_type": "axis"
+      }
+    },
+    {
+      "title": {
+        "title": "FRICTION\n(kPa)"
+      },
+      "width_ratio": 1.1,
+      "model": {
+        "column_type": "plot",
+        "show_legend": false,
+        "plot_maps": [
+          {
+            "data_source": "cpt",
+            "y_field": "depth",
+            "x_field": "sleeve_friction",
+            "parameters": {
+              "marker": "none",
+              "color": "red"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "title": "CONE RESISTANCE\n(MPa)"
+      },
+      "width_ratio": 2.2,
+      "model": {
+        "column_type": "plot",
+        "show_legend": false,
+        "plot_maps": [
+          {
+            "data_source": "cpt",
+            "y_field": "depth",
+            "x_field": "cone_tip_resistance",
+            "parameters": {
+              "marker": "none",
+              "color": "green"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "title": "FRICTION\nRATIO (%)"
+      },
+      "width_ratio": 1.1,
+      "model": {
+        "column_type": "plot",
+        "show_legend": false,
+        "plot_maps": [
+          {
+            "data_source": "cpt",
+            "y_field": "depth",
+            "x_field": "friction_ratio",
+            "parameters": {
+              "marker": "none",
+              "color": "blue"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "title": "GRAPHIC\nLOG",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.25,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "lithology",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "hatch"
+      }
+    },
+    {
+      "title": {
+        "title": "MATERIAL DESCRIPTION"
+      },
+      "width_ratio": 1.95,
+      "model": {
+        "column_type": "text",
+        "data_source": "lithology",
+        "wrap": true,
+        "text_field": "description",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.02
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "ELEVATION (m)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.5,
+      "model": {
+        "column_type": "axis",
+        "as_elevation": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "method": "Meyerhof1978StrongSandOnSoftSaturatedClay",
+    "footing_shape": "continuous",
+    "footing_embedment": 1.2,
+    "footing_width": 2.0,
+    "water_table_present": false,
+    "unit_weight": 17.5,
+    "friction_angle": 40.0,
+    "thickness_top_layer": 1.5,
+    "undrained_shear_strength_bottom_layer": 30.0
+  }
+}

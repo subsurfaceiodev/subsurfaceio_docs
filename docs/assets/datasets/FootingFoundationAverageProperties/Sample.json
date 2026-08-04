@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "footing_embedment": 1.0,
+    "footing_width": 1.0
+  },
+  "data": [
+    {
+      "depth": 1.5,
+      "friction_angle": 35.0,
+      "undrained_shear_strength": 0.0
+    },
+    {
+      "depth": 10.0,
+      "friction_angle": 0.0,
+      "undrained_shear_strength": 20.0
+    }
+  ]
+}

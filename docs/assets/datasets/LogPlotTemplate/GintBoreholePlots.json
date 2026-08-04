@@ -1,0 +1,225 @@
+{
+  "figure": {
+    "title": "LOG OF BORING {test_id}",
+    "wspace": 0,
+    "y_values_per_page": 10
+  },
+  "titles": {
+    "size": "10%"
+  },
+  "header": {
+    "nrows": 8
+  },
+  "columns": [
+    {
+      "title": {
+        "title": "DEPTH (m)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.35,
+      "model": {
+        "column_type": "axis"
+      }
+    },
+    {
+      "title": {
+        "title": "GRAPHIC\nLOG",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "lithology",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "hatch"
+      }
+    },
+    {
+      "title": {
+        "title": "MATERIAL DESCRIPTION"
+      },
+      "width_ratio": 3.55,
+      "model": {
+        "column_type": "text",
+        "data_source": "lithology",
+        "wrap": true,
+        "text_field": "description",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.02
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "SAMPLER",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "samples",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "sampler_type"
+      }
+    },
+    {
+      "title": {
+        "title": "SAMPLER TYPE\nNUMBER",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "text",
+        "data_source": "samples",
+        "text_field": "{sampler_type}\n{sample}",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "RECOVERY (%)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "text",
+        "data_source": "samples",
+        "text_field": "recovery",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "BLOW\nCOUNTS\n(N VALUE)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.55,
+      "model": {
+        "data_source": "samples",
+        "text_field": "reported_blow_count",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "column_type": "text",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "POCKET PEN.\n(kPa)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "undrained_shear_strength_pocket_pen",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "DRY UNIT WT.\n(Mg/m3)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "{dry_density:.2f}",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "SPT N and\nATTERBERG LIMITS"
+      },
+      "width_ratio": 1.5,
+      "model": {
+        "column_type": "plot",
+        "x_axis_limits": {
+          "left": 0,
+          "right": 100
+        },
+        "plot_maps": [
+          {
+            "data_source": "samples",
+            "y_field": "depth",
+            "x_field": "blow_count",
+            "parameters": {
+              "marker": "^",
+              "color": "black"
+            }
+          },
+          {
+            "data_source": "specimens",
+            "y_field": "depth",
+            "x_field": "water_content",
+            "parameters": {
+              "marker": "o",
+              "linestyle": "none",
+              "color": "black"
+            }
+          },
+          {
+            "data_source": "specimens",
+            "y_field": "depth",
+            "x_field": "liquid_limit",
+            "parameters": {
+              "marker": "|",
+              "linestyle": "none",
+              "color": "black"
+            }
+          },
+          {
+            "data_source": "specimens",
+            "y_field": "depth",
+            "x_field": "plastic_limit",
+            "parameters": {
+              "marker": "|",
+              "linestyle": "none",
+              "color": "black"
+            }
+          },
+          {
+            "data_source": "specimens",
+            "y_field": "depth",
+            "x_field": "fines_content",
+            "parameters": {
+              "marker": "s",
+              "fillstyle": "none",
+              "linestyle": "none",
+              "color": "black"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "method": "BearingPilePoulos1980",
+    "pile_head_axial_load": 1000.0,
+    "pile_embedment_length": 10.0,
+    "pile_diameter": 1.0,
+    "pile_elasticity_modulus": 10318.04,
+    "elasticity_modulus": 50.0,
+    "pile_area_ratio": 1.0,
+    "poisson_ratio": 0.3,
+    "elasticity_modulus_bearing_soil": 500.0
+  }
+}

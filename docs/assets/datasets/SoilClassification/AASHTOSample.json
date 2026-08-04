@@ -1,0 +1,12 @@
+{
+  "model": {
+    "system": "AASHTO",
+    "language": "en",
+    "fines_content": 34.0,
+    "percent_passing_no10": 90.0,
+    "percent_passing_no40": 76.0,
+    "non_plastic": false,
+    "liquid_limit": 38.0,
+    "plasticity_index": 12.0
+  }
+}

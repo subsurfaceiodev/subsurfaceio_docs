@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "structure_flexible_period": 2.72,
+    "structure_total_height": 56.2,
+    "structure_rigid_period": 2.71,
+    "footing_embedment": 6.2,
+    "footing_width": 21.9,
+    "footing_length": 57.6,
+    "end_length_ratio": 0.4,
+    "elasticity_modulus": 157.0,
+    "unit_weight": 20.0,
+    "poisson_ratio": 0.33,
+    "shear_modulus_reduction_factor": 0.5,
+    "soil_damping_ratio": 0.088,
+    "pile_diameter": 0.6,
+    "pile_embedment_length": 9.9,
+    "pile_elasticity_modulus": 10318.04,
+    "pile_unit_weight": 24.0
+  },
+  "data": [
+    {
+      "depth": 0.0,
+      "shear_velocity": 156.2
+    },
+    {
+      "depth": 2.5,
+      "shear_velocity": 156.2
+    },
+    {
+      "depth": 6.5,
+      "shear_velocity": 203.2
+    },
+    {
+      "depth": 13.5,
+      "shear_velocity": 260.2
+    },
+    {
+      "depth": 23.7,
+      "shear_velocity": 327.2
+    },
+    {
+      "depth": 30.0,
+      "shear_velocity": 511.2
+    }
+  ],
+  "node_data": [
+    {
+      "node_id": 1,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 0.0,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 2,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 11.5,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 3,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 18.42,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 4,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 25.34,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 5,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 32.26,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 6,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 39.18,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 7,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 46.1,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 8,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 57.6,
+      "coordinate_y": 0.0
+    },
+    {
+      "node_id": 9,
+      "pile_count": 18,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 0.0,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 10,
+      "pile_count": 23,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 11.5,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 11,
+      "pile_count": 23,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 18.42,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 12,
+      "pile_count": 23,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 25.34,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 13,
+      "pile_count": 25,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 32.26,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 14,
+      "pile_count": 25,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 39.18,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 15,
+      "pile_count": 25,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 46.1,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 16,
+      "pile_count": 14,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 57.6,
+      "coordinate_y": 10.95
+    },
+    {
+      "node_id": 17,
+      "pile_count": 14,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 0.0,
+      "coordinate_y": 21.9
+    },
+    {
+      "node_id": 18,
+      "pile_count": 13,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 11.5,
+      "coordinate_y": 21.9
+    },
+    {
+      "node_id": 19,
+      "pile_count": 13,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 18.42,
+      "coordinate_y": 21.9
+    },
+    {
+      "node_id": 20,
+      "pile_count": 14,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 25.34,
+      "coordinate_y": 21.9
+    },
+    {
+      "node_id": 21,
+      "pile_count": 16,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 32.26,
+      "coordinate_y": 21.9
+    },
+    {
+      "node_id": 22,
+      "pile_count": 14,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 39.18,
+      "coordinate_y": 21.9
+    },
+    {
+      "node_id": 23,
+      "pile_count": 15,
+      "pile_group_configuration": "4X4",
+      "coordinate_x": 46.1,
+      "coordinate_y": 21.9
+    },
+    {
+      "node_id": 24,
+      "pile_count": 12,
+      "pile_group_configuration": "3X3",
+      "coordinate_x": 57.6,
+      "coordinate_y": 21.9
+    }
+  ]
+}

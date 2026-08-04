@@ -1,0 +1,14 @@
+{
+  "model": {
+    "method": "Meyerhof1978StrongSaturatedClayOnSoftSaturatedClay",
+    "footing_shape": "rectangular",
+    "footing_embedment": 1.0,
+    "footing_width": 1.0,
+    "footing_length": 1.5,
+    "water_table_present": false,
+    "unit_weight": 16.8,
+    "undrained_shear_strength": 120.0,
+    "thickness_top_layer": 1.0,
+    "undrained_shear_strength_bottom_layer": 48.0
+  }
+}

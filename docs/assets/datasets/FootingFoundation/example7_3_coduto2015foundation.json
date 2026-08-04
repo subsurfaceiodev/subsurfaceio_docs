@@ -1,0 +1,13 @@
+{
+  "model": {
+    "method": "Vesic1975",
+    "footing_shape": "square",
+    "footing_embedment": 1.0,
+    "footing_width": 3.0,
+    "water_table_present": true,
+    "water_table": 1.5,
+    "unit_weight": 18.5,
+    "friction_angle": 30.0,
+    "undrained_shear_strength": 0.0
+  }
+}

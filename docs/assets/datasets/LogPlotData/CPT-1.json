@@ -1,0 +1,2853 @@
+{
+  "data_map": {
+    "metadata": {
+      "client": "ABC Corporation",
+      "project_id": "ABC-12345",
+      "project_name": "gINT Example",
+      "location": "Somewhere, SOMEPLACE",
+      "test_id": "CPT-1",
+      "date_start": "4/28/2008",
+      "date_end": "4/28/2008",
+      "contractor": "AAAAA Drilling, Inc.",
+      "method": null,
+      "engineer": null,
+      "remarks": "Weather:  Warm, sunny, slight westerly wind.",
+      "surface_elevation": 38.25,
+      "Hole size": null,
+      "G.W.L. AT TIME OF DRILLING (m)": null,
+      "G.W.L. AT END OF DRILLING": null,
+      "G.W.L. 24hrs AFTER DRILLING": null
+    },
+    "lithology": [
+      {
+        "depth_top": 0.0,
+        "depth": 1.5,
+        "hatch": "CL",
+        "color": null,
+        "description": "SILTY CLAY(CL), firm"
+      },
+      {
+        "depth_top": 1.5,
+        "depth": 2.4,
+        "hatch": "SM",
+        "color": null,
+        "description": "SILTY SAND(SM), loose to 1.8m, medium dense below 1.8m"
+      },
+      {
+        "depth_top": 2.4,
+        "depth": 3.0,
+        "hatch": "SC",
+        "color": null,
+        "description": "CLAYEY SAND(SC), medium dense"
+      },
+      {
+        "depth_top": 3.0,
+        "depth": 5.3,
+        "hatch": "ML",
+        "color": null,
+        "description": "CLAYEY SILT(ML), stiff to very stiff"
+      },
+      {
+        "depth_top": 5.3,
+        "depth": 11.1,
+        "hatch": "SM",
+        "color": null,
+        "description": "SILTY SAND(SM), medium dense to dense"
+      },
+      {
+        "depth_top": 7.5,
+        "depth": null,
+        "hatch": null,
+        "color": null,
+        "description": "@ 7.5m, dense to very dense"
+      },
+      {
+        "depth_top": 11.1,
+        "depth": 14.1,
+        "hatch": "ML",
+        "color": null,
+        "description": "SILT(ML), hard"
+      }
+    ],
+    "cpt": [
+      {
+        "depth": 0.21,
+        "cone_tip_resistance": 28.9394,
+        "sleeve_friction": 734.2,
+        "friction_ratio": 2.537025647
+      },
+      {
+        "depth": 0.24,
+        "cone_tip_resistance": 29.2154,
+        "sleeve_friction": 703.6,
+        "friction_ratio": 2.4083189
+      },
+      {
+        "depth": 0.27,
+        "cone_tip_resistance": 31.6496,
+        "sleeve_friction": 703.6,
+        "friction_ratio": 2.223092867
+      },
+      {
+        "depth": 0.3,
+        "cone_tip_resistance": 32.9358,
+        "sleeve_friction": 774.9,
+        "friction_ratio": 2.352759004
+      },
+      {
+        "depth": 0.33,
+        "cone_tip_resistance": 33.8088,
+        "sleeve_friction": 822.4,
+        "friction_ratio": 2.43250278
+      },
+      {
+        "depth": 0.36,
+        "cone_tip_resistance": 34.59,
+        "sleeve_friction": 866.6,
+        "friction_ratio": 2.505348367
+      },
+      {
+        "depth": 0.39,
+        "cone_tip_resistance": 35.0038,
+        "sleeve_friction": 910.7,
+        "friction_ratio": 2.601717528
+      },
+      {
+        "depth": 0.42,
+        "cone_tip_resistance": 34.8207,
+        "sleeve_friction": 890.3,
+        "friction_ratio": 2.556812471
+      },
+      {
+        "depth": 0.45,
+        "cone_tip_resistance": 33.5357,
+        "sleeve_friction": 842.8,
+        "friction_ratio": 2.513142711
+      },
+      {
+        "depth": 0.48,
+        "cone_tip_resistance": 31.47,
+        "sleeve_friction": 774.9,
+        "friction_ratio": 2.462345091
+      },
+      {
+        "depth": 0.51,
+        "cone_tip_resistance": 30.8278,
+        "sleeve_friction": 771.5,
+        "friction_ratio": 2.502611279
+      },
+      {
+        "depth": 0.54,
+        "cone_tip_resistance": 31.1957,
+        "sleeve_friction": 791.8,
+        "friction_ratio": 2.538170325
+      },
+      {
+        "depth": 0.57,
+        "cone_tip_resistance": 31.4259,
+        "sleeve_friction": 836.0,
+        "friction_ratio": 2.660226119
+      },
+      {
+        "depth": 0.6,
+        "cone_tip_resistance": 30.6918,
+        "sleeve_friction": 883.5,
+        "friction_ratio": 2.878619045
+      },
+      {
+        "depth": 0.63,
+        "cone_tip_resistance": 30.5087,
+        "sleeve_friction": 863.1,
+        "friction_ratio": 2.829029097
+      },
+      {
+        "depth": 0.66,
+        "cone_tip_resistance": 30.3716,
+        "sleeve_friction": 829.1,
+        "friction_ratio": 2.729852889
+      },
+      {
+        "depth": 0.69,
+        "cone_tip_resistance": 30.0048,
+        "sleeve_friction": 808.8,
+        "friction_ratio": 2.695568709
+      },
+      {
+        "depth": 0.72,
+        "cone_tip_resistance": 29.5463,
+        "sleeve_friction": 768.0,
+        "friction_ratio": 2.599310235
+      },
+      {
+        "depth": 0.75,
+        "cone_tip_resistance": 29.3173,
+        "sleeve_friction": 744.3,
+        "friction_ratio": 2.538774034
+      },
+      {
+        "depth": 0.78,
+        "cone_tip_resistance": 29.0424,
+        "sleeve_friction": 747.6,
+        "friction_ratio": 2.574167424
+      },
+      {
+        "depth": 0.81,
+        "cone_tip_resistance": 28.6756,
+        "sleeve_friction": 774.8,
+        "friction_ratio": 2.701948695
+      },
+      {
+        "depth": 0.84,
+        "cone_tip_resistance": 27.8038,
+        "sleeve_friction": 768.0,
+        "friction_ratio": 2.762212359
+      },
+      {
+        "depth": 0.87,
+        "cone_tip_resistance": 26.1514,
+        "sleeve_friction": 730.6,
+        "friction_ratio": 2.793731884
+      },
+      {
+        "depth": 0.9,
+        "cone_tip_resistance": 24.1776,
+        "sleeve_friction": 717.1,
+        "friction_ratio": 2.9659685
+      },
+      {
+        "depth": 0.93,
+        "cone_tip_resistance": 22.3416,
+        "sleeve_friction": 717.1,
+        "friction_ratio": 3.209707452
+      },
+      {
+        "depth": 0.96,
+        "cone_tip_resistance": 19.9546,
+        "sleeve_friction": 727.2,
+        "friction_ratio": 3.644272499
+      },
+      {
+        "depth": 0.99,
+        "cone_tip_resistance": 15.7309,
+        "sleeve_friction": 710.3,
+        "friction_ratio": 4.515316988
+      },
+      {
+        "depth": 1.02,
+        "cone_tip_resistance": 10.7266,
+        "sleeve_friction": 628.8,
+        "friction_ratio": 5.862062536
+      },
+      {
+        "depth": 1.05,
+        "cone_tip_resistance": 8.11,
+        "sleeve_friction": 584.6,
+        "friction_ratio": 7.20838471
+      },
+      {
+        "depth": 1.08,
+        "cone_tip_resistance": 7.4678,
+        "sleeve_friction": 462.4,
+        "friction_ratio": 6.191917298
+      },
+      {
+        "depth": 1.11,
+        "cone_tip_resistance": 9.7642,
+        "sleeve_friction": 360.6,
+        "friction_ratio": 3.693082895
+      },
+      {
+        "depth": 1.14,
+        "cone_tip_resistance": 10.4076,
+        "sleeve_friction": 287.6,
+        "friction_ratio": 2.763365233
+      },
+      {
+        "depth": 1.17,
+        "cone_tip_resistance": 10.4082,
+        "sleeve_friction": 214.6,
+        "friction_ratio": 2.06183586
+      },
+      {
+        "depth": 1.2,
+        "cone_tip_resistance": 10.5465,
+        "sleeve_friction": 255.3,
+        "friction_ratio": 2.420708292
+      },
+      {
+        "depth": 1.23,
+        "cone_tip_resistance": 10.5471,
+        "sleeve_friction": 313.0,
+        "friction_ratio": 2.967640394
+      },
+      {
+        "depth": 1.26,
+        "cone_tip_resistance": 10.5477,
+        "sleeve_friction": 377.5,
+        "friction_ratio": 3.578979304
+      },
+      {
+        "depth": 1.29,
+        "cone_tip_resistance": 11.6044,
+        "sleeve_friction": 408.1,
+        "friction_ratio": 3.516769501
+      },
+      {
+        "depth": 1.32,
+        "cone_tip_resistance": 12.4773,
+        "sleeve_friction": 438.6,
+        "friction_ratio": 3.515183573
+      },
+      {
+        "depth": 1.35,
+        "cone_tip_resistance": 12.0647,
+        "sleeve_friction": 442.0,
+        "friction_ratio": 3.663580528
+      },
+      {
+        "depth": 1.38,
+        "cone_tip_resistance": 11.698,
+        "sleeve_friction": 411.4,
+        "friction_ratio": 3.516840486
+      },
+      {
+        "depth": 1.41,
+        "cone_tip_resistance": 11.3771,
+        "sleeve_friction": 397.9,
+        "friction_ratio": 3.497376309
+      },
+      {
+        "depth": 1.44,
+        "cone_tip_resistance": 11.1481,
+        "sleeve_friction": 387.7,
+        "friction_ratio": 3.477722661
+      },
+      {
+        "depth": 1.47,
+        "cone_tip_resistance": 11.011,
+        "sleeve_friction": 411.4,
+        "friction_ratio": 3.736263736
+      },
+      {
+        "depth": 1.5,
+        "cone_tip_resistance": 11.1493,
+        "sleeve_friction": 394.4,
+        "friction_ratio": 3.537441812
+      },
+      {
+        "depth": 1.53,
+        "cone_tip_resistance": 11.1499,
+        "sleeve_friction": 391.0,
+        "friction_ratio": 3.506757908
+      },
+      {
+        "depth": 1.56,
+        "cone_tip_resistance": 10.9668,
+        "sleeve_friction": 408.0,
+        "friction_ratio": 3.72031951
+      },
+      {
+        "depth": 1.59,
+        "cone_tip_resistance": 10.8297,
+        "sleeve_friction": 455.5,
+        "friction_ratio": 4.206026021
+      },
+      {
+        "depth": 1.62,
+        "cone_tip_resistance": 12.3914,
+        "sleeve_friction": 611.7,
+        "friction_ratio": 4.93648821
+      },
+      {
+        "depth": 1.65,
+        "cone_tip_resistance": 16.0653,
+        "sleeve_friction": 849.3,
+        "friction_ratio": 5.286549271
+      },
+      {
+        "depth": 1.68,
+        "cone_tip_resistance": 20.1524,
+        "sleeve_friction": 1080.1,
+        "friction_ratio": 5.359659395
+      },
+      {
+        "depth": 1.71,
+        "cone_tip_resistance": 23.0456,
+        "sleeve_friction": 1215.9,
+        "friction_ratio": 5.276061374
+      },
+      {
+        "depth": 1.74,
+        "cone_tip_resistance": 23.4595,
+        "sleeve_friction": 1249.8,
+        "friction_ratio": 5.327479273
+      },
+      {
+        "depth": 1.77,
+        "cone_tip_resistance": 22.5877,
+        "sleeve_friction": 1263.4,
+        "friction_ratio": 5.593309633
+      },
+      {
+        "depth": 1.8,
+        "cone_tip_resistance": 20.7975,
+        "sleeve_friction": 1215.8,
+        "friction_ratio": 5.845894939
+      },
+      {
+        "depth": 1.83,
+        "cone_tip_resistance": 16.6198,
+        "sleeve_friction": 1080.1,
+        "friction_ratio": 6.498874836
+      },
+      {
+        "depth": 1.86,
+        "cone_tip_resistance": 11.4319,
+        "sleeve_friction": 930.7,
+        "friction_ratio": 8.14125386
+      },
+      {
+        "depth": 1.89,
+        "cone_tip_resistance": 9.0908,
+        "sleeve_friction": 584.4,
+        "friction_ratio": 6.428477142
+      },
+      {
+        "depth": 1.92,
+        "cone_tip_resistance": 7.9894,
+        "sleeve_friction": 346.8,
+        "friction_ratio": 4.340751496
+      },
+      {
+        "depth": 1.95,
+        "cone_tip_resistance": 6.7043,
+        "sleeve_friction": 221.2,
+        "friction_ratio": 3.299375028
+      },
+      {
+        "depth": 1.98,
+        "cone_tip_resistance": 6.108,
+        "sleeve_friction": 146.5,
+        "friction_ratio": 2.398493779
+      },
+      {
+        "depth": 2.01,
+        "cone_tip_resistance": 5.8331,
+        "sleeve_friction": 143.1,
+        "friction_ratio": 2.453240987
+      },
+      {
+        "depth": 2.04,
+        "cone_tip_resistance": 6.8897,
+        "sleeve_friction": 211.0,
+        "friction_ratio": 3.062542636
+      },
+      {
+        "depth": 2.07,
+        "cone_tip_resistance": 9.6912,
+        "sleeve_friction": 363.7,
+        "friction_ratio": 3.752889219
+      },
+      {
+        "depth": 2.1,
+        "cone_tip_resistance": 13.411,
+        "sleeve_friction": 543.7,
+        "friction_ratio": 4.054134666
+      },
+      {
+        "depth": 2.13,
+        "cone_tip_resistance": 17.3603,
+        "sleeve_friction": 706.6,
+        "friction_ratio": 4.07020616
+      },
+      {
+        "depth": 2.16,
+        "cone_tip_resistance": 17.6823,
+        "sleeve_friction": 822.0,
+        "friction_ratio": 4.648716513
+      },
+      {
+        "depth": 2.19,
+        "cone_tip_resistance": 12.4026,
+        "sleeve_friction": 691.3,
+        "friction_ratio": 5.573831293
+      },
+      {
+        "depth": 2.22,
+        "cone_tip_resistance": 9.3268,
+        "sleeve_friction": 560.6,
+        "friction_ratio": 6.010636017
+      },
+      {
+        "depth": 2.25,
+        "cone_tip_resistance": 7.6744,
+        "sleeve_friction": 414.6,
+        "friction_ratio": 5.402376733
+      },
+      {
+        "depth": 2.28,
+        "cone_tip_resistance": 8.7081,
+        "sleeve_friction": 394.2,
+        "friction_ratio": 4.526819857
+      },
+      {
+        "depth": 2.31,
+        "cone_tip_resistance": 9.7418,
+        "sleeve_friction": 360.3,
+        "friction_ratio": 3.698495145
+      },
+      {
+        "depth": 2.34,
+        "cone_tip_resistance": 8.7782,
+        "sleeve_friction": 282.2,
+        "friction_ratio": 3.214782074
+      },
+      {
+        "depth": 2.37,
+        "cone_tip_resistance": 9.1002,
+        "sleeve_friction": 322.9,
+        "friction_ratio": 3.548273664
+      },
+      {
+        "depth": 2.4,
+        "cone_tip_resistance": 8.6875,
+        "sleeve_friction": 346.7,
+        "friction_ratio": 3.990791367
+      },
+      {
+        "depth": 2.43,
+        "cone_tip_resistance": 7.4484,
+        "sleeve_friction": 289.0,
+        "friction_ratio": 3.880027925
+      },
+      {
+        "depth": 2.46,
+        "cone_tip_resistance": 6.6225,
+        "sleeve_friction": 278.8,
+        "friction_ratio": 4.209890525
+      },
+      {
+        "depth": 2.49,
+        "cone_tip_resistance": 7.3577,
+        "sleeve_friction": 272.0,
+        "friction_ratio": 3.696807426
+      },
+      {
+        "depth": 2.52,
+        "cone_tip_resistance": 7.4042,
+        "sleeve_friction": 217.7,
+        "friction_ratio": 2.940223117
+      },
+      {
+        "depth": 2.55,
+        "cone_tip_resistance": 6.0733,
+        "sleeve_friction": 210.9,
+        "friction_ratio": 3.472576688
+      },
+      {
+        "depth": 2.58,
+        "cone_tip_resistance": 6.0738,
+        "sleeve_friction": 275.4,
+        "friction_ratio": 4.534228984
+      },
+      {
+        "depth": 2.61,
+        "cone_tip_resistance": 9.61,
+        "sleeve_friction": 360.2,
+        "friction_ratio": 3.74817898
+      },
+      {
+        "depth": 2.64,
+        "cone_tip_resistance": 16.9571,
+        "sleeve_friction": 472.2,
+        "friction_ratio": 2.784674266
+      },
+      {
+        "depth": 2.67,
+        "cone_tip_resistance": 20.9983,
+        "sleeve_friction": 635.2,
+        "friction_ratio": 3.025006786
+      },
+      {
+        "depth": 2.7,
+        "cone_tip_resistance": 19.7591,
+        "sleeve_friction": 774.3,
+        "friction_ratio": 3.918700751
+      },
+      {
+        "depth": 2.73,
+        "cone_tip_resistance": 15.9028,
+        "sleeve_friction": 713.2,
+        "friction_ratio": 4.484744825
+      },
+      {
+        "depth": 2.76,
+        "cone_tip_resistance": 11.5873,
+        "sleeve_friction": 628.4,
+        "friction_ratio": 5.423178825
+      },
+      {
+        "depth": 2.79,
+        "cone_tip_resistance": 11.5879,
+        "sleeve_friction": 662.3,
+        "friction_ratio": 5.715444559
+      },
+      {
+        "depth": 2.82,
+        "cone_tip_resistance": 18.7973,
+        "sleeve_friction": 740.4,
+        "friction_ratio": 3.93886356
+      },
+      {
+        "depth": 2.85,
+        "cone_tip_resistance": 23.5272,
+        "sleeve_friction": 845.6,
+        "friction_ratio": 3.594137849
+      },
+      {
+        "depth": 2.88,
+        "cone_tip_resistance": 27.1551,
+        "sleeve_friction": 974.6,
+        "friction_ratio": 3.589012745
+      },
+      {
+        "depth": 2.91,
+        "cone_tip_resistance": 28.9005,
+        "sleeve_friction": 1015.3,
+        "friction_ratio": 3.513088009
+      },
+      {
+        "depth": 2.94,
+        "cone_tip_resistance": 28.9011,
+        "sleeve_friction": 944.0,
+        "friction_ratio": 3.266311663
+      },
+      {
+        "depth": 2.97,
+        "cone_tip_resistance": 28.0752,
+        "sleeve_friction": 889.7,
+        "friction_ratio": 3.168989001
+      },
+      {
+        "depth": 3.0,
+        "cone_tip_resistance": 26.9279,
+        "sleeve_friction": 865.9,
+        "friction_ratio": 3.215623944
+      },
+      {
+        "depth": 3.03,
+        "cone_tip_resistance": 25.7347,
+        "sleeve_friction": 855.7,
+        "friction_ratio": 3.325082476
+      },
+      {
+        "depth": 3.06,
+        "cone_tip_resistance": 24.4496,
+        "sleeve_friction": 832.0,
+        "friction_ratio": 3.402918657
+      },
+      {
+        "depth": 3.09,
+        "cone_tip_resistance": 22.4299,
+        "sleeve_friction": 804.8,
+        "friction_ratio": 3.588067713
+      },
+      {
+        "depth": 3.12,
+        "cone_tip_resistance": 18.6195,
+        "sleeve_friction": 738.6,
+        "friction_ratio": 3.966808991
+      },
+      {
+        "depth": 3.15,
+        "cone_tip_resistance": 15.7733,
+        "sleeve_friction": 672.4,
+        "friction_ratio": 4.262899964
+      },
+      {
+        "depth": 3.18,
+        "cone_tip_resistance": 12.3761,
+        "sleeve_friction": 635.0,
+        "friction_ratio": 5.130857055
+      },
+      {
+        "depth": 3.21,
+        "cone_tip_resistance": 14.9021,
+        "sleeve_friction": 675.8,
+        "friction_ratio": 4.534931318
+      },
+      {
+        "depth": 3.24,
+        "cone_tip_resistance": 17.428,
+        "sleeve_friction": 736.9,
+        "friction_ratio": 4.228253385
+      },
+      {
+        "depth": 3.27,
+        "cone_tip_resistance": 19.6326,
+        "sleeve_friction": 774.2,
+        "friction_ratio": 3.943441011
+      },
+      {
+        "depth": 3.3,
+        "cone_tip_resistance": 22.0208,
+        "sleeve_friction": 801.3,
+        "friction_ratio": 3.638832377
+      },
+      {
+        "depth": 3.33,
+        "cone_tip_resistance": 22.4805,
+        "sleeve_friction": 811.5,
+        "friction_ratio": 3.609795156
+      },
+      {
+        "depth": 3.36,
+        "cone_tip_resistance": 19.4507,
+        "sleeve_friction": 770.8,
+        "friction_ratio": 3.962839384
+      },
+      {
+        "depth": 3.39,
+        "cone_tip_resistance": 17.7065,
+        "sleeve_friction": 702.9,
+        "friction_ratio": 3.969728631
+      },
+      {
+        "depth": 3.42,
+        "cone_tip_resistance": 17.7989,
+        "sleeve_friction": 804.7,
+        "friction_ratio": 4.521065909
+      },
+      {
+        "depth": 3.45,
+        "cone_tip_resistance": 14.5854,
+        "sleeve_friction": 750.4,
+        "friction_ratio": 5.144870898
+      },
+      {
+        "depth": 3.48,
+        "cone_tip_resistance": 11.4177,
+        "sleeve_friction": 628.2,
+        "friction_ratio": 5.501983762
+      },
+      {
+        "depth": 3.51,
+        "cone_tip_resistance": 10.7296,
+        "sleeve_friction": 543.3,
+        "friction_ratio": 5.063562481
+      },
+      {
+        "depth": 3.54,
+        "cone_tip_resistance": 15.8728,
+        "sleeve_friction": 590.8,
+        "friction_ratio": 3.72209062
+      },
+      {
+        "depth": 3.57,
+        "cone_tip_resistance": 17.2049,
+        "sleeve_friction": 648.5,
+        "friction_ratio": 3.769275032
+      },
+      {
+        "depth": 3.6,
+        "cone_tip_resistance": 12.7517,
+        "sleeve_friction": 560.3,
+        "friction_ratio": 4.393923947
+      },
+      {
+        "depth": 3.63,
+        "cone_tip_resistance": 9.2167,
+        "sleeve_friction": 482.2,
+        "friction_ratio": 5.23180748
+      },
+      {
+        "depth": 3.66,
+        "cone_tip_resistance": 6.6919,
+        "sleeve_friction": 336.2,
+        "friction_ratio": 5.02398422
+      },
+      {
+        "depth": 3.69,
+        "cone_tip_resistance": 7.0599,
+        "sleeve_friction": 261.5,
+        "friction_ratio": 3.704018471
+      },
+      {
+        "depth": 3.72,
+        "cone_tip_resistance": 8.8512,
+        "sleeve_friction": 231.0,
+        "friction_ratio": 2.609815618
+      },
+      {
+        "depth": 3.75,
+        "cone_tip_resistance": 8.3926,
+        "sleeve_friction": 237.7,
+        "friction_ratio": 2.832256988
+      },
+      {
+        "depth": 3.78,
+        "cone_tip_resistance": 6.6484,
+        "sleeve_friction": 234.3,
+        "friction_ratio": 3.524156188
+      },
+      {
+        "depth": 3.81,
+        "cone_tip_resistance": 6.9245,
+        "sleeve_friction": 302.2,
+        "friction_ratio": 4.364214023
+      },
+      {
+        "depth": 3.84,
+        "cone_tip_resistance": 14.1338,
+        "sleeve_friction": 356.5,
+        "friction_ratio": 2.522322376
+      },
+      {
+        "depth": 3.87,
+        "cone_tip_resistance": 22.7666,
+        "sleeve_friction": 451.6,
+        "friction_ratio": 1.983607565
+      },
+      {
+        "depth": 3.9,
+        "cone_tip_resistance": 27.8639,
+        "sleeve_friction": 607.7,
+        "friction_ratio": 2.180958157
+      },
+      {
+        "depth": 3.93,
+        "cone_tip_resistance": 32.6856,
+        "sleeve_friction": 723.1,
+        "friction_ratio": 2.212289204
+      },
+      {
+        "depth": 3.96,
+        "cone_tip_resistance": 37.8288,
+        "sleeve_friction": 763.8,
+        "friction_ratio": 2.019096561
+      },
+      {
+        "depth": 3.99,
+        "cone_tip_resistance": 31.7322,
+        "sleeve_friction": 797.8,
+        "friction_ratio": 2.514165422
+      },
+      {
+        "depth": 4.02,
+        "cone_tip_resistance": 33.4776,
+        "sleeve_friction": 808.0,
+        "friction_ratio": 2.413554138
+      },
+      {
+        "depth": 4.05,
+        "cone_tip_resistance": 34.9934,
+        "sleeve_friction": 791.0,
+        "friction_ratio": 2.260426252
+      },
+      {
+        "depth": 4.08,
+        "cone_tip_resistance": 38.4836,
+        "sleeve_friction": 774.0,
+        "friction_ratio": 2.011246349
+      },
+      {
+        "depth": 4.11,
+        "cone_tip_resistance": 33.2595,
+        "sleeve_friction": 716.3,
+        "friction_ratio": 2.15367038
+      },
+      {
+        "depth": 4.14,
+        "cone_tip_resistance": 39.1373,
+        "sleeve_friction": 658.6,
+        "friction_ratio": 1.682793652
+      },
+      {
+        "depth": 4.17,
+        "cone_tip_resistance": 35.7498,
+        "sleeve_friction": 186.7,
+        "friction_ratio": 0.522240684
+      },
+      {
+        "depth": 4.2,
+        "cone_tip_resistance": 30.1584,
+        "sleeve_friction": 186.7,
+        "friction_ratio": 0.619064672
+      },
+      {
+        "depth": 4.23,
+        "cone_tip_resistance": 34.5668,
+        "sleeve_friction": 186.7,
+        "friction_ratio": 0.540113635
+      },
+      {
+        "depth": 4.26,
+        "cone_tip_resistance": 31.1769,
+        "sleeve_friction": 186.7,
+        "friction_ratio": 0.598840808
+      },
+      {
+        "depth": 4.29,
+        "cone_tip_resistance": 0.9678,
+        "sleeve_friction": 37.3,
+        "friction_ratio": 3.854102087
+      },
+      {
+        "depth": 4.32,
+        "cone_tip_resistance": 0.8765,
+        "sleeve_friction": 37.3,
+        "friction_ratio": 4.255561894
+      },
+      {
+        "depth": 4.35,
+        "cone_tip_resistance": 0.9689,
+        "sleeve_friction": 40.7,
+        "friction_ratio": 4.200639901
+      },
+      {
+        "depth": 4.38,
+        "cone_tip_resistance": 1.1532,
+        "sleeve_friction": 50.9,
+        "friction_ratio": 4.413805064
+      },
+      {
+        "depth": 4.41,
+        "cone_tip_resistance": 1.8884,
+        "sleeve_friction": 67.8,
+        "friction_ratio": 3.590341029
+      },
+      {
+        "depth": 4.44,
+        "cone_tip_resistance": 2.3023,
+        "sleeve_friction": 88.2,
+        "friction_ratio": 3.830951657
+      },
+      {
+        "depth": 4.47,
+        "cone_tip_resistance": 2.1192,
+        "sleeve_friction": 108.5,
+        "friction_ratio": 5.11985655
+      },
+      {
+        "depth": 4.5,
+        "cone_tip_resistance": 1.7984,
+        "sleeve_friction": 108.5,
+        "friction_ratio": 6.033140569
+      },
+      {
+        "depth": 4.53,
+        "cone_tip_resistance": 1.5694,
+        "sleeve_friction": 101.7,
+        "friction_ratio": 6.48018351
+      },
+      {
+        "depth": 4.56,
+        "cone_tip_resistance": 1.3863,
+        "sleeve_friction": 88.1,
+        "friction_ratio": 6.355045805
+      },
+      {
+        "depth": 4.59,
+        "cone_tip_resistance": 1.2491,
+        "sleeve_friction": 81.4,
+        "friction_ratio": 6.516692018
+      },
+      {
+        "depth": 4.62,
+        "cone_tip_resistance": 1.112,
+        "sleeve_friction": 81.3,
+        "friction_ratio": 7.311151079
+      },
+      {
+        "depth": 4.65,
+        "cone_tip_resistance": 1.2044,
+        "sleeve_friction": 84.7,
+        "friction_ratio": 7.032547326
+      },
+      {
+        "depth": 4.68,
+        "cone_tip_resistance": 1.3887,
+        "sleeve_friction": 81.3,
+        "friction_ratio": 5.854396198
+      },
+      {
+        "depth": 4.71,
+        "cone_tip_resistance": 1.5729,
+        "sleeve_friction": 98.3,
+        "friction_ratio": 6.249602645
+      },
+      {
+        "depth": 4.74,
+        "cone_tip_resistance": 2.2163,
+        "sleeve_friction": 118.7,
+        "friction_ratio": 5.355773135
+      },
+      {
+        "depth": 4.77,
+        "cone_tip_resistance": 3.0893,
+        "sleeve_friction": 145.8,
+        "friction_ratio": 4.719515748
+      },
+      {
+        "depth": 4.8,
+        "cone_tip_resistance": 3.6409,
+        "sleeve_friction": 166.2,
+        "friction_ratio": 4.564805405
+      },
+      {
+        "depth": 4.83,
+        "cone_tip_resistance": 3.366,
+        "sleeve_friction": 179.7,
+        "friction_ratio": 5.338680927
+      },
+      {
+        "depth": 4.86,
+        "cone_tip_resistance": 3.0911,
+        "sleeve_friction": 169.5,
+        "friction_ratio": 5.483484844
+      },
+      {
+        "depth": 4.89,
+        "cone_tip_resistance": 2.5866,
+        "sleeve_friction": 149.2,
+        "friction_ratio": 5.768189902
+      },
+      {
+        "depth": 4.92,
+        "cone_tip_resistance": 1.8984,
+        "sleeve_friction": 125.4,
+        "friction_ratio": 6.605562579
+      },
+      {
+        "depth": 4.95,
+        "cone_tip_resistance": 1.6695,
+        "sleeve_friction": 115.2,
+        "friction_ratio": 6.900269542
+      },
+      {
+        "depth": 4.98,
+        "cone_tip_resistance": 1.6241,
+        "sleeve_friction": 108.4,
+        "friction_ratio": 6.674465858
+      },
+      {
+        "depth": 5.01,
+        "cone_tip_resistance": 1.8084,
+        "sleeve_friction": 108.4,
+        "friction_ratio": 5.99424906
+      },
+      {
+        "depth": 5.04,
+        "cone_tip_resistance": 2.314,
+        "sleeve_friction": 128.8,
+        "friction_ratio": 5.566119274
+      },
+      {
+        "depth": 5.07,
+        "cone_tip_resistance": 2.682,
+        "sleeve_friction": 132.2,
+        "friction_ratio": 4.929157345
+      },
+      {
+        "depth": 5.1,
+        "cone_tip_resistance": 2.958,
+        "sleeve_friction": 135.5,
+        "friction_ratio": 4.580797836
+      },
+      {
+        "depth": 5.13,
+        "cone_tip_resistance": 2.4536,
+        "sleeve_friction": 115.2,
+        "friction_ratio": 4.695141832
+      },
+      {
+        "depth": 5.16,
+        "cone_tip_resistance": 2.1327,
+        "sleeve_friction": 111.8,
+        "friction_ratio": 5.242181273
+      },
+      {
+        "depth": 5.19,
+        "cone_tip_resistance": 1.8119,
+        "sleeve_friction": 98.2,
+        "friction_ratio": 5.41972515
+      },
+      {
+        "depth": 5.22,
+        "cone_tip_resistance": 1.5829,
+        "sleeve_friction": 77.8,
+        "friction_ratio": 4.915029376
+      },
+      {
+        "depth": 5.25,
+        "cone_tip_resistance": 1.308,
+        "sleeve_friction": 64.2,
+        "friction_ratio": 4.908256881
+      },
+      {
+        "depth": 5.28,
+        "cone_tip_resistance": 1.1709,
+        "sleeve_friction": 57.4,
+        "friction_ratio": 4.902211974
+      },
+      {
+        "depth": 5.31,
+        "cone_tip_resistance": 1.1714,
+        "sleeve_friction": 57.4,
+        "friction_ratio": 4.900119515
+      },
+      {
+        "depth": 5.34,
+        "cone_tip_resistance": 1.2179,
+        "sleeve_friction": 57.4,
+        "friction_ratio": 4.713030626
+      },
+      {
+        "depth": 5.37,
+        "cone_tip_resistance": 1.3104,
+        "sleeve_friction": 71.0,
+        "friction_ratio": 5.418192918
+      },
+      {
+        "depth": 5.4,
+        "cone_tip_resistance": 1.5865,
+        "sleeve_friction": 71.0,
+        "friction_ratio": 4.475260006
+      },
+      {
+        "depth": 5.43,
+        "cone_tip_resistance": 1.9544,
+        "sleeve_friction": 77.8,
+        "friction_ratio": 3.980761359
+      },
+      {
+        "depth": 5.46,
+        "cone_tip_resistance": 2.2305,
+        "sleeve_friction": 87.9,
+        "friction_ratio": 3.940820444
+      },
+      {
+        "depth": 5.49,
+        "cone_tip_resistance": 2.4606,
+        "sleeve_friction": 98.1,
+        "friction_ratio": 3.98683248
+      },
+      {
+        "depth": 5.52,
+        "cone_tip_resistance": 2.3235,
+        "sleeve_friction": 101.5,
+        "friction_ratio": 4.368409727
+      },
+      {
+        "depth": 5.55,
+        "cone_tip_resistance": 2.0945,
+        "sleeve_friction": 101.5,
+        "friction_ratio": 4.846025304
+      },
+      {
+        "depth": 5.58,
+        "cone_tip_resistance": 1.6359,
+        "sleeve_friction": 94.7,
+        "friction_ratio": 5.7888624
+      },
+      {
+        "depth": 5.61,
+        "cone_tip_resistance": 1.4069,
+        "sleeve_friction": 77.7,
+        "friction_ratio": 5.522780581
+      },
+      {
+        "depth": 5.64,
+        "cone_tip_resistance": 1.2238,
+        "sleeve_friction": 60.7,
+        "friction_ratio": 4.959960778
+      },
+      {
+        "depth": 5.67,
+        "cone_tip_resistance": 1.2244,
+        "sleeve_friction": 50.5,
+        "friction_ratio": 4.124469128
+      },
+      {
+        "depth": 5.7,
+        "cone_tip_resistance": 1.1791,
+        "sleeve_friction": 40.4,
+        "friction_ratio": 3.426342125
+      },
+      {
+        "depth": 5.73,
+        "cone_tip_resistance": 1.2256,
+        "sleeve_friction": 36.9,
+        "friction_ratio": 3.010770235
+      },
+      {
+        "depth": 5.76,
+        "cone_tip_resistance": 1.1803,
+        "sleeve_friction": 30.2,
+        "friction_ratio": 2.558671524
+      },
+      {
+        "depth": 5.79,
+        "cone_tip_resistance": 1.1349,
+        "sleeve_friction": 23.4,
+        "friction_ratio": 2.06185567
+      },
+      {
+        "depth": 5.82,
+        "cone_tip_resistance": 1.0437,
+        "sleeve_friction": 20.0,
+        "friction_ratio": 1.916259462
+      },
+      {
+        "depth": 5.85,
+        "cone_tip_resistance": 0.9984,
+        "sleeve_friction": 19.9,
+        "friction_ratio": 1.993189103
+      },
+      {
+        "depth": 5.88,
+        "cone_tip_resistance": 0.953,
+        "sleeve_friction": 19.9,
+        "friction_ratio": 2.088142707
+      },
+      {
+        "depth": 5.91,
+        "cone_tip_resistance": 0.9536,
+        "sleeve_friction": 19.9,
+        "friction_ratio": 2.086828859
+      },
+      {
+        "depth": 5.94,
+        "cone_tip_resistance": 1.0001,
+        "sleeve_friction": 19.9,
+        "friction_ratio": 1.98980102
+      },
+      {
+        "depth": 5.97,
+        "cone_tip_resistance": 1.0926,
+        "sleeve_friction": 26.7,
+        "friction_ratio": 2.443712246
+      },
+      {
+        "depth": 6.0,
+        "cone_tip_resistance": 1.8278,
+        "sleeve_friction": 33.5,
+        "friction_ratio": 1.832804464
+      },
+      {
+        "depth": 6.03,
+        "cone_tip_resistance": 3.9864,
+        "sleeve_friction": 43.7,
+        "friction_ratio": 1.096227172
+      },
+      {
+        "depth": 6.06,
+        "cone_tip_resistance": 5.9614,
+        "sleeve_friction": 47.1,
+        "friction_ratio": 0.790082866
+      },
+      {
+        "depth": 6.09,
+        "cone_tip_resistance": 5.4569,
+        "sleeve_friction": 47.0,
+        "friction_ratio": 0.861294874
+      },
+      {
+        "depth": 6.12,
+        "cone_tip_resistance": 4.2178,
+        "sleeve_friction": 33.5,
+        "friction_ratio": 0.794252928
+      },
+      {
+        "depth": 6.15,
+        "cone_tip_resistance": 3.346,
+        "sleeve_friction": 33.5,
+        "friction_ratio": 1.001195457
+      },
+      {
+        "depth": 6.18,
+        "cone_tip_resistance": 2.7956,
+        "sleeve_friction": 30.1,
+        "friction_ratio": 1.076691944
+      },
+      {
+        "depth": 6.21,
+        "cone_tip_resistance": 2.3829,
+        "sleeve_friction": 26.6,
+        "friction_ratio": 1.116286877
+      },
+      {
+        "depth": 6.24,
+        "cone_tip_resistance": 2.108,
+        "sleeve_friction": 19.9,
+        "friction_ratio": 0.94402277
+      },
+      {
+        "depth": 6.27,
+        "cone_tip_resistance": 1.9709,
+        "sleeve_friction": 19.8,
+        "friction_ratio": 1.00461718
+      },
+      {
+        "depth": 6.3,
+        "cone_tip_resistance": 1.9255,
+        "sleeve_friction": 16.4,
+        "friction_ratio": 0.851726824
+      },
+      {
+        "depth": 6.33,
+        "cone_tip_resistance": 2.0179,
+        "sleeve_friction": 16.4,
+        "friction_ratio": 0.812726101
+      },
+      {
+        "depth": 6.36,
+        "cone_tip_resistance": 2.2481,
+        "sleeve_friction": 23.2,
+        "friction_ratio": 1.031982563
+      },
+      {
+        "depth": 6.39,
+        "cone_tip_resistance": 2.6619,
+        "sleeve_friction": 26.6,
+        "friction_ratio": 0.999286224
+      },
+      {
+        "depth": 6.42,
+        "cone_tip_resistance": 3.3054,
+        "sleeve_friction": 33.4,
+        "friction_ratio": 1.010467719
+      },
+      {
+        "depth": 6.45,
+        "cone_tip_resistance": 4.4079,
+        "sleeve_friction": 43.6,
+        "friction_ratio": 0.989133147
+      },
+      {
+        "depth": 6.48,
+        "cone_tip_resistance": 6.1992,
+        "sleeve_friction": 60.5,
+        "friction_ratio": 0.975932378
+      },
+      {
+        "depth": 6.51,
+        "cone_tip_resistance": 8.4497,
+        "sleeve_friction": 87.7,
+        "friction_ratio": 1.037906671
+      },
+      {
+        "depth": 6.54,
+        "cone_tip_resistance": 10.4247,
+        "sleeve_friction": 128.4,
+        "friction_ratio": 1.231690121
+      },
+      {
+        "depth": 6.57,
+        "cone_tip_resistance": 11.4813,
+        "sleeve_friction": 186.1,
+        "friction_ratio": 1.620896588
+      },
+      {
+        "depth": 6.6,
+        "cone_tip_resistance": 11.2982,
+        "sleeve_friction": 243.8,
+        "friction_ratio": 2.157865855
+      },
+      {
+        "depth": 6.63,
+        "cone_tip_resistance": 10.4264,
+        "sleeve_friction": 308.3,
+        "friction_ratio": 2.956917057
+      },
+      {
+        "depth": 6.66,
+        "cone_tip_resistance": 9.6465,
+        "sleeve_friction": 355.8,
+        "friction_ratio": 3.688384388
+      },
+      {
+        "depth": 6.69,
+        "cone_tip_resistance": 9.0501,
+        "sleeve_friction": 379.6,
+        "friction_ratio": 4.194428791
+      },
+      {
+        "depth": 6.72,
+        "cone_tip_resistance": 7.9487,
+        "sleeve_friction": 362.6,
+        "friction_ratio": 4.561752236
+      },
+      {
+        "depth": 6.75,
+        "cone_tip_resistance": 7.4902,
+        "sleeve_friction": 352.4,
+        "friction_ratio": 4.704814291
+      },
+      {
+        "depth": 6.78,
+        "cone_tip_resistance": 7.3071,
+        "sleeve_friction": 328.6,
+        "friction_ratio": 4.496996072
+      },
+      {
+        "depth": 6.81,
+        "cone_tip_resistance": 7.2159,
+        "sleeve_friction": 332.0,
+        "friction_ratio": 4.600950678
+      },
+      {
+        "depth": 6.84,
+        "cone_tip_resistance": 6.9409,
+        "sleeve_friction": 325.2,
+        "friction_ratio": 4.685271363
+      },
+      {
+        "depth": 6.87,
+        "cone_tip_resistance": 6.4824,
+        "sleeve_friction": 311.6,
+        "friction_ratio": 4.806861656
+      },
+      {
+        "depth": 6.9,
+        "cone_tip_resistance": 5.932,
+        "sleeve_friction": 291.3,
+        "friction_ratio": 4.91065408
+      },
+      {
+        "depth": 6.93,
+        "cone_tip_resistance": 5.5193,
+        "sleeve_friction": 277.7,
+        "friction_ratio": 5.031435146
+      },
+      {
+        "depth": 6.96,
+        "cone_tip_resistance": 5.0148,
+        "sleeve_friction": 240.3,
+        "friction_ratio": 4.791816224
+      },
+      {
+        "depth": 6.99,
+        "cone_tip_resistance": 4.4185,
+        "sleeve_friction": 192.8,
+        "friction_ratio": 4.363471766
+      },
+      {
+        "depth": 7.02,
+        "cone_tip_resistance": 4.0518,
+        "sleeve_friction": 165.6,
+        "friction_ratio": 4.087072412
+      },
+      {
+        "depth": 7.05,
+        "cone_tip_resistance": 3.9605,
+        "sleeve_friction": 155.4,
+        "friction_ratio": 3.923747002
+      },
+      {
+        "depth": 7.08,
+        "cone_tip_resistance": 4.007,
+        "sleeve_friction": 148.6,
+        "friction_ratio": 3.708510107
+      },
+      {
+        "depth": 7.11,
+        "cone_tip_resistance": 4.0535,
+        "sleeve_friction": 150.3,
+        "friction_ratio": 3.707906747
+      },
+      {
+        "depth": 7.14,
+        "cone_tip_resistance": 4.0541,
+        "sleeve_friction": 152.0,
+        "friction_ratio": 3.749290841
+      },
+      {
+        "depth": 7.17,
+        "cone_tip_resistance": 4.2384,
+        "sleeve_friction": 148.6,
+        "friction_ratio": 3.506040015
+      },
+      {
+        "depth": 7.2,
+        "cone_tip_resistance": 4.2619,
+        "sleeve_friction": 138.4,
+        "friction_ratio": 3.24737793
+      },
+      {
+        "depth": 7.23,
+        "cone_tip_resistance": 4.2855,
+        "sleeve_friction": 128.2,
+        "friction_ratio": 2.991482907
+      },
+      {
+        "depth": 7.26,
+        "cone_tip_resistance": 4.1942,
+        "sleeve_friction": 121.4,
+        "friction_ratio": 2.89447332
+      },
+      {
+        "depth": 7.29,
+        "cone_tip_resistance": 4.0112,
+        "sleeve_friction": 114.6,
+        "friction_ratio": 2.857000399
+      },
+      {
+        "depth": 7.32,
+        "cone_tip_resistance": 4.0118,
+        "sleeve_friction": 111.2,
+        "friction_ratio": 2.771823122
+      },
+      {
+        "depth": 7.35,
+        "cone_tip_resistance": 3.9205,
+        "sleeve_friction": 107.8,
+        "friction_ratio": 2.749649279
+      },
+      {
+        "depth": 7.38,
+        "cone_tip_resistance": 3.7374,
+        "sleeve_friction": 97.7,
+        "friction_ratio": 2.614116766
+      },
+      {
+        "depth": 7.41,
+        "cone_tip_resistance": 3.6003,
+        "sleeve_friction": 97.6,
+        "friction_ratio": 2.710885204
+      },
+      {
+        "depth": 7.44,
+        "cone_tip_resistance": 3.509,
+        "sleeve_friction": 97.6,
+        "friction_ratio": 2.781419208
+      },
+      {
+        "depth": 7.47,
+        "cone_tip_resistance": 3.5096,
+        "sleeve_friction": 94.2,
+        "friction_ratio": 2.68406656
+      },
+      {
+        "depth": 7.5,
+        "cone_tip_resistance": 3.5561,
+        "sleeve_friction": 90.8,
+        "friction_ratio": 2.553359017
+      },
+      {
+        "depth": 7.53,
+        "cone_tip_resistance": 3.6026,
+        "sleeve_friction": 97.6,
+        "friction_ratio": 2.7091545
+      },
+      {
+        "depth": 7.56,
+        "cone_tip_resistance": 3.6491,
+        "sleeve_friction": 104.4,
+        "friction_ratio": 2.86097942
+      },
+      {
+        "depth": 7.59,
+        "cone_tip_resistance": 3.7875,
+        "sleeve_friction": 118.0,
+        "friction_ratio": 3.115511551
+      },
+      {
+        "depth": 7.62,
+        "cone_tip_resistance": 3.834,
+        "sleeve_friction": 128.1,
+        "friction_ratio": 3.341158059
+      },
+      {
+        "depth": 7.65,
+        "cone_tip_resistance": 3.8805,
+        "sleeve_friction": 138.3,
+        "friction_ratio": 3.563973715
+      },
+      {
+        "depth": 7.68,
+        "cone_tip_resistance": 3.927,
+        "sleeve_friction": 138.3,
+        "friction_ratio": 3.521772345
+      },
+      {
+        "depth": 7.71,
+        "cone_tip_resistance": 4.1112,
+        "sleeve_friction": 148.5,
+        "friction_ratio": 3.612084063
+      },
+      {
+        "depth": 7.74,
+        "cone_tip_resistance": 4.2955,
+        "sleeve_friction": 151.9,
+        "friction_ratio": 3.536258876
+      },
+      {
+        "depth": 7.77,
+        "cone_tip_resistance": 4.5716,
+        "sleeve_friction": 168.8,
+        "friction_ratio": 3.692361536
+      },
+      {
+        "depth": 7.8,
+        "cone_tip_resistance": 4.5262,
+        "sleeve_friction": 172.2,
+        "friction_ratio": 3.804515929
+      },
+      {
+        "depth": 7.83,
+        "cone_tip_resistance": 4.6187,
+        "sleeve_friction": 165.4,
+        "friction_ratio": 3.581094247
+      },
+      {
+        "depth": 7.86,
+        "cone_tip_resistance": 4.4815,
+        "sleeve_friction": 162.0,
+        "friction_ratio": 3.614861096
+      },
+      {
+        "depth": 7.89,
+        "cone_tip_resistance": 4.3903,
+        "sleeve_friction": 158.6,
+        "friction_ratio": 3.612509396
+      },
+      {
+        "depth": 7.92,
+        "cone_tip_resistance": 4.3909,
+        "sleeve_friction": 155.2,
+        "friction_ratio": 3.534582887
+      },
+      {
+        "depth": 7.95,
+        "cone_tip_resistance": 4.3914,
+        "sleeve_friction": 155.2,
+        "friction_ratio": 3.534180444
+      },
+      {
+        "depth": 7.98,
+        "cone_tip_resistance": 4.2084,
+        "sleeve_friction": 145.0,
+        "friction_ratio": 3.445489972
+      },
+      {
+        "depth": 8.01,
+        "cone_tip_resistance": 4.0253,
+        "sleeve_friction": 131.4,
+        "friction_ratio": 3.264352967
+      },
+      {
+        "depth": 8.04,
+        "cone_tip_resistance": 3.7963,
+        "sleeve_friction": 128.0,
+        "friction_ratio": 3.371704028
+      },
+      {
+        "depth": 8.07,
+        "cone_tip_resistance": 3.6591,
+        "sleeve_friction": 128.0,
+        "friction_ratio": 3.498127955
+      },
+      {
+        "depth": 8.1,
+        "cone_tip_resistance": 3.7056,
+        "sleeve_friction": 128.0,
+        "friction_ratio": 3.454231434
+      },
+      {
+        "depth": 8.13,
+        "cone_tip_resistance": 3.7062,
+        "sleeve_friction": 131.4,
+        "friction_ratio": 3.545410393
+      },
+      {
+        "depth": 8.16,
+        "cone_tip_resistance": 3.7987,
+        "sleeve_friction": 138.2,
+        "friction_ratio": 3.638086714
+      },
+      {
+        "depth": 8.19,
+        "cone_tip_resistance": 3.8911,
+        "sleeve_friction": 138.2,
+        "friction_ratio": 3.551694893
+      },
+      {
+        "depth": 8.22,
+        "cone_tip_resistance": 3.8917,
+        "sleeve_friction": 124.6,
+        "friction_ratio": 3.201685639
+      },
+      {
+        "depth": 8.25,
+        "cone_tip_resistance": 3.8004,
+        "sleeve_friction": 117.8,
+        "friction_ratio": 3.099673719
+      },
+      {
+        "depth": 8.28,
+        "cone_tip_resistance": 3.6173,
+        "sleeve_friction": 104.2,
+        "friction_ratio": 2.880601554
+      },
+      {
+        "depth": 8.31,
+        "cone_tip_resistance": 3.572,
+        "sleeve_friction": 90.6,
+        "friction_ratio": 2.536394177
+      },
+      {
+        "depth": 8.34,
+        "cone_tip_resistance": 3.4808,
+        "sleeve_friction": 83.8,
+        "friction_ratio": 2.40749253
+      },
+      {
+        "depth": 8.37,
+        "cone_tip_resistance": 3.5732,
+        "sleeve_friction": 90.6,
+        "friction_ratio": 2.535542371
+      },
+      {
+        "depth": 8.4,
+        "cone_tip_resistance": 3.6656,
+        "sleeve_friction": 94.0,
+        "friction_ratio": 2.564382366
+      },
+      {
+        "depth": 8.43,
+        "cone_tip_resistance": 3.7121,
+        "sleeve_friction": 97.4,
+        "friction_ratio": 2.623851728
+      },
+      {
+        "depth": 8.46,
+        "cone_tip_resistance": 3.575,
+        "sleeve_friction": 104.2,
+        "friction_ratio": 2.914685315
+      },
+      {
+        "depth": 8.49,
+        "cone_tip_resistance": 3.5756,
+        "sleeve_friction": 111.0,
+        "friction_ratio": 3.104374091
+      },
+      {
+        "depth": 8.52,
+        "cone_tip_resistance": 3.7139,
+        "sleeve_friction": 117.7,
+        "friction_ratio": 3.169175261
+      },
+      {
+        "depth": 8.55,
+        "cone_tip_resistance": 3.8522,
+        "sleeve_friction": 114.3,
+        "friction_ratio": 2.967135663
+      },
+      {
+        "depth": 8.58,
+        "cone_tip_resistance": 3.8528,
+        "sleeve_friction": 114.3,
+        "friction_ratio": 2.966673588
+      },
+      {
+        "depth": 8.61,
+        "cone_tip_resistance": 3.9452,
+        "sleeve_friction": 121.1,
+        "friction_ratio": 3.069552874
+      },
+      {
+        "depth": 8.64,
+        "cone_tip_resistance": 4.2213,
+        "sleeve_friction": 97.3,
+        "friction_ratio": 2.30497714
+      },
+      {
+        "depth": 8.67,
+        "cone_tip_resistance": 4.6351,
+        "sleeve_friction": 175.4,
+        "friction_ratio": 3.784168626
+      },
+      {
+        "depth": 8.7,
+        "cone_tip_resistance": 8.0335,
+        "sleeve_friction": 182.2,
+        "friction_ratio": 2.268002739
+      },
+      {
+        "depth": 8.73,
+        "cone_tip_resistance": 6.1515,
+        "sleeve_friction": 195.8,
+        "friction_ratio": 3.182963505
+      },
+      {
+        "depth": 8.76,
+        "cone_tip_resistance": 4.9583,
+        "sleeve_friction": 205.9,
+        "friction_ratio": 4.152632959
+      },
+      {
+        "depth": 8.79,
+        "cone_tip_resistance": 5.3262,
+        "sleeve_friction": 185.6,
+        "friction_ratio": 3.484660734
+      },
+      {
+        "depth": 8.82,
+        "cone_tip_resistance": 5.0973,
+        "sleeve_friction": 189.0,
+        "friction_ratio": 3.70784533
+      },
+      {
+        "depth": 8.85,
+        "cone_tip_resistance": 5.3274,
+        "sleeve_friction": 202.5,
+        "friction_ratio": 3.801103728
+      },
+      {
+        "depth": 8.88,
+        "cone_tip_resistance": 4.3638,
+        "sleeve_friction": 172.0,
+        "friction_ratio": 3.94151886
+      },
+      {
+        "depth": 8.91,
+        "cone_tip_resistance": 3.5379,
+        "sleeve_friction": 144.8,
+        "friction_ratio": 4.092823426
+      },
+      {
+        "depth": 8.94,
+        "cone_tip_resistance": 2.9416,
+        "sleeve_friction": 117.6,
+        "friction_ratio": 3.997824313
+      },
+      {
+        "depth": 8.97,
+        "cone_tip_resistance": 2.7585,
+        "sleeve_friction": 97.3,
+        "friction_ratio": 3.527279318
+      },
+      {
+        "depth": 9.0,
+        "cone_tip_resistance": 2.7591,
+        "sleeve_friction": 100.7,
+        "friction_ratio": 3.649740858
+      },
+      {
+        "depth": 9.03,
+        "cone_tip_resistance": 2.6678,
+        "sleeve_friction": 107.4,
+        "friction_ratio": 4.02578904
+      },
+      {
+        "depth": 9.06,
+        "cone_tip_resistance": 2.6684,
+        "sleeve_friction": 110.8,
+        "friction_ratio": 4.152301004
+      },
+      {
+        "depth": 9.09,
+        "cone_tip_resistance": 2.5772,
+        "sleeve_friction": 110.8,
+        "friction_ratio": 4.299239485
+      },
+      {
+        "depth": 9.12,
+        "cone_tip_resistance": 2.5778,
+        "sleeve_friction": 110.8,
+        "friction_ratio": 4.298238808
+      },
+      {
+        "depth": 9.15,
+        "cone_tip_resistance": 2.6243,
+        "sleeve_friction": 107.4,
+        "friction_ratio": 4.09251991
+      },
+      {
+        "depth": 9.18,
+        "cone_tip_resistance": 2.5789,
+        "sleeve_friction": 110.8,
+        "friction_ratio": 4.296405444
+      },
+      {
+        "depth": 9.21,
+        "cone_tip_resistance": 2.4877,
+        "sleeve_friction": 117.6,
+        "friction_ratio": 4.72725811
+      },
+      {
+        "depth": 9.24,
+        "cone_tip_resistance": 2.4883,
+        "sleeve_friction": 124.4,
+        "friction_ratio": 4.999397179
+      },
+      {
+        "depth": 9.27,
+        "cone_tip_resistance": 2.4889,
+        "sleeve_friction": 121.0,
+        "friction_ratio": 4.861585439
+      },
+      {
+        "depth": 9.3,
+        "cone_tip_resistance": 2.4895,
+        "sleeve_friction": 124.3,
+        "friction_ratio": 4.992970476
+      },
+      {
+        "depth": 9.33,
+        "cone_tip_resistance": 2.4901,
+        "sleeve_friction": 120.9,
+        "friction_ratio": 4.855226698
+      },
+      {
+        "depth": 9.36,
+        "cone_tip_resistance": 2.4906,
+        "sleeve_friction": 114.1,
+        "friction_ratio": 4.581225408
+      },
+      {
+        "depth": 9.39,
+        "cone_tip_resistance": 2.4912,
+        "sleeve_friction": 107.3,
+        "friction_ratio": 4.307161207
+      },
+      {
+        "depth": 9.42,
+        "cone_tip_resistance": 2.6296,
+        "sleeve_friction": 110.7,
+        "friction_ratio": 4.209765744
+      },
+      {
+        "depth": 9.45,
+        "cone_tip_resistance": 2.8138,
+        "sleeve_friction": 110.7,
+        "friction_ratio": 3.934181534
+      },
+      {
+        "depth": 9.48,
+        "cone_tip_resistance": 2.8603,
+        "sleeve_friction": 100.5,
+        "friction_ratio": 3.513617453
+      },
+      {
+        "depth": 9.51,
+        "cone_tip_resistance": 2.9987,
+        "sleeve_friction": 100.5,
+        "friction_ratio": 3.351452296
+      },
+      {
+        "depth": 9.54,
+        "cone_tip_resistance": 3.8717,
+        "sleeve_friction": 117.5,
+        "friction_ratio": 3.034842576
+      },
+      {
+        "depth": 9.57,
+        "cone_tip_resistance": 5.1579,
+        "sleeve_friction": 137.9,
+        "friction_ratio": 2.6735687
+      },
+      {
+        "depth": 9.6,
+        "cone_tip_resistance": 6.3523,
+        "sleeve_friction": 199.0,
+        "friction_ratio": 3.13272358
+      },
+      {
+        "depth": 9.63,
+        "cone_tip_resistance": 8.465,
+        "sleeve_friction": 283.8,
+        "friction_ratio": 3.35262847
+      },
+      {
+        "depth": 9.66,
+        "cone_tip_resistance": 10.2104,
+        "sleeve_friction": 375.5,
+        "friction_ratio": 3.677622816
+      },
+      {
+        "depth": 9.69,
+        "cone_tip_resistance": 11.2671,
+        "sleeve_friction": 426.4,
+        "friction_ratio": 3.784469828
+      },
+      {
+        "depth": 9.72,
+        "cone_tip_resistance": 11.9105,
+        "sleeve_friction": 467.1,
+        "friction_ratio": 3.921749717
+      },
+      {
+        "depth": 9.75,
+        "cone_tip_resistance": 11.2223,
+        "sleeve_friction": 473.9,
+        "friction_ratio": 4.22284202
+      },
+      {
+        "depth": 9.78,
+        "cone_tip_resistance": 10.3505,
+        "sleeve_friction": 460.3,
+        "friction_ratio": 4.447128158
+      },
+      {
+        "depth": 9.81,
+        "cone_tip_resistance": 10.0297,
+        "sleeve_friction": 439.9,
+        "friction_ratio": 4.385973658
+      },
+      {
+        "depth": 9.84,
+        "cone_tip_resistance": 10.7649,
+        "sleeve_friction": 436.5,
+        "friction_ratio": 4.054844913
+      },
+      {
+        "depth": 9.87,
+        "cone_tip_resistance": 11.2706,
+        "sleeve_friction": 419.5,
+        "friction_ratio": 3.722073359
+      },
+      {
+        "depth": 9.9,
+        "cone_tip_resistance": 10.812,
+        "sleeve_friction": 443.3,
+        "friction_ratio": 4.100073992
+      },
+      {
+        "depth": 9.93,
+        "cone_tip_resistance": 11.134,
+        "sleeve_friction": 456.9,
+        "friction_ratio": 4.103646488
+      },
+      {
+        "depth": 9.96,
+        "cone_tip_resistance": 13.0631,
+        "sleeve_friction": 524.7,
+        "friction_ratio": 4.016657608
+      },
+      {
+        "depth": 9.99,
+        "cone_tip_resistance": 15.6809,
+        "sleeve_friction": 521.3,
+        "friction_ratio": 3.324426532
+      },
+      {
+        "depth": 10.02,
+        "cone_tip_resistance": 17.3344,
+        "sleeve_friction": 524.7,
+        "friction_ratio": 3.026929112
+      },
+      {
+        "depth": 10.05,
+        "cone_tip_resistance": 18.7584,
+        "sleeve_friction": 528.1,
+        "friction_ratio": 2.815272091
+      },
+      {
+        "depth": 10.08,
+        "cone_tip_resistance": 19.8151,
+        "sleeve_friction": 521.3,
+        "friction_ratio": 2.630821949
+      },
+      {
+        "depth": 10.11,
+        "cone_tip_resistance": 22.6165,
+        "sleeve_friction": 524.7,
+        "friction_ratio": 2.31998762
+      },
+      {
+        "depth": 10.14,
+        "cone_tip_resistance": 23.0763,
+        "sleeve_friction": 534.9,
+        "friction_ratio": 2.317962585
+      },
+      {
+        "depth": 10.17,
+        "cone_tip_resistance": 21.5157,
+        "sleeve_friction": 602.8,
+        "friction_ratio": 2.801675056
+      },
+      {
+        "depth": 10.2,
+        "cone_tip_resistance": 18.4858,
+        "sleeve_friction": 636.7,
+        "friction_ratio": 3.444265328
+      },
+      {
+        "depth": 10.23,
+        "cone_tip_resistance": 14.7672,
+        "sleeve_friction": 626.5,
+        "friction_ratio": 4.242510429
+      },
+      {
+        "depth": 10.26,
+        "cone_tip_resistance": 10.6813,
+        "sleeve_friction": 558.6,
+        "friction_ratio": 5.229700505
+      },
+      {
+        "depth": 10.29,
+        "cone_tip_resistance": 7.6515,
+        "sleeve_friction": 426.2,
+        "friction_ratio": 5.570149644
+      },
+      {
+        "depth": 10.32,
+        "cone_tip_resistance": 5.9991,
+        "sleeve_friction": 310.8,
+        "friction_ratio": 5.180777117
+      },
+      {
+        "depth": 10.35,
+        "cone_tip_resistance": 5.265,
+        "sleeve_friction": 212.3,
+        "friction_ratio": 4.032288699
+      },
+      {
+        "depth": 10.38,
+        "cone_tip_resistance": 5.8166,
+        "sleeve_friction": 198.8,
+        "friction_ratio": 3.417804216
+      },
+      {
+        "depth": 10.41,
+        "cone_tip_resistance": 10.1333,
+        "sleeve_friction": 259.9,
+        "friction_ratio": 2.564811068
+      },
+      {
+        "depth": 10.44,
+        "cone_tip_resistance": 14.4959,
+        "sleeve_friction": 358.3,
+        "friction_ratio": 2.471733387
+      },
+      {
+        "depth": 10.47,
+        "cone_tip_resistance": 16.4708,
+        "sleeve_friction": 446.5,
+        "friction_ratio": 2.710858003
+      },
+      {
+        "depth": 10.5,
+        "cone_tip_resistance": 17.8489,
+        "sleeve_friction": 511.0,
+        "friction_ratio": 2.862921525
+      },
+      {
+        "depth": 10.53,
+        "cone_tip_resistance": 18.7678,
+        "sleeve_friction": 568.7,
+        "friction_ratio": 3.030190006
+      },
+      {
+        "depth": 10.56,
+        "cone_tip_resistance": 18.3552,
+        "sleeve_friction": 575.5,
+        "friction_ratio": 3.13535129
+      },
+      {
+        "depth": 10.59,
+        "cone_tip_resistance": 17.0242,
+        "sleeve_friction": 592.5,
+        "friction_ratio": 3.480339752
+      },
+      {
+        "depth": 10.62,
+        "cone_tip_resistance": 15.1882,
+        "sleeve_friction": 602.7,
+        "friction_ratio": 3.968212165
+      },
+      {
+        "depth": 10.65,
+        "cone_tip_resistance": 12.8929,
+        "sleeve_friction": 585.7,
+        "friction_ratio": 4.542810384
+      },
+      {
+        "depth": 10.68,
+        "cone_tip_resistance": 11.2865,
+        "sleeve_friction": 544.9,
+        "friction_ratio": 4.827891729
+      },
+      {
+        "depth": 10.71,
+        "cone_tip_resistance": 9.4963,
+        "sleeve_friction": 477.0,
+        "friction_ratio": 5.023008961
+      },
+      {
+        "depth": 10.74,
+        "cone_tip_resistance": 8.349,
+        "sleeve_friction": 415.9,
+        "friction_ratio": 4.981434902
+      },
+      {
+        "depth": 10.77,
+        "cone_tip_resistance": 8.4874,
+        "sleeve_friction": 409.1,
+        "friction_ratio": 4.820086245
+      },
+      {
+        "depth": 10.8,
+        "cone_tip_resistance": 11.4725,
+        "sleeve_friction": 460.0,
+        "friction_ratio": 4.009588146
+      },
+      {
+        "depth": 10.83,
+        "cone_tip_resistance": 15.5596,
+        "sleeve_friction": 490.6,
+        "friction_ratio": 3.153037353
+      },
+      {
+        "depth": 10.86,
+        "cone_tip_resistance": 18.1315,
+        "sleeve_friction": 534.7,
+        "friction_ratio": 2.949011389
+      },
+      {
+        "depth": 10.89,
+        "cone_tip_resistance": 20.9329,
+        "sleeve_friction": 609.4,
+        "friction_ratio": 2.911206761
+      },
+      {
+        "depth": 10.92,
+        "cone_tip_resistance": 22.0814,
+        "sleeve_friction": 636.5,
+        "friction_ratio": 2.882516507
+      },
+      {
+        "depth": 10.95,
+        "cone_tip_resistance": 21.5769,
+        "sleeve_friction": 639.9,
+        "friction_ratio": 2.965671621
+      },
+      {
+        "depth": 10.98,
+        "cone_tip_resistance": 20.9806,
+        "sleeve_friction": 684.0,
+        "friction_ratio": 3.260154619
+      },
+      {
+        "depth": 11.01,
+        "cone_tip_resistance": 18.5936,
+        "sleeve_friction": 697.6,
+        "friction_ratio": 3.751828586
+      },
+      {
+        "depth": 11.04,
+        "cone_tip_resistance": 14.324,
+        "sleeve_friction": 690.8,
+        "friction_ratio": 4.82267523
+      },
+      {
+        "depth": 11.07,
+        "cone_tip_resistance": 11.5696,
+        "sleeve_friction": 541.4,
+        "friction_ratio": 4.679504909
+      },
+      {
+        "depth": 11.1,
+        "cone_tip_resistance": 9.1826,
+        "sleeve_friction": 392.1,
+        "friction_ratio": 4.270032453
+      },
+      {
+        "depth": 11.13,
+        "cone_tip_resistance": 8.3567,
+        "sleeve_friction": 375.1,
+        "friction_ratio": 4.488613927
+      },
+      {
+        "depth": 11.16,
+        "cone_tip_resistance": 12.3979,
+        "sleeve_friction": 409.0,
+        "friction_ratio": 3.298945789
+      },
+      {
+        "depth": 11.19,
+        "cone_tip_resistance": 16.4391,
+        "sleeve_friction": 446.4,
+        "friction_ratio": 2.715477125
+      },
+      {
+        "depth": 11.22,
+        "cone_tip_resistance": 20.7098,
+        "sleeve_friction": 538.0,
+        "friction_ratio": 2.597803938
+      },
+      {
+        "depth": 11.25,
+        "cone_tip_resistance": 24.751,
+        "sleeve_friction": 670.4,
+        "friction_ratio": 2.708577431
+      },
+      {
+        "depth": 11.28,
+        "cone_tip_resistance": 28.1035,
+        "sleeve_friction": 745.1,
+        "friction_ratio": 2.651271194
+      },
+      {
+        "depth": 11.31,
+        "cone_tip_resistance": 28.8846,
+        "sleeve_friction": 819.7,
+        "friction_ratio": 2.837844388
+      },
+      {
+        "depth": 11.34,
+        "cone_tip_resistance": 28.1505,
+        "sleeve_friction": 867.3,
+        "friction_ratio": 3.080939948
+      },
+      {
+        "depth": 11.37,
+        "cone_tip_resistance": 27.141,
+        "sleeve_friction": 850.3,
+        "friction_ratio": 3.132898567
+      },
+      {
+        "depth": 11.4,
+        "cone_tip_resistance": 25.4886,
+        "sleeve_friction": 857.1,
+        "friction_ratio": 3.362679786
+      },
+      {
+        "depth": 11.43,
+        "cone_tip_resistance": 22.3669,
+        "sleeve_friction": 850.3,
+        "friction_ratio": 3.801599685
+      },
+      {
+        "depth": 11.46,
+        "cone_tip_resistance": 18.0055,
+        "sleeve_friction": 819.7,
+        "friction_ratio": 4.552497848
+      },
+      {
+        "depth": 11.49,
+        "cone_tip_resistance": 13.139,
+        "sleeve_friction": 683.9,
+        "friction_ratio": 5.205114544
+      },
+      {
+        "depth": 11.52,
+        "cone_tip_resistance": 10.8438,
+        "sleeve_friction": 544.7,
+        "friction_ratio": 5.023146867
+      },
+      {
+        "depth": 11.55,
+        "cone_tip_resistance": 11.4872,
+        "sleeve_friction": 480.2,
+        "friction_ratio": 4.180305035
+      },
+      {
+        "depth": 11.58,
+        "cone_tip_resistance": 13.2326,
+        "sleeve_friction": 500.6,
+        "friction_ratio": 3.783081178
+      },
+      {
+        "depth": 11.61,
+        "cone_tip_resistance": 15.8963,
+        "sleeve_friction": 544.7,
+        "friction_ratio": 3.426583545
+      },
+      {
+        "depth": 11.64,
+        "cone_tip_resistance": 17.5958,
+        "sleeve_friction": 619.4,
+        "friction_ratio": 3.52015822
+      },
+      {
+        "depth": 11.67,
+        "cone_tip_resistance": 19.4789,
+        "sleeve_friction": 704.2,
+        "friction_ratio": 3.615193876
+      },
+      {
+        "depth": 11.7,
+        "cone_tip_resistance": 20.2142,
+        "sleeve_friction": 728.0,
+        "friction_ratio": 3.601428699
+      },
+      {
+        "depth": 11.73,
+        "cone_tip_resistance": 19.9393,
+        "sleeve_friction": 761.9,
+        "friction_ratio": 3.821097029
+      },
+      {
+        "depth": 11.76,
+        "cone_tip_resistance": 18.7919,
+        "sleeve_friction": 728.0,
+        "friction_ratio": 3.874009547
+      },
+      {
+        "depth": 11.79,
+        "cone_tip_resistance": 15.1193,
+        "sleeve_friction": 670.3,
+        "friction_ratio": 4.433406308
+      },
+      {
+        "depth": 11.82,
+        "cone_tip_resistance": 13.8801,
+        "sleeve_friction": 673.7,
+        "friction_ratio": 4.853711429
+      },
+      {
+        "depth": 11.85,
+        "cone_tip_resistance": 22.3292,
+        "sleeve_friction": 761.9,
+        "friction_ratio": 3.412124035
+      },
+      {
+        "depth": 11.88,
+        "cone_tip_resistance": 26.7837,
+        "sleeve_friction": 826.4,
+        "friction_ratio": 3.085458693
+      },
+      {
+        "depth": 11.91,
+        "cone_tip_resistance": 30.9167,
+        "sleeve_friction": 877.3,
+        "friction_ratio": 2.837624973
+      },
+      {
+        "depth": 11.94,
+        "cone_tip_resistance": 32.9835,
+        "sleeve_friction": 772.1,
+        "friction_ratio": 2.340867403
+      },
+      {
+        "depth": 11.97,
+        "cone_tip_resistance": 34.3156,
+        "sleeve_friction": 741.5,
+        "friction_ratio": 2.160824814
+      },
+      {
+        "depth": 12.0,
+        "cone_tip_resistance": 34.5458,
+        "sleeve_friction": 710.9,
+        "friction_ratio": 2.057847843
+      },
+      {
+        "depth": 12.03,
+        "cone_tip_resistance": 33.5133,
+        "sleeve_friction": 802.6,
+        "friction_ratio": 2.394870096
+      },
+      {
+        "depth": 12.06,
+        "cone_tip_resistance": 32.4808,
+        "sleeve_friction": 860.3,
+        "friction_ratio": 2.648641659
+      },
+      {
+        "depth": 12.09,
+        "cone_tip_resistance": 32.665,
+        "sleeve_friction": 897.6,
+        "friction_ratio": 2.747895301
+      },
+      {
+        "depth": 12.12,
+        "cone_tip_resistance": 32.7115,
+        "sleeve_friction": 924.8,
+        "friction_ratio": 2.827140302
+      },
+      {
+        "depth": 12.15,
+        "cone_tip_resistance": 33.5845,
+        "sleeve_friction": 955.3,
+        "friction_ratio": 2.844466942
+      },
+      {
+        "depth": 12.18,
+        "cone_tip_resistance": 34.8707,
+        "sleeve_friction": 985.9,
+        "friction_ratio": 2.827302004
+      },
+      {
+        "depth": 12.21,
+        "cone_tip_resistance": 35.7897,
+        "sleeve_friction": 1016.4,
+        "friction_ratio": 2.839923218
+      },
+      {
+        "depth": 12.24,
+        "cone_tip_resistance": 34.9638,
+        "sleeve_friction": 1053.7,
+        "friction_ratio": 3.013688443
+      },
+      {
+        "depth": 12.27,
+        "cone_tip_resistance": 33.4032,
+        "sleeve_friction": 1043.5,
+        "friction_ratio": 3.123952196
+      },
+      {
+        "depth": 12.3,
+        "cone_tip_resistance": 31.108,
+        "sleeve_friction": 992.6,
+        "friction_ratio": 3.190819082
+      },
+      {
+        "depth": 12.33,
+        "cone_tip_resistance": 29.5475,
+        "sleeve_friction": 955.3,
+        "friction_ratio": 3.233099247
+      },
+      {
+        "depth": 12.36,
+        "cone_tip_resistance": 28.7675,
+        "sleeve_friction": 928.1,
+        "friction_ratio": 3.226210133
+      },
+      {
+        "depth": 12.39,
+        "cone_tip_resistance": 28.9058,
+        "sleeve_friction": 928.1,
+        "friction_ratio": 3.210774308
+      },
+      {
+        "depth": 12.42,
+        "cone_tip_resistance": 29.7329,
+        "sleeve_friction": 962.0,
+        "friction_ratio": 3.235473163
+      },
+      {
+        "depth": 12.45,
+        "cone_tip_resistance": 30.9273,
+        "sleeve_friction": 985.8,
+        "friction_ratio": 3.187475143
+      },
+      {
+        "depth": 12.48,
+        "cone_tip_resistance": 31.5248,
+        "sleeve_friction": 1002.8,
+        "friction_ratio": 3.180987667
+      },
+      {
+        "depth": 12.51,
+        "cone_tip_resistance": 31.709,
+        "sleeve_friction": 996.0,
+        "friction_ratio": 3.141064051
+      },
+      {
+        "depth": 12.54,
+        "cone_tip_resistance": 31.7555,
+        "sleeve_friction": 975.6,
+        "friction_ratio": 3.072223709
+      },
+      {
+        "depth": 12.57,
+        "cone_tip_resistance": 31.9398,
+        "sleeve_friction": 982.4,
+        "friction_ratio": 3.075786323
+      },
+      {
+        "depth": 12.6,
+        "cone_tip_resistance": 32.3536,
+        "sleeve_friction": 972.2,
+        "friction_ratio": 3.004920627
+      },
+      {
+        "depth": 12.63,
+        "cone_tip_resistance": 32.3083,
+        "sleeve_friction": 972.2,
+        "friction_ratio": 3.009133876
+      },
+      {
+        "depth": 12.66,
+        "cone_tip_resistance": 31.5283,
+        "sleeve_friction": 982.4,
+        "friction_ratio": 3.115930767
+      },
+      {
+        "depth": 12.69,
+        "cone_tip_resistance": 30.8402,
+        "sleeve_friction": 989.1,
+        "friction_ratio": 3.207177645
+      },
+      {
+        "depth": 12.72,
+        "cone_tip_resistance": 30.152,
+        "sleeve_friction": 975.5,
+        "friction_ratio": 3.235274609
+      },
+      {
+        "depth": 12.75,
+        "cone_tip_resistance": 29.923,
+        "sleeve_friction": 992.5,
+        "friction_ratio": 3.316846573
+      },
+      {
+        "depth": 12.78,
+        "cone_tip_resistance": 29.9236,
+        "sleeve_friction": 999.3,
+        "friction_ratio": 3.339504605
+      },
+      {
+        "depth": 12.81,
+        "cone_tip_resistance": 29.3732,
+        "sleeve_friction": 999.3,
+        "friction_ratio": 3.402080808
+      },
+      {
+        "depth": 12.84,
+        "cone_tip_resistance": 28.18,
+        "sleeve_friction": 978.9,
+        "friction_ratio": 3.473740241
+      },
+      {
+        "depth": 12.87,
+        "cone_tip_resistance": 27.0786,
+        "sleeve_friction": 938.2,
+        "friction_ratio": 3.464728605
+      },
+      {
+        "depth": 12.9,
+        "cone_tip_resistance": 26.8037,
+        "sleeve_friction": 917.8,
+        "friction_ratio": 3.424154128
+      },
+      {
+        "depth": 12.93,
+        "cone_tip_resistance": 27.0338,
+        "sleeve_friction": 894.0,
+        "friction_ratio": 3.306971273
+      },
+      {
+        "depth": 12.96,
+        "cone_tip_resistance": 26.9885,
+        "sleeve_friction": 863.5,
+        "friction_ratio": 3.199510903
+      },
+      {
+        "depth": 12.99,
+        "cone_tip_resistance": 26.484,
+        "sleeve_friction": 846.5,
+        "friction_ratio": 3.196269446
+      },
+      {
+        "depth": 13.02,
+        "cone_tip_resistance": 25.2449,
+        "sleeve_friction": 785.4,
+        "friction_ratio": 3.111123435
+      },
+      {
+        "depth": 13.05,
+        "cone_tip_resistance": 24.7863,
+        "sleeve_friction": 700.5,
+        "friction_ratio": 2.826157999
+      },
+      {
+        "depth": 13.08,
+        "cone_tip_resistance": 25.6134,
+        "sleeve_friction": 727.7,
+        "friction_ratio": 2.841090991
+      },
+      {
+        "depth": 13.11,
+        "cone_tip_resistance": 28.2312,
+        "sleeve_friction": 805.7,
+        "friction_ratio": 2.853934654
+      },
+      {
+        "depth": 13.14,
+        "cone_tip_resistance": 28.9664,
+        "sleeve_friction": 894.0,
+        "friction_ratio": 3.086334512
+      },
+      {
+        "depth": 13.17,
+        "cone_tip_resistance": 29.5639,
+        "sleeve_friction": 944.9,
+        "friction_ratio": 3.19612771
+      },
+      {
+        "depth": 13.2,
+        "cone_tip_resistance": 27.8656,
+        "sleeve_friction": 907.5,
+        "friction_ratio": 3.256703606
+      },
+      {
+        "depth": 13.23,
+        "cone_tip_resistance": 25.8,
+        "sleeve_friction": 836.2,
+        "friction_ratio": 3.241085271
+      },
+      {
+        "depth": 13.26,
+        "cone_tip_resistance": 23.4589,
+        "sleeve_friction": 748.0,
+        "friction_ratio": 3.188555303
+      },
+      {
+        "depth": 13.29,
+        "cone_tip_resistance": 21.9443,
+        "sleeve_friction": 673.3,
+        "friction_ratio": 3.068222728
+      },
+      {
+        "depth": 13.32,
+        "cone_tip_resistance": 20.6133,
+        "sleeve_friction": 666.5,
+        "friction_ratio": 3.233349342
+      },
+      {
+        "depth": 13.35,
+        "cone_tip_resistance": 19.6496,
+        "sleeve_friction": 731.0,
+        "friction_ratio": 3.72017751
+      },
+      {
+        "depth": 13.38,
+        "cone_tip_resistance": 21.3032,
+        "sleeve_friction": 751.3,
+        "friction_ratio": 3.526700214
+      },
+      {
+        "depth": 13.41,
+        "cone_tip_resistance": 22.6813,
+        "sleeve_friction": 758.1,
+        "friction_ratio": 3.342401009
+      },
+      {
+        "depth": 13.44,
+        "cone_tip_resistance": 24.1512,
+        "sleeve_friction": 768.3,
+        "friction_ratio": 3.181208387
+      },
+      {
+        "depth": 13.47,
+        "cone_tip_resistance": 25.7588,
+        "sleeve_friction": 771.7,
+        "friction_ratio": 2.995869373
+      },
+      {
+        "depth": 13.5,
+        "cone_tip_resistance": 26.1726,
+        "sleeve_friction": 731.0,
+        "friction_ratio": 2.792997257
+      },
+      {
+        "depth": 13.53,
+        "cone_tip_resistance": 24.4743,
+        "sleeve_friction": 727.6,
+        "friction_ratio": 2.972914445
+      },
+      {
+        "depth": 13.56,
+        "cone_tip_resistance": 20.9853,
+        "sleeve_friction": 730.9,
+        "friction_ratio": 3.48291423
+      },
+      {
+        "depth": 13.59,
+        "cone_tip_resistance": 19.1952,
+        "sleeve_friction": 707.2,
+        "friction_ratio": 3.684254397
+      },
+      {
+        "depth": 13.62,
+        "cone_tip_resistance": 20.5733,
+        "sleeve_friction": 683.4,
+        "friction_ratio": 3.321781144
+      },
+      {
+        "depth": 13.65,
+        "cone_tip_resistance": 21.9972,
+        "sleeve_friction": 713.9,
+        "friction_ratio": 3.245413053
+      },
+      {
+        "depth": 13.68,
+        "cone_tip_resistance": 23.8345,
+        "sleeve_friction": 730.9,
+        "friction_ratio": 3.066563175
+      },
+      {
+        "depth": 13.71,
+        "cone_tip_resistance": 25.0289,
+        "sleeve_friction": 686.8,
+        "friction_ratio": 2.744027904
+      },
+      {
+        "depth": 13.74,
+        "cone_tip_resistance": 26.0396,
+        "sleeve_friction": 680.0,
+        "friction_ratio": 2.611407241
+      },
+      {
+        "depth": 13.77,
+        "cone_tip_resistance": 26.8667,
+        "sleeve_friction": 713.9,
+        "friction_ratio": 2.657192733
+      },
+      {
+        "depth": 13.8,
+        "cone_tip_resistance": 27.4182,
+        "sleeve_friction": 744.5,
+        "friction_ratio": 2.715349658
+      },
+      {
+        "depth": 13.83,
+        "cone_tip_resistance": 27.6484,
+        "sleeve_friction": 758.0,
+        "friction_ratio": 2.741569132
+      },
+      {
+        "depth": 13.86,
+        "cone_tip_resistance": 27.8786,
+        "sleeve_friction": 761.4,
+        "friction_ratio": 2.731127101
+      },
+      {
+        "depth": 13.89,
+        "cone_tip_resistance": 27.8333,
+        "sleeve_friction": 741.0,
+        "friction_ratio": 2.662278637
+      },
+      {
+        "depth": 13.92,
+        "cone_tip_resistance": 27.1451,
+        "sleeve_friction": 727.5,
+        "friction_ratio": 2.680041702
+      },
+      {
+        "depth": 13.95,
+        "cone_tip_resistance": 25.6305,
+        "sleeve_friction": 734.2,
+        "friction_ratio": 2.8645559
+      },
+      {
+        "depth": 13.98,
+        "cone_tip_resistance": 24.2536,
+        "sleeve_friction": 768.2,
+        "friction_ratio": 3.167364845
+      },
+      {
+        "depth": 14.01,
+        "cone_tip_resistance": 24.2542,
+        "sleeve_friction": 781.7,
+        "friction_ratio": 3.222946954
+      },
+      {
+        "depth": 14.04,
+        "cone_tip_resistance": 24.7139,
+        "sleeve_friction": 746.1,
+        "friction_ratio": 3.018948851
+      },
+      {
+        "depth": 14.07,
+        "cone_tip_resistance": 27.194,
+        "sleeve_friction": 710.4,
+        "friction_ratio": 2.612340958
+      }
+    ]
+  }
+}

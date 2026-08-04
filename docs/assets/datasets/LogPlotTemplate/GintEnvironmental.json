@@ -1,0 +1,140 @@
+{
+  "figure": {
+    "title": "LOG OF BORING {test_id}",
+    "wspace": 0,
+    "y_values_per_page": 10
+  },
+  "titles": {
+    "size": "10%"
+  },
+  "header": {
+    "nrows": 8
+  },
+  "columns": [
+    {
+      "title": {
+        "title": "DEPTH (m)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.35,
+      "model": {
+        "column_type": "axis"
+      }
+    },
+    {
+      "title": {
+        "title": "SAMPLER",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "samples",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "sampler_type"
+      }
+    },
+    {
+      "title": {
+        "title": "SAMPLER TYPE\nNUMBER",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "text",
+        "data_source": "samples",
+        "text_field": "{sampler_type}\n{sample}",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "BLOW\nCOUNTS\n(N VALUE)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.55,
+      "model": {
+        "data_source": "samples",
+        "text_field": "reported_blow_count",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "column_type": "text",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "ENVIRONMENTAL\nDATA",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.6,
+      "model": {
+        "column_type": "text",
+        "data_source": "specimens",
+        "text_field": "environmental_data",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "GRAPHIC\nLOG",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "lithology",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "hatch"
+      }
+    },
+    {
+      "title": {
+        "title": "MATERIAL DESCRIPTION"
+      },
+      "width_ratio": 3.65,
+      "model": {
+        "column_type": "text",
+        "data_source": "lithology",
+        "wrap": true,
+        "text_field": "description",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.02
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "WELL DIAGRAM"
+      },
+      "width_ratio": 1.7,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "well",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "hatch",
+        "text_field": "text",
+        "width_factor": 0.3,
+        "horizontal_borders": false
+      }
+    }
+  ]
+}

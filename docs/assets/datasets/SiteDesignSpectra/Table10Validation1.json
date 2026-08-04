@@ -1,0 +1,97 @@
+{
+  "special_layers_thickness": 37.0,
+  "special_shear_velocity_mean": 119.6,
+  "special_shear_strain_mean": 0.0699,
+  "special_cyclic_resistance_ratio_min": 0.29,
+  "number_of_standard_deviations": 0.0,
+  "spectra_at_rock": [
+    {
+      "period": 0.0,
+      "pseudo_spectral_acceleration": 0.12
+    },
+    {
+      "period": 0.01,
+      "pseudo_spectral_acceleration": 0.14
+    },
+    {
+      "period": 0.02,
+      "pseudo_spectral_acceleration": 0.2
+    },
+    {
+      "period": 0.03,
+      "pseudo_spectral_acceleration": 0.24
+    },
+    {
+      "period": 0.05,
+      "pseudo_spectral_acceleration": 0.28
+    },
+    {
+      "period": 0.075,
+      "pseudo_spectral_acceleration": 0.26
+    },
+    {
+      "period": 0.1,
+      "pseudo_spectral_acceleration": 0.24
+    },
+    {
+      "period": 0.15,
+      "pseudo_spectral_acceleration": 0.2
+    },
+    {
+      "period": 0.2,
+      "pseudo_spectral_acceleration": 0.17
+    },
+    {
+      "period": 0.25,
+      "pseudo_spectral_acceleration": 0.14
+    },
+    {
+      "period": 0.3,
+      "pseudo_spectral_acceleration": 0.13
+    },
+    {
+      "period": 0.4,
+      "pseudo_spectral_acceleration": 0.1
+    },
+    {
+      "period": 0.5,
+      "pseudo_spectral_acceleration": 0.089
+    },
+    {
+      "period": 0.75,
+      "pseudo_spectral_acceleration": 0.068
+    },
+    {
+      "period": 1.0,
+      "pseudo_spectral_acceleration": 0.055
+    },
+    {
+      "period": 1.5,
+      "pseudo_spectral_acceleration": 0.038
+    },
+    {
+      "period": 2.0,
+      "pseudo_spectral_acceleration": 0.03
+    },
+    {
+      "period": 3.0,
+      "pseudo_spectral_acceleration": 0.019
+    },
+    {
+      "period": 4.0,
+      "pseudo_spectral_acceleration": 0.014
+    },
+    {
+      "period": 5.0,
+      "pseudo_spectral_acceleration": 0.01
+    },
+    {
+      "period": 7.5,
+      "pseudo_spectral_acceleration": 0.0066
+    },
+    {
+      "period": 10.0,
+      "pseudo_spectral_acceleration": 0.0046
+    }
+  ]
+}

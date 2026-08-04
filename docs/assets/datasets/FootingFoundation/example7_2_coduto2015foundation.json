@@ -1,0 +1,12 @@
+{
+  "model": {
+    "method": "Terzaghi1943",
+    "footing_shape": "continuous",
+    "footing_embedment": 0.4,
+    "footing_width": 0.7,
+    "water_table_present": false,
+    "unit_weight": 18.0,
+    "friction_angle": 0.0,
+    "undrained_shear_strength": 120.0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "structure_flexible_period": 0.1,
+    "structure_total_height": null,
+    "structure_rigid_period": null,
+    "footing_embedment": 1.0,
+    "footing_width": 0.9,
+    "footing_length": 1.5,
+    "end_length_ratio": 0.0,
+    "elasticity_modulus": 999.0,
+    "unit_weight": 19.6359,
+    "poisson_ratio": 0.3,
+    "shear_modulus_reduction_factor": 1.0,
+    "soil_damping_ratio": 0.5,
+    "pile_diameter": 1.0,
+    "pile_embedment_length": 10.0,
+    "pile_elasticity_modulus": 999.0,
+    "pile_unit_weight": null
+  },
+  "data": [
+    {
+      "depth": 0.0,
+      "shear_velocity": 300.0
+    },
+    {
+      "depth": 100.0,
+      "shear_velocity": 300.0
+    }
+  ],
+  "node_data": [
+    {
+      "node_id": 1,
+      "pile_count": 0,
+      "pile_group_configuration": "2X2",
+      "coordinate_x": 0.75,
+      "coordinate_y": 0.45
+    }
+  ]
+}

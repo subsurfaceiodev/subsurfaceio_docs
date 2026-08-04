@@ -1,0 +1,29 @@
+{
+  "variable": "shear_velocity",
+  "data": [
+    {
+      "depth": 3.28,
+      "values_to_average": 206.09756097560978
+    },
+    {
+      "depth": 9.84,
+      "values_to_average": 249.08536585365854
+    },
+    {
+      "depth": 29.53,
+      "values_to_average": 402.13414634146346
+    },
+    {
+      "depth": 68.9,
+      "values_to_average": 386.89024390243907
+    },
+    {
+      "depth": 128.0,
+      "values_to_average": 382.01219512195127
+    },
+    {
+      "depth": 226.4,
+      "values_to_average": 458.2317073170732
+    }
+  ]
+}

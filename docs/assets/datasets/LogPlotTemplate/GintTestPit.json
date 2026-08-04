@@ -1,0 +1,88 @@
+{
+  "figure": {
+    "title": "LOG OF TEST PIT {test_id}",
+    "wspace": 0,
+    "y_values_per_page": 5
+  },
+  "titles": {
+    "size": "10%"
+  },
+  "header": {
+    "nrows": 8
+  },
+  "columns": [
+    {
+      "title": {
+        "title": "DEPTH (m)",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.35,
+      "model": {
+        "column_type": "axis"
+      }
+    },
+    {
+      "title": {
+        "title": "SAMPLER",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.15,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "samples",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "sampler_type"
+      }
+    },
+    {
+      "title": {
+        "title": "SAMPLER TYPE\nNUMBER",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "text",
+        "data_source": "samples",
+        "text_field": "{sampler_type}\n{sample}",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.5,
+          "horizontalalignment": "center"
+        }
+      }
+    },
+    {
+      "title": {
+        "title": "GRAPHIC\nLOG",
+        "rotation": "vertical"
+      },
+      "width_ratio": 0.3,
+      "model": {
+        "column_type": "graphic",
+        "data_source": "lithology",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "hatch_field": "hatch"
+      }
+    },
+    {
+      "title": {
+        "title": "MATERIAL DESCRIPTION"
+      },
+      "width_ratio": 5.1499999999999995,
+      "model": {
+        "column_type": "text",
+        "data_source": "lithology",
+        "wrap": true,
+        "text_field": "description",
+        "y_top_field": "depth_top",
+        "y_bottom_field": "depth",
+        "parameters": {
+          "x": 0.02
+        }
+      }
+    }
+  ]
+}
