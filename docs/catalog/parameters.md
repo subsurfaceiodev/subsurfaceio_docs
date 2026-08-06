@@ -69,6 +69,26 @@ value='A-8' value_secondary=None color=None
 **corresponding_parameter_name**: `None`  
     
 
+### `aggregation`
+**symbol**: $\text{aggregation}$  
+**label**: Aggregation  
+**unit**: None  
+**description**: Aggregation strategy  
+**data_type**: `str`  
+**corresponding_parameter_name**: `None`  
+    
+#### discrete_data
+is_categorical: False
+
+value='min' value_secondary=None color=None  
+value='mean' value_secondary=None color=None  
+value='median' value_secondary=None color=None  
+value='gmean' value_secondary=None color=None  
+value='characteristic' value_secondary=None color=None  
+value='max' value_secondary=None color=None  
+value='quantile' value_secondary=None color=None  
+value='std' value_secondary=None color=None  
+
 ### `alternative_normalized_cone_resistance`
 **symbol**: $Q_{t1}$  
 **label**: Alternative normalized cone resistance  
