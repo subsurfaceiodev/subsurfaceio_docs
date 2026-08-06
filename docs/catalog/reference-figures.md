@@ -32,10 +32,8 @@
 ![NormalizedSoilBehaviourTypeCompactability](reference-figures-images/NormalizedSoilBehaviourTypeCompactability.svg)
 ### PeriodLengtheningRatio
 ![PeriodLengtheningRatio](reference-figures-images/PeriodLengtheningRatio.svg)
-### PileFrictionCoefficient1Semple1984
-![PileFrictionCoefficient1Semple1984](reference-figures-images/PileFrictionCoefficient1Semple1984.svg)
-### PileFrictionCoefficient2Semple1984
-![PileFrictionCoefficient2Semple1984](reference-figures-images/PileFrictionCoefficient2Semple1984.svg)
+### PileAdhesionFactorSemple1984
+![PileAdhesionFactorSemple1984](reference-figures-images/PileAdhesionFactorSemple1984.svg)
 ### PileFrictionCoefficientAPI1975
 ![PileFrictionCoefficientAPI1975](reference-figures-images/PileFrictionCoefficientAPI1975.svg)
 ### PileGroupDampingRatioX
@@ -50,6 +48,8 @@
 ![PileGroupEfficiencyFactorYY](reference-figures-images/PileGroupEfficiencyFactorYY.svg)
 ### PileGroupEfficiencyFactorZ
 ![PileGroupEfficiencyFactorZ](reference-figures-images/PileGroupEfficiencyFactorZ.svg)
+### PileLengthCorrectionFactorSemple1984
+![PileLengthCorrectionFactorSemple1984](reference-figures-images/PileLengthCorrectionFactorSemple1984.svg)
 ### PileSettlementCorrectionBearingLd10
 ![PileSettlementCorrectionBearingLd10](reference-figures-images/PileSettlementCorrectionBearingLd10.svg)
 ### PileSettlementCorrectionBearingLd25

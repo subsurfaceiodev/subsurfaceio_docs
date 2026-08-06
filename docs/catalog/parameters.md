@@ -753,6 +753,15 @@ left=50.0 right=None value='Very dense' color='gray'
 **corresponding_parameter_name**: `None`  
     
 
+### `cross_correlation_coefficient`
+**symbol**: $\text{cross\_correlation\_coefficient}$  
+**label**: Cross correlation coefficient  
+**unit**: None  
+**description**: Cross correlation coefficient of sleeve friction relative to cone resistance  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
 ### `cross_correlation_lag`
 **symbol**: $\text{cross\_correlation\_lag}$  
 **label**: Cross correlation lag  
@@ -3433,6 +3442,15 @@ left=1e-07 right=1e-05 value='Low' color='silver'
 left=1e-05 right=0.001 value='Medium' color='darkgray'  
 left=0.001 right=None value='High' color='gray'  
 
+### `pile_adhesion_factor`
+**symbol**: $α_1$  
+**label**: Pile adhesion factor  
+**unit**: None  
+**description**: Pile adhesion factor for shaft resistance  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
 ### `pile_area_ratio`
 **symbol**: $R_A$  
 **label**: Pile area ratio  
@@ -3597,6 +3615,15 @@ value='4X4' value_secondary=None color=None
 **label**: Pile influence factor  
 **unit**: None  
 **description**: Influence factor for pile settlement  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `pile_length_correction_factor`
+**symbol**: $α_2$  
+**label**: Pile length correction factor  
+**unit**: None  
+**description**: Pile length correction factor for shaft resistance  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     

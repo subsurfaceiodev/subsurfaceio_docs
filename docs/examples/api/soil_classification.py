@@ -4,11 +4,11 @@ base_url = 'https://www.subsurfaceio.app'
 
 data = dict(
     language='en',
-    fines_content=34,
-    percent_sand=64,
-    percent_gravel=2,
-    liquid_limit=38,
-    plasticity_index=12,
+    fines_content=34.0,
+    percent_sand=64.0,
+    percent_gravel=2.0,
+    liquid_limit=38.0,
+    plasticity_index=12.0,
 )
 
 model_response = requests.post(
