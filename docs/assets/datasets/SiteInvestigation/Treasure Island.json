@@ -14,7 +14,7 @@
   "in_situ_tests": [
     {
       "type": "BORH",
-      "id": "d3377253-2604-459a-8d45-ea25041f623b",
+      "id": "2f44a359-dc7d-41f7-a2fb-dfadaf564212",
       "metadata": {
         "test_id": "Gibbs B-1",
         "latitude": 37.82505,
@@ -1605,7 +1605,7 @@
     },
     {
       "type": "IST",
-      "id": "a224b300-7578-4ad3-a892-bd9f66fab10b",
+      "id": "e16457c6-100f-474e-bbff-878747188bb9",
       "metadata": {
         "test_id": "Gibbs B-1 vs",
         "latitude": 37.82505,
@@ -1690,7 +1690,7 @@
     },
     {
       "type": "IST",
-      "id": "753a6bbb-2eee-497c-b978-c50673fefc64",
+      "id": "1e51736a-ec2a-4c82-9ddb-54a211697f86",
       "metadata": {
         "test_id": "UM10 vs",
         "latitude": 37.825137,
@@ -1859,7 +1859,7 @@
     },
     {
       "type": "IST",
-      "id": "a66eb08b-3ffe-4dc4-b59b-115db75fde4f",
+      "id": "12c1fcd1-4150-435f-acb1-dc02f6ed324f",
       "metadata": {
         "test_id": "B-x vs",
         "latitude": 37.82505,
@@ -2044,7 +2044,7 @@
     },
     {
       "type": "BORH",
-      "id": "ab58b7c7-9fc5-48bb-ac2f-7363f3a0bc08",
+      "id": "5cf4aa80-b3b9-4acb-876f-5fe77dde5dcb",
       "metadata": {
         "test_id": "B-1",
         "latitude": 37.82506,
@@ -4178,7 +4178,7 @@
     },
     {
       "type": "BORH",
-      "id": "8a163ecd-94a4-4758-8eab-e1e63665d29d",
+      "id": "ecbcc178-3c57-4b61-b613-4f293e4322cb",
       "metadata": {
         "test_id": "B-3",
         "latitude": 37.82507,
@@ -4962,7 +4962,7 @@
     },
     {
       "type": "CPT",
-      "id": "e25185d0-6eec-41c5-a160-bddea29efc5c",
+      "id": "4be9341a-15e7-4202-994f-58e70a677a2f",
       "metadata": {
         "test_id": "CPTU-1",
         "latitude": 37.824806,
@@ -6760,7 +6760,7 @@
     },
     {
       "type": "CPT",
-      "id": "dba0f215-bf13-49b3-bfa2-92c254f5e3f5",
+      "id": "6a2d7e3f-2143-4dee-84cf-00fe282c089a",
       "metadata": {
         "test_id": "CPTU-2",
         "latitude": 37.824948,
@@ -7442,7 +7442,7 @@
     },
     {
       "type": "CPT",
-      "id": "c5297a24-762a-4c02-a384-52adf734fa63",
+      "id": "1a0b33ce-ea51-4588-9b37-e8352ebf652f",
       "metadata": {
         "test_id": "CPTU-3",
         "latitude": 37.82495,
@@ -7926,7 +7926,7 @@
     },
     {
       "type": "CPT",
-      "id": "aace8a12-a0e6-4934-9200-5092e4f30a72",
+      "id": "ec7fe272-106a-4a6a-acfc-4c9b4f375d8d",
       "metadata": {
         "test_id": "CPTU-4",
         "latitude": 37.82494,
@@ -8266,7 +8266,7 @@
     },
     {
       "type": "CPT",
-      "id": "522fc581-86d0-412e-9c6f-e0d170b14e93",
+      "id": "fd241643-3862-4a2d-90cb-6dfe4267bc46",
       "metadata": {
         "test_id": "CPTU-5",
         "latitude": 37.82494,
@@ -8504,7 +8504,7 @@
     },
     {
       "type": "CPT",
-      "id": "6e56dd43-de1a-4ce0-9963-98e1dc7b4183",
+      "id": "cad924be-9467-48c1-98ef-572607db93bf",
       "metadata": {
         "test_id": "CPTU-7",
         "latitude": 37.824855,
@@ -10218,7 +10218,7 @@
     },
     {
       "type": "CPT",
-      "id": "05e7669a-0bcd-45d3-8900-197c95dd721a",
+      "id": "0f037f47-1555-49df-9ba3-2dc7ed5ab4ca",
       "metadata": {
         "test_id": "CPTU-9",
         "latitude": 37.82507,
@@ -11920,7 +11920,7 @@
     },
     {
       "type": "CPT",
-      "id": "cb5d4178-6939-4806-8403-b96a1f2f502e",
+      "id": "eedd3980-d43d-4794-906d-41802d1fac96",
       "metadata": {
         "test_id": "CPTU-10",
         "latitude": 37.825066,
@@ -13688,7 +13688,7 @@
     },
     {
       "type": "BORH",
-      "id": "3d43a724-3f91-47a7-804f-581ff58a853f",
+      "id": "c38bacae-ea17-458c-ba87-b4be81f1bed7",
       "metadata": {
         "test_id": "P-38.5",
         "latitude": 37.8249,
@@ -14414,7 +14414,7 @@
     },
     {
       "type": "DMT",
-      "id": "19365a2c-383e-4f77-ac04-3679901a7664",
+      "id": "5b918e5c-3d54-4f9c-95b7-daa8721ee37b",
       "metadata": {
         "test_id": "DMT-1",
         "latitude": 37.824868,
@@ -17900,7 +17900,7 @@
     },
     {
       "type": "UDT",
-      "id": "b67e9f65-55eb-4994-a988-175a1e845caa",
+      "id": "3c5ac32d-f81d-4f56-bbab-fb3c7961f538",
       "metadata": {
         "test_id": "YoudCarter2003",
         "latitude": 37.825137,

@@ -14,7 +14,7 @@
   "in_situ_tests": [
     {
       "type": "CPT",
-      "id": "4b7a60a2-7250-44c3-bd86-64e1722653df",
+      "id": "789138ca-6f73-452b-81a3-75bfd983f5c2",
       "metadata": {
         "test_id": "UC-14",
         "latitude": 36.81652,
@@ -2765,7 +2765,7 @@
     },
     {
       "type": "CPT",
-      "id": "5b64fe39-b475-445d-ab82-f1920ba3066c",
+      "id": "4fa5048d-72f8-4eaa-8773-a11bd21fb321",
       "metadata": {
         "test_id": "UC-15",
         "latitude": 36.8167,
@@ -4551,7 +4551,7 @@
     },
     {
       "type": "CPT",
-      "id": "0734a65e-2f80-4596-8b9d-3fb1305f486e",
+      "id": "7b19daa7-426d-46f4-8804-375a0144889b",
       "metadata": {
         "test_id": "UC-16",
         "latitude": 36.81526,
@@ -7297,7 +7297,7 @@
     },
     {
       "type": "CPT",
-      "id": "97ffeb06-14cd-49e9-93ef-66307f1ce97f",
+      "id": "8949bf69-5dd8-4659-8ef3-76e55078283e",
       "metadata": {
         "test_id": "UC-17",
         "latitude": 36.815,
@@ -9203,7 +9203,7 @@
     },
     {
       "type": "CPT",
-      "id": "eb0df584-30f8-406a-a733-04ea2e803a56",
+      "id": "a2f98b2a-005f-42f4-93ee-1e41763aa700",
       "metadata": {
         "test_id": "UC-18",
         "latitude": 36.81403,
@@ -11708,7 +11708,7 @@
     },
     {
       "type": "BORH",
-      "id": "ad018266-a286-4b72-bb8b-3d5e959d20c9",
+      "id": "f799e661-9803-4746-a9dd-7e603ac3c3a1",
       "metadata": {
         "test_id": "UC-B1",
         "latitude": 36.81652,
@@ -14241,7 +14241,7 @@
     },
     {
       "type": "BORH",
-      "id": "1781eb5f-7f6d-4b79-83b5-20a986dcf9ae",
+      "id": "4983ed3e-126c-48f7-b146-1e016c8d451b",
       "metadata": {
         "test_id": "UC-B2",
         "latitude": 36.81526,
@@ -16539,7 +16539,7 @@
     },
     {
       "type": "IST",
-      "id": "fd6638d9-0112-43f4-969c-ec407ec74c7b",
+      "id": "3fe091dc-17fc-4698-81bd-a9c1d6ceeb47",
       "metadata": {
         "test_id": "UC-15 - Vs",
         "latitude": 36.8167,
@@ -16638,7 +16638,7 @@
     },
     {
       "type": "IST",
-      "id": "76e6770e-85c3-43c1-a312-8849060d511b",
+      "id": "8cf470c6-bca1-4f24-a26b-189efb3d936d",
       "metadata": {
         "test_id": "UC-16 - Vs",
         "latitude": 36.81526,

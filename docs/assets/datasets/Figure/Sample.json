@@ -1,82 +1,5 @@
 {
   "sharex": false,
-  "sharey": true,
-  "minor_ticks": "outside",
-  "x_axes_side": "top",
-  "reverse_x": false,
-  "reverse_y": true,
-  "showgrid": false,
-  "style_map": {
-    "UC-B1": {
-      "mode": "lines+markers",
-      "line_width": null,
-      "line_shape": "linear",
-      "marker_size": null
-    },
-    "UC-B2": {
-      "mode": "lines+markers",
-      "line_width": null,
-      "line_shape": "linear",
-      "marker_size": null
-    }
-  },
-  "axis_map": {
-    "material_index": {
-      "type": "log",
-      "rangemode": "normal",
-      "autorange": "False",
-      "range": [
-        -1.0,
-        1.0
-      ]
-    },
-    "soil_behavior_type_index": {
-      "type": "linear",
-      "rangemode": "normal",
-      "autorange": "False",
-      "range": [
-        1.0,
-        4.0
-      ]
-    },
-    "modified_soil_behavior_type_index": {
-      "type": "log",
-      "rangemode": "normal",
-      "autorange": "False",
-      "range": [
-        1.0,
-        2.0
-      ]
-    },
-    "permeability": {
-      "type": "log",
-      "rangemode": "normal",
-      "autorange": "True",
-      "range": [
-        null,
-        null
-      ]
-    },
-    "coefficient_of_consolidation": {
-      "type": "log",
-      "rangemode": "normal",
-      "autorange": "True",
-      "range": [
-        null,
-        null
-      ]
-    },
-    "soil_classification_index": {
-      "type": "log",
-      "rangemode": "normal",
-      "autorange": "False",
-      "range": [
-        1.0,
-        2.69897
-      ]
-    }
-  },
-  "plot_module": "plotly",
   "plot_model": {
     "plot_type": "line",
     "data_frame": [
@@ -265,37 +188,31 @@
       {
         "test_id": "UC-B2",
         "depth": 9.44,
-        "uscs_symbol": "Other",
+        "uscs_symbol": null,
         "blow_count": 18,
         "fines_content": 1.5
       },
       {
         "test_id": "UC-B2",
         "depth": 10.97,
-        "uscs_symbol": "Other",
+        "uscs_symbol": null,
         "blow_count": 20,
         "fines_content": 6.0
       },
       {
         "test_id": "UC-B2",
         "depth": 12.49,
-        "uscs_symbol": "Other",
+        "uscs_symbol": null,
         "blow_count": 21,
         "fines_content": 11.5
       }
     ],
-    "x": {
-      "type": "list",
-      "x": [
-        "blow_count",
-        "fines_content",
-        "uscs_symbol"
-      ]
-    },
-    "y": {
-      "type": "str",
-      "y": "depth"
-    },
+    "x": [
+      "blow_count",
+      "fines_content",
+      "uscs_symbol"
+    ],
+    "y": "depth",
     "color": "test_id",
     "symbol": "test_id",
     "facet_col": "variable",
@@ -304,7 +221,8 @@
       "depth": "z (m)",
       "uscs_symbol": "USCS symbol",
       "blow_count": "N",
-      "fines_content": "FC (%)"
+      "fines_content": "FC (%)",
+      "variable": ""
     },
     "color_discrete_map": {},
     "symbol_map": {
@@ -313,5 +231,58 @@
     },
     "width": 1122.24,
     "height": 793.92
+  },
+  "reverse_y": true,
+  "elevation_map": {},
+  "style_map": {
+    "UC-B1": {
+      "mode": "lines+markers",
+      "line_shape": "linear",
+      "line_width": null
+    },
+    "UC-B2": {
+      "mode": "lines+markers",
+      "line_shape": "linear",
+      "line_width": null
+    }
+  },
+  "axis_map": {
+    "material_index": {
+      "type": "log",
+      "autorange": "False",
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "soil_behavior_type_index": {
+      "autorange": "False",
+      "range": [
+        1.0,
+        4.0
+      ]
+    },
+    "modified_soil_behavior_type_index": {
+      "type": "log",
+      "autorange": "False",
+      "range": [
+        1.0,
+        2.0
+      ]
+    },
+    "permeability": {
+      "type": "log"
+    },
+    "coefficient_of_consolidation": {
+      "type": "log"
+    },
+    "soil_classification_index": {
+      "type": "log",
+      "autorange": "False",
+      "range": [
+        1.0,
+        2.69897
+      ]
+    }
   }
 }
