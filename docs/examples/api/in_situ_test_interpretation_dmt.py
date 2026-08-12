@@ -1,6 +1,5 @@
 import requests
-import numpy as np
-import pandas as pd
+import polars as pl
 import plotly.io as pio
 
 
@@ -54,16 +53,15 @@ def plot_results(data):
 
 base_url = 'https://www.subsurfaceio.app'
 
-basic_data = pd.read_csv(
+basic_data = pl.read_csv(
     'https://docs.subsurfaceio.app/assets/DMT-1_data.csv',
 )
 
-basic_data = basic_data.replace({np.nan: None})
-basic_data = basic_data.to_dict('list')
+basic_data = basic_data.to_dict(as_series=False)
 
 results_json = get_results().json()['1d']
-df = pd.DataFrame(results_json)
-print(df.to_string())
+df = pl.DataFrame(results_json)
+print(df.glimpse())
 
 fig = pio.from_json(plot_results(results_json).content)
 fig.show()

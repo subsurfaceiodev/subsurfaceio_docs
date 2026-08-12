@@ -1,6 +1,6 @@
 import requests
 import numpy as np
-import pandas as pd
+import polars as pl
 import plotly.graph_objects as go
 
 
@@ -36,12 +36,11 @@ def get_results(**kwargs):
 
 base_url = 'https://www.subsurfaceio.app'
 
-basic_data = pd.read_csv(
+basic_data = pl.read_csv(
     'https://docs.subsurfaceio.app/assets/DMT-1_data.csv',
 )
 
-basic_data = basic_data.replace({np.nan: None})
-basic_data = basic_data.to_dict('list')
+basic_data = basic_data.to_dict(as_series=False)
 
 x = np.arange(0.1, 0.5, 0.05)
 y = np.arange(6, 8, 0.25)
