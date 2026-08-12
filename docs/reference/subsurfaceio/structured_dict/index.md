@@ -1,1 +1,0 @@
-::: subsurfaceio.structured_dict
