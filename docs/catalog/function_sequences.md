@@ -1281,7 +1281,7 @@ FunctionSequence class.
 
 `functions`
 
-* [`ssi._calculate_node_data`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi._calculate_node_data)  
+* [`ssi.get_node_data`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_node_data)  
 ### SSIPileStiffness
 `description`
 
