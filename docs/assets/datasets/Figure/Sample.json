@@ -233,17 +233,12 @@
     "height": 793.92
   },
   "reverse_y": true,
-  "elevation_map": {},
   "style_map": {
     "UC-B1": {
-      "mode": "lines+markers",
-      "line_shape": "linear",
-      "line_width": null
+      "mode": "lines+markers"
     },
     "UC-B2": {
-      "mode": "lines+markers",
-      "line_shape": "linear",
-      "line_width": null
+      "mode": "lines+markers"
     }
   },
   "axis_map": {

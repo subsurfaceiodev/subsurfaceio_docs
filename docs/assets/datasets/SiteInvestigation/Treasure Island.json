@@ -272,7 +272,26 @@
             "depth": 6.2,
             "sample_diameter": 75.0,
             "date": "1990-11-19T00:00:00"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1278",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 5.3,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {},
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.92,
+                  "dry_density": 1.55928,
+                  "specific_gravity": 2.63518,
+                  "water_content": 19.9
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -327,7 +346,26 @@
             "depth": 9.7,
             "sample_diameter": 75.0,
             "date": "1990-11-19T00:00:00"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1279",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 9.1,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {},
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.92,
+                  "dry_density": 1.58219,
+                  "specific_gravity": 2.64225,
+                  "water_content": 21.3
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -415,7 +453,32 @@
             "depth": 27.8,
             "sample_diameter": 75.0,
             "date": "1990-11-19T00:00:00"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1280",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 27.4,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 42.0,
+                  "plastic_limit": 23.0,
+                  "plasticity_index": 19.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.81,
+                  "dry_density": 1.22514,
+                  "specific_gravity": 2.57279,
+                  "water_content": 41.9
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -438,7 +501,26 @@
             "depth": 33.9,
             "sample_diameter": 75.0,
             "date": "1990-11-19T00:00:00"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1281",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 33.5,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {},
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.83,
+                  "dry_density": 1.50542,
+                  "specific_gravity": 2.64954,
+                  "water_content": 21.8
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -449,7 +531,32 @@
             "depth": 40.1,
             "sample_diameter": 75.0,
             "date": "1990-11-19T00:00:00"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1282",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 39.6,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 37.0,
+                  "plastic_limit": 14.0,
+                  "plasticity_index": 23.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.83,
+                  "dry_density": 1.33744,
+                  "specific_gravity": 2.70162,
+                  "water_content": 37.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -471,7 +578,32 @@
             "depth": 52.2,
             "sample_diameter": 75.0,
             "date": "1990-11-19T00:00:00"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1283",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 51.8,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 34.0,
+                  "plastic_limit": 15.0,
+                  "plasticity_index": 19.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 2.05,
+                  "dry_density": 1.70244,
+                  "specific_gravity": 2.68986,
+                  "water_content": 20.7
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -493,7 +625,32 @@
             "depth": 71.1,
             "sample_diameter": 75.0,
             "date": "1990-11-19T00:00:00"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1284",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 70.7,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 48.0,
+                  "plastic_limit": 18.0,
+                  "plasticity_index": 30.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.84,
+                  "dry_density": 1.38985,
+                  "specific_gravity": 2.71021,
+                  "water_content": 33.3
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -524,7 +681,32 @@
             "depth_top": 18.3,
             "depth": 18.3,
             "description": "Sample described by Pass (1994).  Thickness not reported"
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1285",
+                "specimen_reference": "Gibbs B-1",
+                "depth_top": 18.3,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 51.0,
+                  "plastic_limit": 25.0,
+                  "plasticity_index": 26.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.73,
+                  "dry_density": 1.14074,
+                  "specific_gravity": 2.66932,
+                  "water_content": 50.2
+                }
+              }
+            }
+          ]
         }
       ],
       "spt": [
@@ -1199,7 +1381,57 @@
             "sampler_type": "SPT",
             "depth_top": 2.5,
             "depth": 2.95
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1286",
+                "specimen_reference": "B-1",
+                "depth_top": 2.4,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 95.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 65.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 10.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 6.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 6.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1208,7 +1440,57 @@
             "sampler_type": "SPT",
             "depth_top": 4.0,
             "depth": 4.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1287",
+                "specimen_reference": "B-1",
+                "depth_top": 4.0,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 95.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 83.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 34.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 24.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 24.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1226,7 +1508,57 @@
             "sampler_type": "SPT",
             "depth_top": 6.0,
             "depth": 6.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1288",
+                "specimen_reference": "B-1",
+                "depth_top": 5.8,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 98.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 57.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 46.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 46.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1262,7 +1594,57 @@
             "sampler_type": "SPT",
             "depth_top": 10.0,
             "depth": 10.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1289",
+                "specimen_reference": "B-1",
+                "depth_top": 9.8,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 94.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 52.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 14.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 13.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 13.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1271,7 +1653,57 @@
             "sampler_type": "SPT",
             "depth_top": 11.0,
             "depth": 11.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1290",
+                "specimen_reference": "B-1",
+                "depth_top": 10.7,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 97.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 73.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 12.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 8.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 8.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1280,7 +1712,57 @@
             "sampler_type": "SPT",
             "depth_top": 12.0,
             "depth": 12.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1291",
+                "specimen_reference": "B-1",
+                "depth_top": 11.6,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 97.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 43.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 36.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 36.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1289,7 +1771,72 @@
             "sampler_type": "SPT",
             "depth_top": 13.0,
             "depth": 13.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1292",
+                "specimen_reference": "B-1",
+                "depth_top": 13.6,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 76.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 63.0
+                  }
+                ]
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 34.0,
+                  "plastic_limit": 15.0,
+                  "plasticity_index": 19.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 63.0
+                }
+              }
+            },
+            {
+              "metadata": {
+                "specimen_id": "1293",
+                "specimen_reference": "B-1",
+                "depth_top": 13.4,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1297,7 +1844,32 @@
             "sample_name": "B-1 18 m",
             "depth_top": 18.0,
             "depth": 18.3
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1294",
+                "specimen_reference": "B-1",
+                "depth_top": 18.0,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 50.0,
+                  "plastic_limit": 23.0,
+                  "plasticity_index": 27.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 1.73,
+                  "dry_density": 1.15603,
+                  "specific_gravity": 2.76291,
+                  "water_content": 48.8
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1305,7 +1877,18 @@
             "sample_name": "B-1 33.5 m",
             "depth_top": 33.6,
             "depth": 33.9
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1295",
+                "specimen_reference": "B-1",
+                "depth_top": 33.6,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {}
+            }
+          ]
         },
         {
           "metadata": {
@@ -1313,7 +1896,32 @@
             "sample_name": "B-1 44.5 m",
             "depth_top": 44.5,
             "depth": 44.8
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1296",
+                "specimen_reference": "B-1",
+                "depth_top": 44.5,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 38.0,
+                  "plastic_limit": 17.0,
+                  "plasticity_index": 21.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 2.12,
+                  "dry_density": 1.66061,
+                  "specific_gravity": 2.7234,
+                  "water_content": 23.5
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1321,7 +1929,32 @@
             "sample_name": "B-1 44.8 m",
             "depth_top": 44.8,
             "depth": 45.1
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1297",
+                "specimen_reference": "B-1",
+                "depth_top": 44.8,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 38.0,
+                  "plastic_limit": 15.0,
+                  "plasticity_index": 23.0
+                }
+              },
+              "index_tests": {
+                "metadata": {
+                  "bulk_density": 2.04,
+                  "dry_density": 1.6436,
+                  "specific_gravity": 2.79412,
+                  "water_content": 23.8
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1329,7 +1962,57 @@
             "sample_name": "-",
             "depth_top": 29.9,
             "depth": 30.3
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1298",
+                "specimen_reference": "B-1",
+                "depth_top": 29.9,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 98.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 92.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 44.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 13.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 12.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 12.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1337,7 +2020,57 @@
             "sample_name": "-",
             "depth_top": 30.8,
             "depth": 31.2
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1299",
+                "specimen_reference": "B-1",
+                "depth_top": 30.8,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 97.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 93.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 74.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 38.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 13.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 11.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 11.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1345,7 +2078,57 @@
             "sample_name": "-",
             "depth_top": 33.4,
             "depth": 33.8
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1300",
+                "specimen_reference": "B-1",
+                "depth_top": 33.4,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 97.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 62.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 24.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 22.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 22.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1353,7 +2136,57 @@
             "sample_name": "-",
             "depth_top": 35.1,
             "depth": 35.2
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1301",
+                "specimen_reference": "B-1",
+                "depth_top": 35.1,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 94.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 86.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 72.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 53.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 32.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 9.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 8.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 8.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1361,7 +2194,57 @@
             "sample_name": "-",
             "depth_top": 35.2,
             "depth": 35.5
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1302",
+                "specimen_reference": "B-1",
+                "depth_top": 35.2,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 94.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 90.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 80.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 63.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 34.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 13.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 11.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 11.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1602,7 +2485,57 @@
             "sampler_type": "SPT",
             "depth_top": 2.5,
             "depth": 2.95
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1303",
+                "specimen_reference": "B-3",
+                "depth_top": 3.1,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 98.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 96.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 68.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 11.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 7.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 7.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1611,7 +2544,57 @@
             "sampler_type": "SPT",
             "depth_top": 3.5,
             "depth": 3.95
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1304",
+                "specimen_reference": "B-3",
+                "depth_top": 5.2,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 98.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 45.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 30.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 30.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1629,7 +2612,57 @@
             "sampler_type": "SPT",
             "depth_top": 8.5,
             "depth": 8.95
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1305",
+                "specimen_reference": "B-3",
+                "depth_top": 8.2,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 96.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 88.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 49.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 39.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 39.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -1638,7 +2671,93 @@
             "sampler_type": "SPT",
             "depth_top": 10.0,
             "depth": 10.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1306",
+                "specimen_reference": "B-3",
+                "depth_top": 9.8,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 97.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 72.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 16.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 14.0
+                  },
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 74.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 19.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 16.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 14.0
+                }
+              }
+            },
+            {
+              "metadata": {
+                "specimen_id": "1307",
+                "specimen_reference": "B-3",
+                "depth_top": 10.2,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -9780,7 +10899,57 @@
             "sampler_type": "SPT",
             "depth_top": 2.5,
             "depth": 2.95
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1308",
+                "specimen_reference": "P38.5",
+                "depth_top": 2.4,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 92.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 44.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 13.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 12.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 12.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -9807,7 +10976,57 @@
             "sampler_type": "SPT",
             "depth_top": 6.5,
             "depth": 6.95
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1309",
+                "specimen_reference": "P38.5",
+                "depth_top": 6.1,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 99.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 98.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 96.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 92.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 26.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 16.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 16.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -9816,7 +11035,57 @@
             "sampler_type": "SPT",
             "depth_top": 7.5,
             "depth": 7.95
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1310",
+                "specimen_reference": "P38.5",
+                "depth_top": 7.3,
+                "remarks": "Figure 3.1 from Pass (1994)"
+              },
+              "sieve_analysis": {
+                "metadata": {
+                  "method": "Sieve"
+                },
+                "data": [
+                  {
+                    "particle_size": 4.76,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 2.0,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.841,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.42,
+                    "percent_finer": 100.0
+                  },
+                  {
+                    "particle_size": 0.25,
+                    "percent_finer": 98.0
+                  },
+                  {
+                    "particle_size": 0.105,
+                    "percent_finer": 36.0
+                  },
+                  {
+                    "particle_size": 0.074,
+                    "percent_finer": 26.0
+                  }
+                ]
+              },
+              "index_tests": {
+                "metadata": {
+                  "fines_content": 26.0
+                }
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -9834,7 +11103,18 @@
             "sampler_type": "SPT",
             "depth_top": 10.0,
             "depth": 10.45
-          }
+          },
+          "specimens": [
+            {
+              "metadata": {
+                "specimen_id": "1311",
+                "specimen_reference": "P-38.5",
+                "depth_top": 10.0,
+                "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {}
+            }
+          ]
         },
         {
           "metadata": {

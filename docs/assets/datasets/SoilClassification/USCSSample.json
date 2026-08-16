@@ -5,7 +5,6 @@
     "fines_content": 34.0,
     "percent_sand": 64.0,
     "percent_gravel": 2.0,
-    "non_plastic": false,
     "liquid_limit": 38.0,
     "plasticity_index": 12.0
   }

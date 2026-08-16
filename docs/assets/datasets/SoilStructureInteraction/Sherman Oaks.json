@@ -6,16 +6,12 @@
     "footing_embedment": 6.2,
     "footing_width": 21.9,
     "footing_length": 57.6,
-    "end_length_ratio": 0.4,
     "elasticity_modulus": 157.0,
     "unit_weight": 20.0,
     "poisson_ratio": 0.33,
-    "shear_modulus_reduction_factor": 0.5,
     "soil_damping_ratio": 0.088,
     "pile_diameter": 0.6,
-    "pile_embedment_length": 9.9,
-    "pile_elasticity_modulus": 10318.04,
-    "pile_unit_weight": 24.0
+    "pile_embedment_length": 9.9
   },
   "data": [
     {

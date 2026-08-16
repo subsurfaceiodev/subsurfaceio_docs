@@ -3,7 +3,6 @@
   "special_shear_velocity_mean": 119.6,
   "special_shear_strain_mean": 0.0699,
   "special_cyclic_resistance_ratio_min": 0.29,
-  "number_of_standard_deviations": 0.0,
   "spectra_at_rock": [
     {
       "period": 0.0,
