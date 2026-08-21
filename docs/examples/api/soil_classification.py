@@ -12,7 +12,7 @@ data = dict(
 )
 
 model_response = requests.post(
-    f'{base_url}/soil-classification',
+    f'{base_url}/soil-classification/calculate',
     json=dict(
         model=dict(system='USCS') | data
     ),
@@ -26,5 +26,5 @@ function_sequence_response = requests.post(
     json=data,
 )
 
-print(model_response.json())
+print(model_response.json()['results'])
 print(function_sequence_response.json())
