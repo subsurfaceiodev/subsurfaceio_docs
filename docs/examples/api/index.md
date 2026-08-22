@@ -7,5 +7,5 @@ Runnable examples demonstrating how to use the public API.
 - [Parametric calculation CPT](parametric_calculation_cpt.md)
 - [Parametric calculation DMT](parametric_calculation_dmt.md)
 - [Plot](plot.md)
-- [Site Investigation interpretation CPT](site_investigation_interpretation_cpt.md)
+- [Site Investigation calculations](site_investigation_calculations.md)
 - [Calculate](soil_classification.md)
