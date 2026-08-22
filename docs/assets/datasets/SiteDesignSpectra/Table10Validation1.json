@@ -1,9 +1,11 @@
 {
-  "special_layers_thickness": 37.0,
-  "special_shear_velocity_mean": 119.6,
-  "special_shear_strain_mean": 0.0699,
-  "special_cyclic_resistance_ratio_min": 0.29,
-  "spectra_at_rock": [
+  "metadata": {
+    "special_layers_thickness": 37.0,
+    "special_shear_velocity_mean": 119.6,
+    "special_shear_strain_mean": 0.0699,
+    "special_cyclic_resistance_ratio_min": 0.29
+  },
+  "data": [
     {
       "period": 0.0,
       "pseudo_spectral_acceleration": 0.12
