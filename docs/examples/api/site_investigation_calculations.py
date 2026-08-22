@@ -105,6 +105,13 @@ with httpx2.Client(base_url=base_url) as client:
     )
     calculated_site = calculation_response.json()
 
+    calculation_response = client.post(
+        '/site-investigation/calculate-liquefaction',
+        json=calculated_site
+    )
+
+    calculated_site = calculation_response.json()
+
     cpt_interpretation_data = calculated_site['in_situ_tests'][0]['interpretation']['data']
     cpt_interpretation_df = pl.from_records(
         cpt_interpretation_data,
@@ -166,10 +173,28 @@ with httpx2.Client(base_url=base_url) as client:
         )
     )
 
+    plot_response4 = client.post(
+        '/site-investigation/plot',
+        json=calculated_site,
+        params=dict(
+            x=[
+                'liquefaction_safety_factor',
+                'liquefaction_probability',
+                'liquefaction_potential_index',
+                'liquefaction_severity_number',
+                'lateral_displacement_index',
+                'liquefaction_settlement',
+            ],
+            y='depth'
+        )
+    )
+
     fig1 = pio.from_json(plot_response1.content)
     fig2 = pio.from_json(plot_response2.content)
     fig3 = pio.from_json(plot_response3.content)
+    fig4 = pio.from_json(plot_response4.content)
 
     fig1.show()
     fig2.show()
     fig3.show()
+    fig4.show()
