@@ -110,14 +110,14 @@ with httpx2.Client(base_url=base_url) as client:
         cpt_interpretation_data,
         infer_schema_length=None
     )
-    print(cpt_interpretation_df.glimpse())
+    cpt_interpretation_df.glimpse()
 
     dmt_interpretation_data = calculated_site['in_situ_tests'][1]['interpretation']['data']
     dmt_interpretation_df = pl.from_records(
         dmt_interpretation_data,
         infer_schema_length=None
     )
-    print(dmt_interpretation_df.glimpse())
+    dmt_interpretation_df.glimpse()
 
     plot_response1 = client.post(
         '/site-investigation/plot',

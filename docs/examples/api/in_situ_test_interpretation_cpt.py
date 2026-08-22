@@ -78,7 +78,7 @@ basic_data = basic_data.to_dict(as_series=False)
 
 results_json = get_results().json()['1d']
 df = pl.DataFrame(results_json)
-print(df.glimpse())
+df.glimpse()
 
 fig = pio.from_json(plot_results(results_json).content)
 fig.show()
