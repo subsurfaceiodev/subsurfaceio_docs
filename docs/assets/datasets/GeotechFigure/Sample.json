@@ -1,0 +1,283 @@
+{
+  "sharex": false,
+  "plot_model": {
+    "plot_type": "line",
+    "data_frame": [
+      {
+        "test_id": "UC-B1",
+        "depth": 1.06,
+        "uscs_symbol": "SP",
+        "blow_count": 4,
+        "fines_content": 0.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 1.82,
+        "uscs_symbol": "SP",
+        "blow_count": 5,
+        "fines_content": 2.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 2.59,
+        "uscs_symbol": "SP",
+        "blow_count": 4,
+        "fines_content": 2.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 3.35,
+        "uscs_symbol": "SP",
+        "blow_count": 6,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 4.11,
+        "uscs_symbol": "SP",
+        "blow_count": 8,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 4.87,
+        "uscs_symbol": "SP",
+        "blow_count": 9,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 5.63,
+        "uscs_symbol": "SP",
+        "blow_count": 21,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 6.4,
+        "uscs_symbol": "SP",
+        "blow_count": 18,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 7.16,
+        "uscs_symbol": "SP",
+        "blow_count": 26,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 7.92,
+        "uscs_symbol": "SP",
+        "blow_count": 20,
+        "fines_content": 0.333333
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 8.68,
+        "uscs_symbol": "CH",
+        "blow_count": 0,
+        "fines_content": null
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 9.44,
+        "uscs_symbol": "SP-SM",
+        "blow_count": 20,
+        "fines_content": 10.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 10.21,
+        "uscs_symbol": "SM",
+        "blow_count": 11,
+        "fines_content": 14.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 10.97,
+        "uscs_symbol": "SM",
+        "blow_count": 8,
+        "fines_content": 21.0
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 12.49,
+        "uscs_symbol": "CH",
+        "blow_count": 4,
+        "fines_content": null
+      },
+      {
+        "test_id": "UC-B1",
+        "depth": 14.02,
+        "uscs_symbol": "CH",
+        "blow_count": 4,
+        "fines_content": null
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 1.06,
+        "uscs_symbol": "SP",
+        "blow_count": 15,
+        "fines_content": 2.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 1.82,
+        "uscs_symbol": "SP",
+        "blow_count": 11,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 2.59,
+        "uscs_symbol": "SP",
+        "blow_count": 12,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 3.35,
+        "uscs_symbol": "SP",
+        "blow_count": 14,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 4.11,
+        "uscs_symbol": "SP",
+        "blow_count": 16,
+        "fines_content": 2.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 4.87,
+        "uscs_symbol": "SP",
+        "blow_count": 11,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 5.63,
+        "uscs_symbol": "SP",
+        "blow_count": 13,
+        "fines_content": 2.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 6.4,
+        "uscs_symbol": "SP",
+        "blow_count": 13,
+        "fines_content": 1.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 7.16,
+        "uscs_symbol": "SP",
+        "blow_count": 27,
+        "fines_content": 1.5
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 7.92,
+        "uscs_symbol": "SP",
+        "blow_count": 25,
+        "fines_content": 3.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 9.44,
+        "uscs_symbol": null,
+        "blow_count": 18,
+        "fines_content": 1.5
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 10.97,
+        "uscs_symbol": null,
+        "blow_count": 20,
+        "fines_content": 6.0
+      },
+      {
+        "test_id": "UC-B2",
+        "depth": 12.49,
+        "uscs_symbol": null,
+        "blow_count": 21,
+        "fines_content": 11.5
+      }
+    ],
+    "x": [
+      "blow_count",
+      "fines_content",
+      "uscs_symbol"
+    ],
+    "y": "depth",
+    "color": "test_id",
+    "symbol": "test_id",
+    "facet_col": "variable",
+    "labels": {
+      "test_id": "Test ID",
+      "depth": "z (m)",
+      "uscs_symbol": "USCS symbol",
+      "blow_count": "N",
+      "fines_content": "FC (%)",
+      "variable": ""
+    },
+    "color_discrete_map": {},
+    "symbol_map": {
+      "UC-B1": "circle",
+      "UC-B2": "circle"
+    },
+    "width": 1122.24,
+    "height": 793.92
+  },
+  "reverse_y": true,
+  "style_map": {
+    "UC-B1": {
+      "mode": "lines+markers"
+    },
+    "UC-B2": {
+      "mode": "lines+markers"
+    }
+  },
+  "axis_map": {
+    "material_index": {
+      "type": "log",
+      "autorange": "False",
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "soil_behavior_type_index": {
+      "autorange": "False",
+      "range": [
+        1.0,
+        4.0
+      ]
+    },
+    "modified_soil_behavior_type_index": {
+      "type": "log",
+      "autorange": "False",
+      "range": [
+        1.0,
+        2.0
+      ]
+    },
+    "permeability": {
+      "type": "log"
+    },
+    "coefficient_of_consolidation": {
+      "type": "log"
+    },
+    "soil_classification_index": {
+      "type": "log",
+      "autorange": "False",
+      "range": [
+        1.0,
+        2.69897
+      ]
+    }
+  }
+}
