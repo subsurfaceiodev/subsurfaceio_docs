@@ -1,7 +1,7 @@
 import requests
 import plotly.io as pio
 
-url = 'https://www.subsurfaceio.app/plot'
+url = 'https://www.subsurfaceio.app/geotech-plot'
 
 data = {
     'plot_model': {

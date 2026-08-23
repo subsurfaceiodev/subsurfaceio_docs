@@ -41,6 +41,7 @@ def get_cpt_test():
 def get_dmt_test():
     data_frame = pl.read_csv(
         'https://docs.subsurfaceio.app/assets/DMT-1.csv',
+        infer_schema_length=None
     )
 
     data_records = data_frame.to_dicts()
@@ -119,12 +120,26 @@ with httpx2.Client(base_url=base_url) as client:
     )
     cpt_interpretation_df.glimpse()
 
+    cpt_liquefaction_data = calculated_site['in_situ_tests'][0]['liquefaction']['data']
+    cpt_liquefaction_df = pl.from_records(
+        cpt_liquefaction_data,
+        infer_schema_length=None
+    )
+    cpt_liquefaction_df.glimpse()
+
     dmt_interpretation_data = calculated_site['in_situ_tests'][1]['interpretation']['data']
     dmt_interpretation_df = pl.from_records(
         dmt_interpretation_data,
         infer_schema_length=None
     )
     dmt_interpretation_df.glimpse()
+
+    dmt_liquefaction_data = calculated_site['in_situ_tests'][1]['liquefaction']['data']
+    dmt_liquefaction_df = pl.from_records(
+        dmt_liquefaction_data,
+        infer_schema_length=None
+    )
+    dmt_liquefaction_df.glimpse()
 
     plot_response1 = client.post(
         '/site-investigation/plot',

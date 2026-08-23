@@ -45,7 +45,7 @@ def plot_results(data):
     )
 
     response = requests.post(
-        f'{base_url}/plot',
+        f'{base_url}/geotech-plot',
         json=form_data
     )
     return response
