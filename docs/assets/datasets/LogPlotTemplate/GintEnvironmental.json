@@ -60,7 +60,7 @@
       },
       "width_ratio": 0.55,
       "model": {
-        "data_source": "samples",
+        "data_source": "spt",
         "text_field": "reported_blow_count",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
@@ -97,7 +97,7 @@
       "width_ratio": 0.3,
       "model": {
         "column_type": "graphic",
-        "data_source": "lithology",
+        "data_source": "strata",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "hatch_field": "hatch"
@@ -110,9 +110,9 @@
       "width_ratio": 3.65,
       "model": {
         "column_type": "text",
-        "data_source": "lithology",
+        "data_source": "strata",
         "wrap": true,
-        "text_field": "description",
+        "text_field": "{depth_top:.2f}m\n{description}",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {

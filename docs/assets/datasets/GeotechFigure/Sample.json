@@ -233,6 +233,8 @@
     "height": 793.92
   },
   "reverse_y": true,
+  "minor_ticks": true,
+  "x_ticks_above": true,
   "style_map": {
     "UC-B1": {
       "mode": "lines+markers"

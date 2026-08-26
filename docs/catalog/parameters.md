@@ -1000,7 +1000,7 @@ left=50.0 right=None value='Very dense' color='gray'
 **symbol**: $\text{depth\_plus\_rod\_length}$  
 **label**: Depth plus rod length  
 **unit**: m  
-**description**: Depth plus SPT rod length  
+**description**: Total rod string length for Cr (depth + stickup)  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
@@ -1127,6 +1127,15 @@ left=10.0 right=None value=1.0 color=None
 **label**: Dimensionless subgrade reaction modulus  
 **unit**: None  
 **description**: Dimensionless modulus of subgrade reaction  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `drive_length`
+**symbol**: $\text{drive\_length}$  
+**label**: Drive length  
+**unit**: m  
+**description**: Length of SPT sampler drive for seating and main intervals  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
@@ -1470,15 +1479,6 @@ left=75.0 right=None value=55.0 color=None
 **corresponding_parameter_name**: `None`  
     
 
-### `first_interval_blow_count`
-**symbol**: $N_{first}$  
-**label**: First interval blow count  
-**unit**: None  
-**description**: First interval blow count in SPT  
-**data_type**: `float`  
-**corresponding_parameter_name**: `None`  
-    
-
 ### `flow_index`
 **symbol**: $I_F$  
 **label**: Flow index  
@@ -1654,15 +1654,6 @@ value='continuous' value_secondary=None color=None
 **unit**: None  
 **description**: Indicates if foundation is embedded  
 **data_type**: `bool`  
-**corresponding_parameter_name**: `None`  
-    
-
-### `fourth_interval_blow_count`
-**symbol**: $N_{fourth}$  
-**label**: Fourth interval blow count  
-**unit**: None  
-**description**: Fourth interval blow count in SPT  
-**data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
 
@@ -2572,6 +2563,60 @@ value='multi_point' value_secondary=None color=None
 **corresponding_parameter_name**: `None`  
     
 
+### `main_blow_count_1`
+**symbol**: $N_{m1}$  
+**label**: Main interval 1 blow count  
+**unit**: None  
+**description**: Hammer blows for the first main SPT drive interval  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `main_blow_count_2`
+**symbol**: $N_{m2}$  
+**label**: Main interval 2 blow count  
+**unit**: None  
+**description**: Hammer blows for the second main SPT drive interval  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `main_blow_count_3`
+**symbol**: $N_{m3}$  
+**label**: Main interval 3 blow count  
+**unit**: None  
+**description**: Hammer blows for the third main SPT drive interval  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `main_penetration_1`
+**symbol**: $\text{main\_penetration\_1}$  
+**label**: Main interval 1 penetration  
+**unit**: m  
+**description**: Penetration during the first main SPT drive interval  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `main_penetration_2`
+**symbol**: $\text{main\_penetration\_2}$  
+**label**: Main interval 2 penetration  
+**unit**: m  
+**description**: Penetration during the second main SPT drive interval  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `main_penetration_3`
+**symbol**: $\text{main\_penetration\_3}$  
+**label**: Main interval 3 penetration  
+**unit**: m  
+**description**: Penetration during the third main SPT drive interval  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
 ### `mass_retained_sieve`
 **symbol**: $W_n$  
 **label**: Mass retained sieve  
@@ -3240,15 +3285,6 @@ left=0.0 right=0.001 value='Colloids' color=None
 **label**: Peak undrained shear strength ratio  
 **unit**: None  
 **description**: Peak undrained shear strength to effective stress ratio  
-**data_type**: `float`  
-**corresponding_parameter_name**: `None`  
-    
-
-### `penetration`
-**symbol**: $\text{penetration}$  
-**label**: Penetration  
-**unit**: cm  
-**description**: Penetration  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
@@ -4215,7 +4251,7 @@ value='High' value_secondary='Gravel' color='gray'
 **symbol**: $\text{rod\_length}$  
 **label**: Rod length  
 **unit**: m  
-**description**: Total length of SPT rods  
+**description**: Rod length above ground (stickup) for SPT energy correction  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
@@ -4311,11 +4347,20 @@ value='coarse' value_secondary=None color=None
 **corresponding_parameter_name**: `None`  
     
 
-### `second_interval_blow_count`
-**symbol**: $N_{second}$  
-**label**: Second interval blow count  
+### `seating_blow_count`
+**symbol**: $N_{seat}$  
+**label**: Seating blow count  
 **unit**: None  
-**description**: Second interval blow count in SPT  
+**description**: Hammer blows for the SPT seating drive  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
+### `seating_penetration`
+**symbol**: $\text{seating\_penetration}$  
+**label**: Seating penetration  
+**unit**: m  
+**description**: Penetration during the SPT seating drive  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
@@ -5475,15 +5520,6 @@ value='rectangular' value_secondary=None color=None
 **label**: Thickness of top layer  
 **unit**: m  
 **description**: Thickness of top soil layer from beneath foundation embedment  
-**data_type**: `float`  
-**corresponding_parameter_name**: `None`  
-    
-
-### `third_interval_blow_count`
-**symbol**: $N_{third}$  
-**label**: Third interval blow count  
-**unit**: None  
-**description**: Third interval blow count in SPT  
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     

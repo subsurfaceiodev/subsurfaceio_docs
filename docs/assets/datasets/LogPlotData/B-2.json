@@ -1,80 +1,78 @@
 {
-  "data_map": {
-    "metadata": {
-      "client": "ABC Corporation",
-      "project_id": "ABC-12345",
-      "project_name": "gINT Example",
-      "location": "Somewhere, SOMEPLACE",
-      "test_id": "B-2",
-      "date_start": "4/28/2008",
-      "date_end": "4/28/2008",
-      "contractor": "ABC Drilling",
-      "method": "Hollow Stem Auger 2\"",
-      "engineer": "A. Bore / Y. Me",
-      "remarks": "General remarks",
-      "surface_elevation": 37.95,
-      "Hole size": "0.15m to 7.5m, NX to BOH",
-      "G.W.L. AT TIME OF DRILLING (m)": "4.5 m / Elev 33.45 m",
-      "G.W.L. AT END OF DRILLING": "3.65 m / Elev 34.30 m",
-      "G.W.L. 24hrs AFTER DRILLING": null
+  "metadata": {
+    "client": "ABC Corporation",
+    "project_id": "ABC-12345",
+    "project_name": "gINT Example",
+    "location": "Somewhere, SOMEPLACE",
+    "test_id": "B-2",
+    "date_start": "4/28/2008",
+    "date_end": "4/28/2008",
+    "contractor": "ABC Drilling",
+    "method": "Hollow Stem Auger 2\"",
+    "engineer": "A. Bore / Y. Me",
+    "remarks": "General remarks",
+    "surface_elevation": 37.95,
+    "Hole size": "0.15m to 7.5m, NX to BOH",
+    "G.W.L. AT TIME OF DRILLING (m)": "4.5 m / Elev 33.45 m",
+    "G.W.L. AT END OF DRILLING": "3.65 m / Elev 34.30 m",
+    "G.W.L. 24hrs AFTER DRILLING": null
+  },
+  "strata": [
+    {
+      "depth_top": 0.0,
+      "depth": 0.3,
+      "hatch": "ASPHALT",
+      "color": null,
+      "description": "ASPHALT"
     },
-    "lithology": [
-      {
-        "depth_top": 0.0,
-        "depth": 0.3,
-        "hatch": "ASPHALT",
-        "color": null,
-        "description": "ASPHALT"
-      },
-      {
-        "depth_top": 0.3,
-        "depth": 1.8,
-        "hatch": "SW-SM",
-        "color": null,
-        "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) 10 % gravel, 80 % sand, 10 % fines, green, well graded, rounded, fine to medium grained, moist, very loose, trace chert"
-      },
-      {
-        "depth_top": 1.8,
-        "depth": 3.65,
-        "hatch": "SW-SM",
-        "color": null,
-        "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) (A-2-4) 10 % gravel, 80 % sand, 10 % fines, light brownish gray and light blueish green, well graded, well rounded, fine to medium grained, dry to moist, loose, fissured, with chert, and coal, trace coarse gravel, no odor, weak cementation, hydrocarbon staining, some comments"
-      },
-      {
-        "depth_top": 3.65,
-        "depth": 5.5,
-        "hatch": "SW-SM",
-        "color": null,
-        "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) (A-2-4) 10 % gravel, 80 % sand, 10 % fines, brown and olive, well graded, well rounded, fine to medium grained, moist, medium dense, trace clay, little ferrous nodules, and chert, hydrocarbon odor, strong cementation, iron oxide staining, more comments"
-      },
-      {
-        "depth_top": 5.5,
-        "depth": 7.35,
-        "hatch": "CL",
-        "color": null,
-        "description": "SANDY LEAN CLAY, SANDY CLAY, (CL) (A-6) 10 % gravel, 25 % sand, 65 % fines, brown and green, moist to moist, very stiff, medium plasticity, slow dilatancy, medium toughness, high dry strength, trace medium to coarse sand, some ferrous nodules, and mica, chemical odor, strong cementation, hydrocarbon staining, comments about the clay"
-      },
-      {
-        "depth_top": 7.35,
-        "depth": 8.25,
-        "hatch": "CH",
-        "color": null,
-        "description": "SANDY FAT CLAY, (CH) gray, hard, high plasticity"
-      },
-      {
-        "depth_top": 8.25,
-        "depth": 10.65,
-        "hatch": "CH",
-        "color": null,
-        "description": "SANDY FAT CLAY, SANDY FAT CLAY, (CH) 5 % gravel, 25 % sand, 70 % fines, gray, dry to moist, hard, fissured, high plasticity, no dilatancy, high toughness, high dry strength, trace clayey silt, little coal refuse, hydrocarbon odor, moderate cementation, hydrocarbon staining, more comments"
-      },
-      {
-        "depth_top": 10.65,
-        "depth": 13.7,
-        "hatch": "SHALE",
-        "color": null,
-        "description": "CLAYEY SHALE, freshly weathered, thinly bedded, inclined, dark brownish gray to light olive green, finely crystalline, hard, medium fracture spacing, 15\u00b0 bedding angle, dry, no staining, rock comments, Layer RQD = 100%"
-      }
-    ]
-  }
+    {
+      "depth_top": 0.3,
+      "depth": 1.8,
+      "hatch": "SW-SM",
+      "color": null,
+      "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) 10 % gravel, 80 % sand, 10 % fines, green, well graded, rounded, fine to medium grained, moist, very loose, trace chert"
+    },
+    {
+      "depth_top": 1.8,
+      "depth": 3.65,
+      "hatch": "SW-SM",
+      "color": null,
+      "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) (A-2-4) 10 % gravel, 80 % sand, 10 % fines, light brownish gray and light blueish green, well graded, well rounded, fine to medium grained, dry to moist, loose, fissured, with chert, and coal, trace coarse gravel, no odor, weak cementation, hydrocarbon staining, some comments"
+    },
+    {
+      "depth_top": 3.65,
+      "depth": 5.5,
+      "hatch": "SW-SM",
+      "color": null,
+      "description": "WELL GRADED SAND WITH SILT, SILTY SAND, (SW-SM) (A-2-4) 10 % gravel, 80 % sand, 10 % fines, brown and olive, well graded, well rounded, fine to medium grained, moist, medium dense, trace clay, little ferrous nodules, and chert, hydrocarbon odor, strong cementation, iron oxide staining, more comments"
+    },
+    {
+      "depth_top": 5.5,
+      "depth": 7.35,
+      "hatch": "CL",
+      "color": null,
+      "description": "SANDY LEAN CLAY, SANDY CLAY, (CL) (A-6) 10 % gravel, 25 % sand, 65 % fines, brown and green, moist to moist, very stiff, medium plasticity, slow dilatancy, medium toughness, high dry strength, trace medium to coarse sand, some ferrous nodules, and mica, chemical odor, strong cementation, hydrocarbon staining, comments about the clay"
+    },
+    {
+      "depth_top": 7.35,
+      "depth": 8.25,
+      "hatch": "CH",
+      "color": null,
+      "description": "SANDY FAT CLAY, (CH) gray, hard, high plasticity"
+    },
+    {
+      "depth_top": 8.25,
+      "depth": 10.65,
+      "hatch": "CH",
+      "color": null,
+      "description": "SANDY FAT CLAY, SANDY FAT CLAY, (CH) 5 % gravel, 25 % sand, 70 % fines, gray, dry to moist, hard, fissured, high plasticity, no dilatancy, high toughness, high dry strength, trace clayey silt, little coal refuse, hydrocarbon odor, moderate cementation, hydrocarbon staining, more comments"
+    },
+    {
+      "depth_top": 10.65,
+      "depth": 13.7,
+      "hatch": "SHALE",
+      "color": null,
+      "description": "CLAYEY SHALE, freshly weathered, thinly bedded, inclined, dark brownish gray to light olive green, finely crystalline, hard, medium fracture spacing, 15\u00b0 bedding angle, dry, no staining, rock comments, Layer RQD = 100%"
+    }
+  ]
 }

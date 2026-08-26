@@ -29,7 +29,7 @@
       "width_ratio": 0.15,
       "model": {
         "column_type": "graphic",
-        "data_source": "lithology",
+        "data_source": "strata",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "hatch_field": "hatch"
@@ -43,7 +43,7 @@
       "width_ratio": 0.1,
       "model": {
         "column_type": "graphic",
-        "data_source": "lithology",
+        "data_source": "strata",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "color_field": "color"
@@ -56,9 +56,9 @@
       "width_ratio": 1.5,
       "model": {
         "column_type": "text",
-        "data_source": "lithology",
+        "data_source": "strata",
         "wrap": true,
-        "text_field": "description",
+        "text_field": "{depth_top:.2f}m\n{description}",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {

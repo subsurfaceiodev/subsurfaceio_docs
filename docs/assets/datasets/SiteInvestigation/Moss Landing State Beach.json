@@ -11440,6 +11440,7 @@
                 "specimen_reference": "S1",
                 "depth_top": 0.76,
                 "depth": 1.21,
+                "uscs_symbol": "SP",
                 "remarks": "Gray loose SAND with grass root"
               },
               "sieve_analysis": {
@@ -11478,9 +11479,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 0.0
-                }
+                "fines_content": 0.0
               }
             }
           ]
@@ -11502,6 +11501,7 @@
                 "specimen_reference": "S2",
                 "depth_top": 1.52,
                 "depth": 1.97,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray loose SAND with small roots"
               },
               "sieve_analysis": {
@@ -11544,9 +11544,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -11568,6 +11566,7 @@
                 "specimen_reference": "S3",
                 "depth_top": 2.29,
                 "depth": 2.74,
+                "uscs_symbol": "SP",
                 "remarks": "Dark gray loose SAND with some roots"
               },
               "sieve_analysis": {
@@ -11602,9 +11601,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -11626,6 +11623,7 @@
                 "specimen_reference": "S4",
                 "depth_top": 3.05,
                 "depth": 3.5,
+                "uscs_symbol": "SP",
                 "remarks": "Dark gray loose SAND"
               },
               "sieve_analysis": {
@@ -11660,9 +11658,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -11684,6 +11680,7 @@
                 "specimen_reference": "S5",
                 "depth_top": 3.81,
                 "depth": 4.26,
+                "uscs_symbol": "SP",
                 "remarks": "Gray loose SAND with some gravel particles"
               },
               "sieve_analysis": {
@@ -11722,9 +11719,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -11746,6 +11741,7 @@
                 "specimen_reference": "S6",
                 "depth_top": 4.57,
                 "depth": 5.02,
+                "uscs_symbol": "SP",
                 "remarks": "Gray loose SAND"
               },
               "sieve_analysis": {
@@ -11788,9 +11784,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -11812,6 +11806,7 @@
                 "specimen_reference": "S7",
                 "depth_top": 5.33,
                 "depth": 5.78,
+                "uscs_symbol": "SP",
                 "remarks": "Brown to gray medium dense SAND with rounded and subrounded gravle particles"
               },
               "sieve_analysis": {
@@ -11862,9 +11857,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -11886,6 +11879,7 @@
                 "specimen_reference": "S8-2",
                 "depth_top": 6.1,
                 "depth": 6.32,
+                "uscs_symbol": "SP",
                 "remarks": "Brown to gray medium dense SAND with some gravel particles"
               },
               "sieve_analysis": {
@@ -11936,9 +11930,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 0.0
-                }
+                "fines_content": 0.0
               }
             },
             {
@@ -11947,6 +11939,7 @@
                 "specimen_reference": "S8-1",
                 "depth_top": 6.32,
                 "depth": 6.55,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND with shells"
               },
               "sieve_analysis": {
@@ -11993,9 +11986,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -12017,6 +12008,7 @@
                 "specimen_reference": "S9-2",
                 "depth_top": 6.86,
                 "depth": 7.08,
+                "uscs_symbol": "SP",
                 "remarks": "Brown to gray medium dense SAND with gravel and some shells"
               },
               "sieve_analysis": {
@@ -12067,9 +12059,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 0.0
-                }
+                "fines_content": 0.0
               }
             },
             {
@@ -12078,6 +12068,7 @@
                 "specimen_reference": "S9-1",
                 "depth_top": 7.08,
                 "depth": 7.31,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND"
               },
               "sieve_analysis": {
@@ -12128,9 +12119,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -12152,6 +12141,7 @@
                 "specimen_reference": "S10-4",
                 "depth_top": 7.62,
                 "depth": 7.73,
+                "uscs_symbol": "SP",
                 "remarks": "Gray medium dense SAND"
               },
               "sieve_analysis": {
@@ -12202,9 +12192,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 0.0
-                }
+                "fines_content": 0.0
               }
             },
             {
@@ -12213,6 +12201,7 @@
                 "specimen_reference": "S10-3",
                 "depth_top": 7.73,
                 "depth": 7.85,
+                "uscs_symbol": "SP",
                 "remarks": "Gray medium dense SAND with gravel"
               },
               "sieve_analysis": {
@@ -12263,9 +12252,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 0.0
-                }
+                "fines_content": 0.0
               }
             },
             {
@@ -12274,6 +12261,7 @@
                 "specimen_reference": "S10-2",
                 "depth_top": 7.85,
                 "depth": 7.96,
+                "uscs_symbol": "SP",
                 "remarks": "Gray medium dense SAND"
               },
               "sieve_analysis": {
@@ -12324,9 +12312,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             },
             {
@@ -12335,6 +12321,7 @@
                 "specimen_reference": "S10-1",
                 "depth_top": 7.96,
                 "depth": 8.07,
+                "uscs_symbol": "SP",
                 "remarks": "Gray medium dense SAND and clayey SAND"
               }
             }
@@ -12357,6 +12344,7 @@
                 "specimen_reference": "S11",
                 "depth_top": 8.38,
                 "depth": 8.83,
+                "uscs_symbol": "CH",
                 "remarks": "Dark gray, medium plastic, very soft CLAY"
               },
               "atterberg_limits": {
@@ -12386,6 +12374,7 @@
                 "specimen_reference": "S12-2",
                 "depth_top": 9.14,
                 "depth": 9.37,
+                "uscs_symbol": "CH",
                 "remarks": "Dark gray, medium plastic, very soft CLAY"
               }
             },
@@ -12395,6 +12384,7 @@
                 "specimen_reference": "S12-1",
                 "depth_top": 9.37,
                 "depth": 9.59,
+                "uscs_symbol": "SP-SM",
                 "remarks": "Dark gray medium dense SAND with silt and small shell gragments; sampler pushed in under hammer weight"
               },
               "sieve_analysis": {
@@ -12433,9 +12423,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 10.0
-                }
+                "fines_content": 10.0
               }
             }
           ]
@@ -12457,6 +12445,7 @@
                 "specimen_reference": "S13",
                 "depth_top": 9.91,
                 "depth": 10.36,
+                "uscs_symbol": "SM",
                 "remarks": "Dark gray medium dense silty SAND"
               },
               "sieve_analysis": {
@@ -12507,9 +12496,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 14.0
-                }
+                "fines_content": 14.0
               }
             }
           ]
@@ -12531,6 +12518,7 @@
                 "specimen_reference": "S14",
                 "depth_top": 10.67,
                 "depth": 11.12,
+                "uscs_symbol": "SM",
                 "remarks": "Dark gray loose silty SAND with small shell gragments"
               },
               "sieve_analysis": {
@@ -12565,9 +12553,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 21.0
-                }
+                "fines_content": 21.0
               }
             }
           ]
@@ -12589,6 +12575,7 @@
                 "specimen_reference": "S15",
                 "depth_top": 12.19,
                 "depth": 12.64,
+                "uscs_symbol": "CH",
                 "remarks": "Dark gray, high plasticity, medium stiff CLAY; sampler pushed in first 7 inches under hammer weight"
               },
               "atterberg_limits": {
@@ -12618,7 +12605,13 @@
                 "specimen_reference": "S16",
                 "depth_top": 13.72,
                 "depth": 14.17,
+                "uscs_symbol": "CH",
                 "remarks": "Dark gray, high plasticity, medium stiff CLAY; sampler pushed in first 7 inches under hammer weight"
+              },
+              "water_content": {
+                "metadata": {
+                  "water_content": 56.0
+                }
               },
               "atterberg_limits": {
                 "metadata": {
@@ -12627,181 +12620,266 @@
                   "plasticity_index": 39.0
                 }
               },
-              "index_tests": {
-                "metadata": {
-                  "water_content": 56.0
-                }
-              }
+              "index_tests": {}
             }
           ]
         }
       ],
       "spt": [
         {
-          "depth_top": 0.91,
-          "penetration": 30.0,
+          "depth_top": 0.76,
+          "seating_blow_count": 2,
+          "main_blow_count_1": 2,
+          "main_blow_count_2": 2,
           "blow_count": 4,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 1.67,
-          "penetration": 30.0,
+          "depth_top": 1.52,
+          "seating_blow_count": 2,
+          "main_blow_count_1": 2,
+          "main_blow_count_2": 3,
           "blow_count": 5,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 2.44,
-          "penetration": 30.0,
+          "depth_top": 2.29,
+          "seating_blow_count": 3,
+          "main_blow_count_1": 2,
+          "main_blow_count_2": 2,
           "blow_count": 4,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 3.2,
-          "penetration": 30.0,
+          "depth_top": 3.05,
+          "seating_blow_count": 2,
+          "main_blow_count_1": 3,
+          "main_blow_count_2": 3,
           "blow_count": 6,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 3.96,
-          "penetration": 30.0,
+          "depth_top": 3.81,
+          "seating_blow_count": 2,
+          "main_blow_count_1": 4,
+          "main_blow_count_2": 4,
           "blow_count": 8,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 4.72,
-          "penetration": 30.0,
+          "depth_top": 4.57,
+          "seating_blow_count": 5,
+          "main_blow_count_1": 4,
+          "main_blow_count_2": 5,
           "blow_count": 9,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 5.48,
-          "penetration": 30.0,
+          "depth_top": 5.33,
+          "seating_blow_count": 6,
+          "main_blow_count_1": 10,
+          "main_blow_count_2": 11,
           "blow_count": 21,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 6.25,
-          "penetration": 30.0,
+          "depth_top": 6.1,
+          "seating_blow_count": 5,
+          "main_blow_count_1": 7,
+          "main_blow_count_2": 11,
           "blow_count": 18,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 7.01,
-          "penetration": 30.0,
+          "depth_top": 6.86,
+          "seating_blow_count": 9,
+          "main_blow_count_1": 12,
+          "main_blow_count_2": 14,
           "blow_count": 26,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 7.77,
-          "penetration": 30.0,
+          "depth_top": 7.62,
+          "seating_blow_count": 5,
+          "main_blow_count_1": 7,
+          "main_blow_count_2": 13,
           "blow_count": 20,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 8.53,
-          "penetration": 30.0,
+          "depth_top": 8.38,
           "blow_count": 0,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 9.29,
-          "penetration": 30.0,
+          "depth_top": 9.14,
+          "seating_blow_count": 5,
+          "main_blow_count_1": 7,
+          "main_blow_count_2": 13,
           "blow_count": 20,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 10.06,
-          "penetration": 30.0,
+          "depth_top": 9.91,
+          "seating_blow_count": 3,
+          "main_blow_count_1": 5,
+          "main_blow_count_2": 6,
           "blow_count": 11,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 10.82,
-          "penetration": 30.0,
+          "depth_top": 10.67,
+          "seating_blow_count": 2,
+          "main_blow_count_1": 3,
+          "main_blow_count_2": 5,
           "blow_count": 8,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 12.34,
-          "penetration": 30.0,
+          "depth_top": 12.19,
+          "seating_blow_count": 0,
+          "main_blow_count_1": 2,
+          "main_blow_count_2": 2,
           "blow_count": 4,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 13.87,
-          "penetration": 30.0,
+          "depth_top": 13.72,
+          "seating_blow_count": 0,
+          "main_blow_count_1": 2,
+          "main_blow_count_2": 2,
           "blow_count": 4,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         }
       ],
-      "strata": {
-        "data": [
-          {
-            "depth_top": 0.0,
-            "depth": 1.32,
-            "uscs_symbol": "SP",
-            "description": "FILL: Poorly graded fine-grained SAND"
-          },
-          {
-            "depth_top": 1.32,
-            "depth": 5.2,
-            "uscs_symbol": "SP",
-            "description": "Poorly graded fine-grained SAND"
-          },
-          {
-            "depth_top": 5.2,
-            "depth": 6.01,
-            "uscs_symbol": "SP",
-            "description": "Poorly graded medium-grained SAND"
-          },
-          {
-            "depth_top": 6.01,
-            "depth": 8.36,
-            "uscs_symbol": "SP",
-            "description": "Interbedded SAND and SAND with gravel"
-          },
-          {
-            "depth_top": 8.36,
-            "depth": 9.12,
-            "uscs_symbol": "CH",
-            "description": "Medium plasticity CLAY"
-          },
-          {
-            "depth_top": 9.12,
-            "depth": 9.67,
-            "uscs_symbol": "SP-SM",
-            "description": "Poorly graded fine-grained SAND with silt"
-          },
-          {
-            "depth_top": 9.67,
-            "depth": 11.86,
-            "uscs_symbol": "SM",
-            "description": "Silty SAND"
-          },
-          {
-            "depth_top": 11.86,
-            "depth": 14.17,
-            "uscs_symbol": "CH",
-            "description": "High plasticity CLAY"
-          }
-        ]
-      }
+      "strata": [
+        {
+          "depth_top": 0.0,
+          "depth": 1.32,
+          "hatch": "SP",
+          "description": "FILL: Poorly graded fine-grained SAND"
+        },
+        {
+          "depth_top": 1.32,
+          "depth": 5.2,
+          "hatch": "SP",
+          "description": "Poorly graded fine-grained SAND"
+        },
+        {
+          "depth_top": 5.2,
+          "depth": 6.01,
+          "hatch": "SP",
+          "description": "Poorly graded medium-grained SAND"
+        },
+        {
+          "depth_top": 6.01,
+          "depth": 8.36,
+          "hatch": "SP",
+          "description": "Interbedded SAND and SAND with gravel"
+        },
+        {
+          "depth_top": 8.36,
+          "depth": 9.12,
+          "hatch": "CH",
+          "description": "Medium plasticity CLAY"
+        },
+        {
+          "depth_top": 9.12,
+          "depth": 9.67,
+          "hatch": "SP-SM",
+          "description": "Poorly graded fine-grained SAND with silt"
+        },
+        {
+          "depth_top": 9.67,
+          "depth": 11.86,
+          "hatch": "SM",
+          "description": "Silty SAND"
+        },
+        {
+          "depth_top": 11.86,
+          "depth": 14.17,
+          "hatch": "CH",
+          "description": "High plasticity CLAY"
+        }
+      ]
     },
     {
       "type": "BORH",
@@ -12955,6 +13033,7 @@
                 "specimen_reference": "S1",
                 "depth_top": 0.76,
                 "depth": 1.21,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND"
               },
               "sieve_analysis": {
@@ -12993,9 +13072,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -13017,6 +13094,7 @@
                 "specimen_reference": "S2",
                 "depth_top": 1.52,
                 "depth": 1.97,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND with some shell fragments"
               },
               "sieve_analysis": {
@@ -13055,9 +13133,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -13079,6 +13155,7 @@
                 "specimen_reference": "S3",
                 "depth_top": 2.29,
                 "depth": 2.74,
+                "uscs_symbol": "SP",
                 "remarks": "Gray medium dense SAND with some shell fragments"
               },
               "sieve_analysis": {
@@ -13117,9 +13194,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -13141,6 +13216,7 @@
                 "specimen_reference": "S4",
                 "depth_top": 3.05,
                 "depth": 3.5,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND with some shell fragments"
               },
               "sieve_analysis": {
@@ -13187,9 +13263,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -13211,6 +13285,7 @@
                 "specimen_reference": "S5",
                 "depth_top": 3.81,
                 "depth": 4.26,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND with some shell fragments"
               },
               "sieve_analysis": {
@@ -13253,9 +13328,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -13277,6 +13350,7 @@
                 "specimen_reference": "S6",
                 "depth_top": 4.57,
                 "depth": 5.02,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND"
               },
               "sieve_analysis": {
@@ -13323,9 +13397,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -13347,6 +13419,7 @@
                 "specimen_reference": "S7",
                 "depth_top": 5.33,
                 "depth": 5.78,
+                "uscs_symbol": "SP",
                 "remarks": "light gray medium dense SAND with tiny shells"
               },
               "sieve_analysis": {
@@ -13393,9 +13466,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -13417,6 +13488,7 @@
                 "specimen_reference": "S8",
                 "depth_top": 6.1,
                 "depth": 6.55,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray to brown medium dense SAND"
               },
               "sieve_analysis": {
@@ -13463,9 +13535,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             }
           ]
@@ -13487,6 +13557,7 @@
                 "specimen_reference": "S9-2",
                 "depth_top": 6.86,
                 "depth": 7.08,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray to borwn medium dense SAND"
               },
               "sieve_analysis": {
@@ -13537,9 +13608,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             },
             {
@@ -13548,6 +13617,7 @@
                 "specimen_reference": "S9-1",
                 "depth_top": 7.08,
                 "depth": 7.31,
+                "uscs_symbol": "SP",
                 "remarks": "Gray medium dense SAND"
               },
               "sieve_analysis": {
@@ -13590,9 +13660,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             }
           ]
@@ -13614,6 +13682,7 @@
                 "specimen_reference": "S10",
                 "depth_top": 7.62,
                 "depth": 8.07,
+                "uscs_symbol": "SP",
                 "remarks": "Light gray medium dense SAND"
               },
               "sieve_analysis": {
@@ -13660,9 +13729,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 3.0
-                }
+                "fines_content": 3.0
               }
             }
           ]
@@ -13739,9 +13806,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 2.0
-                }
+                "fines_content": 2.0
               }
             },
             {
@@ -13809,9 +13874,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 1.0
-                }
+                "fines_content": 1.0
               }
             },
             {
@@ -13898,9 +13961,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 6.0
-                }
+                "fines_content": 6.0
               }
             }
           ]
@@ -13965,9 +14026,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 20.0
-                }
+                "fines_content": 20.0
               }
             },
             {
@@ -14014,9 +14073,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 3.0
-                }
+                "fines_content": 3.0
               }
             },
             {
@@ -14042,124 +14099,200 @@
       ],
       "spt": [
         {
-          "depth_top": 0.91,
-          "penetration": 30.0,
+          "depth_top": 0.76,
+          "seating_blow_count": 5,
+          "main_blow_count_1": 7,
+          "main_blow_count_2": 8,
           "blow_count": 15,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 1.67,
-          "penetration": 30.0,
+          "depth_top": 1.52,
+          "seating_blow_count": 3,
+          "main_blow_count_1": 5,
+          "main_blow_count_2": 6,
           "blow_count": 11,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 2.44,
-          "penetration": 30.0,
+          "depth_top": 2.29,
+          "seating_blow_count": 4,
+          "main_blow_count_1": 5,
+          "main_blow_count_2": 7,
           "blow_count": 12,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 3.2,
-          "penetration": 30.0,
+          "depth_top": 3.05,
+          "seating_blow_count": 4,
+          "main_blow_count_1": 6,
+          "main_blow_count_2": 8,
           "blow_count": 14,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 3.96,
-          "penetration": 30.0,
+          "depth_top": 3.81,
+          "seating_blow_count": 6,
+          "main_blow_count_1": 7,
+          "main_blow_count_2": 9,
           "blow_count": 16,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 4.72,
-          "penetration": 30.0,
+          "depth_top": 4.57,
+          "seating_blow_count": 5,
+          "main_blow_count_1": 4,
+          "main_blow_count_2": 7,
           "blow_count": 11,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 5.48,
-          "penetration": 30.0,
+          "depth_top": 5.33,
+          "seating_blow_count": 4,
+          "main_blow_count_1": 6,
+          "main_blow_count_2": 7,
           "blow_count": 13,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 6.25,
-          "penetration": 30.0,
+          "depth_top": 6.1,
+          "seating_blow_count": 5,
+          "main_blow_count_1": 5,
+          "main_blow_count_2": 8,
           "blow_count": 13,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 7.01,
-          "penetration": 30.0,
+          "depth_top": 6.86,
+          "seating_blow_count": 10,
+          "main_blow_count_1": 12,
+          "main_blow_count_2": 15,
           "blow_count": 27,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 7.77,
-          "penetration": 30.0,
+          "depth_top": 7.62,
+          "seating_blow_count": 8,
+          "main_blow_count_1": 12,
+          "main_blow_count_2": 13,
           "blow_count": 25,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 9.29,
-          "penetration": 30.0,
+          "depth_top": 9.14,
+          "seating_blow_count": 9,
+          "main_blow_count_1": 9,
+          "main_blow_count_2": 9,
           "blow_count": 18,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 10.82,
-          "penetration": 30.0,
+          "depth_top": 10.67,
+          "seating_blow_count": 12,
+          "main_blow_count_1": 13,
+          "main_blow_count_2": 7,
           "blow_count": 20,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         },
         {
-          "depth_top": 12.34,
-          "penetration": 30.0,
+          "depth_top": 12.19,
+          "seating_blow_count": 14,
+          "main_blow_count_1": 15,
+          "main_blow_count_2": 6,
           "blow_count": 21,
+          "seating_penetration": 0.15,
+          "main_penetration_1": 0.15,
+          "main_penetration_2": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 75.0,
           "method": "UC: Energy measurements for the CME rig and hammer were performed later at Moss Landing Marine Laboratory, estimated to be about 75% (Boulanger et al. 1995)"
         }
       ],
-      "strata": {
-        "data": [
-          {
-            "depth_top": 0.0,
-            "depth": 6.8,
-            "uscs_symbol": "SP",
-            "description": "Poorly graded fine to medium-grained SAND"
-          },
-          {
-            "depth_top": 6.8,
-            "depth": 7.24,
-            "uscs_symbol": "SP",
-            "description": "Poorly graded SAND and SAND with gravel"
-          },
-          {
-            "depth_top": 7.24,
-            "depth": 9.1,
-            "uscs_symbol": "SP",
-            "description": "Poorly graded SAND"
-          },
-          {
-            "depth_top": 9.1,
-            "depth": 12.65,
-            "description": "Interlayered SAND, gravelly SAND, and silty CLAY"
-          }
-        ]
-      }
+      "strata": [
+        {
+          "depth_top": 0.0,
+          "depth": 6.8,
+          "hatch": "SP",
+          "description": "Poorly graded fine to medium-grained SAND"
+        },
+        {
+          "depth_top": 6.8,
+          "depth": 7.24,
+          "hatch": "SP",
+          "description": "Poorly graded SAND and SAND with gravel"
+        },
+        {
+          "depth_top": 7.24,
+          "depth": 9.1,
+          "hatch": "SP",
+          "description": "Poorly graded SAND"
+        },
+        {
+          "depth_top": 9.1,
+          "depth": 12.65,
+          "description": "Interlayered SAND, gravelly SAND, and silty CLAY"
+        }
+      ]
     },
     {
       "type": "IST",

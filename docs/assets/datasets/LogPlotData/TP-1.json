@@ -1,131 +1,73 @@
 {
-  "data_map": {
-    "metadata": {
-      "client": "ABC Corporation",
-      "project_id": "ABC-12345",
-      "project_name": "gINT Example",
-      "location": "Somewhere, SOMEPLACE",
-      "test_id": "TP-1",
-      "date_start": "11/21/2002",
-      "date_end": "11/21/2002",
-      "contractor": "AAAAA Drilling, Inc.",
-      "method": "Backhoe",
-      "engineer": "A. Bore / Y. Me",
-      "remarks": "Weather:  Warm, sunny, slight westerly wind.",
-      "surface_elevation": 37.65,
-      "Hole size": "0.6 x 3m",
-      "G.W.L. AT TIME OF DRILLING (m)": null,
-      "G.W.L. AT END OF DRILLING": null,
-      "G.W.L. 24hrs AFTER DRILLING": null
+  "metadata": {
+    "client": "ABC Corporation",
+    "project_id": "ABC-12345",
+    "project_name": "gINT Example",
+    "location": "Somewhere, SOMEPLACE",
+    "test_id": "TP-1",
+    "date_start": "11/21/2002",
+    "date_end": "11/21/2002",
+    "contractor": "AAAAA Drilling, Inc.",
+    "method": "Backhoe",
+    "engineer": "A. Bore / Y. Me",
+    "remarks": "Weather:  Warm, sunny, slight westerly wind.",
+    "surface_elevation": 37.65,
+    "Hole size": "0.6 x 3m",
+    "G.W.L. AT TIME OF DRILLING (m)": null,
+    "G.W.L. AT END OF DRILLING": null,
+    "G.W.L. 24hrs AFTER DRILLING": null
+  },
+  "strata": [
+    {
+      "depth_top": 0.0,
+      "depth": 1.25,
+      "hatch": "GW-GC",
+      "color": null,
+      "description": "Gray-brown clayey sandy gravel, medium dense to dense, moist to wet, gravels subrounded up to 2\" diameter"
     },
-    "lithology": [
-      {
-        "depth_top": 0.0,
-        "depth": 1.25,
-        "hatch": "GW-GC",
-        "color": null,
-        "description": "Gray-brown clayey sandy gravel, medium dense to dense, moist to wet, gravels subrounded up to 2\" diameter"
-      },
-      {
-        "depth_top": 1.25,
-        "depth": 3.0,
-        "hatch": "SC",
-        "color": null,
-        "description": "Brown clayey sand, medium stiff, moist"
-      },
-      {
-        "depth_top": 2.75,
-        "depth": null,
-        "hatch": null,
-        "color": null,
-        "description": "grades more clayey"
-      },
-      {
-        "depth_top": 3.0,
-        "depth": 4.0,
-        "hatch": "CL",
-        "color": null,
-        "description": "Blue-gray sandy clay, medium stiff, moist"
-      }
-    ],
-    "samples": [
-      {
-        "depth_top": 0.3,
-        "depth": 0.9,
-        "sample": "1",
-        "sampler_type": "GB",
-        "recovery": null,
-        "first_interval_blow_count": null,
-        "second_interval_blow_count": null,
-        "third_interval_blow_count": null,
-        "fourth_interval_blow_count": null,
-        "blow_count": null
-      },
-      {
-        "depth_top": 1.5,
-        "depth": 2.1,
-        "sample": "2",
-        "sampler_type": "GB",
-        "recovery": null,
-        "first_interval_blow_count": null,
-        "second_interval_blow_count": null,
-        "third_interval_blow_count": null,
-        "fourth_interval_blow_count": null,
-        "blow_count": null
-      },
-      {
-        "depth_top": 3.0,
-        "depth": 3.45,
-        "sample": "3",
-        "sampler_type": "GB",
-        "recovery": null,
-        "first_interval_blow_count": null,
-        "second_interval_blow_count": null,
-        "third_interval_blow_count": null,
-        "fourth_interval_blow_count": null,
-        "blow_count": null
-      }
-    ],
-    "specimens": [
-      {
-        "depth_top": 0.3,
-        "depth": 0.9,
-        "specimen": "1",
-        "undrained_shear_strength_pocket_pen": null,
-        "unit_weight": null,
-        "water_content": null,
-        "liquid_limit": null,
-        "plastic_limit": null,
-        "plasticity_index": null,
-        "fines_content": null,
-        "environmental_data": null
-      },
-      {
-        "depth_top": 1.5,
-        "depth": 2.1,
-        "specimen": "2",
-        "undrained_shear_strength_pocket_pen": null,
-        "unit_weight": null,
-        "water_content": null,
-        "liquid_limit": null,
-        "plastic_limit": null,
-        "plasticity_index": null,
-        "fines_content": null,
-        "environmental_data": null
-      },
-      {
-        "depth_top": 3.0,
-        "depth": 3.45,
-        "specimen": "3",
-        "undrained_shear_strength_pocket_pen": null,
-        "unit_weight": null,
-        "water_content": null,
-        "liquid_limit": null,
-        "plastic_limit": null,
-        "plasticity_index": null,
-        "fines_content": null,
-        "environmental_data": null
-      }
-    ]
-  }
+    {
+      "depth_top": 1.25,
+      "depth": 3.0,
+      "hatch": "SC",
+      "color": null,
+      "description": "Brown clayey sand, medium stiff, moist"
+    },
+    {
+      "depth_top": 2.75,
+      "depth": null,
+      "hatch": null,
+      "color": null,
+      "description": "grades more clayey"
+    },
+    {
+      "depth_top": 3.0,
+      "depth": 4.0,
+      "hatch": "CL",
+      "color": null,
+      "description": "Blue-gray sandy clay, medium stiff, moist"
+    }
+  ],
+  "samples": [
+    {
+      "depth_top": 0.3,
+      "depth": 0.9,
+      "sample": "1",
+      "sampler_type": "GB",
+      "recovery": null
+    },
+    {
+      "depth_top": 1.5,
+      "depth": 2.1,
+      "sample": "2",
+      "sampler_type": "GB",
+      "recovery": null
+    },
+    {
+      "depth_top": 3.0,
+      "depth": 3.45,
+      "sample": "3",
+      "sampler_type": "GB",
+      "recovery": null
+    }
+  ]
 }

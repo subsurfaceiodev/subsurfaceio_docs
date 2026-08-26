@@ -281,14 +281,16 @@
                 "depth_top": 5.3,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
-              "atterberg_limits": {},
-              "index_tests": {
+              "water_content": {
                 "metadata": {
-                  "bulk_density": 1.92,
-                  "dry_density": 1.55928,
-                  "specific_gravity": 2.63518,
                   "water_content": 19.9
                 }
+              },
+              "atterberg_limits": {},
+              "index_tests": {
+                "bulk_density": 1.92,
+                "dry_density": 1.55928,
+                "specific_gravity": 2.63518
               }
             }
           ]
@@ -355,14 +357,16 @@
                 "depth_top": 9.1,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
-              "atterberg_limits": {},
-              "index_tests": {
+              "water_content": {
                 "metadata": {
-                  "bulk_density": 1.92,
-                  "dry_density": 1.58219,
-                  "specific_gravity": 2.64225,
                   "water_content": 21.3
                 }
+              },
+              "atterberg_limits": {},
+              "index_tests": {
+                "bulk_density": 1.92,
+                "dry_density": 1.58219,
+                "specific_gravity": 2.64225
               }
             }
           ]
@@ -462,6 +466,11 @@
                 "depth_top": 27.4,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 41.9
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 42.0,
@@ -470,12 +479,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 1.81,
-                  "dry_density": 1.22514,
-                  "specific_gravity": 2.57279,
-                  "water_content": 41.9
-                }
+                "bulk_density": 1.81,
+                "dry_density": 1.22514,
+                "specific_gravity": 2.57279
               }
             }
           ]
@@ -510,14 +516,16 @@
                 "depth_top": 33.5,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
-              "atterberg_limits": {},
-              "index_tests": {
+              "water_content": {
                 "metadata": {
-                  "bulk_density": 1.83,
-                  "dry_density": 1.50542,
-                  "specific_gravity": 2.64954,
                   "water_content": 21.8
                 }
+              },
+              "atterberg_limits": {},
+              "index_tests": {
+                "bulk_density": 1.83,
+                "dry_density": 1.50542,
+                "specific_gravity": 2.64954
               }
             }
           ]
@@ -540,6 +548,11 @@
                 "depth_top": 39.6,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 37.0
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 37.0,
@@ -548,12 +561,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 1.83,
-                  "dry_density": 1.33744,
-                  "specific_gravity": 2.70162,
-                  "water_content": 37.0
-                }
+                "bulk_density": 1.83,
+                "dry_density": 1.33744,
+                "specific_gravity": 2.70162
               }
             }
           ]
@@ -587,6 +597,11 @@
                 "depth_top": 51.8,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 20.7
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 34.0,
@@ -595,12 +610,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 2.05,
-                  "dry_density": 1.70244,
-                  "specific_gravity": 2.68986,
-                  "water_content": 20.7
-                }
+                "bulk_density": 2.05,
+                "dry_density": 1.70244,
+                "specific_gravity": 2.68986
               }
             }
           ]
@@ -634,6 +646,11 @@
                 "depth_top": 70.7,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 33.3
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 48.0,
@@ -642,12 +659,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 1.84,
-                  "dry_density": 1.38985,
-                  "specific_gravity": 2.71021,
-                  "water_content": 33.3
-                }
+                "bulk_density": 1.84,
+                "dry_density": 1.38985,
+                "specific_gravity": 2.71021
               }
             }
           ]
@@ -690,6 +704,11 @@
                 "depth_top": 18.3,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 50.2
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 51.0,
@@ -698,12 +717,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 1.73,
-                  "dry_density": 1.14074,
-                  "specific_gravity": 2.66932,
-                  "water_content": 50.2
-                }
+                "bulk_density": 1.73,
+                "dry_density": 1.14074,
+                "specific_gravity": 2.66932
               }
             }
           ]
@@ -711,151 +727,158 @@
       ],
       "spt": [
         {
-          "depth_top": 1.65,
-          "penetration": 30.0,
-          "blow_count": 8
+          "depth_top": 1.5,
+          "blow_count": 8,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 3.15,
-          "penetration": 30.0,
-          "blow_count": 7
+          "depth_top": 3.0,
+          "blow_count": 7,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 3.95,
-          "penetration": 30.0,
-          "blow_count": 6
+          "depth_top": 3.8,
+          "blow_count": 6,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 4.7,
-          "penetration": 30.0,
-          "blow_count": 6
+          "depth_top": 4.55,
+          "blow_count": 6,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 6.35,
-          "penetration": 30.0,
-          "blow_count": 2
+          "depth_top": 6.2,
+          "blow_count": 2,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 7.65,
-          "penetration": 30.0,
-          "blow_count": 5
+          "depth_top": 7.5,
+          "blow_count": 5,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 11.15,
-          "penetration": 30.0,
-          "blow_count": 7
+          "depth_top": 11.0,
+          "blow_count": 7,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 12.35,
-          "penetration": 30.0,
-          "blow_count": 0
+          "depth_top": 12.2,
+          "blow_count": 0,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
         },
         {
-          "depth_top": 30.45,
-          "penetration": 30.0,
+          "depth_top": 30.3,
           "blow_count": 52,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Modified split barrel with 2 in. sampler and 340 lb hammer"
         }
       ],
-      "strata": {
-        "data": [
-          {
-            "depth_top": 0.0,
-            "depth": 0.7,
-            "description": "Gravelly sand (Artificial fill)"
-          },
-          {
-            "depth_top": 0.7,
-            "depth": 1.5,
-            "description": "Sand, lt. olive brown, well sorted, fine to medium"
-          },
-          {
-            "depth_top": 1.5,
-            "depth": 8.3,
-            "description": "SAND, olive gray, well-sorted, very fine to fine, loose"
-          },
-          {
-            "depth_top": 8.3,
-            "depth": 11.0,
-            "description": "SAND, v. dk. Greenish gray, well-sorted, fine to medium grained"
-          },
-          {
-            "depth_top": 11.0,
-            "depth": 13.3,
-            "description": "FINE SANDY LOAM, dk. greenish gray, loose"
-          },
-          {
-            "depth_top": 13.3,
-            "depth": 28.8,
-            "description": "CLAY, v. dk. Greenish gray, soft (Holocene Bay Mud)"
-          },
-          {
-            "depth_top": 28.8,
-            "depth": 31.2,
-            "description": "Shells, with 10-50% dk. greenish gray sand"
-          },
-          {
-            "depth_top": 31.2,
-            "depth": 36.5,
-            "description": "SANDY LOAM, v. dk. greenish gray, some shells and gravel"
-          },
-          {
-            "depth_top": 36.5,
-            "depth": 37.5,
-            "description": "CLAY"
-          },
-          {
-            "depth_top": 37.5,
-            "depth": 41.2,
-            "description": "LOAMY FINE SAND, v. dk. greenish gray to olive gray"
-          },
-          {
-            "depth_top": 41.2,
-            "depth": 60.0,
-            "description": "CLAY, dk. Greenish gray, stiff to v. stiff (Pleistocene Bay Mud)"
-          },
-          {
-            "depth_top": 60.0,
-            "depth": 61.8,
-            "description": "SILTY CLAY, v. dk. greenish gray, stiff to v. stiff"
-          },
-          {
-            "depth_top": 61.8,
-            "depth": 62.8,
-            "description": "SAND"
-          },
-          {
-            "depth_top": 62.8,
-            "depth": 75.0,
-            "description": "SILTY CLAY, v. dk. greenish gray, stiff to v. stiff"
-          },
-          {
-            "depth_top": 75.0,
-            "depth": 80.6,
-            "description": "FINE GRAVELLY SAND, dk. greenish gray"
-          },
-          {
-            "depth_top": 80.6,
-            "depth": 87.9,
-            "description": "SILTY CLAY, v. dk greenish gray"
-          },
-          {
-            "depth_top": 87.9,
-            "depth": 90.6,
-            "description": "SHALE, pale olive, deeply weathered, texture is sandy clay (Franciscan Assemblage)"
-          },
-          {
-            "depth_top": 90.6,
-            "depth": 97.6,
-            "description": "SHALE, lt. greenish gray to dk. Brownish gray, firm"
-          },
-          {
-            "depth_top": 97.6,
-            "depth": 103.0,
-            "description": "SANDSTONE, dk. gray, fine-grained"
-          }
-        ]
-      }
+      "strata": [
+        {
+          "depth_top": 0.0,
+          "depth": 0.7,
+          "description": "Gravelly sand (Artificial fill)"
+        },
+        {
+          "depth_top": 0.7,
+          "depth": 1.5,
+          "description": "Sand, lt. olive brown, well sorted, fine to medium"
+        },
+        {
+          "depth_top": 1.5,
+          "depth": 8.3,
+          "description": "SAND, olive gray, well-sorted, very fine to fine, loose"
+        },
+        {
+          "depth_top": 8.3,
+          "depth": 11.0,
+          "description": "SAND, v. dk. Greenish gray, well-sorted, fine to medium grained"
+        },
+        {
+          "depth_top": 11.0,
+          "depth": 13.3,
+          "description": "FINE SANDY LOAM, dk. greenish gray, loose"
+        },
+        {
+          "depth_top": 13.3,
+          "depth": 28.8,
+          "description": "CLAY, v. dk. Greenish gray, soft (Holocene Bay Mud)"
+        },
+        {
+          "depth_top": 28.8,
+          "depth": 31.2,
+          "description": "Shells, with 10-50% dk. greenish gray sand"
+        },
+        {
+          "depth_top": 31.2,
+          "depth": 36.5,
+          "description": "SANDY LOAM, v. dk. greenish gray, some shells and gravel"
+        },
+        {
+          "depth_top": 36.5,
+          "depth": 37.5,
+          "description": "CLAY"
+        },
+        {
+          "depth_top": 37.5,
+          "depth": 41.2,
+          "description": "LOAMY FINE SAND, v. dk. greenish gray to olive gray"
+        },
+        {
+          "depth_top": 41.2,
+          "depth": 60.0,
+          "description": "CLAY, dk. Greenish gray, stiff to v. stiff (Pleistocene Bay Mud)"
+        },
+        {
+          "depth_top": 60.0,
+          "depth": 61.8,
+          "description": "SILTY CLAY, v. dk. greenish gray, stiff to v. stiff"
+        },
+        {
+          "depth_top": 61.8,
+          "depth": 62.8,
+          "description": "SAND"
+        },
+        {
+          "depth_top": 62.8,
+          "depth": 75.0,
+          "description": "SILTY CLAY, v. dk. greenish gray, stiff to v. stiff"
+        },
+        {
+          "depth_top": 75.0,
+          "depth": 80.6,
+          "description": "FINE GRAVELLY SAND, dk. greenish gray"
+        },
+        {
+          "depth_top": 80.6,
+          "depth": 87.9,
+          "description": "SILTY CLAY, v. dk greenish gray"
+        },
+        {
+          "depth_top": 87.9,
+          "depth": 90.6,
+          "description": "SHALE, pale olive, deeply weathered, texture is sandy clay (Franciscan Assemblage)"
+        },
+        {
+          "depth_top": 90.6,
+          "depth": 97.6,
+          "description": "SHALE, lt. greenish gray to dk. Brownish gray, firm"
+        },
+        {
+          "depth_top": 97.6,
+          "depth": 103.0,
+          "description": "SANDSTONE, dk. gray, fine-grained"
+        }
+      ]
     },
     {
       "type": "IST",
@@ -1426,9 +1449,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 6.0
-                }
+                "fines_content": 6.0
               }
             }
           ]
@@ -1485,9 +1506,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 24.0
-                }
+                "fines_content": 24.0
               }
             }
           ]
@@ -1553,9 +1572,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 46.0
-                }
+                "fines_content": 46.0
               }
             }
           ]
@@ -1639,9 +1656,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 13.0
-                }
+                "fines_content": 13.0
               }
             }
           ]
@@ -1698,9 +1713,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 8.0
-                }
+                "fines_content": 8.0
               }
             }
           ]
@@ -1757,9 +1770,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 36.0
-                }
+                "fines_content": 36.0
               }
             }
           ]
@@ -1779,6 +1790,13 @@
                 "specimen_reference": "B-1",
                 "depth_top": 13.6,
                 "remarks": "Table 3.1 in Pass (1994)"
+              },
+              "atterberg_limits": {
+                "metadata": {
+                  "liquid_limit": 34.0,
+                  "plastic_limit": 15.0,
+                  "plasticity_index": 19.0
+                }
               },
               "sieve_analysis": {
                 "metadata": {
@@ -1815,17 +1833,8 @@
                   }
                 ]
               },
-              "atterberg_limits": {
-                "metadata": {
-                  "liquid_limit": 34.0,
-                  "plastic_limit": 15.0,
-                  "plasticity_index": 19.0
-                }
-              },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 63.0
-                }
+                "fines_content": 63.0
               }
             },
             {
@@ -1853,6 +1862,11 @@
                 "depth_top": 18.0,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 48.8
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 50.0,
@@ -1861,12 +1875,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 1.73,
-                  "dry_density": 1.15603,
-                  "specific_gravity": 2.76291,
-                  "water_content": 48.8
-                }
+                "bulk_density": 1.73,
+                "dry_density": 1.15603,
+                "specific_gravity": 2.76291
               }
             }
           ]
@@ -1905,6 +1916,11 @@
                 "depth_top": 44.5,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 23.5
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 38.0,
@@ -1913,12 +1929,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 2.12,
-                  "dry_density": 1.66061,
-                  "specific_gravity": 2.7234,
-                  "water_content": 23.5
-                }
+                "bulk_density": 2.12,
+                "dry_density": 1.66061,
+                "specific_gravity": 2.7234
               }
             }
           ]
@@ -1938,6 +1951,11 @@
                 "depth_top": 44.8,
                 "remarks": "Table 3.1 in Pass (1994)"
               },
+              "water_content": {
+                "metadata": {
+                  "water_content": 23.8
+                }
+              },
               "atterberg_limits": {
                 "metadata": {
                   "liquid_limit": 38.0,
@@ -1946,12 +1964,9 @@
                 }
               },
               "index_tests": {
-                "metadata": {
-                  "bulk_density": 2.04,
-                  "dry_density": 1.6436,
-                  "specific_gravity": 2.79412,
-                  "water_content": 23.8
-                }
+                "bulk_density": 2.04,
+                "dry_density": 1.6436,
+                "specific_gravity": 2.79412
               }
             }
           ]
@@ -2007,9 +2022,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 12.0
-                }
+                "fines_content": 12.0
               }
             }
           ]
@@ -2065,9 +2078,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 11.0
-                }
+                "fines_content": 11.0
               }
             }
           ]
@@ -2123,9 +2134,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 22.0
-                }
+                "fines_content": 22.0
               }
             }
           ]
@@ -2181,9 +2190,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 8.0
-                }
+                "fines_content": 8.0
               }
             }
           ]
@@ -2239,9 +2246,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 11.0
-                }
+                "fines_content": 11.0
               }
             }
           ]
@@ -2289,120 +2294,133 @@
       ],
       "spt": [
         {
-          "depth_top": 2.65,
-          "penetration": 30.0,
+          "depth_top": 2.5,
           "blow_count": 9,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 4.15,
-          "penetration": 30.0,
+          "depth_top": 4.0,
           "blow_count": 5,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 5.15,
-          "penetration": 30.0,
+          "depth_top": 5.0,
           "blow_count": 5,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 6.15,
-          "penetration": 30.0,
+          "depth_top": 6.0,
           "blow_count": 0,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 7.15,
-          "penetration": 30.0,
+          "depth_top": 7.0,
           "blow_count": 7,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 8.15,
-          "penetration": 30.0,
+          "depth_top": 8.0,
           "blow_count": 5,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 9.15,
-          "penetration": 30.0,
+          "depth_top": 9.0,
           "blow_count": 2,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 10.15,
-          "penetration": 30.0,
+          "depth_top": 10.0,
           "blow_count": 6,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 11.15,
-          "penetration": 30.0,
+          "depth_top": 11.0,
           "blow_count": 9,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 12.15,
-          "penetration": 30.0,
+          "depth_top": 12.0,
           "blow_count": 3,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 13.15,
-          "penetration": 30.0,
+          "depth_top": 13.0,
           "blow_count": 1,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
           "depth_top": 30.2,
-          "penetration": 30.0,
           "blow_count": 81,
+          "seating_penetration": 0.0,
+          "drive_length": 0.3,
           "remarks": "Modified split barrel with 2 in. sampler and 340 lb hammer"
         },
         {
           "depth_top": 31.1,
-          "penetration": 30.0,
           "blow_count": 82,
+          "seating_penetration": 0.0,
+          "drive_length": 0.3,
           "remarks": "Modified split barrel with 2 in. sampler and 340 lb hammer"
         },
         {
           "depth_top": 33.2,
-          "penetration": 30.0,
           "blow_count": 33,
+          "seating_penetration": 0.0,
+          "drive_length": 0.3,
           "remarks": "Modified split barrel with 2 in. sampler and 340 lb hammer"
         },
         {
           "depth_top": 35.5,
-          "penetration": 30.0,
           "blow_count": 100,
+          "seating_penetration": 0.0,
+          "drive_length": 0.3,
           "remarks": "Modified split barrel with 2 in. sampler and 340 lb hammer - ISPT_TPEN inferred"
         }
       ],
-      "strata": {
-        "data": [
-          {
-            "depth_top": 0.0,
-            "depth": 4.5,
-            "description": "Tan fill, fine sand with silt"
-          },
-          {
-            "depth_top": 4.5,
-            "depth": 9.0,
-            "description": "Grey fill, silty fine sand"
-          },
-          {
-            "depth_top": 9.0,
-            "depth": 11.5,
-            "description": "Shoal material, silty fine sand"
-          },
-          {
-            "depth_top": 11.5,
-            "depth": 13.5,
-            "description": "Transition, clayey sand to sandy silt"
-          }
-        ]
-      }
+      "strata": [
+        {
+          "depth_top": 0.0,
+          "depth": 4.5,
+          "description": "Tan fill, fine sand with silt"
+        },
+        {
+          "depth_top": 4.5,
+          "depth": 9.0,
+          "description": "Grey fill, silty fine sand"
+        },
+        {
+          "depth_top": 9.0,
+          "depth": 11.5,
+          "description": "Shoal material, silty fine sand"
+        },
+        {
+          "depth_top": 11.5,
+          "depth": 13.5,
+          "description": "Transition, clayey sand to sandy silt"
+        }
+      ]
     },
     {
       "type": "BORH",
@@ -2530,9 +2548,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 7.0
-                }
+                "fines_content": 7.0
               }
             }
           ]
@@ -2589,9 +2605,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 30.0
-                }
+                "fines_content": 30.0
               }
             }
           ]
@@ -2657,9 +2671,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 39.0
-                }
+                "fines_content": 39.0
               }
             }
           ]
@@ -2744,9 +2756,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 14.0
-                }
+                "fines_content": 14.0
               }
             },
             {
@@ -2780,45 +2790,52 @@
       ],
       "spt": [
         {
-          "depth_top": 2.65,
-          "penetration": 30.0,
+          "depth_top": 2.5,
           "blow_count": 16,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 3.65,
-          "penetration": 30.0,
+          "depth_top": 3.5,
           "blow_count": 15,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 5.65,
-          "penetration": 30.0,
+          "depth_top": 5.5,
           "blow_count": 5,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 8.65,
-          "penetration": 30.0,
+          "depth_top": 8.5,
           "blow_count": 0,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 10.15,
-          "penetration": 30.0,
+          "depth_top": 10.0,
           "blow_count": 12,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 10.65,
-          "penetration": 30.0,
+          "depth_top": 10.5,
           "blow_count": 24,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         },
         {
-          "depth_top": 12.65,
-          "penetration": 30.0,
+          "depth_top": 12.5,
           "blow_count": 4,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "remarks": "Safety hammer with rope and cathead wrapped 2 times"
         }
       ]
@@ -10944,9 +10961,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 12.0
-                }
+                "fines_content": 12.0
               }
             }
           ]
@@ -11021,9 +11036,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 16.0
-                }
+                "fines_content": 16.0
               }
             }
           ]
@@ -11080,9 +11093,7 @@
                 ]
               },
               "index_tests": {
-                "metadata": {
-                  "fines_content": 26.0
-                }
+                "fines_content": 26.0
               }
             }
           ]
@@ -11128,46 +11139,54 @@
       ],
       "spt": [
         {
-          "depth_top": 2.65,
-          "penetration": 30.0,
-          "blow_count": 8
-        },
-        {
-          "depth_top": 4.15,
-          "penetration": 30.0,
-          "blow_count": 1
-        },
-        {
-          "depth_top": 5.15,
-          "penetration": 30.0,
-          "blow_count": 8
-        },
-        {
-          "depth_top": 6.65,
-          "penetration": 30.0,
-          "blow_count": 6
-        },
-        {
-          "depth_top": 7.65,
-          "penetration": 30.0,
-          "blow_count": 3
-        },
-        {
-          "depth_top": 8.65,
-          "penetration": 30.0,
-          "blow_count": 6
-        },
-        {
-          "depth_top": 10.15,
-          "penetration": 30.0,
+          "depth_top": 2.5,
           "blow_count": 8,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
+        },
+        {
+          "depth_top": 4.0,
+          "blow_count": 1,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
+        },
+        {
+          "depth_top": 5.0,
+          "blow_count": 8,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
+        },
+        {
+          "depth_top": 6.5,
+          "blow_count": 6,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
+        },
+        {
+          "depth_top": 7.5,
+          "blow_count": 3,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
+        },
+        {
+          "depth_top": 8.5,
+          "blow_count": 6,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45
+        },
+        {
+          "depth_top": 10.0,
+          "blow_count": 8,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 68.0,
           "method": "Described by Pass"
         },
         {
-          "depth_top": 10.65,
-          "penetration": 30.0,
+          "depth_top": 10.5,
           "blow_count": 11,
+          "seating_penetration": 0.15,
+          "drive_length": 0.45,
           "energy_ratio": 68.0,
           "method": "Described by Pass"
         }
