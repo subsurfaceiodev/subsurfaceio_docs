@@ -1,18 +1,11 @@
 ### AtterbergLimits
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_liquid_limit`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_liquid_limit)  
 * [`soil_lab.get_plasticity_index`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_plasticity_index)  
 * [`soil_lab.get_liquidity_index`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_liquidity_index)  
+
 ### CPTFootingCapacityRobertson
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`cpt.get_is_invalid_data`](../reference/subsurfaceio/functions/cpt.md#subsurfaceio.functions.cpt.get_is_invalid_data)  
@@ -20,11 +13,8 @@ FunctionSequence class.
 * [`footing.get_footing_influence_depth`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_influence_depth)  
 * [`cpt.get_mean_corrected_cone_tip_resistance`](../reference/subsurfaceio/functions/cpt.md#subsurfaceio.functions.cpt.get_mean_corrected_cone_tip_resistance)  
 * [`cpt.get_ultimate_bearing_capacity_cpt`](../reference/subsurfaceio/functions/cpt.md#subsurfaceio.functions.cpt.get_ultimate_bearing_capacity_cpt)  
+
 ### CPTFootingSettlementsRobertson
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_thickness`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_thickness)  
@@ -50,11 +40,8 @@ FunctionSequence class.
 * [`footing.get_footing_settlement`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_settlement)  
 * [`footing.get_footing_settlement_sum`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_settlement_sum)  
 * [`footing.get_footing_creep_settlement_sum`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_creep_settlement_sum)  
+
 ### CPTInterpretationRobertson
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -118,11 +105,8 @@ FunctionSequence class.
 * [`cpt.get_dry_unit_weight__barounis2018estimation`](../reference/subsurfaceio/functions/cpt.md#subsurfaceio.functions.cpt.get_dry_unit_weight__barounis2018estimation)  
 * [`cpt.get_porosity__barounis2018estimation`](../reference/subsurfaceio/functions/cpt.md#subsurfaceio.functions.cpt.get_porosity__barounis2018estimation)  
 * [`cpt.get_plasticity_index__ramsey2023estimating`](../reference/subsurfaceio/functions/cpt.md#subsurfaceio.functions.cpt.get_plasticity_index__ramsey2023estimating)  
+
 ### CPTLiquefactionBoulanger2014
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -195,11 +179,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### CPTLiquefactionIdriss2008
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -271,11 +252,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### CPTLiquefactionRobertson
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -344,11 +322,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### CPTLiquefactionSaye2021
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -416,11 +391,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### CPTPileBustamante1982
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_thickness`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_thickness)  
@@ -449,11 +421,8 @@ FunctionSequence class.
 * [`pile.get_pile_shaft_resistance_inc`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance_inc)  
 * [`pile.get_pile_shaft_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance)  
 * [`pile.get_pile_ultimate_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_ultimate_resistance)  
+
 ### CPTPileBustamante1982Fellenius
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_thickness`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_thickness)  
@@ -485,11 +454,8 @@ FunctionSequence class.
 * [`pile.get_pile_shaft_resistance_inc`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance_inc)  
 * [`pile.get_pile_shaft_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance)  
 * [`pile.get_pile_ultimate_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_ultimate_resistance)  
+
 ### CPTPileEslami1997
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_thickness`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_thickness)  
@@ -510,11 +476,8 @@ FunctionSequence class.
 * [`pile.get_pile_shaft_resistance_inc`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance_inc)  
 * [`pile.get_pile_shaft_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance)  
 * [`pile.get_pile_ultimate_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_ultimate_resistance)  
+
 ### DMTFootingSettlementsRobertson
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -535,11 +498,8 @@ FunctionSequence class.
 * [`footing.get_footing_settlement_inc`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_settlement_inc)  
 * [`footing.get_footing_settlement`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_settlement)  
 * [`footing.get_footing_settlement_sum`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_settlement_sum)  
+
 ### DMTInterpretationMarchetti
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -567,11 +527,8 @@ FunctionSequence class.
 * [`dmt.get_shear_modulus__amoroso2013prediction`](../reference/subsurfaceio/functions/dmt.md#subsurfaceio.functions.dmt.get_shear_modulus__amoroso2013prediction)  
 * [`base.get_shear_velocity__landau1959theory`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_shear_velocity__landau1959theory)  
 * [`dmt.get_coefficient_of_earth_pressure_at_rest__marchetti1981flat`](../reference/subsurfaceio/functions/dmt.md#subsurfaceio.functions.dmt.get_coefficient_of_earth_pressure_at_rest__marchetti1981flat)  
+
 ### DMTLiquefactionMarchetti
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_below_water_table`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_below_water_table)  
@@ -626,19 +583,13 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### FootingAverageParameters
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`footing.get_average_parameters__bowles1996foundation`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_average_parameters__bowles1996foundation)  
+
 ### FootingCapacityMeyerhof1978StrongSandOnSoftSaturatedClay
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`footing.get_footing_total_stress`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_total_stress)  
@@ -654,11 +605,8 @@ FunctionSequence class.
 * [`footing.get_punching_shear_coefficient__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_punching_shear_coefficient__meyerhof1978ultimate)  
 * [`footing.get_ultimate_bearing_capacity_limit_case1and2__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity_limit_case1and2__meyerhof1978ultimate)  
 * [`footing.get_ultimate_bearing_capacity_case1__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity_case1__meyerhof1978ultimate)  
+
 ### FootingCapacityMeyerhof1978StrongSandOnWeakSand
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`footing.get_footing_total_stress`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_total_stress)  
@@ -677,11 +625,8 @@ FunctionSequence class.
 * [`footing.get_shape_factor_unit_weight__vesic1975bearing`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_shape_factor_unit_weight__vesic1975bearing)  
 * [`footing.get_ultimate_bearing_capacity_limit_case1and2__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity_limit_case1and2__meyerhof1978ultimate)  
 * [`footing.get_ultimate_bearing_capacity_case2__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity_case2__meyerhof1978ultimate)  
+
 ### FootingCapacityMeyerhof1978StrongSaturatedClayOnSoftSaturatedClay
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`footing.get_footing_total_stress`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_total_stress)  
@@ -692,11 +637,8 @@ FunctionSequence class.
 * [`footing.get_unit_adhesion__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_unit_adhesion__meyerhof1978ultimate)  
 * [`footing.get_ultimate_bearing_capacity_limit_case3__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity_limit_case3__meyerhof1978ultimate)  
 * [`footing.get_ultimate_bearing_capacity_case3__meyerhof1978ultimate`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity_case3__meyerhof1978ultimate)  
+
 ### FootingCapacityTerzaghi1943
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`footing.get_footing_total_stress`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_total_stress)  
@@ -707,11 +649,8 @@ FunctionSequence class.
 * [`footing.get_bearing_capacity_factor_unit_weight__terzaghi1943theoretical`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_bearing_capacity_factor_unit_weight__terzaghi1943theoretical)  
 * [`footing.get_effective_unit_weight__vesic1973analysis`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_effective_unit_weight__vesic1973analysis)  
 * [`footing.get_ultimate_bearing_capacity__terzaghi1943theoretical`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity__terzaghi1943theoretical)  
+
 ### FootingCapacityVesic1975
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`footing.get_footing_total_stress`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_footing_total_stress)  
@@ -729,11 +668,8 @@ FunctionSequence class.
 * [`footing.get_depth_factor_unit_weight__vesic1975bearing`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_depth_factor_unit_weight__vesic1975bearing)  
 * [`footing.get_effective_unit_weight__vesic1973analysis`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_effective_unit_weight__vesic1973analysis)  
 * [`footing.get_ultimate_bearing_capacity__vesic1975bearing`](../reference/subsurfaceio/functions/footing.md#subsurfaceio.functions.footing.get_ultimate_bearing_capacity__vesic1975bearing)  
+
 ### HydrometerAnalysis
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_temperature_correction`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_temperature_correction)  
@@ -747,29 +683,20 @@ FunctionSequence class.
 * [`soil_lab.get_hydrometer_percent_finer`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_hydrometer_percent_finer)  
 * [`soil_lab.get_percent_clay`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_percent_clay)  
 * [`soil_lab.get_percent_silt`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_percent_silt)  
+
 ### LiquefactionFinesBray2006
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_water_content_liquid_limit_ratio`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_water_content_liquid_limit_ratio)  
 * [`liquefaction.get_liquefaction_susceptibility__bray2006assessment`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_susceptibility__bray2006assessment)  
+
 ### LiquefactionShearInducedBuildingSettlementBray2017
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`liquefaction.get_liquefaction_building_settlement_index__bray2017simplified`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_building_settlement_index__bray2017simplified)  
 * [`liquefaction.get_liquefaction_shear_induced_building_settlement__bray2017simplified`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_shear_induced_building_settlement__bray2017simplified)  
+
 ### LiquefactionSummary
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`liquefaction.get_thickness_non_liquefiable_layer`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_thickness_non_liquefiable_layer)  
@@ -788,31 +715,22 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### LiquefactionYoud2002LateralDisplacement
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`liquefaction.get_is_t15_liquefiable_layers`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_is_t15_liquefiable_layers)  
 * [`liquefaction.get_lateral_spread_displacement_inc__youd2002revised`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_lateral_spread_displacement_inc__youd2002revised)  
+
 ### LiquidLimit
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_moisture_mass`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_moisture_mass)  
 * [`soil_lab.get_dry_soil_mass`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_dry_soil_mass)  
 * [`soil_lab.get_water_content_trials`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_water_content_trials)  
 * [`soil_lab.get_liquid_limit`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_liquid_limit)  
+
 ### PileCapacityUSACE1991
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_thickness`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_thickness)  
@@ -826,11 +744,8 @@ FunctionSequence class.
 * [`pile.get_pile_shaft_resistance_inc`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance_inc)  
 * [`pile.get_pile_shaft_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_shaft_resistance)  
 * [`pile.get_pile_ultimate_resistance`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_ultimate_resistance)  
+
 ### PileRockingStiffness
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.get_active_pile_length`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_active_pile_length)  
@@ -842,11 +757,8 @@ FunctionSequence class.
 * [`ssi.get_pile_rocking_stiffness`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_pile_rocking_stiffness)  
 * [`ssi.get_pile_cross_swaying_rocking_stiffness`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_pile_cross_swaying_rocking_stiffness)  
 * [`ssi.get_displacement_rotation`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_displacement_rotation)  
+
 ### PileSettlementsBearingPilePoulos1980
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`pile.get_pile_length_to_diameter_ratio`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_length_to_diameter_ratio)  
@@ -858,11 +770,8 @@ FunctionSequence class.
 * [`pile.get_pile_settlement_correction_poisson__poulos1980pile`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_settlement_correction_poisson__poulos1980pile)  
 * [`pile.get_pile_influence_factor_bearing__poulos1980pile`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_influence_factor_bearing__poulos1980pile)  
 * [`pile.get_pile_settlement__poulos1980pile`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_settlement__poulos1980pile)  
+
 ### PileSettlementsFloatingPilePoulos1980
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`pile.get_pile_length_to_diameter_ratio`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_length_to_diameter_ratio)  
@@ -874,22 +783,16 @@ FunctionSequence class.
 * [`pile.get_pile_settlement_correction_poisson__poulos1980pile`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_settlement_correction_poisson__poulos1980pile)  
 * [`pile.get_pile_influence_factor_floating__poulos1980pile`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_influence_factor_floating__poulos1980pile)  
 * [`pile.get_pile_settlement__poulos1980pile`](../reference/subsurfaceio/functions/pile.md#subsurfaceio.functions.pile.get_pile_settlement__poulos1980pile)  
+
 ### PlasticLimit
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_moisture_mass`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_moisture_mass)  
 * [`soil_lab.get_dry_soil_mass`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_dry_soil_mass)  
 * [`soil_lab.get_water_content_trials`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_water_content_trials)  
 * [`soil_lab.get_plastic_limit`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_plastic_limit)  
+
 ### SPTInterpretation
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_soil_type`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_soil_type)  
@@ -931,11 +834,8 @@ FunctionSequence class.
 * [`spt.get_poisson_ratio__bowles1996foundation`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_poisson_ratio__bowles1996foundation)  
 * [`base.get_elasticity_modulus_from_shear_modulus`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_elasticity_modulus_from_shear_modulus)  
 * [`base.get_coefficient_of_earth_pressure_at_rest__mayne1982ko`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_coefficient_of_earth_pressure_at_rest__mayne1982ko)  
+
 ### SPTLiquefactionBoulanger2014
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_soil_type`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_soil_type)  
@@ -998,11 +898,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### SPTLiquefactionCetin2004
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_soil_type`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_soil_type)  
@@ -1065,11 +962,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### SPTLiquefactionCetin2018
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_soil_type`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_soil_type)  
@@ -1134,11 +1028,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### SPTLiquefactionIdriss2008
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_soil_type`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_soil_type)  
@@ -1200,11 +1091,8 @@ FunctionSequence class.
 * [`liquefaction.get_liquefaction_potential_index_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_potential_index_sum_label)  
 * [`liquefaction.get_liquefaction_severity_number_sum`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum)  
 * [`liquefaction.get_liquefaction_severity_number_sum_label`](../reference/subsurfaceio/functions/liquefaction.md#subsurfaceio.functions.liquefaction.get_liquefaction_severity_number_sum_label)  
+
 ### SPTUnitWeightCorrelation
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`base.get_soil_type2`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_soil_type2)  
@@ -1214,11 +1102,8 @@ FunctionSequence class.
 * [`spt.get_rod_length_correction__skempton1986standard`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_rod_length_correction__skempton1986standard)  
 * [`spt.get_corrected_blow_count__skempton1986standard`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_corrected_blow_count__skempton1986standard)  
 * [`spt.get_unit_weight__cetin2018use`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_unit_weight__cetin2018use)  
+
 ### SSIEffects
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.get_footing_half_width`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_footing_half_width)  
@@ -1229,11 +1114,8 @@ FunctionSequence class.
 * [`ssi.get_structure_to_soil_stiffness_ratio`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_structure_to_soil_stiffness_ratio)  
 * [`ssi.get_ssi_effects_expected`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_ssi_effects_expected)  
 * [`ssi.get_period_lengthening_ratio`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_period_lengthening_ratio)  
+
 ### SSIFootingStiffness
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.get_footing_router`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_footing_router)  
@@ -1248,11 +1130,8 @@ FunctionSequence class.
 * [`ssi.get_radiation_damping_ratio`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_radiation_damping_ratio)  
 * [`ssi.get_stiffness`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_stiffness)  
 * [`ssi.get_dashpot_coefficient`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_dashpot_coefficient)  
+
 ### SSIFootingStiffnessIntensities
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.get_footing_zone`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_footing_zone)  
@@ -1262,11 +1141,8 @@ FunctionSequence class.
 * [`ssi.get_stiffness_intensity`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_stiffness_intensity)  
 * [`ssi.get_dashpot_edge_factor`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_dashpot_edge_factor)  
 * [`ssi.get_dashpot_coefficient_intensity`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_dashpot_coefficient_intensity)  
+
 ### SSIIntermediate
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.get_natural_frequency`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_natural_frequency)  
@@ -1274,19 +1150,13 @@ FunctionSequence class.
 * [`ssi.get_footing_half_length`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_footing_half_length)  
 * [`ssi.get_active_pile_length`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_active_pile_length)  
 * [`ssi.get_poisson_adjustment_factor`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_poisson_adjustment_factor)  
+
 ### SSINodeData
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.get_node_data`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_node_data)  
+
 ### SSIPileStiffness
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.get_pile_router`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_pile_router)  
@@ -1303,22 +1173,16 @@ FunctionSequence class.
 * [`ssi.get_dynamic_stiffness_modifier_pile`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_dynamic_stiffness_modifier_pile)  
 * [`ssi.get_static_pile_stiffness`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_static_pile_stiffness)  
 * [`ssi.get_stiffness`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_stiffness)  
+
 ### SSIPileStiffnessInGroup
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`ssi.pile_group_router`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.pile_group_router)  
 * [`ssi.get_pile_group_efficiency_factor`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_pile_group_efficiency_factor)  
 * [`ssi.get_pile_stiffness_in_group`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_pile_stiffness_in_group)  
 * [`ssi.get_pile_group_damping_ratio`](../reference/subsurfaceio/functions/ssi.md#subsurfaceio.functions.ssi.get_pile_group_damping_ratio)  
+
 ### SieveAnalysis
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_particle_size_from_sieve_number`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_particle_size_from_sieve_number)  
@@ -1329,11 +1193,8 @@ FunctionSequence class.
 * [`soil_lab.get_percent_finer_diameters`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_percent_finer_diameters)  
 * [`soil_lab.get_uniformity_coefficient`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_uniformity_coefficient)  
 * [`soil_lab.get_curvature_coefficient`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_curvature_coefficient)  
+
 ### SieveAnalysisIndexProperties
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_percent_finer_at_sieve_number`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_percent_finer_at_sieve_number)  
@@ -1341,56 +1202,39 @@ FunctionSequence class.
 * [`soil_lab.get_percent_finer_diameters`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_percent_finer_diameters)  
 * [`soil_lab.get_uniformity_coefficient`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_uniformity_coefficient)  
 * [`soil_lab.get_curvature_coefficient`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_curvature_coefficient)  
+
 ### SieveAnalysisPercentFiner
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_particle_size_from_sieve_number`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_particle_size_from_sieve_number)  
 * [`soil_lab.get_cumulative_mass_retained`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_cumulative_mass_retained)  
 * [`soil_lab.get_percent_finer`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_percent_finer)  
+
 ### SoilClassificationAASHTO
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_classification_aashto.get_soil_classification_aashto__astm2015d3282`](../reference/subsurfaceio/functions/soil_classification_aashto.md#subsurfaceio.functions.soil_classification_aashto.get_soil_classification_aashto__astm2015d3282)  
+
 ### SoilClassificationUSCS
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_classification_uscs.get_soil_classification_uscs__astm2017d2487`](../reference/subsurfaceio/functions/soil_classification_uscs.md#subsurfaceio.functions.soil_classification_uscs.get_soil_classification_uscs__astm2017d2487)  
+
 ### SoilClassificationUSDA
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_classification_usda.get_soil_classification__usda1993soil`](../reference/subsurfaceio/functions/soil_classification_usda.md#subsurfaceio.functions.soil_classification_usda.get_soil_classification__usda1993soil)  
+
 ### SoilClassificationUSDAMoreno2018
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_classification_usda.get_soil_classification_usda__moreno2018clay`](../reference/subsurfaceio/functions/soil_classification_usda.md#subsurfaceio.functions.soil_classification_usda.get_soil_classification_usda__moreno2018clay)  
+
 ### WaterContent
-`description`
-
-FunctionSequence class.
-
 `functions`
 
 * [`soil_lab.get_moisture_mass`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_moisture_mass)  
 * [`soil_lab.get_dry_soil_mass`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_dry_soil_mass)  
 * [`soil_lab.get_water_content_trials`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_water_content_trials)  
 * [`soil_lab.get_water_content`](../reference/subsurfaceio/functions/soil_lab.md#subsurfaceio.functions.soil_lab.get_water_content)  
+
