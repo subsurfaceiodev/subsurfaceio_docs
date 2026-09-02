@@ -6,7 +6,7 @@ import plotly.io as pio
 def get_results():
     params = dict(
         function_sequence='CPTInterpretationRobertson',
-        combine_inputs_results=True,
+        output='all',
     )
 
     data = dict(

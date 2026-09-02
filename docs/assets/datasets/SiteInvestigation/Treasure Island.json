@@ -200,11 +200,11 @@
           "energy_ratio": 68.0
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       },
-      "test_liquefaction_metadata": {
+      "test_liquefaction_settings": {
         "site_to_seismic_source_distance": 77.0
       },
       "samples": [
@@ -1389,11 +1389,11 @@
           "plasticity_index": 23.0
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       },
-      "test_liquefaction_metadata": {
+      "test_liquefaction_settings": {
         "site_to_seismic_source_distance": 77.0
       },
       "samples": [
@@ -2488,11 +2488,11 @@
           "energy_ratio": 68.0
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       },
-      "test_liquefaction_metadata": {
+      "test_liquefaction_settings": {
         "site_to_seismic_source_distance": 77.0
       },
       "samples": [
@@ -4544,7 +4544,7 @@
           "pore_pressure": 1276.45
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -5130,7 +5130,7 @@
           "cone_tip_resistance": 3.70442
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -5520,7 +5520,7 @@
           "sleeve_friction": 29.0445
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -5769,7 +5769,7 @@
           "pore_pressure": 63.8298
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -5912,7 +5912,7 @@
           "pore_pressure": 45.1332
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -7534,7 +7534,7 @@
           "cone_tip_resistance": 5.84724
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -9148,7 +9148,7 @@
           "pore_pressure": 0.0
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -10828,7 +10828,7 @@
           "pore_pressure": 725.071
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }
@@ -10901,11 +10901,11 @@
           "energy_ratio": 68.0
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       },
-      "test_liquefaction_metadata": {
+      "test_liquefaction_settings": {
         "site_to_seismic_source_distance": 77.0
       },
       "samples": [
@@ -14502,7 +14502,7 @@
           "raw_c_reading": 256.247
         }
       ],
-      "liquefaction_metadata": {
+      "liquefaction_settings": {
         "moment_magnitude": 6.9,
         "peak_ground_acceleration": 0.14
       }

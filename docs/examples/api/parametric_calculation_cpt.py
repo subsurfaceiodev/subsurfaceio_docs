@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 def get_results(**kwargs):
     params = dict(
         function_sequence='CPTLiquefactionRobertson',
-        combine_inputs_results=True,
+        output='all',
     )
 
     data = dict(

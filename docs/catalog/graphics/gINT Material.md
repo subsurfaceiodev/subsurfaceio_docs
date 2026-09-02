@@ -142,6 +142,12 @@
 </div>
 
 <div class="graphic-item">
+<div class="graphic-name">GC-GM</div>
+<div class="graphic-description">USCS Clayey Gravel</div>
+<img src="/assets/graphics/gINT Material/GC-GM.svg" alt="GC-GM">
+</div>
+
+<div class="graphic-item">
 <div class="graphic-name">GP</div>
 <div class="graphic-description">USCS Poorly-graded Gravel</div>
 <img src="/assets/graphics/gINT Material/GP.svg" alt="GP">

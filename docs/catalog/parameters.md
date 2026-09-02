@@ -1401,6 +1401,15 @@ left=10.0 right=None value=1.0 color=None
 **corresponding_parameter_name**: `None`  
     
 
+### `extrapolate_max_percent_finer`
+**symbol**: $\text{extrapolate\_max\_percent\_finer}$  
+**label**: Extrapolate max percent finer  
+**unit**: %  
+**description**: Maximum measured percent finer at which fine-end diameter extrapolation is allowed when resolving D-sizes (e.g. D10). None disables extrapolation. Typical near-miss value: 12.  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
+
 ### `final_depth`
 **symbol**: $z_{final}$  
 **label**: Final depth  

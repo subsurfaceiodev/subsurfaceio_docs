@@ -87,7 +87,7 @@ def get_ist_test():
 
 
 def get_site_investigation_payload():
-    site_investigation = dict(
+    site_payload = dict(
         project_metadata=dict(project_id='Treasure Island'),
         in_situ_tests=[
             get_cpt_test(),
@@ -96,45 +96,45 @@ def get_site_investigation_payload():
         ]
 
     )
-    return site_investigation
+    return site_payload
 
 
 with httpx2.Client(base_url=base_url) as client:
-    calculation_response = client.post(
+    interpretation_response = client.post(
         '/site-investigation/calculate-interpretation',
         json=get_site_investigation_payload()
     )
-    calculated_site = calculation_response.json()
+    site = interpretation_response.json()
 
-    calculation_response = client.post(
+    liquefaction_response = client.post(
         '/site-investigation/calculate-liquefaction',
-        json=calculated_site
+        json=site
     )
 
-    calculated_site = calculation_response.json()
+    site = liquefaction_response.json()
 
-    cpt_interpretation_data = calculated_site['in_situ_tests'][0]['interpretation']['data']
+    cpt_interpretation_data = site['in_situ_tests'][0]['interpretation']['data']
     cpt_interpretation_df = pl.from_records(
         cpt_interpretation_data,
         infer_schema_length=None
     )
     cpt_interpretation_df.glimpse()
 
-    cpt_liquefaction_data = calculated_site['in_situ_tests'][0]['liquefaction']['data']
+    cpt_liquefaction_data = site['in_situ_tests'][0]['liquefaction']['data']
     cpt_liquefaction_df = pl.from_records(
         cpt_liquefaction_data,
         infer_schema_length=None
     )
     cpt_liquefaction_df.glimpse()
 
-    dmt_interpretation_data = calculated_site['in_situ_tests'][1]['interpretation']['data']
+    dmt_interpretation_data = site['in_situ_tests'][1]['interpretation']['data']
     dmt_interpretation_df = pl.from_records(
         dmt_interpretation_data,
         infer_schema_length=None
     )
     dmt_interpretation_df.glimpse()
 
-    dmt_liquefaction_data = calculated_site['in_situ_tests'][1]['liquefaction']['data']
+    dmt_liquefaction_data = site['in_situ_tests'][1]['liquefaction']['data']
     dmt_liquefaction_df = pl.from_records(
         dmt_liquefaction_data,
         infer_schema_length=None
@@ -143,7 +143,7 @@ with httpx2.Client(base_url=base_url) as client:
 
     plot_response1 = client.post(
         '/site-investigation/plot',
-        json=calculated_site,
+        json=site,
         params=dict(
             x=[
                 'cone_tip_resistance',
@@ -158,7 +158,7 @@ with httpx2.Client(base_url=base_url) as client:
 
     plot_response2 = client.post(
         '/site-investigation/plot',
-        json=calculated_site,
+        json=site,
         params=dict(
             x=[
                 'corrected_pressure_p0',
@@ -172,7 +172,7 @@ with httpx2.Client(base_url=base_url) as client:
 
     plot_response3 = client.post(
         '/site-investigation/plot',
-        json=calculated_site,
+        json=site,
         params=dict(
             x=[
                 'unit_weight',
@@ -190,7 +190,7 @@ with httpx2.Client(base_url=base_url) as client:
 
     plot_response4 = client.post(
         '/site-investigation/plot',
-        json=calculated_site,
+        json=site,
         params=dict(
             x=[
                 'liquefaction_safety_factor',
