@@ -1,5 +1,5 @@
 {
-  "titles": {
+  "column_headers": {
     "size": "10%"
   },
   "header": {
@@ -7,7 +7,6 @@
   },
   "figure": {
     "title": "LOG OF TEST PIT {test_id}",
-    "wspace": 0,
     "y_values_per_page": 5
   },
   "columns": [
@@ -57,13 +56,10 @@
       "model": {
         "column_type": "text",
         "data_source": "strata",
-        "wrap": true,
         "text_field": "{depth_top:.2f}m\n{description}",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
-        "parameters": {
-          "x": 0.02
-        }
+        "parameters": {}
       }
     },
     {
@@ -93,8 +89,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     },
@@ -111,8 +106,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     },
@@ -129,8 +123,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     },
@@ -147,8 +140,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     },
@@ -165,8 +157,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     },
@@ -183,8 +174,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     },
@@ -201,8 +191,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     },
@@ -219,8 +208,7 @@
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {
-          "x": 0.5,
-          "horizontalalignment": "center"
+          "horizontal_alignment": "center"
         }
       }
     }

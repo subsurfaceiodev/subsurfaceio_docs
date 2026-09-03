@@ -202,48 +202,63 @@
       "depth_top": 0.0,
       "depth": 3.6,
       "hatch": "CMNT11",
-      "text": "Cement 5%\r\nBentonite Grout"
+      "pointer": "C",
+      "text": "4\" PVC Sch. 40"
+    },
+    {
+      "depth_top": 0.5,
+      "depth": null,
+      "hatch": null,
+      "pointer": "A",
+      "text": "Cement 5% Bentonite Grout"
     },
     {
       "depth_top": 3.6,
       "depth": 4.2,
       "hatch": "BENT11",
+      "pointer": "E",
       "text": "Bentonite Seal"
     },
     {
       "depth_top": 4.2,
       "depth": 5.0,
       "hatch": "FILT11",
+      "pointer": "A",
       "text": "Sand (#3)"
     },
     {
       "depth_top": 5.0,
       "depth": 11.9,
       "hatch": "SLOT11",
-      "text": null
+      "pointer": "C",
+      "text": "4\" PVC Sch. 40 0.010\" slot"
     },
     {
       "depth_top": 11.9,
       "depth": 12.0,
       "hatch": "PCAP11",
+      "pointer": null,
       "text": null
     },
     {
       "depth_top": 12.0,
       "depth": 12.6,
       "hatch": "BENTBOTT",
+      "pointer": "E",
       "text": "Bentonite Seal"
     },
     {
       "depth_top": 12.6,
       "depth": 13.2,
       "hatch": "CMNTBOTT",
-      "text": "Cement 5%\r\nBentonite Grout"
+      "pointer": "A",
+      "text": "Cement 5% Bentonite Grout"
     },
     {
       "depth_top": 13.2,
       "depth": 14.1,
       "hatch": "SLUFBOTT",
+      "pointer": "A",
       "text": "Cave-in"
     }
   ],
