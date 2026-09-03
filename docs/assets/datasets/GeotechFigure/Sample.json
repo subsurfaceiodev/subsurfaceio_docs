@@ -246,14 +246,14 @@
   "axis_map": {
     "material_index": {
       "type": "log",
-      "autorange": "False",
+      "autorange": false,
       "range": [
         -1.0,
         1.0
       ]
     },
     "soil_behavior_type_index": {
-      "autorange": "False",
+      "autorange": false,
       "range": [
         1.0,
         4.0
@@ -261,7 +261,7 @@
     },
     "modified_soil_behavior_type_index": {
       "type": "log",
-      "autorange": "False",
+      "autorange": false,
       "range": [
         1.0,
         2.0
@@ -275,7 +275,7 @@
     },
     "soil_classification_index": {
       "type": "log",
-      "autorange": "False",
+      "autorange": false,
       "range": [
         1.0,
         2.69897
