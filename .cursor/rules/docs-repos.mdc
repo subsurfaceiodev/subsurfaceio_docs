@@ -1,0 +1,10 @@
+---
+description: This site is generated with subsurfaceio_docs_builder from the subsurfaceio library
+alwaysApply: true
+---
+
+# Docs site
+
+Sibling of `subsurfaceio` (library) and `subsurfaceio_docs_builder` (generators). Full split and voice live in `subsurfaceio/.cursor/rules/docs-repos.mdc`.
+
+Do not hand-edit `docs/reference/**` or generated catalog pages. Authored pages: `docs/index.md`, `docs/features.md`, `docs/llms.txt`, `docs/.pages`, `mkdocs.yml`.
