@@ -5,8 +5,7 @@ description: Generated catalogs of parameters, function sequences, references, d
 
 # Catalog
 
-Generated indexes of library data. The [package reference](../reference/subsurfaceio/)
-documents the Python APIs that use these catalogs.
+Indexes of parameters, function sequences, references, datasets, and graphics.
 
 - [Function sequences](function_sequences.md) — named calculation pipelines
 - [Parameters](parameters.md) — named calculation parameters
