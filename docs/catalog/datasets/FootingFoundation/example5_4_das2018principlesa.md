@@ -1,6 +1,6 @@
 ---
 title: "example5_4_das2018principlesa"
-description: "Example dataset `FootingFoundation/example5_4_das2018principlesa.md`."
+description: "Example dataset `FootingFoundation/example5_4_das2018principlesa.json`."
 ---
 
 # example5_4_das2018principlesa

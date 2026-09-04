@@ -1,6 +1,6 @@
 ---
 title: "ETABS"
-description: "Example dataset `SoilStructureInteraction/ETABS.md`."
+description: "Example dataset `SoilStructureInteraction/ETABS.json`."
 ---
 
 # ETABS

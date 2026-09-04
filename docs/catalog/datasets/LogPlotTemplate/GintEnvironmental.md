@@ -1,6 +1,6 @@
 ---
 title: "GintEnvironmental"
-description: "Example dataset `LogPlotTemplate/GintEnvironmental.md`."
+description: "Example dataset `LogPlotTemplate/GintEnvironmental.json`."
 ---
 
 # GintEnvironmental

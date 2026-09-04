@@ -1,6 +1,6 @@
 ---
 title: "Sample"
-description: "Example dataset `PileFoundationSettlement/Sample.md`."
+description: "Example dataset `PileFoundationSettlement/Sample.json`."
 ---
 
 # Sample

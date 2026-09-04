@@ -1,6 +1,6 @@
 ---
 title: "CPT-1"
-description: "Example dataset `LogPlotData/CPT-1.md`."
+description: "Example dataset `LogPlotData/CPT-1.json`."
 ---
 
 # CPT-1

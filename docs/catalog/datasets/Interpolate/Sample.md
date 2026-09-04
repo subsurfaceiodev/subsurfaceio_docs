@@ -1,6 +1,6 @@
 ---
 title: "Sample"
-description: "Example dataset `Interpolate/Sample.md`."
+description: "Example dataset `Interpolate/Sample.json`."
 ---
 
 # Sample

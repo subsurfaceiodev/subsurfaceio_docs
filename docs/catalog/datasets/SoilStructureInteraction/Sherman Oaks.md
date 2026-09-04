@@ -1,6 +1,6 @@
 ---
 title: "Sherman Oaks"
-description: "Example dataset `SoilStructureInteraction/Sherman Oaks.md`."
+description: "Example dataset `SoilStructureInteraction/Sherman Oaks.json`."
 ---
 
 # Sherman Oaks

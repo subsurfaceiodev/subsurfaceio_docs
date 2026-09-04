@@ -1,6 +1,6 @@
 ---
 title: "Sample"
-description: "Example dataset `FootingFoundationAverageParameters/Sample.md`."
+description: "Example dataset `FootingFoundationAverageParameters/Sample.json`."
 ---
 
 # Sample

@@ -1,6 +1,6 @@
 ---
 title: "example7_3_coduto2015foundation"
-description: "Example dataset `FootingFoundation/example7_3_coduto2015foundation.md`."
+description: "Example dataset `FootingFoundation/example7_3_coduto2015foundation.json`."
 ---
 
 # example7_3_coduto2015foundation

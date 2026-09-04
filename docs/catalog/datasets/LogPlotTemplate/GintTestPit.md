@@ -1,6 +1,6 @@
 ---
 title: "GintTestPit"
-description: "Example dataset `LogPlotTemplate/GintTestPit.md`."
+description: "Example dataset `LogPlotTemplate/GintTestPit.json`."
 ---
 
 # GintTestPit

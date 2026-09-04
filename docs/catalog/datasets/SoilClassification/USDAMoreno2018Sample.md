@@ -1,6 +1,6 @@
 ---
 title: "USDAMoreno2018Sample"
-description: "Example dataset `SoilClassification/USDAMoreno2018Sample.md`."
+description: "Example dataset `SoilClassification/USDAMoreno2018Sample.json`."
 ---
 
 # USDAMoreno2018Sample

@@ -1,6 +1,6 @@
 ---
 title: "FEMA2020Example3_5_2"
-description: "Example dataset `SeismicSiteClassAveraging/FEMA2020Example3_5_2.md`."
+description: "Example dataset `SeismicSiteClassAveraging/FEMA2020Example3_5_2.json`."
 ---
 
 # FEMA2020Example3_5_2

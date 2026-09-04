@@ -1,6 +1,6 @@
 ---
 title: "TestPitPlots"
-description: "Example dataset `LogPlotTemplate/TestPitPlots.md`."
+description: "Example dataset `LogPlotTemplate/TestPitPlots.json`."
 ---
 
 # TestPitPlots

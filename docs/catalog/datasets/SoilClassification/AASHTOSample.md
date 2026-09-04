@@ -1,6 +1,6 @@
 ---
 title: "AASHTOSample"
-description: "Example dataset `SoilClassification/AASHTOSample.md`."
+description: "Example dataset `SoilClassification/AASHTOSample.json`."
 ---
 
 # AASHTOSample

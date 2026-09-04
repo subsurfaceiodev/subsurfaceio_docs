@@ -1,6 +1,6 @@
 ---
 title: "Borehole"
-description: "Example dataset `LogPlotTemplate/Borehole.md`."
+description: "Example dataset `LogPlotTemplate/Borehole.json`."
 ---
 
 # Borehole

@@ -1,6 +1,6 @@
 ---
 title: "GintBoreholePlots"
-description: "Example dataset `LogPlotTemplate/GintBoreholePlots.md`."
+description: "Example dataset `LogPlotTemplate/GintBoreholePlots.json`."
 ---
 
 # GintBoreholePlots

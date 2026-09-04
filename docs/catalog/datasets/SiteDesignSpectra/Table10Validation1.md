@@ -1,6 +1,6 @@
 ---
 title: "Table10Validation1"
-description: "Example dataset `SiteDesignSpectra/Table10Validation1.md`."
+description: "Example dataset `SiteDesignSpectra/Table10Validation1.json`."
 ---
 
 # Table10Validation1

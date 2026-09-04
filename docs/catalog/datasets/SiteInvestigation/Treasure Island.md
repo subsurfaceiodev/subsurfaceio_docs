@@ -1,6 +1,6 @@
 ---
 title: "Treasure Island"
-description: "Example dataset `SiteInvestigation/Treasure Island.md`."
+description: "Example dataset `SiteInvestigation/Treasure Island.json`."
 ---
 
 # Treasure Island
