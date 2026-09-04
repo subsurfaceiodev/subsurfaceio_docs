@@ -2,10 +2,10 @@
 
 Runnable examples demonstrating how to use the public API.
 
-- [In situ test interpretation CPT](in_situ_test_interpretation_cpt.md)
-- [In situ test interpretation DMT](in_situ_test_interpretation_dmt.md)
-- [Parametric calculation CPT](parametric_calculation_cpt.md)
-- [Parametric calculation DMT](parametric_calculation_dmt.md)
-- [Plot](plot.md)
-- [Site Investigation calculations](site_investigation_calculations.md)
-- [Calculate](soil_classification.md)
+- [cpt_interpretation.py](cpt_interpretation.md)
+- [cpt_liquefaction_parametric.py](cpt_liquefaction_parametric.md)
+- [dmt_interpretation.py](dmt_interpretation.md)
+- [dmt_liquefaction_parametric.py](dmt_liquefaction_parametric.md)
+- [geotech_plot.py](geotech_plot.md)
+- [site_investigation.py](site_investigation.md)
+- [soil_classification.py](soil_classification.md)
