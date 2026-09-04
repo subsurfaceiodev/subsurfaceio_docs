@@ -6,7 +6,7 @@ The Features page lists every public capability. This file is a map for agents.
 
 ## Docs
 
-- [Home](https://docs.subsurfaceio.app/): Usage and links
+- [Home](https://docs.subsurfaceio.app/): Links to the web app and API
 - [Features](https://docs.subsurfaceio.app/features/): Public capabilities
 - [Examples](https://docs.subsurfaceio.app/examples/api/): Runnable API scripts
 - [Catalog](https://docs.subsurfaceio.app/catalog/): Parameters, function sequences, references, datasets, graphics

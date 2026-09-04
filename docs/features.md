@@ -1,7 +1,7 @@
 # Features
 
 Public capabilities of the library, with links into the
-[package reference][subsurfaceio].
+[package reference](reference/subsurfaceio/).
 
 ## Site investigation
 
