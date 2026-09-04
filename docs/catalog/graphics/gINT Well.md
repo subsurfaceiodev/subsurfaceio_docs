@@ -1,4 +1,11 @@
+---
+title: "gINT Well"
+description: "Graphic symbols in the gINT Well category."
+---
 
+# gINT Well
+
+Graphic symbols in the gINT Well category.
 
 <style>
 .graphic-grid {

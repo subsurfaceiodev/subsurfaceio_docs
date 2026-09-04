@@ -1,3 +1,8 @@
+---
+title: "USCSSample"
+description: "Example dataset `SoilClassification/USCSSample.md`."
+---
+
 # USCSSample
 
 ```json

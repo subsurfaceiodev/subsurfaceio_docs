@@ -1,3 +1,11 @@
+---
+title: "References"
+description: "Bibliographic sources cited by calculation functions and models."
+---
+
+# References
+
+Bibliographic sources cited by calculation functions and models.
 
 ### `aashto1996standard`
 **title**: Standard specifications for highway bridges  

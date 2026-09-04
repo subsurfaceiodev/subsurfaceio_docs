@@ -1,3 +1,12 @@
+---
+title: "Reference figures"
+description: "Published geotechnical charts from the reference-figure catalog."
+---
+
+# Reference figures
+
+Published geotechnical charts from the reference-figure catalog.
+
 ### AASHTOPlasticityChart
 ![AASHTOPlasticityChart](reference-figures-images/AASHTOPlasticityChart.svg)
 ### AtterbergLimits

@@ -1,3 +1,8 @@
+---
+title: "GintCPT"
+description: "Example dataset `LogPlotTemplate/GintCPT.md`."
+---
+
 # GintCPT
 
 ```json

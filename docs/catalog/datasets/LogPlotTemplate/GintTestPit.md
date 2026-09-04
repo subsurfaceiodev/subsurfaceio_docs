@@ -1,3 +1,8 @@
+---
+title: "GintTestPit"
+description: "Example dataset `LogPlotTemplate/GintTestPit.md`."
+---
+
 # GintTestPit
 
 ```json

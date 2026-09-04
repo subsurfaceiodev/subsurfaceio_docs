@@ -1,3 +1,8 @@
+---
+title: "Table10Validation1"
+description: "Example dataset `SiteDesignSpectra/Table10Validation1.md`."
+---
+
 # Table10Validation1
 
 ```json

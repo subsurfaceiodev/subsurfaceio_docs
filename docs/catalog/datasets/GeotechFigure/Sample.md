@@ -1,3 +1,8 @@
+---
+title: "Sample"
+description: "Example dataset `GeotechFigure/Sample.md`."
+---
+
 # Sample
 
 ```json

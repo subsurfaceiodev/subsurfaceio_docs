@@ -1,3 +1,8 @@
+---
+title: "Borehole"
+description: "Example dataset `LogPlotTemplate/Borehole.md`."
+---
+
 # Borehole
 
 ```json

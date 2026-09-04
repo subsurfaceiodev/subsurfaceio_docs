@@ -1,4 +1,11 @@
+---
+title: "gINT Sampler"
+description: "Graphic symbols in the gINT Sampler category."
+---
 
+# gINT Sampler
+
+Graphic symbols in the gINT Sampler category.
 
 <style>
 .graphic-grid {

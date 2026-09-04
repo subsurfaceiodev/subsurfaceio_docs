@@ -1,3 +1,8 @@
+---
+title: "TestPit"
+description: "Example dataset `LogPlotTemplate/TestPit.md`."
+---
+
 # TestPit
 
 ```json

@@ -1,4 +1,11 @@
+---
+title: "Tiles"
+description: "Map and logplot tile graphics."
+---
 
+# Tiles
+
+Map and logplot tile graphics.
 
 <style>
 .graphic-grid {

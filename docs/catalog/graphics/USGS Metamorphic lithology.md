@@ -1,4 +1,11 @@
+---
+title: "USGS Metamorphic lithology"
+description: "Graphic symbols in the USGS Metamorphic lithology category."
+---
 
+# USGS Metamorphic lithology
+
+Graphic symbols in the USGS Metamorphic lithology category.
 
 <style>
 .graphic-grid {

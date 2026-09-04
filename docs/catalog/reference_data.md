@@ -1,3 +1,12 @@
+---
+title: "Reference data"
+description: "Tabular lookup datasets used by calculations and models."
+---
+
+# Reference data
+
+Tabular lookup datasets used by calculations and models.
+
 #### BSSSiteClass
 
 | site_class   | description                   | average_shear_velocity   | average_blow_count   | average_undrained_shear_strength   |

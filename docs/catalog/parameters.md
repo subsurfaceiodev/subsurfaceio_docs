@@ -1,3 +1,11 @@
+---
+title: "Parameters"
+description: "Named calculation parameters used across the library."
+---
+
+# Parameters
+
+Named calculation parameters used across the library.
 
 ### `a_parameter`
 **symbol**: $A$  

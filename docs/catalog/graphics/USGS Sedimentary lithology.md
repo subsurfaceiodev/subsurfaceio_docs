@@ -1,4 +1,11 @@
+---
+title: "USGS Sedimentary lithology"
+description: "Graphic symbols in the USGS Sedimentary lithology category."
+---
 
+# USGS Sedimentary lithology
+
+Graphic symbols in the USGS Sedimentary lithology category.
 
 <style>
 .graphic-grid {

@@ -1,3 +1,8 @@
+---
+title: "USDASample"
+description: "Example dataset `SoilClassification/USDASample.md`."
+---
+
 # USDASample
 
 ```json

@@ -1,3 +1,12 @@
+---
+title: "Function sequences"
+description: "Named calculation pipelines and the functions each recipe calls."
+---
+
+# Function sequences
+
+Named calculation pipelines and the functions each recipe calls.
+
 ### AtterbergLimits
 `functions`
 

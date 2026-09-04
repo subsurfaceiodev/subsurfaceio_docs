@@ -1,4 +1,11 @@
+---
+title: "gINT Material"
+description: "Graphic symbols in the gINT Material category."
+---
 
+# gINT Material
+
+Graphic symbols in the gINT Material category.
 
 <style>
 .graphic-grid {

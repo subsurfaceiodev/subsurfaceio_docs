@@ -38,6 +38,7 @@ jobs:
       - name: Deploy
         run: |
           zensical build --clean
+          cp docs/llms.txt site/llms.txt
 
       - uses: actions/upload-pages-artifact@v5
         with:

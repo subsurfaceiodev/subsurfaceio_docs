@@ -1,3 +1,8 @@
+---
+title: "TP-1"
+description: "Example dataset `LogPlotData/TP-1.md`."
+---
+
 # TP-1
 
 ```json
