@@ -14,4 +14,6 @@ engineering parameters automatically
 
 **Interactive API documentation**: [https://www.subsurfaceio.app/docs](https://www.subsurfaceio.app/docs){:target="_blank"}
 
+**Examples**: [examples/api/](examples/api/)
+
 ---
