@@ -195,6 +195,13 @@
 **link**: [https://doi.org/10.1016/j.mex.2018.11.016](https://doi.org/10.1016/j.mex.2018.11.016){:target="_blank"}
     
 
+### `cgs1992canadian`
+**title**: Canadian foundation engineering manual  
+**author**: Canadian Geotechnical Society  
+**year**: 1992  
+**link**: [https://isbnsearch.org/isbn/9780920505090](https://isbnsearch.org/isbn/9780920505090){:target="_blank"}
+    
+
 ### `chapuis2004predicting`
 **title**: Predicting the saturated hydraulic conductivity of sand and gravel using effective diameter and void ratio  
 **author**: Chapuis, Robert P  
