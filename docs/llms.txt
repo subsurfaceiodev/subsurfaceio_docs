@@ -2,11 +2,12 @@
 
 > SubSurface.io is multipurpose software that automatically estimates geotechnical, structural, and earthquake engineering parameters.
 
-The docs homepage lists every public capability. This file is a map for agents.
+The Features page lists every public capability. This file is a map for agents.
 
 ## Docs
 
-- [Home](https://docs.subsurfaceio.app/): Features, usage, and links
+- [Home](https://docs.subsurfaceio.app/): Usage and links
+- [Features](https://docs.subsurfaceio.app/features/): Public capabilities
 - [Examples](https://docs.subsurfaceio.app/examples/api/): Runnable API scripts
 - [Catalog](https://docs.subsurfaceio.app/catalog/): Parameters, function sequences, references, datasets, graphics
 - [Function sequences](https://docs.subsurfaceio.app/catalog/function_sequences/): Named calculation recipes
