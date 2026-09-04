@@ -8,8 +8,11 @@ in-situ tests, laboratory specimens, and field strata.
 - [In-situ tests](reference/subsurfaceio/site_investigation/in_situ_tests/):
   CPT, DMT, borehole / SPT, IST, UDT.
 - Interpretation of CPT (Robertson), DMT (Marchetti), and SPT.
-- Liquefaction triggering and related effects (shear-induced building
-  settlement).
+- Liquefaction triggering:
+  - CPT: Robertson, Idriss 2008, Boulanger 2014, Saye 2021.
+  - DMT: Marchetti.
+  - SPT: Cetin 2004, Idriss 2008, Boulanger 2014, Cetin 2018.
+- Shear-induced building settlement from liquefaction (Bray 2017).
 - Shallow-foundation settlements and capacity, and pile capacity, from in-situ
   data.
 - [Laboratory](reference/subsurfaceio/site_investigation/laboratory/) on

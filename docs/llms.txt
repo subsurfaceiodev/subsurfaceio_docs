@@ -14,7 +14,7 @@ The Features page lists every public capability. This file is a map for agents.
 - [Parameters](https://docs.subsurfaceio.app/catalog/parameters/): Named calculation parameters
 - [References](https://docs.subsurfaceio.app/catalog/references/): Bibliographic sources
 - [Package reference](https://docs.subsurfaceio.app/reference/subsurfaceio/): Python API
-- [Site investigation](https://docs.subsurfaceio.app/reference/subsurfaceio/site_investigation/): CPT, DMT, SPT, lab, plots, reports, and export
+- [Site investigation](https://docs.subsurfaceio.app/reference/subsurfaceio/site_investigation/): CPT, DMT, SPT interpretation and liquefaction methods, lab, plots, reports, and export
 
 ## Optional
 
