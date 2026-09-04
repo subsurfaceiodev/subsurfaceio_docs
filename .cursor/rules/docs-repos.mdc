@@ -1,10 +1,10 @@
 ---
-description: This site is generated with subsurfaceio_docs_builder from the subsurfaceio library
+description: Sibling of subsurfaceio (library) and subsurfaceio_docs_builder (generators); also subsurfaceio-server
 alwaysApply: true
 ---
 
 # Docs site
 
-Sibling of `subsurfaceio` (library) and `subsurfaceio_docs_builder` (generators). Full split and voice live in `subsurfaceio/.cursor/rules/docs-repos.mdc`.
+Sibling of `subsurfaceio` (library), `subsurfaceio_docs_builder` (generators), and `subsurfaceio-server` (FastAPI + Dash). Full split and voice live in `subsurfaceio/.cursor/rules/docs-repos.mdc`.
 
 Do not hand-edit `docs/reference/**` or generated catalog pages. Authored pages: `docs/index.md`, `docs/features.md`, `docs/llms.txt`, `docs/.pages`, `mkdocs.yml`.
