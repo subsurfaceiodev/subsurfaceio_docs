@@ -11208,3298 +11208,3298 @@
       "data": [
         {
           "depth": 0.75,
-          "raw_a_reading": 304.8996276,
-          "raw_b_reading": 1382.54295
+          "raw_a_reading": 304.9,
+          "raw_b_reading": 1382.5
         },
         {
           "depth": 0.8,
-          "raw_a_reading": 307.5510959,
-          "raw_b_reading": 1372.493013
+          "raw_a_reading": 307.6,
+          "raw_b_reading": 1372.5
         },
         {
           "depth": 0.85,
-          "raw_a_reading": 310.202564,
-          "raw_b_reading": 1362.443075
+          "raw_a_reading": 310.2,
+          "raw_b_reading": 1362.4
         },
         {
           "depth": 0.9,
-          "raw_a_reading": 312.8540322,
-          "raw_b_reading": 1352.393138
+          "raw_a_reading": 312.9,
+          "raw_b_reading": 1352.4
         },
         {
           "depth": 0.95,
-          "raw_a_reading": 315.4073674,
-          "raw_b_reading": 1342.3432
+          "raw_a_reading": 315.4,
+          "raw_b_reading": 1342.3
         },
         {
           "depth": 1.0,
-          "raw_a_reading": 317.8135032,
-          "raw_b_reading": 1332.293263
+          "raw_a_reading": 317.8,
+          "raw_b_reading": 1332.3
         },
         {
           "depth": 1.05,
-          "raw_a_reading": 320.2196388,
-          "raw_b_reading": 1322.243325
+          "raw_a_reading": 320.2,
+          "raw_b_reading": 1322.2
         },
         {
           "depth": 1.1,
-          "raw_a_reading": 322.6257746,
-          "raw_b_reading": 1312.193388
+          "raw_a_reading": 322.6,
+          "raw_b_reading": 1312.2
         },
         {
           "depth": 1.15,
-          "raw_a_reading": 325.0319103,
-          "raw_b_reading": 1302.14345
+          "raw_a_reading": 325.0,
+          "raw_b_reading": 1302.1
         },
         {
           "depth": 1.2,
-          "raw_a_reading": 327.438046,
-          "raw_b_reading": 1292.093513
+          "raw_a_reading": 327.4,
+          "raw_b_reading": 1292.1
         },
         {
           "depth": 1.25,
-          "raw_a_reading": 329.8441818,
-          "raw_b_reading": 1282.043575
+          "raw_a_reading": 329.8,
+          "raw_b_reading": 1282.0
         },
         {
           "depth": 1.3,
-          "raw_a_reading": 332.1933259,
-          "raw_b_reading": 1271.993638
+          "raw_a_reading": 332.2,
+          "raw_b_reading": 1272.0
         },
         {
           "depth": 1.35,
-          "raw_a_reading": 334.5282222,
-          "raw_b_reading": 1261.9437
+          "raw_a_reading": 334.5,
+          "raw_b_reading": 1261.9
         },
         {
           "depth": 1.4,
-          "raw_a_reading": 336.8631184,
-          "raw_b_reading": 1251.893763
+          "raw_a_reading": 336.9,
+          "raw_b_reading": 1251.9
         },
         {
           "depth": 1.45,
-          "raw_a_reading": 339.1980146,
-          "raw_b_reading": 1241.843825
+          "raw_a_reading": 339.2,
+          "raw_b_reading": 1241.8
         },
         {
           "depth": 1.5,
-          "raw_a_reading": 341.532911,
-          "raw_b_reading": 1231.793888
+          "raw_a_reading": 341.5,
+          "raw_b_reading": 1231.8
         },
         {
           "depth": 1.55,
-          "raw_a_reading": 343.8678071,
-          "raw_b_reading": 1221.74395
+          "raw_a_reading": 343.9,
+          "raw_b_reading": 1221.7
         },
         {
           "depth": 1.6,
-          "raw_a_reading": 348.9133174,
-          "raw_b_reading": 1213.533
+          "raw_a_reading": 348.9,
+          "raw_b_reading": 1213.5
         },
         {
           "depth": 1.65,
-          "raw_a_reading": 354.3091111,
-          "raw_b_reading": 1212.678
+          "raw_a_reading": 354.3,
+          "raw_b_reading": 1212.7
         },
         {
           "depth": 1.7,
-          "raw_a_reading": 359.844254,
-          "raw_b_reading": 1214.749333
+          "raw_a_reading": 359.8,
+          "raw_b_reading": 1214.7
         },
         {
           "depth": 1.75,
-          "raw_a_reading": 362.6286032,
-          "raw_b_reading": 1216.820667
+          "raw_a_reading": 362.6,
+          "raw_b_reading": 1216.8
         },
         {
           "depth": 1.8,
-          "raw_a_reading": 365.4129524,
-          "raw_b_reading": 1218.892
+          "raw_a_reading": 365.4,
+          "raw_b_reading": 1218.9
         },
         {
           "depth": 1.85,
-          "raw_a_reading": 368.048645,
-          "raw_b_reading": 1217.841545
+          "raw_a_reading": 368.0,
+          "raw_b_reading": 1217.8
         },
         {
           "depth": 1.9,
-          "raw_a_reading": 366.4224329,
-          "raw_b_reading": 1216.791091
+          "raw_a_reading": 366.4,
+          "raw_b_reading": 1216.8
         },
         {
           "depth": 1.95,
-          "raw_a_reading": 364.6943333,
-          "raw_b_reading": 1213.601
+          "raw_a_reading": 364.7,
+          "raw_b_reading": 1213.6
         },
         {
           "depth": 2.0,
-          "raw_a_reading": 362.9407619,
-          "raw_b_reading": 1209.876
+          "raw_a_reading": 362.9,
+          "raw_b_reading": 1209.9
         },
         {
           "depth": 2.05,
-          "raw_a_reading": 356.4578219,
-          "raw_b_reading": 1181.475
+          "raw_a_reading": 356.5,
+          "raw_b_reading": 1181.5
         },
         {
           "depth": 2.1,
-          "raw_a_reading": 349.920194,
-          "raw_b_reading": 1151.925556
+          "raw_a_reading": 349.9,
+          "raw_b_reading": 1151.9
         },
         {
           "depth": 2.15,
-          "raw_a_reading": 343.1844537,
-          "raw_b_reading": 1118.21575
+          "raw_a_reading": 343.2,
+          "raw_b_reading": 1118.2
         },
         {
           "depth": 2.2,
-          "raw_a_reading": 336.2803351,
-          "raw_b_reading": 1080.97
+          "raw_a_reading": 336.3,
+          "raw_b_reading": 1081.0
         },
         {
           "depth": 2.25,
-          "raw_a_reading": 330.3123236,
-          "raw_b_reading": 1063.3825
+          "raw_a_reading": 330.3,
+          "raw_b_reading": 1063.4
         },
         {
           "depth": 2.3,
-          "raw_a_reading": 324.0703439,
-          "raw_b_reading": 1045.795
+          "raw_a_reading": 324.1,
+          "raw_b_reading": 1045.8
         },
         {
           "depth": 2.35,
-          "raw_a_reading": 317.6463751,
-          "raw_b_reading": 1028.221286
+          "raw_a_reading": 317.6,
+          "raw_b_reading": 1028.2
         },
         {
           "depth": 2.4,
-          "raw_a_reading": 311.2250322,
-          "raw_b_reading": 1010.702714
+          "raw_a_reading": 311.2,
+          "raw_b_reading": 1010.7
         },
         {
           "depth": 2.45,
-          "raw_a_reading": 304.8036894,
-          "raw_b_reading": 993.1841429
+          "raw_a_reading": 304.8,
+          "raw_b_reading": 993.2
         },
         {
           "depth": 2.5,
-          "raw_a_reading": 297.8635573,
-          "raw_b_reading": 964.771
+          "raw_a_reading": 297.9,
+          "raw_b_reading": 964.8
         },
         {
           "depth": 2.55,
-          "raw_a_reading": 291.1429363,
-          "raw_b_reading": 940.8930909
+          "raw_a_reading": 291.1,
+          "raw_b_reading": 940.9
         },
         {
           "depth": 2.6,
-          "raw_a_reading": 284.685042,
-          "raw_b_reading": 922.2344545
+          "raw_a_reading": 284.7,
+          "raw_b_reading": 922.2
         },
         {
           "depth": 2.65,
-          "raw_a_reading": 278.1037374,
-          "raw_b_reading": 900.9842
+          "raw_a_reading": 278.1,
+          "raw_b_reading": 901.0
         },
         {
           "depth": 2.7,
-          "raw_a_reading": 271.5065565,
-          "raw_b_reading": 879.4005455
+          "raw_a_reading": 271.5,
+          "raw_b_reading": 879.4
         },
         {
           "depth": 2.75,
-          "raw_a_reading": 264.9536407,
-          "raw_b_reading": 858.7464545
+          "raw_a_reading": 265.0,
+          "raw_b_reading": 858.7
         },
         {
           "depth": 2.8,
-          "raw_a_reading": 260.8192579,
-          "raw_b_reading": 842.7633043
+          "raw_a_reading": 260.8,
+          "raw_b_reading": 842.8
         },
         {
           "depth": 2.85,
-          "raw_a_reading": 257.0185137,
-          "raw_b_reading": 833.7865652
+          "raw_a_reading": 257.0,
+          "raw_b_reading": 833.8
         },
         {
           "depth": 2.9,
-          "raw_a_reading": 253.2177695,
-          "raw_b_reading": 824.8098261
+          "raw_a_reading": 253.2,
+          "raw_b_reading": 824.8
         },
         {
           "depth": 2.95,
-          "raw_a_reading": 249.550394,
-          "raw_b_reading": 815.833087
+          "raw_a_reading": 249.6,
+          "raw_b_reading": 815.8
         },
         {
           "depth": 3.0,
-          "raw_a_reading": 246.0830712,
-          "raw_b_reading": 806.8563478
+          "raw_a_reading": 246.1,
+          "raw_b_reading": 806.9
         },
         {
           "depth": 3.05,
-          "raw_a_reading": 242.7021387,
-          "raw_b_reading": 799.6938
+          "raw_a_reading": 242.7,
+          "raw_b_reading": 799.7
         },
         {
           "depth": 3.1,
-          "raw_a_reading": 239.3428035,
-          "raw_b_reading": 792.9848
+          "raw_a_reading": 239.3,
+          "raw_b_reading": 793.0
         },
         {
           "depth": 3.15,
-          "raw_a_reading": 235.9834685,
-          "raw_b_reading": 786.2758
+          "raw_a_reading": 236.0,
+          "raw_b_reading": 786.3
         },
         {
           "depth": 3.2,
-          "raw_a_reading": 232.6241333,
-          "raw_b_reading": 779.5668
+          "raw_a_reading": 232.6,
+          "raw_b_reading": 779.6
         },
         {
           "depth": 3.25,
-          "raw_a_reading": 230.4294021,
-          "raw_b_reading": 763.9974444
+          "raw_a_reading": 230.4,
+          "raw_b_reading": 764.0
         },
         {
           "depth": 3.3,
-          "raw_a_reading": 228.1291905,
-          "raw_b_reading": 746.213
+          "raw_a_reading": 228.1,
+          "raw_b_reading": 746.2
         },
         {
           "depth": 3.35,
-          "raw_a_reading": 225.8952381,
-          "raw_b_reading": 729.82
+          "raw_a_reading": 225.9,
+          "raw_b_reading": 729.8
         },
         {
           "depth": 3.4,
-          "raw_a_reading": 223.6612857,
-          "raw_b_reading": 713.427
+          "raw_a_reading": 223.7,
+          "raw_b_reading": 713.4
         },
         {
           "depth": 3.45,
-          "raw_a_reading": 235.6139841,
-          "raw_b_reading": 751.9536667
+          "raw_a_reading": 235.6,
+          "raw_b_reading": 752.0
         },
         {
           "depth": 3.5,
-          "raw_a_reading": 247.9926667,
-          "raw_b_reading": 819.576
+          "raw_a_reading": 248.0,
+          "raw_b_reading": 819.6
         },
         {
           "depth": 3.55,
-          "raw_a_reading": 260.4447333,
-          "raw_b_reading": 888.7394
+          "raw_a_reading": 260.4,
+          "raw_b_reading": 888.7
         },
         {
           "depth": 3.6,
-          "raw_a_reading": 276.5621095,
-          "raw_b_reading": 933.9643
+          "raw_a_reading": 276.6,
+          "raw_b_reading": 934.0
         },
         {
           "depth": 3.65,
-          "raw_a_reading": 273.5105143,
-          "raw_b_reading": 913.1808
+          "raw_a_reading": 273.5,
+          "raw_b_reading": 913.2
         },
         {
           "depth": 3.7,
-          "raw_a_reading": 270.4191587,
-          "raw_b_reading": 891.5623333
+          "raw_a_reading": 270.4,
+          "raw_b_reading": 891.6
         },
         {
           "depth": 3.75,
-          "raw_a_reading": 268.8366984,
-          "raw_b_reading": 866.604
+          "raw_a_reading": 268.8,
+          "raw_b_reading": 866.6
         },
         {
           "depth": 3.8,
-          "raw_a_reading": 266.8689683,
-          "raw_b_reading": 833.555
+          "raw_a_reading": 266.9,
+          "raw_b_reading": 833.6
         },
         {
           "depth": 3.85,
-          "raw_a_reading": 264.2309643,
-          "raw_b_reading": 786.43025
+          "raw_a_reading": 264.2,
+          "raw_b_reading": 786.4
         },
         {
           "depth": 3.9,
-          "raw_a_reading": 262.8429842,
-          "raw_b_reading": 706.5093333
+          "raw_a_reading": 262.8,
+          "raw_b_reading": 706.5
         },
         {
           "depth": 3.95,
-          "raw_a_reading": 261.6504889,
-          "raw_b_reading": 630.6936
+          "raw_a_reading": 261.7,
+          "raw_b_reading": 630.7
         },
         {
           "depth": 4.0,
-          "raw_a_reading": 257.275619,
-          "raw_b_reading": 488.048
+          "raw_a_reading": 257.3,
+          "raw_b_reading": 488.0
         },
         {
           "depth": 4.05,
-          "raw_a_reading": 252.3484437,
-          "raw_b_reading": 536.7955
+          "raw_a_reading": 252.3,
+          "raw_b_reading": 536.8
         },
         {
           "depth": 4.1,
-          "raw_a_reading": 248.181697,
-          "raw_b_reading": 601.512
+          "raw_a_reading": 248.2,
+          "raw_b_reading": 601.5
         },
         {
           "depth": 4.15,
-          "raw_a_reading": 244.4986137,
-          "raw_b_reading": 679.162
+          "raw_a_reading": 244.5,
+          "raw_b_reading": 679.2
         },
         {
           "depth": 4.2,
-          "raw_a_reading": 241.8934286,
-          "raw_b_reading": 780.142
+          "raw_a_reading": 241.9,
+          "raw_b_reading": 780.1
         },
         {
           "depth": 4.25,
-          "raw_a_reading": 237.0248571,
-          "raw_b_reading": 773.692
+          "raw_a_reading": 237.0,
+          "raw_b_reading": 773.7
         },
         {
           "depth": 4.3,
-          "raw_a_reading": 232.1118168,
-          "raw_b_reading": 766.3081538
+          "raw_a_reading": 232.1,
+          "raw_b_reading": 766.3
         },
         {
           "depth": 4.35,
-          "raw_a_reading": 230.420663,
-          "raw_b_reading": 755.1889231
+          "raw_a_reading": 230.4,
+          "raw_b_reading": 755.2
         },
         {
           "depth": 4.4,
-          "raw_a_reading": 228.7295092,
-          "raw_b_reading": 744.0696923
+          "raw_a_reading": 228.7,
+          "raw_b_reading": 744.1
         },
         {
           "depth": 4.45,
-          "raw_a_reading": 225.9174226,
-          "raw_b_reading": 709.410875
+          "raw_a_reading": 225.9,
+          "raw_b_reading": 709.4
         },
         {
           "depth": 4.5,
-          "raw_a_reading": 222.3580476,
-          "raw_b_reading": 659.059
+          "raw_a_reading": 222.4,
+          "raw_b_reading": 659.1
         },
         {
           "depth": 4.55,
-          "raw_a_reading": 221.0597619,
-          "raw_b_reading": 598.635
+          "raw_a_reading": 221.1,
+          "raw_b_reading": 598.6
         },
         {
           "depth": 4.6,
-          "raw_a_reading": 219.4540952,
-          "raw_b_reading": 531.756
+          "raw_a_reading": 219.5,
+          "raw_b_reading": 531.8
         },
         {
           "depth": 4.65,
-          "raw_a_reading": 226.1372593,
-          "raw_b_reading": 580.1104444
+          "raw_a_reading": 226.1,
+          "raw_b_reading": 580.1
         },
         {
           "depth": 4.7,
-          "raw_a_reading": 232.9912143,
-          "raw_b_reading": 632.0515
+          "raw_a_reading": 233.0,
+          "raw_b_reading": 632.1
         },
         {
           "depth": 4.75,
-          "raw_a_reading": 240.5283333,
-          "raw_b_reading": 698.339
+          "raw_a_reading": 240.5,
+          "raw_b_reading": 698.3
         },
         {
           "depth": 4.8,
-          "raw_a_reading": 249.3854286,
-          "raw_b_reading": 792.346
+          "raw_a_reading": 249.4,
+          "raw_b_reading": 792.3
         },
         {
           "depth": 4.85,
-          "raw_a_reading": 255.3690159,
-          "raw_b_reading": 826.0093333
+          "raw_a_reading": 255.4,
+          "raw_b_reading": 826.0
         },
         {
           "depth": 4.9,
-          "raw_a_reading": 255.8171376,
-          "raw_b_reading": 833.0448889
+          "raw_a_reading": 255.8,
+          "raw_b_reading": 833.0
         },
         {
           "depth": 4.95,
-          "raw_a_reading": 256.2652593,
-          "raw_b_reading": 840.0804444
+          "raw_a_reading": 256.3,
+          "raw_b_reading": 840.1
         },
         {
           "depth": 5.0,
-          "raw_a_reading": 256.713381,
-          "raw_b_reading": 847.116
+          "raw_a_reading": 256.7,
+          "raw_b_reading": 847.1
         },
         {
           "depth": 5.05,
-          "raw_a_reading": 255.3834185,
-          "raw_b_reading": 816.8117895
+          "raw_a_reading": 255.4,
+          "raw_b_reading": 816.8
         },
         {
           "depth": 5.1,
-          "raw_a_reading": 248.034964,
-          "raw_b_reading": 786.5075789
+          "raw_a_reading": 248.0,
+          "raw_b_reading": 786.5
         },
         {
           "depth": 5.15,
-          "raw_a_reading": 240.6865096,
-          "raw_b_reading": 756.2033684
+          "raw_a_reading": 240.7,
+          "raw_b_reading": 756.2
         },
         {
           "depth": 5.2,
-          "raw_a_reading": 233.1741714,
-          "raw_b_reading": 722.4576
+          "raw_a_reading": 233.2,
+          "raw_b_reading": 722.5
         },
         {
           "depth": 5.25,
-          "raw_a_reading": 222.1517546,
-          "raw_b_reading": 667.233
+          "raw_a_reading": 222.2,
+          "raw_b_reading": 667.2
         },
         {
           "depth": 5.3,
-          "raw_a_reading": 209.7216996,
-          "raw_b_reading": 582.448
+          "raw_a_reading": 209.7,
+          "raw_b_reading": 582.4
         },
         {
           "depth": 5.35,
-          "raw_a_reading": 194.8125969,
-          "raw_b_reading": 468.9812
+          "raw_a_reading": 194.8,
+          "raw_b_reading": 469.0
         },
         {
           "depth": 5.4,
-          "raw_a_reading": 179.6268809,
-          "raw_b_reading": 384.7728333
+          "raw_a_reading": 179.6,
+          "raw_b_reading": 384.8
         },
         {
           "depth": 5.45,
-          "raw_a_reading": 165.2231905,
-          "raw_b_reading": 316.987
+          "raw_a_reading": 165.2,
+          "raw_b_reading": 317.0
         },
         {
           "depth": 5.5,
-          "raw_a_reading": 178.2494326,
-          "raw_b_reading": 422.22975
+          "raw_a_reading": 178.2,
+          "raw_b_reading": 422.2
         },
         {
           "depth": 5.55,
-          "raw_a_reading": 191.4477143,
-          "raw_b_reading": 531.0853333
+          "raw_a_reading": 191.4,
+          "raw_b_reading": 531.1
         },
         {
           "depth": 5.6,
-          "raw_a_reading": 205.7040238,
-          "raw_b_reading": 628.707
+          "raw_a_reading": 205.7,
+          "raw_b_reading": 628.7
         },
         {
           "depth": 5.65,
-          "raw_a_reading": 220.1615238,
-          "raw_b_reading": 708.252
+          "raw_a_reading": 220.2,
+          "raw_b_reading": 708.3
         },
         {
           "depth": 5.7,
-          "raw_a_reading": 212.4377333,
-          "raw_b_reading": 626.6524
+          "raw_a_reading": 212.4,
+          "raw_b_reading": 626.7
         },
         {
           "depth": 5.75,
-          "raw_a_reading": 204.4987262,
-          "raw_b_reading": 540.53325
+          "raw_a_reading": 204.5,
+          "raw_b_reading": 540.5
         },
         {
           "depth": 5.8,
-          "raw_a_reading": 196.7160748,
-          "raw_b_reading": 457.6975714,
-          "raw_c_reading": 5.78209459
+          "raw_a_reading": 196.7,
+          "raw_b_reading": 457.7,
+          "raw_c_reading": 5.8
         },
         {
           "depth": 5.85,
-          "raw_a_reading": 190.164,
-          "raw_b_reading": 400.704,
-          "raw_c_reading": 8.91756757
+          "raw_a_reading": 190.2,
+          "raw_b_reading": 400.7,
+          "raw_c_reading": 8.9
         },
         {
           "depth": 5.9,
-          "raw_a_reading": 192.7898276,
-          "raw_b_reading": 457.3397143,
-          "raw_c_reading": 12.05304054
+          "raw_a_reading": 192.8,
+          "raw_b_reading": 457.3,
+          "raw_c_reading": 12.1
         },
         {
           "depth": 5.95,
-          "raw_a_reading": 196.4169921,
-          "raw_b_reading": 535.0035,
-          "raw_c_reading": 15.18851351
+          "raw_a_reading": 196.4,
+          "raw_b_reading": 535.0,
+          "raw_c_reading": 15.2
         },
         {
           "depth": 6.0,
-          "raw_a_reading": 198.7714497,
-          "raw_b_reading": 585.9404444,
-          "raw_c_reading": 18.32398649
+          "raw_a_reading": 198.8,
+          "raw_b_reading": 585.9,
+          "raw_c_reading": 18.3
         },
         {
           "depth": 6.05,
-          "raw_a_reading": 205.9081429,
-          "raw_b_reading": 626.691,
-          "raw_c_reading": 21.45945946
+          "raw_a_reading": 205.9,
+          "raw_b_reading": 626.7,
+          "raw_c_reading": 21.5
         },
         {
           "depth": 6.1,
-          "raw_a_reading": 212.4204048,
-          "raw_b_reading": 654.3285,
-          "raw_c_reading": 23.74904587
+          "raw_a_reading": 212.4,
+          "raw_b_reading": 654.3,
+          "raw_c_reading": 23.7
         },
         {
           "depth": 6.15,
-          "raw_a_reading": 223.3720317,
-          "raw_b_reading": 681.966,
-          "raw_c_reading": 23.86349541
+          "raw_a_reading": 223.4,
+          "raw_b_reading": 682.0,
+          "raw_c_reading": 23.9
         },
         {
           "depth": 6.2,
-          "raw_a_reading": 234.1966085,
-          "raw_b_reading": 706.9354444,
-          "raw_c_reading": 23.97794495
+          "raw_a_reading": 234.2,
+          "raw_b_reading": 706.9,
+          "raw_c_reading": 24.0
         },
         {
           "depth": 6.25,
-          "raw_a_reading": 245.2097381,
-          "raw_b_reading": 735.8645,
-          "raw_c_reading": 24.0923945
+          "raw_a_reading": 245.2,
+          "raw_b_reading": 735.9,
+          "raw_c_reading": 24.1
         },
         {
           "depth": 6.3,
-          "raw_a_reading": 266.9547513,
-          "raw_b_reading": 780.632,
-          "raw_c_reading": 24.20684404
+          "raw_a_reading": 267.0,
+          "raw_b_reading": 780.6,
+          "raw_c_reading": 24.2
         },
         {
           "depth": 6.35,
-          "raw_a_reading": 289.4405675,
-          "raw_b_reading": 858.1106667,
-          "raw_c_reading": 24.32129358
+          "raw_a_reading": 289.4,
+          "raw_b_reading": 858.1,
+          "raw_c_reading": 24.3
         },
         {
           "depth": 6.4,
-          "raw_a_reading": 308.5297857,
-          "raw_b_reading": 932.878,
-          "raw_c_reading": 24.43574312
+          "raw_a_reading": 308.5,
+          "raw_b_reading": 932.9,
+          "raw_c_reading": 24.4
         },
         {
           "depth": 6.45,
-          "raw_a_reading": 326.8198452,
-          "raw_b_reading": 990.863,
-          "raw_c_reading": 24.55019266
+          "raw_a_reading": 326.8,
+          "raw_b_reading": 990.9,
+          "raw_c_reading": 24.6
         },
         {
           "depth": 6.5,
-          "raw_a_reading": 340.1002109,
-          "raw_b_reading": 943.6444286,
-          "raw_c_reading": 24.6646422
+          "raw_a_reading": 340.1,
+          "raw_b_reading": 943.6,
+          "raw_c_reading": 24.7
         },
         {
           "depth": 6.55,
-          "raw_a_reading": 323.9292698,
-          "raw_b_reading": 900.8296667,
-          "raw_c_reading": 26.01908802
+          "raw_a_reading": 323.9,
+          "raw_b_reading": 900.8,
+          "raw_c_reading": 26.0
         },
         {
           "depth": 6.6,
-          "raw_a_reading": 307.8981323,
-          "raw_b_reading": 860.9507778,
-          "raw_c_reading": 28.34781663
+          "raw_a_reading": 307.9,
+          "raw_b_reading": 861.0,
+          "raw_c_reading": 28.3
         },
         {
           "depth": 6.65,
-          "raw_a_reading": 291.8333619,
-          "raw_b_reading": 810.4206,
-          "raw_c_reading": 30.67654523
+          "raw_a_reading": 291.8,
+          "raw_b_reading": 810.4,
+          "raw_c_reading": 30.7
         },
         {
           "depth": 6.7,
-          "raw_a_reading": 277.0942424,
-          "raw_b_reading": 781.0990909,
-          "raw_c_reading": 33.00527384
+          "raw_a_reading": 277.1,
+          "raw_b_reading": 781.1,
+          "raw_c_reading": 33.0
         },
         {
           "depth": 6.75,
-          "raw_a_reading": 262.5120346,
-          "raw_b_reading": 757.7454545,
-          "raw_c_reading": 35.33400244
+          "raw_a_reading": 262.5,
+          "raw_b_reading": 757.7,
+          "raw_c_reading": 35.3
         },
         {
           "depth": 6.8,
-          "raw_a_reading": 247.1725541,
-          "raw_b_reading": 729.18,
-          "raw_c_reading": 37.66273105
+          "raw_a_reading": 247.2,
+          "raw_b_reading": 729.2,
+          "raw_c_reading": 37.7
         },
         {
           "depth": 6.85,
-          "raw_a_reading": 231.667619,
-          "raw_b_reading": 697.14,
-          "raw_c_reading": 39.99145966
+          "raw_a_reading": 231.7,
+          "raw_b_reading": 697.1,
+          "raw_c_reading": 40.0
         },
         {
           "depth": 6.9,
-          "raw_a_reading": 229.6572063,
-          "raw_b_reading": 657.8324444,
-          "raw_c_reading": 42.32018826
+          "raw_a_reading": 229.7,
+          "raw_b_reading": 657.8,
+          "raw_c_reading": 42.3
         },
         {
           "depth": 6.95,
-          "raw_a_reading": 227.1276826,
-          "raw_b_reading": 607.6235556,
-          "raw_c_reading": 46.49904128
+          "raw_a_reading": 227.1,
+          "raw_b_reading": 607.6,
+          "raw_c_reading": 46.5
         },
         {
           "depth": 7.0,
-          "raw_a_reading": 224.6032698,
-          "raw_b_reading": 557.522,
-          "raw_c_reading": 53.69651835
+          "raw_a_reading": 224.6,
+          "raw_b_reading": 557.5,
+          "raw_c_reading": 53.7
         },
         {
           "depth": 7.05,
-          "raw_a_reading": 222.0684374,
-          "raw_b_reading": 507.492,
-          "raw_c_reading": 60.89399541
+          "raw_a_reading": 222.1,
+          "raw_b_reading": 507.5,
+          "raw_c_reading": 60.9
         },
         {
           "depth": 7.1,
-          "raw_a_reading": 220.1246737,
-          "raw_b_reading": 470.31,
-          "raw_c_reading": 68.09147248
+          "raw_a_reading": 220.1,
+          "raw_b_reading": 470.3,
+          "raw_c_reading": 68.1
         },
         {
           "depth": 7.15,
-          "raw_a_reading": 218.5580688,
-          "raw_b_reading": 441.0483333,
-          "raw_c_reading": 75.39663971
+          "raw_a_reading": 218.6,
+          "raw_b_reading": 441.0,
+          "raw_c_reading": 75.4
         },
         {
           "depth": 7.2,
-          "raw_a_reading": 217.0242469,
-          "raw_b_reading": 412.4751111,
-          "raw_c_reading": 87.978625
+          "raw_a_reading": 217.0,
+          "raw_b_reading": 412.5,
+          "raw_c_reading": 88.0
         },
         {
           "depth": 7.25,
-          "raw_a_reading": 215.6215574,
-          "raw_b_reading": 386.6556667,
-          "raw_c_reading": 100.5606103
+          "raw_a_reading": 215.6,
+          "raw_b_reading": 386.7,
+          "raw_c_reading": 100.6
         },
         {
           "depth": 7.3,
-          "raw_a_reading": 214.6393333,
-          "raw_b_reading": 369.666,
-          "raw_c_reading": 111.6654161
+          "raw_a_reading": 214.6,
+          "raw_b_reading": 369.7,
+          "raw_c_reading": 111.7
         },
         {
           "depth": 7.35,
-          "raw_a_reading": 216.9500476,
-          "raw_b_reading": 365.921,
-          "raw_c_reading": 119.3234698
+          "raw_a_reading": 217.0,
+          "raw_b_reading": 365.9,
+          "raw_c_reading": 119.3
         },
         {
           "depth": 7.4,
-          "raw_a_reading": 219.2607619,
-          "raw_b_reading": 362.176,
-          "raw_c_reading": 126.9815235
+          "raw_a_reading": 219.3,
+          "raw_b_reading": 362.2,
+          "raw_c_reading": 127.0
         },
         {
           "depth": 7.45,
-          "raw_a_reading": 221.5714762,
-          "raw_b_reading": 358.431,
-          "raw_c_reading": 132.5278138
+          "raw_a_reading": 221.6,
+          "raw_b_reading": 358.4,
+          "raw_c_reading": 132.5
         },
         {
           "depth": 7.5,
-          "raw_a_reading": 223.9394345,
-          "raw_b_reading": 355.888125,
-          "raw_c_reading": 133.5866069
+          "raw_a_reading": 223.9,
+          "raw_b_reading": 355.9,
+          "raw_c_reading": 133.6
         },
         {
           "depth": 7.55,
-          "raw_a_reading": 224.3497024,
-          "raw_b_reading": 358.15375,
-          "raw_c_reading": 134.6454
+          "raw_a_reading": 224.3,
+          "raw_b_reading": 358.2,
+          "raw_c_reading": 134.6
         },
         {
           "depth": 7.6,
-          "raw_a_reading": 224.726131,
-          "raw_b_reading": 359.70875,
-          "raw_c_reading": 135.7041931
+          "raw_a_reading": 224.7,
+          "raw_b_reading": 359.7,
+          "raw_c_reading": 135.7
         },
         {
           "depth": 7.65,
-          "raw_a_reading": 222.6757143,
-          "raw_b_reading": 360.79,
-          "raw_c_reading": 136.7629862
+          "raw_a_reading": 222.7,
+          "raw_b_reading": 360.8,
+          "raw_c_reading": 136.8
         },
         {
           "depth": 7.7,
-          "raw_a_reading": 220.6847381,
-          "raw_b_reading": 363.1195,
-          "raw_c_reading": 137.8217793
+          "raw_a_reading": 220.7,
+          "raw_b_reading": 363.1,
+          "raw_c_reading": 137.8
         },
         {
           "depth": 7.75,
-          "raw_a_reading": 218.9315238,
-          "raw_b_reading": 370.442,
-          "raw_c_reading": 135.6383333
+          "raw_a_reading": 218.9,
+          "raw_b_reading": 370.4,
+          "raw_c_reading": 135.6
         },
         {
           "depth": 7.8,
-          "raw_a_reading": 217.1783095,
-          "raw_b_reading": 377.7645,
-          "raw_c_reading": 130.4620513
+          "raw_a_reading": 217.2,
+          "raw_b_reading": 377.8,
+          "raw_c_reading": 130.5
         },
         {
           "depth": 7.85,
-          "raw_a_reading": 215.4250952,
-          "raw_b_reading": 385.087,
-          "raw_c_reading": 125.2857692
+          "raw_a_reading": 215.4,
+          "raw_b_reading": 385.1,
+          "raw_c_reading": 125.3
         },
         {
           "depth": 7.9,
-          "raw_a_reading": 213.4410238,
-          "raw_b_reading": 387.5615,
-          "raw_c_reading": 120.1094872
+          "raw_a_reading": 213.4,
+          "raw_b_reading": 387.6,
+          "raw_c_reading": 120.1
         },
         {
           "depth": 7.95,
-          "raw_a_reading": 215.2604286,
-          "raw_b_reading": 386.804,
-          "raw_c_reading": 114.9332051
+          "raw_a_reading": 215.3,
+          "raw_b_reading": 386.8,
+          "raw_c_reading": 114.9
         },
         {
           "depth": 8.0,
-          "raw_a_reading": 217.0798333,
-          "raw_b_reading": 386.0465,
-          "raw_c_reading": 109.7569231
+          "raw_a_reading": 217.1,
+          "raw_b_reading": 386.0,
+          "raw_c_reading": 109.8
         },
         {
           "depth": 8.05,
-          "raw_a_reading": 218.8992381,
-          "raw_b_reading": 385.289,
-          "raw_c_reading": 107.6336272
+          "raw_a_reading": 218.9,
+          "raw_b_reading": 385.3,
+          "raw_c_reading": 107.6
         },
         {
           "depth": 8.1,
-          "raw_a_reading": 220.7040476,
-          "raw_b_reading": 384.225,
-          "raw_c_reading": 113.3608674
+          "raw_a_reading": 220.7,
+          "raw_b_reading": 384.2,
+          "raw_c_reading": 113.4
         },
         {
           "depth": 8.15,
-          "raw_a_reading": 225.4149405,
-          "raw_b_reading": 381.935,
-          "raw_c_reading": 119.0881075
+          "raw_a_reading": 225.4,
+          "raw_b_reading": 381.9,
+          "raw_c_reading": 119.1
         },
         {
           "depth": 8.2,
-          "raw_a_reading": 230.1258333,
-          "raw_b_reading": 379.645,
-          "raw_c_reading": 124.8153477
+          "raw_a_reading": 230.1,
+          "raw_b_reading": 379.6,
+          "raw_c_reading": 124.8
         },
         {
           "depth": 8.25,
-          "raw_a_reading": 234.8367262,
-          "raw_b_reading": 377.355,
-          "raw_c_reading": 130.5425878
+          "raw_a_reading": 234.8,
+          "raw_b_reading": 377.4,
+          "raw_c_reading": 130.5
         },
         {
           "depth": 8.3,
-          "raw_a_reading": 239.5336349,
-          "raw_b_reading": 376.3563333,
-          "raw_c_reading": 136.269828
+          "raw_a_reading": 239.5,
+          "raw_b_reading": 376.4,
+          "raw_c_reading": 136.3
         },
         {
           "depth": 8.35,
-          "raw_a_reading": 244.2526693,
-          "raw_b_reading": 376.2185556,
-          "raw_c_reading": 142.8351602
+          "raw_a_reading": 244.3,
+          "raw_b_reading": 376.2,
+          "raw_c_reading": 142.8
         },
         {
           "depth": 8.4,
-          "raw_a_reading": 249.0830916,
-          "raw_b_reading": 378.4199231,
-          "raw_c_reading": 149.7596748
+          "raw_a_reading": 249.1,
+          "raw_b_reading": 378.4,
+          "raw_c_reading": 149.8
         },
         {
           "depth": 8.45,
-          "raw_a_reading": 253.9413608,
-          "raw_b_reading": 381.2060769,
-          "raw_c_reading": 156.6841893
+          "raw_a_reading": 253.9,
+          "raw_b_reading": 381.2,
+          "raw_c_reading": 156.7
         },
         {
           "depth": 8.5,
-          "raw_a_reading": 258.737627,
-          "raw_b_reading": 382.6901667,
-          "raw_c_reading": 163.6087039
+          "raw_a_reading": 258.7,
+          "raw_b_reading": 382.7,
+          "raw_c_reading": 163.6
         },
         {
           "depth": 8.55,
-          "raw_a_reading": 256.0067619,
-          "raw_b_reading": 378.966,
-          "raw_c_reading": 169.1759081
+          "raw_a_reading": 256.0,
+          "raw_b_reading": 379.0,
+          "raw_c_reading": 169.2
         },
         {
           "depth": 8.6,
-          "raw_a_reading": 253.2758968,
-          "raw_b_reading": 375.2418333,
-          "raw_c_reading": 173.7602324
+          "raw_a_reading": 253.3,
+          "raw_b_reading": 375.2,
+          "raw_c_reading": 173.8
         },
         {
           "depth": 8.65,
-          "raw_a_reading": 250.5450317,
-          "raw_b_reading": 371.5176667,
-          "raw_c_reading": 178.3445568
+          "raw_a_reading": 250.5,
+          "raw_b_reading": 371.5,
+          "raw_c_reading": 178.3
         },
         {
           "depth": 8.7,
-          "raw_a_reading": 248.0565519,
-          "raw_b_reading": 372.8835909,
-          "raw_c_reading": 182.9288811
+          "raw_a_reading": 248.1,
+          "raw_b_reading": 372.9,
+          "raw_c_reading": 182.9
         },
         {
           "depth": 8.75,
-          "raw_a_reading": 245.7296623,
-          "raw_b_reading": 377.6429091,
-          "raw_c_reading": 179.7936733
+          "raw_a_reading": 245.7,
+          "raw_b_reading": 377.6,
+          "raw_c_reading": 179.8
         },
         {
           "depth": 8.8,
-          "raw_a_reading": 248.4613759,
-          "raw_b_reading": 382.4022273,
-          "raw_c_reading": 175.605802
+          "raw_a_reading": 248.5,
+          "raw_b_reading": 382.4,
+          "raw_c_reading": 175.6
         },
         {
           "depth": 8.85,
-          "raw_a_reading": 251.1930895,
-          "raw_b_reading": 387.1615455,
-          "raw_c_reading": 171.4179307
+          "raw_a_reading": 251.2,
+          "raw_b_reading": 387.2,
+          "raw_c_reading": 171.4
         },
         {
           "depth": 8.9,
-          "raw_a_reading": 255.041631,
-          "raw_b_reading": 415.37425,
-          "raw_c_reading": 167.2300594
+          "raw_a_reading": 255.0,
+          "raw_b_reading": 415.4,
+          "raw_c_reading": 167.2
         },
         {
           "depth": 8.95,
-          "raw_a_reading": 263.2186032,
-          "raw_b_reading": 583.9706667,
-          "raw_c_reading": 148.8271852
+          "raw_a_reading": 263.2,
+          "raw_b_reading": 584.0,
+          "raw_c_reading": 148.8
         },
         {
           "depth": 9.0,
-          "raw_a_reading": 271.6254082,
-          "raw_b_reading": 757.3935714,
-          "raw_c_reading": 126.5733077
+          "raw_a_reading": 271.6,
+          "raw_b_reading": 757.4,
+          "raw_c_reading": 126.6
         },
         {
           "depth": 9.05,
-          "raw_a_reading": 278.9822619,
-          "raw_b_reading": 908.7675,
-          "raw_c_reading": 100.2656154
+          "raw_a_reading": 279.0,
+          "raw_b_reading": 908.8,
+          "raw_c_reading": 100.3
         },
         {
           "depth": 9.1,
-          "raw_a_reading": 296.4420333,
-          "raw_b_reading": 1002.1027,
-          "raw_c_reading": 88.4569634
+          "raw_a_reading": 296.4,
+          "raw_b_reading": 1002.1,
+          "raw_c_reading": 88.5
         },
         {
           "depth": 9.15,
-          "raw_a_reading": 324.0071683,
-          "raw_b_reading": 1062.5372,
-          "raw_c_reading": 77.90909756
+          "raw_a_reading": 324.0,
+          "raw_b_reading": 1062.5,
+          "raw_c_reading": 77.9
         },
         {
           "depth": 9.2,
-          "raw_a_reading": 357.4449702,
-          "raw_b_reading": 1113.636375,
-          "raw_c_reading": 67.36123171
+          "raw_a_reading": 357.4,
+          "raw_b_reading": 1113.6,
+          "raw_c_reading": 67.4
         },
         {
           "depth": 9.25,
-          "raw_a_reading": 382.8525291,
-          "raw_b_reading": 1158.512,
-          "raw_c_reading": 63.49914504
+          "raw_a_reading": 382.9,
+          "raw_b_reading": 1158.5,
+          "raw_c_reading": 63.5
         },
         {
           "depth": 9.3,
-          "raw_a_reading": 405.3215268,
-          "raw_b_reading": 1190.572063,
-          "raw_c_reading": 63.39780916
+          "raw_a_reading": 405.3,
+          "raw_b_reading": 1190.6,
+          "raw_c_reading": 63.4
         },
         {
           "depth": 9.35,
-          "raw_a_reading": 402.89051,
-          "raw_b_reading": 1198.487375,
-          "raw_c_reading": 63.29647328
+          "raw_a_reading": 402.9,
+          "raw_b_reading": 1198.5,
+          "raw_c_reading": 63.3
         },
         {
           "depth": 9.4,
-          "raw_a_reading": 400.459493,
-          "raw_b_reading": 1206.402688,
-          "raw_c_reading": 63.1951374
+          "raw_a_reading": 400.5,
+          "raw_b_reading": 1206.4,
+          "raw_c_reading": 63.2
         },
         {
           "depth": 9.45,
-          "raw_a_reading": 398.0284762,
-          "raw_b_reading": 1214.318,
-          "raw_c_reading": 63.09380153
+          "raw_a_reading": 398.0,
+          "raw_b_reading": 1214.3,
+          "raw_c_reading": 63.1
         },
         {
           "depth": 9.5,
-          "raw_a_reading": 396.118119,
-          "raw_b_reading": 1167.4505,
-          "raw_c_reading": 62.16898174
+          "raw_a_reading": 396.1,
+          "raw_b_reading": 1167.5,
+          "raw_c_reading": 62.2
         },
         {
           "depth": 9.55,
-          "raw_a_reading": 394.2077619,
-          "raw_b_reading": 1120.583,
-          "raw_c_reading": 60.00893607
+          "raw_a_reading": 394.2,
+          "raw_b_reading": 1120.6,
+          "raw_c_reading": 60.0
         },
         {
           "depth": 9.6,
-          "raw_a_reading": 399.6498095,
-          "raw_b_reading": 929.746,
-          "raw_c_reading": 57.84889041
+          "raw_a_reading": 399.6,
+          "raw_b_reading": 929.7,
+          "raw_c_reading": 57.8
         },
         {
           "depth": 9.65,
-          "raw_a_reading": 404.8114762,
-          "raw_b_reading": 861.961,
-          "raw_c_reading": 55.68884475
+          "raw_a_reading": 404.8,
+          "raw_b_reading": 862.0,
+          "raw_c_reading": 55.7
         },
         {
           "depth": 9.7,
-          "raw_a_reading": 409.9731429,
-          "raw_b_reading": 794.176,
-          "raw_c_reading": 53.60098619
+          "raw_a_reading": 410.0,
+          "raw_b_reading": 794.2,
+          "raw_c_reading": 53.6
         },
         {
           "depth": 9.75,
-          "raw_a_reading": 409.7924762,
-          "raw_b_reading": 926.147,
-          "raw_c_reading": 55.05029558
+          "raw_a_reading": 409.8,
+          "raw_b_reading": 926.1,
+          "raw_c_reading": 55.1
         },
         {
           "depth": 9.8,
-          "raw_a_reading": 407.355125,
-          "raw_b_reading": 1010.727625,
-          "raw_c_reading": 56.49960497
+          "raw_a_reading": 407.4,
+          "raw_b_reading": 1010.7,
+          "raw_c_reading": 56.5
         },
         {
           "depth": 9.85,
-          "raw_a_reading": 404.9230544,
-          "raw_b_reading": 1095.419143,
-          "raw_c_reading": 57.94891436
+          "raw_a_reading": 404.9,
+          "raw_b_reading": 1095.4,
+          "raw_c_reading": 57.9
         },
         {
           "depth": 9.9,
-          "raw_a_reading": 402.4989048,
-          "raw_b_reading": 1180.277,
-          "raw_c_reading": 59.39822376
+          "raw_a_reading": 402.5,
+          "raw_b_reading": 1180.3,
+          "raw_c_reading": 59.4
         },
         {
           "depth": 9.95,
-          "raw_a_reading": 397.2658095,
-          "raw_b_reading": 1153.382,
-          "raw_c_reading": 60.84753315
+          "raw_a_reading": 397.3,
+          "raw_b_reading": 1153.4,
+          "raw_c_reading": 60.8
         },
         {
           "depth": 10.0,
-          "raw_a_reading": 392.0327143,
-          "raw_b_reading": 1126.487,
-          "raw_c_reading": 62.29684254
+          "raw_a_reading": 392.0,
+          "raw_b_reading": 1126.5,
+          "raw_c_reading": 62.3
         },
         {
           "depth": 10.05,
-          "raw_a_reading": 386.913369,
-          "raw_b_reading": 1101.98075,
-          "raw_c_reading": 63.74615193
+          "raw_a_reading": 386.9,
+          "raw_b_reading": 1102.0,
+          "raw_c_reading": 63.7
         },
         {
           "depth": 10.1,
-          "raw_a_reading": 381.8698571,
-          "raw_b_reading": 1079.067,
-          "raw_c_reading": 64.36972703
+          "raw_a_reading": 381.9,
+          "raw_b_reading": 1079.1,
+          "raw_c_reading": 64.4
         },
         {
           "depth": 10.15,
-          "raw_a_reading": 377.3059405,
-          "raw_b_reading": 1066.22475,
-          "raw_c_reading": 64.7604027
+          "raw_a_reading": 377.3,
+          "raw_b_reading": 1066.2,
+          "raw_c_reading": 64.8
         },
         {
           "depth": 10.2,
-          "raw_a_reading": 372.7420238,
-          "raw_b_reading": 1053.3825,
-          "raw_c_reading": 65.15107838
+          "raw_a_reading": 372.7,
+          "raw_b_reading": 1053.4,
+          "raw_c_reading": 65.2
         },
         {
           "depth": 10.25,
-          "raw_a_reading": 371.682869,
-          "raw_b_reading": 1040.54025,
-          "raw_c_reading": 65.54175405
+          "raw_a_reading": 371.7,
+          "raw_b_reading": 1040.5,
+          "raw_c_reading": 65.5
         },
         {
           "depth": 10.3,
-          "raw_a_reading": 370.6237143,
-          "raw_b_reading": 1027.698,
-          "raw_c_reading": 65.93242973
+          "raw_a_reading": 370.6,
+          "raw_b_reading": 1027.7,
+          "raw_c_reading": 65.9
         },
         {
           "depth": 10.35,
-          "raw_a_reading": 382.510881,
-          "raw_b_reading": 1067.4085,
-          "raw_c_reading": 66.32310541
+          "raw_a_reading": 382.5,
+          "raw_b_reading": 1067.4,
+          "raw_c_reading": 66.3
         },
         {
           "depth": 10.4,
-          "raw_a_reading": 394.3980476,
-          "raw_b_reading": 1107.119,
-          "raw_c_reading": 66.71378108
+          "raw_a_reading": 394.4,
+          "raw_b_reading": 1107.1,
+          "raw_c_reading": 66.7
         },
         {
           "depth": 10.45,
-          "raw_a_reading": 406.2852143,
-          "raw_b_reading": 1146.8295,
-          "raw_c_reading": 66.62062928
+          "raw_a_reading": 406.3,
+          "raw_b_reading": 1146.8,
+          "raw_c_reading": 66.6
         },
         {
           "depth": 10.5,
-          "raw_a_reading": 418.172381,
-          "raw_b_reading": 1186.54,
-          "raw_c_reading": 65.73807477
+          "raw_a_reading": 418.2,
+          "raw_b_reading": 1186.5,
+          "raw_c_reading": 65.7
         },
         {
           "depth": 10.55,
-          "raw_a_reading": 407.985631,
-          "raw_b_reading": 1191.32325,
-          "raw_c_reading": 64.85552025
+          "raw_a_reading": 408.0,
+          "raw_b_reading": 1191.3,
+          "raw_c_reading": 64.9
         },
         {
           "depth": 10.6,
-          "raw_a_reading": 397.798881,
-          "raw_b_reading": 1196.1065,
-          "raw_c_reading": 63.97296573
+          "raw_a_reading": 397.8,
+          "raw_b_reading": 1196.1,
+          "raw_c_reading": 64.0
         },
         {
           "depth": 10.65,
-          "raw_a_reading": 387.612131,
-          "raw_b_reading": 1200.88975,
-          "raw_c_reading": 63.09041121
+          "raw_a_reading": 387.6,
+          "raw_b_reading": 1200.9,
+          "raw_c_reading": 63.1
         },
         {
           "depth": 10.7,
-          "raw_a_reading": 377.425381,
-          "raw_b_reading": 1205.673,
-          "raw_c_reading": 62.2078567
+          "raw_a_reading": 377.4,
+          "raw_b_reading": 1205.7,
+          "raw_c_reading": 62.2
         },
         {
           "depth": 10.75,
-          "raw_a_reading": 405.2090714,
-          "raw_b_reading": 1284.1205,
-          "raw_c_reading": 61.32530218
+          "raw_a_reading": 405.2,
+          "raw_b_reading": 1284.1,
+          "raw_c_reading": 61.3
         },
         {
           "depth": 10.8,
-          "raw_a_reading": 432.7447619,
-          "raw_b_reading": 1357.36,
-          "raw_c_reading": 63.13824242
+          "raw_a_reading": 432.7,
+          "raw_b_reading": 1357.4,
+          "raw_c_reading": 63.1
         },
         {
           "depth": 10.85,
-          "raw_a_reading": 471.6430952,
-          "raw_b_reading": 1432.945,
-          "raw_c_reading": 65.06349495
+          "raw_a_reading": 471.6,
+          "raw_b_reading": 1432.9,
+          "raw_c_reading": 65.1
         },
         {
           "depth": 10.9,
-          "raw_a_reading": 521.3636429,
-          "raw_b_reading": 1565.689,
-          "raw_c_reading": 66.98874747
+          "raw_a_reading": 521.4,
+          "raw_b_reading": 1565.7,
+          "raw_c_reading": 67.0
         },
         {
           "depth": 10.95,
-          "raw_a_reading": 536.6540866,
-          "raw_b_reading": 1508.175818,
-          "raw_c_reading": 68.914
+          "raw_a_reading": 536.7,
+          "raw_b_reading": 1508.2,
+          "raw_c_reading": 68.9
         },
         {
           "depth": 11.0,
-          "raw_a_reading": 525.7091731,
-          "raw_b_reading": 1450.662636,
-          "raw_c_reading": 70.83925253
+          "raw_a_reading": 525.7,
+          "raw_b_reading": 1450.7,
+          "raw_c_reading": 70.8
         },
         {
           "depth": 11.05,
-          "raw_a_reading": 514.7489524,
-          "raw_b_reading": 1392.828,
-          "raw_c_reading": 72.67152244
+          "raw_a_reading": 514.7,
+          "raw_b_reading": 1392.8,
+          "raw_c_reading": 72.7
         },
         {
           "depth": 11.1,
-          "raw_a_reading": 501.0410318,
-          "raw_b_reading": 1320.721667,
-          "raw_c_reading": 69.94764423
+          "raw_a_reading": 501.0,
+          "raw_b_reading": 1320.7,
+          "raw_c_reading": 69.9
         },
         {
           "depth": 11.15,
-          "raw_a_reading": 488.682181,
-          "raw_b_reading": 1276.9458,
-          "raw_c_reading": 67.22376603
+          "raw_a_reading": 488.7,
+          "raw_b_reading": 1276.9,
+          "raw_c_reading": 67.2
         },
         {
           "depth": 11.2,
-          "raw_a_reading": 466.8319508,
-          "raw_b_reading": 1245.5743,
-          "raw_c_reading": 64.49988782
+          "raw_a_reading": 466.8,
+          "raw_b_reading": 1245.6,
+          "raw_c_reading": 64.5
         },
         {
           "depth": 11.25,
-          "raw_a_reading": 444.5919048,
-          "raw_b_reading": 1200.31,
-          "raw_c_reading": 61.77600962
+          "raw_a_reading": 444.6,
+          "raw_b_reading": 1200.3,
+          "raw_c_reading": 61.8
         },
         {
           "depth": 11.3,
-          "raw_a_reading": 423.6635897,
+          "raw_a_reading": 423.7,
           "raw_b_reading": 1149.7,
-          "raw_c_reading": 59.05213141
+          "raw_c_reading": 59.1
         },
         {
           "depth": 11.35,
-          "raw_a_reading": 408.3720147,
+          "raw_a_reading": 408.4,
           "raw_b_reading": 1091.6,
-          "raw_c_reading": 56.32825321
+          "raw_c_reading": 56.3
         },
         {
           "depth": 11.4,
-          "raw_a_reading": 391.2850943,
-          "raw_b_reading": 995.79775,
-          "raw_c_reading": 62.77490299
+          "raw_a_reading": 391.3,
+          "raw_b_reading": 995.8,
+          "raw_c_reading": 62.8
         },
         {
           "depth": 11.45,
-          "raw_a_reading": 376.3512449,
-          "raw_b_reading": 895.139,
-          "raw_c_reading": 71.80811194
+          "raw_a_reading": 376.4,
+          "raw_b_reading": 895.1,
+          "raw_c_reading": 71.8
         },
         {
           "depth": 11.5,
-          "raw_a_reading": 365.6332143,
-          "raw_b_reading": 815.915,
-          "raw_c_reading": 80.8413209
+          "raw_a_reading": 365.6,
+          "raw_b_reading": 815.9,
+          "raw_c_reading": 80.8
         },
         {
           "depth": 11.55,
-          "raw_a_reading": 361.9769143,
-          "raw_b_reading": 750.1202,
-          "raw_c_reading": 89.8745299
+          "raw_a_reading": 362.0,
+          "raw_b_reading": 750.1,
+          "raw_c_reading": 89.9
         },
         {
           "depth": 11.6,
-          "raw_a_reading": 361.4759857,
-          "raw_b_reading": 695.6357,
-          "raw_c_reading": 98.9077388
+          "raw_a_reading": 361.5,
+          "raw_b_reading": 695.6,
+          "raw_c_reading": 98.9
         },
         {
           "depth": 11.65,
-          "raw_a_reading": 362.949381,
-          "raw_b_reading": 645.977,
-          "raw_c_reading": 111.9574022
+          "raw_a_reading": 362.9,
+          "raw_b_reading": 646.0,
+          "raw_c_reading": 112.0
         },
         {
           "depth": 11.7,
-          "raw_a_reading": 364.7674762,
-          "raw_b_reading": 603.557,
-          "raw_c_reading": 130.5535978
+          "raw_a_reading": 364.8,
+          "raw_b_reading": 603.6,
+          "raw_c_reading": 130.6
         },
         {
           "depth": 11.75,
-          "raw_a_reading": 365.4040116,
-          "raw_b_reading": 567.2398,
-          "raw_c_reading": 146.634075
+          "raw_a_reading": 365.4,
+          "raw_b_reading": 567.2,
+          "raw_c_reading": 146.6
         },
         {
           "depth": 11.8,
-          "raw_a_reading": 365.4051598,
-          "raw_b_reading": 563.9528,
-          "raw_c_reading": 160.892825
+          "raw_a_reading": 365.4,
+          "raw_b_reading": 564.0,
+          "raw_c_reading": 160.9
         },
         {
           "depth": 11.85,
-          "raw_a_reading": 365.4063079,
-          "raw_b_reading": 560.6658,
-          "raw_c_reading": 174.6522215
+          "raw_a_reading": 365.4,
+          "raw_b_reading": 560.7,
+          "raw_c_reading": 174.7
         },
         {
           "depth": 11.9,
-          "raw_a_reading": 365.4074561,
-          "raw_b_reading": 557.3788,
-          "raw_c_reading": 186.1367852
+          "raw_a_reading": 365.4,
+          "raw_b_reading": 557.4,
+          "raw_c_reading": 186.1
         },
         {
           "depth": 11.95,
-          "raw_a_reading": 371.6844873,
-          "raw_b_reading": 556.8809,
-          "raw_c_reading": 197.621349
+          "raw_a_reading": 371.7,
+          "raw_b_reading": 556.9,
+          "raw_c_reading": 197.6
         },
         {
           "depth": 12.0,
-          "raw_a_reading": 379.5858286,
-          "raw_b_reading": 558.2424,
-          "raw_c_reading": 208.6999945
+          "raw_a_reading": 379.6,
+          "raw_b_reading": 558.2,
+          "raw_c_reading": 208.7
         },
         {
           "depth": 12.05,
-          "raw_a_reading": 387.4871698,
-          "raw_b_reading": 559.6039,
-          "raw_c_reading": 218.1549669
+          "raw_a_reading": 387.5,
+          "raw_b_reading": 559.6,
+          "raw_c_reading": 218.2
         },
         {
           "depth": 12.1,
-          "raw_a_reading": 395.3885111,
-          "raw_b_reading": 560.9654,
-          "raw_c_reading": 227.6099392
+          "raw_a_reading": 395.4,
+          "raw_b_reading": 561.0,
+          "raw_c_reading": 227.6
         },
         {
           "depth": 12.15,
-          "raw_a_reading": 398.6542485,
-          "raw_b_reading": 562.9851,
-          "raw_c_reading": 237.0649116
+          "raw_a_reading": 398.7,
+          "raw_b_reading": 563.0,
+          "raw_c_reading": 237.1
         },
         {
           "depth": 12.2,
-          "raw_a_reading": 398.8295832,
-          "raw_b_reading": 565.4436,
-          "raw_c_reading": 245.5484
+          "raw_a_reading": 398.8,
+          "raw_b_reading": 565.4,
+          "raw_c_reading": 245.5
         },
         {
           "depth": 12.25,
-          "raw_a_reading": 399.0049179,
-          "raw_b_reading": 567.9021,
-          "raw_c_reading": 253.3284
+          "raw_a_reading": 399.0,
+          "raw_b_reading": 567.9,
+          "raw_c_reading": 253.3
         },
         {
           "depth": 12.3,
-          "raw_a_reading": 398.4507905,
-          "raw_b_reading": 570.3606,
-          "raw_c_reading": 261.1084
+          "raw_a_reading": 398.5,
+          "raw_b_reading": 570.4,
+          "raw_c_reading": 261.1
         },
         {
           "depth": 12.35,
-          "raw_a_reading": 394.8030909,
-          "raw_b_reading": 569.1289091,
-          "raw_c_reading": 264.6352973
+          "raw_a_reading": 394.8,
+          "raw_b_reading": 569.1,
+          "raw_c_reading": 264.6
         },
         {
           "depth": 12.4,
-          "raw_a_reading": 390.0653853,
-          "raw_b_reading": 565.4370909,
-          "raw_c_reading": 257.2256448
+          "raw_a_reading": 390.1,
+          "raw_b_reading": 565.4,
+          "raw_c_reading": 257.2
         },
         {
           "depth": 12.45,
-          "raw_a_reading": 381.4362511,
-          "raw_b_reading": 561.7452727,
-          "raw_c_reading": 249.8159923
+          "raw_a_reading": 381.4,
+          "raw_b_reading": 561.7,
+          "raw_c_reading": 249.8
         },
         {
           "depth": 12.5,
-          "raw_a_reading": 374.5685772,
-          "raw_b_reading": 558.0534545,
-          "raw_c_reading": 242.4063398
+          "raw_a_reading": 374.6,
+          "raw_b_reading": 558.1,
+          "raw_c_reading": 242.4
         },
         {
           "depth": 12.55,
-          "raw_a_reading": 374.8830688,
-          "raw_b_reading": 557.2244444,
-          "raw_c_reading": 234.9966873
+          "raw_a_reading": 374.9,
+          "raw_b_reading": 557.2,
+          "raw_c_reading": 235.0
         },
         {
           "depth": 12.6,
-          "raw_a_reading": 375.7428572,
-          "raw_b_reading": 567.8466667,
-          "raw_c_reading": 229.3949637
+          "raw_a_reading": 375.7,
+          "raw_b_reading": 567.8,
+          "raw_c_reading": 229.4
         },
         {
           "depth": 12.65,
-          "raw_a_reading": 380.7987407,
-          "raw_b_reading": 579.1575556,
-          "raw_c_reading": 240.0646012
+          "raw_a_reading": 380.8,
+          "raw_b_reading": 579.2,
+          "raw_c_reading": 240.1
         },
         {
           "depth": 12.7,
-          "raw_a_reading": 386.9446402,
-          "raw_b_reading": 591.5014444,
-          "raw_c_reading": 250.7342387
+          "raw_a_reading": 386.9,
+          "raw_b_reading": 591.5,
+          "raw_c_reading": 250.7
         },
         {
           "depth": 12.75,
-          "raw_a_reading": 392.7380136,
-          "raw_b_reading": 596.4422857,
-          "raw_c_reading": 261.4038761
+          "raw_a_reading": 392.7,
+          "raw_b_reading": 596.4,
+          "raw_c_reading": 261.4
         },
         {
           "depth": 12.8,
-          "raw_a_reading": 398.2963696,
-          "raw_b_reading": 596.4477619,
-          "raw_c_reading": 272.0735136
+          "raw_a_reading": 398.3,
+          "raw_b_reading": 596.4,
+          "raw_c_reading": 272.1
         },
         {
           "depth": 12.85,
-          "raw_a_reading": 405.1823991,
-          "raw_b_reading": 596.4532381,
-          "raw_c_reading": 282.7431511
+          "raw_a_reading": 405.2,
+          "raw_b_reading": 596.5,
+          "raw_c_reading": 282.7
         },
         {
           "depth": 12.9,
-          "raw_a_reading": 412.400347,
-          "raw_b_reading": 596.4587143,
-          "raw_c_reading": 293.4127885
+          "raw_a_reading": 412.4,
+          "raw_b_reading": 596.5,
+          "raw_c_reading": 293.4
         },
         {
           "depth": 12.95,
-          "raw_a_reading": 419.4472008,
-          "raw_b_reading": 592.8712174,
-          "raw_c_reading": 297.9063054
+          "raw_a_reading": 419.4,
+          "raw_b_reading": 592.9,
+          "raw_c_reading": 297.9
         },
         {
           "depth": 13.0,
-          "raw_a_reading": 414.9992139,
-          "raw_b_reading": 583.8942609,
-          "raw_c_reading": 295.7090251
+          "raw_a_reading": 415.0,
+          "raw_b_reading": 583.9,
+          "raw_c_reading": 295.7
         },
         {
           "depth": 13.05,
-          "raw_a_reading": 410.551227,
-          "raw_b_reading": 574.9173043,
-          "raw_c_reading": 293.5117448
+          "raw_a_reading": 410.6,
+          "raw_b_reading": 574.9,
+          "raw_c_reading": 293.5
         },
         {
           "depth": 13.1,
-          "raw_a_reading": 407.6430325,
-          "raw_b_reading": 565.9403478,
-          "raw_c_reading": 291.3144644
+          "raw_a_reading": 407.6,
+          "raw_b_reading": 565.9,
+          "raw_c_reading": 291.3
         },
         {
           "depth": 13.15,
-          "raw_a_reading": 407.0445265,
-          "raw_b_reading": 556.9633913,
-          "raw_c_reading": 289.1171841
+          "raw_a_reading": 407.0,
+          "raw_b_reading": 557.0,
+          "raw_c_reading": 289.1
         },
         {
           "depth": 13.2,
-          "raw_a_reading": 407.1817343,
-          "raw_b_reading": 563.4364211,
-          "raw_c_reading": 292.5842091
+          "raw_a_reading": 407.2,
+          "raw_b_reading": 563.4,
+          "raw_c_reading": 292.6
         },
         {
           "depth": 13.25,
-          "raw_a_reading": 415.1253308,
-          "raw_b_reading": 573.7719474,
-          "raw_c_reading": 298.4787935
+          "raw_a_reading": 415.1,
+          "raw_b_reading": 573.8,
+          "raw_c_reading": 298.5
         },
         {
           "depth": 13.3,
-          "raw_a_reading": 423.0689273,
-          "raw_b_reading": 584.1074737,
-          "raw_c_reading": 304.3733778
+          "raw_a_reading": 423.1,
+          "raw_b_reading": 584.1,
+          "raw_c_reading": 304.4
         },
         {
           "depth": 13.35,
-          "raw_a_reading": 429.3610952,
-          "raw_b_reading": 594.443,
-          "raw_c_reading": 310.2679622
+          "raw_a_reading": 429.4,
+          "raw_b_reading": 594.4,
+          "raw_c_reading": 310.3
         },
         {
           "depth": 13.4,
-          "raw_a_reading": 435.4585442,
-          "raw_b_reading": 600.6894286,
-          "raw_c_reading": 316.1625466
+          "raw_a_reading": 435.5,
+          "raw_b_reading": 600.7,
+          "raw_c_reading": 316.2
         },
         {
           "depth": 13.45,
-          "raw_a_reading": 441.5559932,
-          "raw_b_reading": 606.9358571,
-          "raw_c_reading": 322.057131
+          "raw_a_reading": 441.6,
+          "raw_b_reading": 606.9,
+          "raw_c_reading": 322.1
         },
         {
           "depth": 13.5,
-          "raw_a_reading": 447.6534422,
-          "raw_b_reading": 613.1822857,
-          "raw_c_reading": 327.9517154
+          "raw_a_reading": 447.7,
+          "raw_b_reading": 613.2,
+          "raw_c_reading": 328.0
         },
         {
           "depth": 13.55,
-          "raw_a_reading": 453.7508912,
-          "raw_b_reading": 619.4287143,
-          "raw_c_reading": 333.8462997
+          "raw_a_reading": 453.8,
+          "raw_b_reading": 619.4,
+          "raw_c_reading": 333.8
         },
         {
           "depth": 13.6,
-          "raw_a_reading": 459.7847813,
-          "raw_b_reading": 625.6751429,
-          "raw_c_reading": 339.0439147
+          "raw_a_reading": 459.8,
+          "raw_b_reading": 625.7,
+          "raw_c_reading": 339.0
         },
         {
           "depth": 13.65,
-          "raw_a_reading": 465.8027816,
-          "raw_b_reading": 631.9215714,
-          "raw_c_reading": 344.0214341
+          "raw_a_reading": 465.8,
+          "raw_b_reading": 631.9,
+          "raw_c_reading": 344.0
         },
         {
           "depth": 13.7,
-          "raw_a_reading": 471.820782,
-          "raw_b_reading": 638.168,
-          "raw_c_reading": 348.9989535
+          "raw_a_reading": 471.8,
+          "raw_b_reading": 638.2,
+          "raw_c_reading": 349.0
         },
         {
           "depth": 13.75,
-          "raw_a_reading": 477.8387823,
-          "raw_b_reading": 644.4144286,
-          "raw_c_reading": 353.9764729
+          "raw_a_reading": 477.8,
+          "raw_b_reading": 644.4,
+          "raw_c_reading": 354.0
         },
         {
           "depth": 13.8,
-          "raw_a_reading": 479.1979394,
-          "raw_b_reading": 647.9021818,
-          "raw_c_reading": 358.9539922
+          "raw_a_reading": 479.2,
+          "raw_b_reading": 647.9,
+          "raw_c_reading": 359.0
         },
         {
           "depth": 13.85,
-          "raw_a_reading": 480.4695194,
-          "raw_b_reading": 649.5508182,
-          "raw_c_reading": 363.57
+          "raw_a_reading": 480.5,
+          "raw_b_reading": 649.6,
+          "raw_c_reading": 363.6
         },
         {
           "depth": 13.9,
-          "raw_a_reading": 482.9749111,
-          "raw_b_reading": 652.6598,
-          "raw_c_reading": 367.945
+          "raw_a_reading": 483.0,
+          "raw_b_reading": 652.7,
+          "raw_c_reading": 367.9
         },
         {
           "depth": 13.95,
-          "raw_a_reading": 485.875681,
-          "raw_b_reading": 657.9593,
-          "raw_c_reading": 372.32
+          "raw_a_reading": 485.9,
+          "raw_b_reading": 658.0,
+          "raw_c_reading": 372.3
         },
         {
           "depth": 14.0,
-          "raw_a_reading": 490.0239643,
-          "raw_b_reading": 665.27325,
-          "raw_c_reading": 376.695
+          "raw_a_reading": 490.0,
+          "raw_b_reading": 665.3,
+          "raw_c_reading": 376.7
         },
         {
           "depth": 14.05,
-          "raw_a_reading": 496.0435179,
-          "raw_b_reading": 675.608875,
-          "raw_c_reading": 381.07
+          "raw_a_reading": 496.0,
+          "raw_b_reading": 675.6,
+          "raw_c_reading": 381.1
         },
         {
           "depth": 14.1,
-          "raw_a_reading": 502.2352381,
-          "raw_b_reading": 689.56,
-          "raw_c_reading": 385.445
+          "raw_a_reading": 502.2,
+          "raw_b_reading": 689.6,
+          "raw_c_reading": 385.4
         },
         {
           "depth": 14.15,
-          "raw_a_reading": 502.3946259,
-          "raw_b_reading": 691.7785714,
-          "raw_c_reading": 373.2586829
+          "raw_a_reading": 502.4,
+          "raw_b_reading": 691.8,
+          "raw_c_reading": 373.3
         },
         {
           "depth": 14.2,
-          "raw_a_reading": 493.5949278,
-          "raw_b_reading": 689.0068182,
-          "raw_c_reading": 357.3480213
+          "raw_a_reading": 493.6,
+          "raw_b_reading": 689.0,
+          "raw_c_reading": 357.3
         },
         {
           "depth": 14.25,
-          "raw_a_reading": 478.822506,
-          "raw_b_reading": 682.9081818,
-          "raw_c_reading": 339.1581277
+          "raw_a_reading": 478.8,
+          "raw_b_reading": 682.9,
+          "raw_c_reading": 339.2
         },
         {
           "depth": 14.3,
-          "raw_a_reading": 462.618869,
-          "raw_b_reading": 677.05625,
-          "raw_c_reading": 323.4855742
+          "raw_a_reading": 462.6,
+          "raw_b_reading": 677.1,
+          "raw_c_reading": 323.5
         },
         {
           "depth": 14.35,
-          "raw_a_reading": 446.0721131,
-          "raw_b_reading": 671.574375,
-          "raw_c_reading": 313.1623684
+          "raw_a_reading": 446.1,
+          "raw_b_reading": 671.6,
+          "raw_c_reading": 313.2
         },
         {
           "depth": 14.4,
-          "raw_a_reading": 444.011373,
-          "raw_b_reading": 670.7405,
-          "raw_c_reading": 302.8391627
+          "raw_a_reading": 444.0,
+          "raw_b_reading": 670.7,
+          "raw_c_reading": 302.8
         },
         {
           "depth": 14.45,
-          "raw_a_reading": 442.0059662,
-          "raw_b_reading": 671.068625,
-          "raw_c_reading": 292.5159569
+          "raw_a_reading": 442.0,
+          "raw_b_reading": 671.1,
+          "raw_c_reading": 292.5
         },
         {
           "depth": 14.5,
-          "raw_a_reading": 441.2956786,
-          "raw_b_reading": 671.39675,
-          "raw_c_reading": 285.4703879
+          "raw_a_reading": 441.3,
+          "raw_b_reading": 671.4,
+          "raw_c_reading": 285.5
         },
         {
           "depth": 14.55,
-          "raw_a_reading": 441.6005844,
-          "raw_b_reading": 674.9122727,
-          "raw_c_reading": 298.5588727
+          "raw_a_reading": 441.6,
+          "raw_b_reading": 674.9,
+          "raw_c_reading": 298.6
         },
         {
           "depth": 14.6,
-          "raw_a_reading": 455.9215584,
-          "raw_b_reading": 680.5527273,
-          "raw_c_reading": 311.6473576
+          "raw_a_reading": 455.9,
+          "raw_b_reading": 680.6,
+          "raw_c_reading": 311.6
         },
         {
           "depth": 14.65,
-          "raw_a_reading": 473.8882476,
-          "raw_b_reading": 686.8832,
-          "raw_c_reading": 324.7358424
+          "raw_a_reading": 473.9,
+          "raw_b_reading": 686.9,
+          "raw_c_reading": 324.7
         },
         {
           "depth": 14.7,
-          "raw_a_reading": 493.4043296,
-          "raw_b_reading": 694.2487,
-          "raw_c_reading": 350.0072258
+          "raw_a_reading": 493.4,
+          "raw_b_reading": 694.2,
+          "raw_c_reading": 350.0
         },
         {
           "depth": 14.75,
-          "raw_a_reading": 511.5205132,
-          "raw_b_reading": 700.833,
-          "raw_c_reading": 370.9148654
+          "raw_a_reading": 511.5,
+          "raw_b_reading": 700.8,
+          "raw_c_reading": 370.9
         },
         {
           "depth": 14.8,
-          "raw_a_reading": 524.2695952,
-          "raw_b_reading": 706.2455,
-          "raw_c_reading": 387.3663077
+          "raw_a_reading": 524.3,
+          "raw_b_reading": 706.2,
+          "raw_c_reading": 387.4
         },
         {
           "depth": 14.85,
-          "raw_a_reading": 533.4778095,
-          "raw_b_reading": 711.658,
-          "raw_c_reading": 398.931
+          "raw_a_reading": 533.5,
+          "raw_b_reading": 711.7,
+          "raw_c_reading": 398.9
         },
         {
           "depth": 14.9,
-          "raw_a_reading": 540.7026588,
-          "raw_b_reading": 716.9481429,
-          "raw_c_reading": 405.9848462
+          "raw_a_reading": 540.7,
+          "raw_b_reading": 716.9,
+          "raw_c_reading": 406.0
         },
         {
           "depth": 14.95,
-          "raw_a_reading": 546.585843,
-          "raw_b_reading": 721.7488571,
-          "raw_c_reading": 413.0386923
+          "raw_a_reading": 546.6,
+          "raw_b_reading": 721.7,
+          "raw_c_reading": 413.0
         },
         {
           "depth": 15.0,
-          "raw_a_reading": 552.6360714,
-          "raw_b_reading": 730.0575,
-          "raw_c_reading": 420.0925385
+          "raw_a_reading": 552.6,
+          "raw_b_reading": 730.1,
+          "raw_c_reading": 420.1
         },
         {
           "depth": 15.05,
-          "raw_a_reading": 557.2036782,
-          "raw_b_reading": 739.3843846,
-          "raw_c_reading": 422.3859714
+          "raw_a_reading": 557.2,
+          "raw_b_reading": 739.4,
+          "raw_c_reading": 422.4
         },
         {
           "depth": 15.1,
-          "raw_a_reading": 561.7981915,
-          "raw_b_reading": 749.2763077,
-          "raw_c_reading": 424.0302571
+          "raw_a_reading": 561.8,
+          "raw_b_reading": 749.3,
+          "raw_c_reading": 424.0
         },
         {
           "depth": 15.15,
-          "raw_a_reading": 566.3512253,
-          "raw_b_reading": 759.1682308,
-          "raw_c_reading": 425.6745429
+          "raw_a_reading": 566.4,
+          "raw_b_reading": 759.2,
+          "raw_c_reading": 425.7
         },
         {
           "depth": 15.2,
-          "raw_a_reading": 570.4047143,
-          "raw_b_reading": 762.054,
-          "raw_c_reading": 427.3188286
+          "raw_a_reading": 570.4,
+          "raw_b_reading": 762.1,
+          "raw_c_reading": 427.3
         },
         {
           "depth": 15.25,
-          "raw_a_reading": 574.2357857,
-          "raw_b_reading": 760.269,
-          "raw_c_reading": 428.9631143
+          "raw_a_reading": 574.2,
+          "raw_b_reading": 760.3,
+          "raw_c_reading": 429.0
         },
         {
           "depth": 15.3,
-          "raw_a_reading": 578.0668571,
-          "raw_b_reading": 758.484,
-          "raw_c_reading": 430.6074
+          "raw_a_reading": 578.1,
+          "raw_b_reading": 758.5,
+          "raw_c_reading": 430.6
         },
         {
           "depth": 15.35,
-          "raw_a_reading": 582.6395938,
-          "raw_b_reading": 757.8781364,
-          "raw_c_reading": 432.2516857
+          "raw_a_reading": 582.6,
+          "raw_b_reading": 757.9,
+          "raw_c_reading": 432.3
         },
         {
           "depth": 15.4,
-          "raw_a_reading": 582.5656364,
-          "raw_b_reading": 758.0583636,
-          "raw_c_reading": 433.8959714
+          "raw_a_reading": 582.6,
+          "raw_b_reading": 758.1,
+          "raw_c_reading": 433.9
         },
         {
           "depth": 15.45,
-          "raw_a_reading": 582.4916789,
-          "raw_b_reading": 758.2385909,
-          "raw_c_reading": 435.0262351
+          "raw_a_reading": 582.5,
+          "raw_b_reading": 758.2,
+          "raw_c_reading": 435.0
         },
         {
           "depth": 15.5,
-          "raw_a_reading": 578.9836172,
-          "raw_b_reading": 758.4188182,
-          "raw_c_reading": 435.5996414
+          "raw_a_reading": 579.0,
+          "raw_b_reading": 758.4,
+          "raw_c_reading": 435.6
         },
         {
           "depth": 15.55,
-          "raw_a_reading": 574.6638181,
-          "raw_b_reading": 759.5816087,
-          "raw_c_reading": 436.1730478
+          "raw_a_reading": 574.7,
+          "raw_b_reading": 759.6,
+          "raw_c_reading": 436.2
         },
         {
           "depth": 15.6,
-          "raw_a_reading": 570.5311739,
-          "raw_b_reading": 764.6746522,
-          "raw_c_reading": 436.7464542
+          "raw_a_reading": 570.5,
+          "raw_b_reading": 764.7,
+          "raw_c_reading": 436.7
         },
         {
           "depth": 15.65,
-          "raw_a_reading": 575.7502871,
-          "raw_b_reading": 769.7676957,
-          "raw_c_reading": 437.3198606
+          "raw_a_reading": 575.8,
+          "raw_b_reading": 769.8,
+          "raw_c_reading": 437.3
         },
         {
           "depth": 15.7,
-          "raw_a_reading": 580.9694002,
-          "raw_b_reading": 774.8607391,
-          "raw_c_reading": 437.8932669
+          "raw_a_reading": 581.0,
+          "raw_b_reading": 774.9,
+          "raw_c_reading": 437.9
         },
         {
           "depth": 15.75,
-          "raw_a_reading": 587.475577,
-          "raw_b_reading": 779.9537826,
-          "raw_c_reading": 438.4666733
+          "raw_a_reading": 587.5,
+          "raw_b_reading": 780.0,
+          "raw_c_reading": 438.5
         },
         {
           "depth": 15.8,
-          "raw_a_reading": 594.500118,
-          "raw_b_reading": 777.9135909,
-          "raw_c_reading": 439.0400797
+          "raw_a_reading": 594.5,
+          "raw_b_reading": 777.9,
+          "raw_c_reading": 439.0
         },
         {
           "depth": 15.85,
-          "raw_a_reading": 591.7515406,
-          "raw_b_reading": 771.1179091,
-          "raw_c_reading": 439.6134861
+          "raw_a_reading": 591.8,
+          "raw_b_reading": 771.1,
+          "raw_c_reading": 439.6
         },
         {
           "depth": 15.9,
-          "raw_a_reading": 586.6162965,
-          "raw_b_reading": 764.3222273,
-          "raw_c_reading": 440.1868924
+          "raw_a_reading": 586.6,
+          "raw_b_reading": 764.3,
+          "raw_c_reading": 440.2
         },
         {
           "depth": 15.95,
-          "raw_a_reading": 581.5807879,
-          "raw_b_reading": 757.5265455,
-          "raw_c_reading": 439.5433175
+          "raw_a_reading": 581.6,
+          "raw_b_reading": 757.5,
+          "raw_c_reading": 439.5
         },
         {
           "depth": 16.0,
-          "raw_a_reading": 576.6849595,
-          "raw_b_reading": 753.66415,
-          "raw_c_reading": 437.3508571
+          "raw_a_reading": 576.7,
+          "raw_b_reading": 753.7,
+          "raw_c_reading": 437.4
         },
         {
           "depth": 16.05,
-          "raw_a_reading": 575.5295667,
-          "raw_b_reading": 761.5349,
-          "raw_c_reading": 435.1583968
+          "raw_a_reading": 575.5,
+          "raw_b_reading": 761.5,
+          "raw_c_reading": 435.2
         },
         {
           "depth": 16.1,
-          "raw_a_reading": 576.4953167,
-          "raw_b_reading": 769.40565,
-          "raw_c_reading": 432.9659365
+          "raw_a_reading": 576.5,
+          "raw_b_reading": 769.4,
+          "raw_c_reading": 433.0
         },
         {
           "depth": 16.15,
-          "raw_a_reading": 579.7625991,
-          "raw_b_reading": 777.2764,
-          "raw_c_reading": 430.7734762
+          "raw_a_reading": 579.8,
+          "raw_b_reading": 777.3,
+          "raw_c_reading": 430.8
         },
         {
           "depth": 16.2,
-          "raw_a_reading": 584.4345151,
-          "raw_b_reading": 782.423,
-          "raw_c_reading": 428.5810159
+          "raw_a_reading": 584.4,
+          "raw_b_reading": 782.4,
+          "raw_c_reading": 428.6
         },
         {
           "depth": 16.25,
-          "raw_a_reading": 583.9569683,
-          "raw_b_reading": 776.673,
-          "raw_c_reading": 426.3885556
+          "raw_a_reading": 584.0,
+          "raw_b_reading": 776.7,
+          "raw_c_reading": 426.4
         },
         {
           "depth": 16.3,
-          "raw_a_reading": 576.0648591,
-          "raw_b_reading": 761.080375,
-          "raw_c_reading": 424.1960952
+          "raw_a_reading": 576.1,
+          "raw_b_reading": 761.1,
+          "raw_c_reading": 424.2
         },
         {
           "depth": 16.35,
-          "raw_a_reading": 568.3074881,
-          "raw_b_reading": 748.31725,
-          "raw_c_reading": 417.5631879
+          "raw_a_reading": 568.3,
+          "raw_b_reading": 748.3,
+          "raw_c_reading": 417.6
         },
         {
           "depth": 16.4,
-          "raw_a_reading": 559.4801964,
-          "raw_b_reading": 735.554125,
-          "raw_c_reading": 410.3247651
+          "raw_a_reading": 559.5,
+          "raw_b_reading": 735.6,
+          "raw_c_reading": 410.3
         },
         {
           "depth": 16.45,
-          "raw_a_reading": 550.6529048,
-          "raw_b_reading": 722.791,
-          "raw_c_reading": 403.0863423
+          "raw_a_reading": 550.7,
+          "raw_b_reading": 722.8,
+          "raw_c_reading": 403.1
         },
         {
           "depth": 16.5,
-          "raw_a_reading": 541.592756,
-          "raw_b_reading": 710.027875,
-          "raw_c_reading": 395.8479195
+          "raw_a_reading": 541.6,
+          "raw_b_reading": 710.0,
+          "raw_c_reading": 395.8
         },
         {
           "depth": 16.55,
-          "raw_a_reading": 532.5326071,
-          "raw_b_reading": 697.26475,
-          "raw_c_reading": 388.6094966
+          "raw_a_reading": 532.5,
+          "raw_b_reading": 697.3,
+          "raw_c_reading": 388.6
         },
         {
           "depth": 16.6,
-          "raw_a_reading": 523.4724583,
-          "raw_b_reading": 684.501625,
-          "raw_c_reading": 381.3710738
+          "raw_a_reading": 523.5,
+          "raw_b_reading": 684.5,
+          "raw_c_reading": 381.4
         },
         {
           "depth": 16.65,
-          "raw_a_reading": 531.0811835,
-          "raw_b_reading": 696.8394,
-          "raw_c_reading": 388.6469091
+          "raw_a_reading": 531.1,
+          "raw_b_reading": 696.8,
+          "raw_c_reading": 388.6
         },
         {
           "depth": 16.7,
-          "raw_a_reading": 538.988729,
-          "raw_b_reading": 715.4524,
-          "raw_c_reading": 397.1848538
+          "raw_a_reading": 539.0,
+          "raw_b_reading": 715.5,
+          "raw_c_reading": 397.2
         },
         {
           "depth": 16.75,
-          "raw_a_reading": 548.2191143,
-          "raw_b_reading": 734.0654,
-          "raw_c_reading": 405.7227984
+          "raw_a_reading": 548.2,
+          "raw_b_reading": 734.1,
+          "raw_c_reading": 405.7
         },
         {
           "depth": 16.8,
-          "raw_a_reading": 557.7802095,
-          "raw_b_reading": 752.6784,
-          "raw_c_reading": 414.2607431
+          "raw_a_reading": 557.8,
+          "raw_b_reading": 752.7,
+          "raw_c_reading": 414.3
         },
         {
           "depth": 16.85,
-          "raw_a_reading": 562.2974762,
-          "raw_b_reading": 755.917,
-          "raw_c_reading": 422.7986877
+          "raw_a_reading": 562.3,
+          "raw_b_reading": 755.9,
+          "raw_c_reading": 422.8
         },
         {
           "depth": 16.9,
-          "raw_a_reading": 565.8699591,
-          "raw_b_reading": 755.312,
-          "raw_c_reading": 432.2708405
+          "raw_a_reading": 565.9,
+          "raw_b_reading": 755.3,
+          "raw_c_reading": 432.3
         },
         {
           "depth": 16.95,
-          "raw_a_reading": 570.7071361,
-          "raw_b_reading": 754.707,
-          "raw_c_reading": 441.8950736
+          "raw_a_reading": 570.7,
+          "raw_b_reading": 754.7,
+          "raw_c_reading": 441.9
         },
         {
           "depth": 17.0,
-          "raw_a_reading": 575.2695325,
-          "raw_b_reading": 754.102,
-          "raw_c_reading": 451.5193067
+          "raw_a_reading": 575.3,
+          "raw_b_reading": 754.1,
+          "raw_c_reading": 451.5
         },
         {
           "depth": 17.05,
-          "raw_a_reading": 579.9210222,
-          "raw_b_reading": 756.8105556,
-          "raw_c_reading": 457.3382241
+          "raw_a_reading": 579.9,
+          "raw_b_reading": 756.8,
+          "raw_c_reading": 457.3
         },
         {
           "depth": 17.1,
-          "raw_a_reading": 582.8525133,
-          "raw_b_reading": 764.4894444,
-          "raw_c_reading": 460.6202644
+          "raw_a_reading": 582.9,
+          "raw_b_reading": 764.5,
+          "raw_c_reading": 460.6
         },
         {
           "depth": 17.15,
-          "raw_a_reading": 584.4795503,
-          "raw_b_reading": 772.1683333,
-          "raw_c_reading": 463.9023046
+          "raw_a_reading": 584.5,
+          "raw_b_reading": 772.2,
+          "raw_c_reading": 463.9
         },
         {
           "depth": 17.2,
-          "raw_a_reading": 587.5741005,
-          "raw_b_reading": 779.8472222,
-          "raw_c_reading": 467.1843448
+          "raw_a_reading": 587.6,
+          "raw_b_reading": 779.8,
+          "raw_c_reading": 467.2
         },
         {
           "depth": 17.25,
-          "raw_a_reading": 590.6701278,
-          "raw_b_reading": 779.8526842,
-          "raw_c_reading": 470.4663851
+          "raw_a_reading": 590.7,
+          "raw_b_reading": 779.9,
+          "raw_c_reading": 470.5
         },
         {
           "depth": 17.3,
-          "raw_a_reading": 593.5447519,
-          "raw_b_reading": 777.9397895,
-          "raw_c_reading": 473.7484253
+          "raw_a_reading": 593.5,
+          "raw_b_reading": 777.9,
+          "raw_c_reading": 473.7
         },
         {
           "depth": 17.35,
-          "raw_a_reading": 596.4193759,
-          "raw_b_reading": 776.0268947,
-          "raw_c_reading": 477.0304655
+          "raw_a_reading": 596.4,
+          "raw_b_reading": 776.0,
+          "raw_c_reading": 477.0
         },
         {
           "depth": 17.4,
-          "raw_a_reading": 598.6700847,
-          "raw_b_reading": 774.114,
-          "raw_c_reading": 478.2155636
+          "raw_a_reading": 598.7,
+          "raw_b_reading": 774.1,
+          "raw_c_reading": 478.2
         },
         {
           "depth": 17.45,
-          "raw_a_reading": 600.7980293,
-          "raw_b_reading": 775.3001538,
-          "raw_c_reading": 478.2211318
+          "raw_a_reading": 600.8,
+          "raw_b_reading": 775.3,
+          "raw_c_reading": 478.2
         },
         {
           "depth": 17.5,
-          "raw_a_reading": 601.8446227,
-          "raw_b_reading": 776.4863077,
-          "raw_c_reading": 478.2267
+          "raw_a_reading": 601.8,
+          "raw_b_reading": 776.5,
+          "raw_c_reading": 478.2
         },
         {
           "depth": 17.55,
-          "raw_a_reading": 602.9338131,
-          "raw_b_reading": 778.567,
-          "raw_c_reading": 478.2322682
+          "raw_a_reading": 602.9,
+          "raw_b_reading": 778.6,
+          "raw_c_reading": 478.2
         },
         {
           "depth": 17.6,
-          "raw_a_reading": 604.0906905,
-          "raw_b_reading": 781.9895,
-          "raw_c_reading": 478.2378364
+          "raw_a_reading": 604.1,
+          "raw_b_reading": 782.0,
+          "raw_c_reading": 478.2
         },
         {
           "depth": 17.65,
-          "raw_a_reading": 605.2500952,
-          "raw_b_reading": 785.412,
-          "raw_c_reading": 478.2434045
+          "raw_a_reading": 605.3,
+          "raw_b_reading": 785.4,
+          "raw_c_reading": 478.2
         },
         {
           "depth": 17.7,
-          "raw_a_reading": 606.4095,
-          "raw_b_reading": 788.8345,
-          "raw_c_reading": 478.2489727
+          "raw_a_reading": 606.4,
+          "raw_b_reading": 788.8,
+          "raw_c_reading": 478.2
         },
         {
           "depth": 17.75,
-          "raw_a_reading": 607.9652993,
-          "raw_b_reading": 792.257,
-          "raw_c_reading": 478.2545409
+          "raw_a_reading": 608.0,
+          "raw_b_reading": 792.3,
+          "raw_c_reading": 478.3
         },
         {
           "depth": 17.8,
-          "raw_a_reading": 610.1156905,
-          "raw_b_reading": 795.6795,
-          "raw_c_reading": 478.2601091
+          "raw_a_reading": 610.1,
+          "raw_b_reading": 795.7,
+          "raw_c_reading": 478.3
         },
         {
           "depth": 17.85,
-          "raw_a_reading": 612.2660816,
-          "raw_b_reading": 799.102,
-          "raw_c_reading": 478.7827797
+          "raw_a_reading": 612.3,
+          "raw_b_reading": 799.1,
+          "raw_c_reading": 478.8
         },
         {
           "depth": 17.9,
-          "raw_a_reading": 613.8513931,
-          "raw_b_reading": 802.4925882,
-          "raw_c_reading": 479.403946
+          "raw_a_reading": 613.9,
+          "raw_b_reading": 802.5,
+          "raw_c_reading": 479.4
         },
         {
           "depth": 17.95,
-          "raw_a_reading": 615.0609978,
-          "raw_b_reading": 805.8831765,
-          "raw_c_reading": 480.0251123
+          "raw_a_reading": 615.1,
+          "raw_b_reading": 805.9,
+          "raw_c_reading": 480.0
         },
         {
           "depth": 18.0,
-          "raw_a_reading": 616.2706025,
-          "raw_b_reading": 809.2737647,
-          "raw_c_reading": 480.6462786
+          "raw_a_reading": 616.3,
+          "raw_b_reading": 809.3,
+          "raw_c_reading": 480.6
         },
         {
           "depth": 18.05,
-          "raw_a_reading": 617.2216803,
-          "raw_b_reading": 807.2352857,
-          "raw_c_reading": 481.2674449
+          "raw_a_reading": 617.2,
+          "raw_b_reading": 807.2,
+          "raw_c_reading": 481.3
         },
         {
           "depth": 18.1,
-          "raw_a_reading": 616.4394014,
-          "raw_b_reading": 801.5774286,
-          "raw_c_reading": 481.8886112
+          "raw_a_reading": 616.4,
+          "raw_b_reading": 801.6,
+          "raw_c_reading": 481.9
         },
         {
           "depth": 18.15,
-          "raw_a_reading": 615.6571224,
-          "raw_b_reading": 795.9195714,
-          "raw_c_reading": 482.5097775
+          "raw_a_reading": 615.7,
+          "raw_b_reading": 795.9,
+          "raw_c_reading": 482.5
         },
         {
           "depth": 18.2,
-          "raw_a_reading": 614.8748435,
-          "raw_b_reading": 790.2617143,
-          "raw_c_reading": 483.1309438
+          "raw_a_reading": 614.9,
+          "raw_b_reading": 790.3,
+          "raw_c_reading": 483.1
         },
         {
           "depth": 18.25,
-          "raw_a_reading": 614.2247963,
-          "raw_b_reading": 787.3807222,
-          "raw_c_reading": 483.7521102
+          "raw_a_reading": 614.2,
+          "raw_b_reading": 787.4,
+          "raw_c_reading": 483.8
         },
         {
           "depth": 18.3,
-          "raw_a_reading": 615.4672037,
-          "raw_b_reading": 788.6650278,
-          "raw_c_reading": 484.8663008
+          "raw_a_reading": 615.5,
+          "raw_b_reading": 788.7,
+          "raw_c_reading": 484.9
         },
         {
           "depth": 18.35,
-          "raw_a_reading": 616.7096111,
-          "raw_b_reading": 789.9493333,
-          "raw_c_reading": 486.337509
+          "raw_a_reading": 616.7,
+          "raw_b_reading": 789.9,
+          "raw_c_reading": 486.3
         },
         {
           "depth": 18.4,
-          "raw_a_reading": 617.9520185,
-          "raw_b_reading": 791.2336389,
-          "raw_c_reading": 487.8087172
+          "raw_a_reading": 618.0,
+          "raw_b_reading": 791.2,
+          "raw_c_reading": 487.8
         },
         {
           "depth": 18.45,
-          "raw_a_reading": 619.6958545,
-          "raw_b_reading": 792.5179444,
-          "raw_c_reading": 489.2799254
+          "raw_a_reading": 619.7,
+          "raw_b_reading": 792.5,
+          "raw_c_reading": 489.3
         },
         {
           "depth": 18.5,
-          "raw_a_reading": 621.5650476,
-          "raw_b_reading": 793.80225,
-          "raw_c_reading": 490.7511337
+          "raw_a_reading": 621.6,
+          "raw_b_reading": 793.8,
+          "raw_c_reading": 490.8
         },
         {
           "depth": 18.55,
-          "raw_a_reading": 623.4342407,
-          "raw_b_reading": 795.0865556,
-          "raw_c_reading": 492.2223419
+          "raw_a_reading": 623.4,
+          "raw_b_reading": 795.1,
+          "raw_c_reading": 492.2
         },
         {
           "depth": 18.6,
-          "raw_a_reading": 625.6509103,
-          "raw_b_reading": 797.3251154,
-          "raw_c_reading": 493.6935501
+          "raw_a_reading": 625.7,
+          "raw_b_reading": 797.3,
+          "raw_c_reading": 493.7
         },
         {
           "depth": 18.65,
-          "raw_a_reading": 628.2506996,
-          "raw_b_reading": 803.3806923,
-          "raw_c_reading": 495.1647584
+          "raw_a_reading": 628.3,
+          "raw_b_reading": 803.4,
+          "raw_c_reading": 495.2
         },
         {
           "depth": 18.7,
-          "raw_a_reading": 630.850489,
-          "raw_b_reading": 809.4362692,
-          "raw_c_reading": 493.9226036
+          "raw_a_reading": 630.9,
+          "raw_b_reading": 809.4,
+          "raw_c_reading": 493.9
         },
         {
           "depth": 18.75,
-          "raw_a_reading": 633.2845641,
-          "raw_b_reading": 815.4918462,
-          "raw_c_reading": 492.0021081
+          "raw_a_reading": 633.3,
+          "raw_b_reading": 815.5,
+          "raw_c_reading": 492.0
         },
         {
           "depth": 18.8,
-          "raw_a_reading": 635.608163,
-          "raw_b_reading": 821.5474231,
-          "raw_c_reading": 490.0816126
+          "raw_a_reading": 635.6,
+          "raw_b_reading": 821.5,
+          "raw_c_reading": 490.1
         },
         {
           "depth": 18.85,
-          "raw_a_reading": 637.9317619,
-          "raw_b_reading": 827.603,
-          "raw_c_reading": 488.1611171
+          "raw_a_reading": 637.9,
+          "raw_b_reading": 827.6,
+          "raw_c_reading": 488.2
         },
         {
           "depth": 18.9,
-          "raw_a_reading": 637.0668685,
-          "raw_b_reading": 828.0124737,
-          "raw_c_reading": 481.9034706
+          "raw_a_reading": 637.1,
+          "raw_b_reading": 828.0,
+          "raw_c_reading": 481.9
         },
         {
           "depth": 18.95,
-          "raw_a_reading": 634.2555549,
-          "raw_b_reading": 828.4219474,
-          "raw_c_reading": 467.9353333
+          "raw_a_reading": 634.3,
+          "raw_b_reading": 828.4,
+          "raw_c_reading": 467.9
         },
         {
           "depth": 19.0,
-          "raw_a_reading": 631.4442414,
-          "raw_b_reading": 828.8314211,
-          "raw_c_reading": 454.5707668
+          "raw_a_reading": 631.4,
+          "raw_b_reading": 828.8,
+          "raw_c_reading": 454.6
         },
         {
           "depth": 19.05,
-          "raw_a_reading": 627.957498,
-          "raw_b_reading": 827.6574583,
-          "raw_c_reading": 442.488788
+          "raw_a_reading": 628.0,
+          "raw_b_reading": 827.7,
+          "raw_c_reading": 442.5
         },
         {
           "depth": 19.1,
-          "raw_a_reading": 621.7690357,
-          "raw_b_reading": 820.14975,
-          "raw_c_reading": 430.4068092
+          "raw_a_reading": 621.8,
+          "raw_b_reading": 820.1,
+          "raw_c_reading": 430.4
         },
         {
           "depth": 19.15,
-          "raw_a_reading": 615.3815625,
-          "raw_b_reading": 812.6420417,
-          "raw_c_reading": 418.3248304
+          "raw_a_reading": 615.4,
+          "raw_b_reading": 812.6,
+          "raw_c_reading": 418.3
         },
         {
           "depth": 19.2,
-          "raw_a_reading": 608.1980452,
-          "raw_b_reading": 805.1343333,
-          "raw_c_reading": 406.2428516
+          "raw_a_reading": 608.2,
+          "raw_b_reading": 805.1,
+          "raw_c_reading": 406.2
         },
         {
           "depth": 19.25,
-          "raw_a_reading": 601.014528,
-          "raw_b_reading": 797.626625,
-          "raw_c_reading": 394.1608728
+          "raw_a_reading": 601.0,
+          "raw_b_reading": 797.6,
+          "raw_c_reading": 394.2
         },
         {
           "depth": 19.3,
-          "raw_a_reading": 598.8179215,
-          "raw_b_reading": 789.9645882,
-          "raw_c_reading": 397.5709834
+          "raw_a_reading": 598.8,
+          "raw_b_reading": 790.0,
+          "raw_c_reading": 397.6
         },
         {
           "depth": 19.35,
-          "raw_a_reading": 599.9397983,
-          "raw_b_reading": 782.0710588,
-          "raw_c_reading": 408.9618674
+          "raw_a_reading": 599.9,
+          "raw_b_reading": 782.1,
+          "raw_c_reading": 409.0
         },
         {
           "depth": 19.4,
-          "raw_a_reading": 601.0616751,
-          "raw_b_reading": 774.1775294,
-          "raw_c_reading": 420.3527514
+          "raw_a_reading": 601.1,
+          "raw_b_reading": 774.2,
+          "raw_c_reading": 420.4
         },
         {
           "depth": 19.45,
-          "raw_a_reading": 601.6899341,
-          "raw_b_reading": 766.284,
-          "raw_c_reading": 430.7631606
+          "raw_a_reading": 601.7,
+          "raw_b_reading": 766.3,
+          "raw_c_reading": 430.8
         },
         {
           "depth": 19.5,
-          "raw_a_reading": 601.3016094,
-          "raw_b_reading": 778.5061053,
-          "raw_c_reading": 417.6421762
+          "raw_a_reading": 601.3,
+          "raw_b_reading": 778.5,
+          "raw_c_reading": 417.6
         },
         {
           "depth": 19.55,
-          "raw_a_reading": 600.9132848,
-          "raw_b_reading": 790.7282105,
-          "raw_c_reading": 404.5211917
+          "raw_a_reading": 600.9,
+          "raw_b_reading": 790.7,
+          "raw_c_reading": 404.5
         },
         {
           "depth": 19.6,
-          "raw_a_reading": 599.0802531,
-          "raw_b_reading": 802.9503158,
-          "raw_c_reading": 391.4002073
+          "raw_a_reading": 599.1,
+          "raw_b_reading": 803.0,
+          "raw_c_reading": 391.4
         },
         {
           "depth": 19.65,
-          "raw_a_reading": 596.0676871,
-          "raw_b_reading": 810.6280952,
-          "raw_c_reading": 382.4403118
+          "raw_a_reading": 596.1,
+          "raw_b_reading": 810.6,
+          "raw_c_reading": 382.4
         },
         {
           "depth": 19.7,
-          "raw_a_reading": 592.902449,
-          "raw_b_reading": 800.1285714,
-          "raw_c_reading": 392.4364882
+          "raw_a_reading": 592.9,
+          "raw_b_reading": 800.1,
+          "raw_c_reading": 392.4
         },
         {
           "depth": 19.75,
-          "raw_a_reading": 592.5888662,
-          "raw_b_reading": 789.6290476,
-          "raw_c_reading": 402.4326647
+          "raw_a_reading": 592.6,
+          "raw_b_reading": 789.6,
+          "raw_c_reading": 402.4
         },
         {
           "depth": 19.8,
-          "raw_a_reading": 592.2752834,
-          "raw_b_reading": 779.1295238,
-          "raw_c_reading": 412.4288412
+          "raw_a_reading": 592.3,
+          "raw_b_reading": 779.1,
+          "raw_c_reading": 412.4
         },
         {
           "depth": 19.85,
-          "raw_a_reading": 593.310381,
-          "raw_b_reading": 768.63,
-          "raw_c_reading": 423.3920654
+          "raw_a_reading": 593.3,
+          "raw_b_reading": 768.6,
+          "raw_c_reading": 423.4
         },
         {
           "depth": 19.9,
-          "raw_a_reading": 599.721164,
-          "raw_b_reading": 783.78,
-          "raw_c_reading": 434.6280467
+          "raw_a_reading": 599.7,
+          "raw_b_reading": 783.8,
+          "raw_c_reading": 434.6
         },
         {
           "depth": 19.95,
-          "raw_a_reading": 609.328836,
-          "raw_b_reading": 798.93,
-          "raw_c_reading": 445.864028
+          "raw_a_reading": 609.3,
+          "raw_b_reading": 798.9,
+          "raw_c_reading": 445.9
         },
         {
           "depth": 20.0,
-          "raw_a_reading": 617.6478389,
-          "raw_b_reading": 814.08,
-          "raw_c_reading": 457.1000093
+          "raw_a_reading": 617.6,
+          "raw_b_reading": 814.1,
+          "raw_c_reading": 457.1
         },
         {
           "depth": 20.05,
-          "raw_a_reading": 625.0243956,
-          "raw_b_reading": 827.48,
-          "raw_c_reading": 447.1371011
+          "raw_a_reading": 625.0,
+          "raw_b_reading": 827.5,
+          "raw_c_reading": 447.1
         },
         {
           "depth": 20.1,
-          "raw_a_reading": 632.067619,
-          "raw_b_reading": 833.88,
-          "raw_c_reading": 415.9753034
+          "raw_a_reading": 632.1,
+          "raw_b_reading": 833.9,
+          "raw_c_reading": 416.0
         },
         {
           "depth": 20.15,
-          "raw_a_reading": 605.0985714,
-          "raw_b_reading": 840.28,
-          "raw_c_reading": 377.2180976
+          "raw_a_reading": 605.1,
+          "raw_b_reading": 840.3,
+          "raw_c_reading": 377.2
         },
         {
           "depth": 20.2,
-          "raw_a_reading": 581.8817143,
-          "raw_b_reading": 846.68,
-          "raw_c_reading": 312.9994889
+          "raw_a_reading": 581.9,
+          "raw_b_reading": 846.7,
+          "raw_c_reading": 313.0
         },
         {
           "depth": 20.25,
-          "raw_a_reading": 559.6169524,
-          "raw_b_reading": 853.08,
-          "raw_c_reading": 258.7752821
+          "raw_a_reading": 559.6,
+          "raw_b_reading": 853.1,
+          "raw_c_reading": 258.8
         },
         {
           "depth": 20.3,
-          "raw_a_reading": 551.8529365,
-          "raw_b_reading": 941.9666667,
-          "raw_c_reading": 228.0970769
+          "raw_a_reading": 551.9,
+          "raw_b_reading": 942.0,
+          "raw_c_reading": 228.1
         },
         {
           "depth": 20.35,
-          "raw_a_reading": 556.3734762,
-          "raw_b_reading": 1003.4855,
-          "raw_c_reading": 214.1811582
+          "raw_a_reading": 556.4,
+          "raw_b_reading": 1003.5,
+          "raw_c_reading": 214.2
         },
         {
           "depth": 20.4,
-          "raw_a_reading": 568.0020532,
-          "raw_b_reading": 1058.214546,
-          "raw_c_reading": 203.9447658
+          "raw_a_reading": 568.0,
+          "raw_b_reading": 1058.2,
+          "raw_c_reading": 203.9
         },
         {
           "depth": 20.45,
-          "raw_a_reading": 577.6134416,
-          "raw_b_reading": 1113.152273,
-          "raw_c_reading": 193.7083734
+          "raw_a_reading": 577.6,
+          "raw_b_reading": 1113.2,
+          "raw_c_reading": 193.7
         },
         {
           "depth": 20.5,
-          "raw_a_reading": 581.397381,
-          "raw_b_reading": 1168.09,
-          "raw_c_reading": 212.2255211
+          "raw_a_reading": 581.4,
+          "raw_b_reading": 1168.1,
+          "raw_c_reading": 212.2
         },
         {
           "depth": 20.55,
-          "raw_a_reading": 575.7145238,
-          "raw_b_reading": 1024.225,
-          "raw_c_reading": 246.1427826
+          "raw_a_reading": 575.7,
+          "raw_b_reading": 1024.2,
+          "raw_c_reading": 246.1
         },
         {
           "depth": 20.6,
-          "raw_a_reading": 562.6700623,
-          "raw_b_reading": 830.099,
-          "raw_c_reading": 281.2054902
+          "raw_a_reading": 562.7,
+          "raw_b_reading": 830.1,
+          "raw_c_reading": 281.2
         },
         {
           "depth": 20.65,
-          "raw_a_reading": 553.9921246,
-          "raw_b_reading": 727.67,
-          "raw_c_reading": 313.5334483
+          "raw_a_reading": 554.0,
+          "raw_b_reading": 727.7,
+          "raw_c_reading": 313.5
         },
         {
           "depth": 20.7,
-          "raw_a_reading": 559.0751404,
-          "raw_b_reading": 757.9246154,
-          "raw_c_reading": 340.1600684
+          "raw_a_reading": 559.1,
+          "raw_b_reading": 757.9,
+          "raw_c_reading": 340.2
         },
         {
           "depth": 20.75,
-          "raw_a_reading": 576.371011,
-          "raw_b_reading": 788.1792308,
-          "raw_c_reading": 349.1677
+          "raw_a_reading": 576.4,
+          "raw_b_reading": 788.2,
+          "raw_c_reading": 349.2
         },
         {
           "depth": 20.8,
-          "raw_a_reading": 597.1155662,
-          "raw_b_reading": 817.6735556,
-          "raw_c_reading": 358.1753316
+          "raw_a_reading": 597.1,
+          "raw_b_reading": 817.7,
+          "raw_c_reading": 358.2
         },
         {
           "depth": 20.85,
-          "raw_a_reading": 614.964164,
-          "raw_b_reading": 846.0274444,
-          "raw_c_reading": 367.1829632
+          "raw_a_reading": 615.0,
+          "raw_b_reading": 846.0,
+          "raw_c_reading": 367.2
         },
         {
           "depth": 20.9,
-          "raw_a_reading": 634.3294213,
-          "raw_b_reading": 853.890575,
-          "raw_c_reading": 376.2563656
+          "raw_a_reading": 634.3,
+          "raw_b_reading": 853.9,
+          "raw_c_reading": 376.3
         },
         {
           "depth": 20.95,
-          "raw_a_reading": 639.4793299,
-          "raw_b_reading": 848.0932,
-          "raw_c_reading": 385.4574409
+          "raw_a_reading": 639.5,
+          "raw_b_reading": 848.1,
+          "raw_c_reading": 385.5
         },
         {
           "depth": 21.0,
-          "raw_a_reading": 642.3713418,
-          "raw_b_reading": 842.295825,
-          "raw_c_reading": 394.6585161
+          "raw_a_reading": 642.4,
+          "raw_b_reading": 842.3,
+          "raw_c_reading": 394.7
         },
         {
           "depth": 21.05,
-          "raw_a_reading": 641.8765089,
-          "raw_b_reading": 836.49845,
-          "raw_c_reading": 403.8595914
+          "raw_a_reading": 641.9,
+          "raw_b_reading": 836.5,
+          "raw_c_reading": 403.9
         },
         {
           "depth": 21.1,
-          "raw_a_reading": 641.3816759,
-          "raw_b_reading": 830.701075,
-          "raw_c_reading": 410.9859524
+          "raw_a_reading": 641.4,
+          "raw_b_reading": 830.7,
+          "raw_c_reading": 411.0
         },
         {
           "depth": 21.15,
-          "raw_a_reading": 640.8868429,
-          "raw_b_reading": 824.9037,
-          "raw_c_reading": 416.8407143
+          "raw_a_reading": 640.9,
+          "raw_b_reading": 824.9,
+          "raw_c_reading": 416.8
         },
         {
           "depth": 21.2,
-          "raw_a_reading": 637.9883284,
-          "raw_b_reading": 819.106325,
-          "raw_c_reading": 422.6954762
+          "raw_a_reading": 638.0,
+          "raw_b_reading": 819.1,
+          "raw_c_reading": 422.7
         },
         {
           "depth": 21.25,
-          "raw_a_reading": 635.0898139,
-          "raw_b_reading": 813.30895,
-          "raw_c_reading": 428.5502381
+          "raw_a_reading": 635.1,
+          "raw_b_reading": 813.3,
+          "raw_c_reading": 428.6
         },
         {
           "depth": 21.3,
-          "raw_a_reading": 635.2312952,
-          "raw_b_reading": 820.0572,
-          "raw_c_reading": 434.405
+          "raw_a_reading": 635.2,
+          "raw_b_reading": 820.1,
+          "raw_c_reading": 434.4
         },
         {
           "depth": 21.35,
-          "raw_a_reading": 645.5413905,
-          "raw_b_reading": 835.1692,
-          "raw_c_reading": 446.0906886
+          "raw_a_reading": 645.5,
+          "raw_b_reading": 835.2,
+          "raw_c_reading": 446.1
         },
         {
           "depth": 21.4,
-          "raw_a_reading": 658.6152952,
-          "raw_b_reading": 850.2812,
-          "raw_c_reading": 461.9987725
+          "raw_a_reading": 658.6,
+          "raw_b_reading": 850.3,
+          "raw_c_reading": 462.0
         },
         {
           "depth": 21.45,
-          "raw_a_reading": 672.8454963,
-          "raw_b_reading": 865.3932,
-          "raw_c_reading": 477.9068563
+          "raw_a_reading": 672.8,
+          "raw_b_reading": 865.4,
+          "raw_c_reading": 477.9
         },
         {
           "depth": 21.5,
-          "raw_a_reading": 682.5915704,
-          "raw_b_reading": 880.5052,
-          "raw_c_reading": 489.5952752
+          "raw_a_reading": 682.6,
+          "raw_b_reading": 880.5,
+          "raw_c_reading": 489.6
         },
         {
           "depth": 21.55,
-          "raw_a_reading": 692.2539143,
-          "raw_b_reading": 895.6172,
-          "raw_c_reading": 487.921422
+          "raw_a_reading": 692.3,
+          "raw_b_reading": 895.6,
+          "raw_c_reading": 487.9
         },
         {
           "depth": 21.6,
-          "raw_a_reading": 701.8604381,
-          "raw_b_reading": 910.7292,
-          "raw_c_reading": 486.2475688
+          "raw_a_reading": 701.9,
+          "raw_b_reading": 910.7,
+          "raw_c_reading": 486.2
         },
         {
           "depth": 21.65,
-          "raw_a_reading": 707.2698008,
-          "raw_b_reading": 925.8412,
-          "raw_c_reading": 484.5737156
+          "raw_a_reading": 707.3,
+          "raw_b_reading": 925.8,
+          "raw_c_reading": 484.6
         },
         {
           "depth": 21.7,
-          "raw_a_reading": 712.2301127,
-          "raw_b_reading": 931.5231364,
-          "raw_c_reading": 482.8998624
+          "raw_a_reading": 712.2,
+          "raw_b_reading": 931.5,
+          "raw_c_reading": 482.9
         },
         {
           "depth": 21.75,
-          "raw_a_reading": 716.6483574,
-          "raw_b_reading": 930.9183636,
-          "raw_c_reading": 499.1887534
+          "raw_a_reading": 716.6,
+          "raw_b_reading": 930.9,
+          "raw_c_reading": 499.2
         },
         {
           "depth": 21.8,
-          "raw_a_reading": 720.7025519,
-          "raw_b_reading": 930.3135909,
-          "raw_c_reading": 516.4730625
+          "raw_a_reading": 720.7,
+          "raw_b_reading": 930.3,
+          "raw_c_reading": 516.5
         },
         {
           "depth": 21.85,
-          "raw_a_reading": 724.7567465,
-          "raw_b_reading": 929.7088182,
-          "raw_c_reading": 531.7494018
+          "raw_a_reading": 724.8,
+          "raw_b_reading": 929.7,
+          "raw_c_reading": 531.7
         },
         {
           "depth": 21.9,
-          "raw_a_reading": 727.594766,
-          "raw_b_reading": 929.8229444,
-          "raw_c_reading": 546.5407574
+          "raw_a_reading": 727.6,
+          "raw_b_reading": 929.8,
+          "raw_c_reading": 546.5
         },
         {
           "depth": 21.95,
-          "raw_a_reading": 729.7361134,
-          "raw_b_reading": 932.8126667,
-          "raw_c_reading": 559.1227426
+          "raw_a_reading": 729.7,
+          "raw_b_reading": 932.8,
+          "raw_c_reading": 559.1
         },
         {
           "depth": 22.0,
-          "raw_a_reading": 731.8774607,
-          "raw_b_reading": 935.8023889,
-          "raw_c_reading": 571.7047279
+          "raw_a_reading": 731.9,
+          "raw_b_reading": 935.8,
+          "raw_c_reading": 571.7
         },
         {
           "depth": 22.05,
-          "raw_a_reading": 733.5582238,
-          "raw_b_reading": 938.7921111,
-          "raw_c_reading": 581.4482978
+          "raw_a_reading": 733.6,
+          "raw_b_reading": 938.8,
+          "raw_c_reading": 581.4
         },
         {
           "depth": 22.1,
-          "raw_a_reading": 735.1238408,
-          "raw_b_reading": 941.7818333,
-          "raw_c_reading": 587.8598146
+          "raw_a_reading": 735.1,
+          "raw_b_reading": 941.8,
+          "raw_c_reading": 587.9
         },
         {
           "depth": 22.15,
-          "raw_a_reading": 736.6894578,
-          "raw_b_reading": 944.7715556,
-          "raw_c_reading": 594.2713315
+          "raw_a_reading": 736.7,
+          "raw_b_reading": 944.8,
+          "raw_c_reading": 594.3
         },
         {
           "depth": 22.2,
-          "raw_a_reading": 739.0200608,
-          "raw_b_reading": 947.7612778,
-          "raw_c_reading": 600.6828483
+          "raw_a_reading": 739.0,
+          "raw_b_reading": 947.8,
+          "raw_c_reading": 600.7
         },
         {
           "depth": 22.25,
-          "raw_a_reading": 742.4981429,
-          "raw_b_reading": 950.751,
-          "raw_c_reading": 602.6839824
+          "raw_a_reading": 742.5,
+          "raw_b_reading": 950.8,
+          "raw_c_reading": 602.7
         },
         {
           "depth": 22.3,
-          "raw_a_reading": 745.8369673,
-          "raw_b_reading": 950.8163125,
-          "raw_c_reading": 604.1950739
+          "raw_a_reading": 745.8,
+          "raw_b_reading": 950.8,
+          "raw_c_reading": 604.2
         },
         {
           "depth": 22.35,
-          "raw_a_reading": 748.614195,
-          "raw_b_reading": 950.881625,
-          "raw_c_reading": 605.7061655
+          "raw_a_reading": 748.6,
+          "raw_b_reading": 950.9,
+          "raw_c_reading": 605.7
         },
         {
           "depth": 22.4,
-          "raw_a_reading": 749.1450363,
-          "raw_b_reading": 950.9469375,
-          "raw_c_reading": 607.217257
+          "raw_a_reading": 749.1,
+          "raw_b_reading": 950.9,
+          "raw_c_reading": 607.2
         },
         {
           "depth": 22.45,
-          "raw_a_reading": 749.6758774,
-          "raw_b_reading": 951.01225,
-          "raw_c_reading": 608.7283486
+          "raw_a_reading": 749.7,
+          "raw_b_reading": 951.0,
+          "raw_c_reading": 608.7
         },
         {
           "depth": 22.5,
-          "raw_a_reading": 750.2067187,
-          "raw_b_reading": 951.0775625,
-          "raw_c_reading": 609.4354925
+          "raw_a_reading": 750.2,
+          "raw_b_reading": 951.1,
+          "raw_c_reading": 609.4
         },
         {
           "depth": 22.55,
-          "raw_a_reading": 751.131375,
-          "raw_b_reading": 951.142875,
-          "raw_c_reading": 607.2922764
+          "raw_a_reading": 751.1,
+          "raw_b_reading": 951.1,
+          "raw_c_reading": 607.3
         },
         {
           "depth": 22.6,
-          "raw_a_reading": 752.1527772,
-          "raw_b_reading": 951.1723214,
-          "raw_c_reading": 605.1490603
+          "raw_a_reading": 752.2,
+          "raw_b_reading": 951.2,
+          "raw_c_reading": 605.1
         },
         {
           "depth": 22.65,
-          "raw_a_reading": 753.1730408,
-          "raw_b_reading": 951.1778571,
-          "raw_c_reading": 603.0058442
+          "raw_a_reading": 753.2,
+          "raw_b_reading": 951.2,
+          "raw_c_reading": 603.0
         },
         {
           "depth": 22.7,
-          "raw_a_reading": 754.2364523,
-          "raw_b_reading": 951.1833929,
-          "raw_c_reading": 601.2853696
+          "raw_a_reading": 754.2,
+          "raw_b_reading": 951.2,
+          "raw_c_reading": 601.3
         },
         {
           "depth": 22.75,
-          "raw_a_reading": 755.3106507,
-          "raw_b_reading": 951.1889286,
-          "raw_c_reading": 600.9035761
+          "raw_a_reading": 755.3,
+          "raw_b_reading": 951.2,
+          "raw_c_reading": 600.9
         },
         {
           "depth": 22.8,
-          "raw_a_reading": 756.3848492,
-          "raw_b_reading": 951.1944643,
-          "raw_c_reading": 600.5217826
+          "raw_a_reading": 756.4,
+          "raw_b_reading": 951.2,
+          "raw_c_reading": 600.5
         },
         {
           "depth": 22.85,
-          "raw_a_reading": 757.4590476,
+          "raw_a_reading": 757.5,
           "raw_b_reading": 951.2,
-          "raw_c_reading": 600.1399891
+          "raw_c_reading": 600.1
         },
         {
           "depth": 22.9,
-          "raw_a_reading": 754.0200114,
-          "raw_b_reading": 949.287381,
-          "raw_c_reading": 599.7581957
+          "raw_a_reading": 754.0,
+          "raw_b_reading": 949.3,
+          "raw_c_reading": 599.8
         },
         {
           "depth": 22.95,
-          "raw_a_reading": 750.580975,
-          "raw_b_reading": 947.3747619,
-          "raw_c_reading": 599.3764022
+          "raw_a_reading": 750.6,
+          "raw_b_reading": 947.4,
+          "raw_c_reading": 599.4
         },
         {
           "depth": 23.0,
-          "raw_a_reading": 746.9667687,
-          "raw_b_reading": 945.4621429,
-          "raw_c_reading": 598.9946087
+          "raw_a_reading": 747.0,
+          "raw_b_reading": 945.5,
+          "raw_c_reading": 599.0
         },
         {
           "depth": 23.05,
-          "raw_a_reading": 742.6518821,
-          "raw_b_reading": 943.5495238,
-          "raw_c_reading": 598.6128152
+          "raw_a_reading": 742.7,
+          "raw_b_reading": 943.5,
+          "raw_c_reading": 598.6
         },
         {
           "depth": 23.1,
-          "raw_a_reading": 738.3147433,
-          "raw_b_reading": 941.1696087,
-          "raw_c_reading": 599.8625241
+          "raw_a_reading": 738.3,
+          "raw_b_reading": 941.2,
+          "raw_c_reading": 599.9
         },
         {
           "depth": 23.15,
-          "raw_a_reading": 736.714297,
-          "raw_b_reading": 938.6728696,
-          "raw_c_reading": 601.3347106
+          "raw_a_reading": 736.7,
+          "raw_b_reading": 938.7,
+          "raw_c_reading": 601.3
         },
         {
           "depth": 23.2,
-          "raw_a_reading": 735.7994147,
-          "raw_b_reading": 936.1761304,
-          "raw_c_reading": 602.8068971
+          "raw_a_reading": 735.8,
+          "raw_b_reading": 936.2,
+          "raw_c_reading": 602.8
         },
         {
           "depth": 23.25,
-          "raw_a_reading": 734.8845324,
-          "raw_b_reading": 933.6793913,
-          "raw_c_reading": 604.2790836
+          "raw_a_reading": 734.9,
+          "raw_b_reading": 933.7,
+          "raw_c_reading": 604.3
         },
         {
           "depth": 23.3,
-          "raw_a_reading": 733.9916548,
-          "raw_b_reading": 931.64475,
-          "raw_c_reading": 605.7512701
+          "raw_a_reading": 734.0,
+          "raw_b_reading": 931.6,
+          "raw_c_reading": 605.8
         },
         {
           "depth": 23.35,
-          "raw_a_reading": 733.9878452,
-          "raw_b_reading": 931.4585,
-          "raw_c_reading": 607.2234566
+          "raw_a_reading": 734.0,
+          "raw_b_reading": 931.5,
+          "raw_c_reading": 607.2
         },
         {
           "depth": 23.4,
-          "raw_a_reading": 733.9840357,
-          "raw_b_reading": 931.27225,
-          "raw_c_reading": 606.4300302
+          "raw_a_reading": 734.0,
+          "raw_b_reading": 931.3,
+          "raw_c_reading": 606.4
         },
         {
           "depth": 23.45,
-          "raw_a_reading": 733.9802262,
-          "raw_b_reading": 931.086,
-          "raw_c_reading": 604.4694698
+          "raw_a_reading": 734.0,
+          "raw_b_reading": 931.1,
+          "raw_c_reading": 604.5
         },
         {
           "depth": 23.5,
-          "raw_a_reading": 736.5257717,
-          "raw_b_reading": 931.9612051,
-          "raw_c_reading": 602.5089095
+          "raw_a_reading": 736.5,
+          "raw_b_reading": 932.0,
+          "raw_c_reading": 602.5
         },
         {
           "depth": 23.55,
-          "raw_a_reading": 739.8982015,
-          "raw_b_reading": 937.0822308,
-          "raw_c_reading": 600.5483491
+          "raw_a_reading": 739.9,
+          "raw_b_reading": 937.1,
+          "raw_c_reading": 600.5
         },
         {
           "depth": 23.6,
-          "raw_a_reading": 743.6024261,
-          "raw_b_reading": 942.2032564,
-          "raw_c_reading": 598.6271108
+          "raw_a_reading": 743.6,
+          "raw_b_reading": 942.2,
+          "raw_c_reading": 598.6
         },
         {
           "depth": 23.65,
-          "raw_a_reading": 748.6338303,
-          "raw_b_reading": 947.3242821,
-          "raw_c_reading": 598.6326514
+          "raw_a_reading": 748.6,
+          "raw_b_reading": 947.3,
+          "raw_c_reading": 598.6
         },
         {
           "depth": 23.7,
-          "raw_a_reading": 753.6652345,
-          "raw_b_reading": 952.4453077,
-          "raw_c_reading": 598.6381919
+          "raw_a_reading": 753.7,
+          "raw_b_reading": 952.4,
+          "raw_c_reading": 598.6
         },
         {
           "depth": 23.75,
-          "raw_a_reading": 755.6031027,
-          "raw_b_reading": 957.5663333,
-          "raw_c_reading": 598.6437324
+          "raw_a_reading": 755.6,
+          "raw_b_reading": 957.6,
+          "raw_c_reading": 598.6
         },
         {
           "depth": 23.8,
-          "raw_a_reading": 755.4786138,
-          "raw_b_reading": 962.687359,
-          "raw_c_reading": 598.649273
+          "raw_a_reading": 755.5,
+          "raw_b_reading": 962.7,
+          "raw_c_reading": 598.6
         },
         {
           "depth": 23.85,
-          "raw_a_reading": 755.3541248,
-          "raw_b_reading": 967.8083846,
-          "raw_c_reading": 598.6548135
+          "raw_a_reading": 755.4,
+          "raw_b_reading": 967.8,
+          "raw_c_reading": 598.7
         },
         {
           "depth": 23.9,
-          "raw_a_reading": 755.0040159,
-          "raw_b_reading": 970.883,
-          "raw_c_reading": 598.6603541
+          "raw_a_reading": 755.0,
+          "raw_b_reading": 970.9,
+          "raw_c_reading": 598.7
         },
         {
           "depth": 23.95,
-          "raw_a_reading": 753.9950476,
-          "raw_b_reading": 970.888,
-          "raw_c_reading": 598.6658946
+          "raw_a_reading": 754.0,
+          "raw_b_reading": 970.9,
+          "raw_c_reading": 598.7
         },
         {
           "depth": 24.0,
-          "raw_a_reading": 752.6321508,
-          "raw_b_reading": 963.4605,
-          "raw_c_reading": 598.9825845
+          "raw_a_reading": 752.6,
+          "raw_b_reading": 963.5,
+          "raw_c_reading": 599.0
         },
         {
           "depth": 24.05,
-          "raw_a_reading": 751.4720977,
-          "raw_b_reading": 956.033,
-          "raw_c_reading": 599.4899789
+          "raw_a_reading": 751.5,
+          "raw_b_reading": 956.0,
+          "raw_c_reading": 599.5
         },
         {
           "depth": 24.1,
-          "raw_a_reading": 751.1234198,
-          "raw_b_reading": 948.6055,
-          "raw_c_reading": 599.9973732
+          "raw_a_reading": 751.1,
+          "raw_b_reading": 948.6,
+          "raw_c_reading": 600.0
         },
         {
           "depth": 24.15,
-          "raw_a_reading": 751.3535383,
-          "raw_b_reading": 953.3327273,
-          "raw_c_reading": 600.5047676
+          "raw_a_reading": 751.4,
+          "raw_b_reading": 953.3,
+          "raw_c_reading": 600.5
         },
         {
           "depth": 24.2,
-          "raw_a_reading": 751.7283561,
-          "raw_b_reading": 961.0986364,
-          "raw_c_reading": 601.012162
+          "raw_a_reading": 751.7,
+          "raw_b_reading": 961.1,
+          "raw_c_reading": 601.0
         },
         {
           "depth": 24.25,
-          "raw_a_reading": 752.3207606,
-          "raw_b_reading": 968.8645455,
-          "raw_c_reading": 601.5195563
+          "raw_a_reading": 752.3,
+          "raw_b_reading": 968.9,
+          "raw_c_reading": 601.5
         },
         {
           "depth": 24.3,
-          "raw_a_reading": 753.2395455,
-          "raw_b_reading": 976.6304545,
-          "raw_c_reading": 589.484973
+          "raw_a_reading": 753.2,
+          "raw_b_reading": 976.6,
+          "raw_c_reading": 589.5
         },
         {
           "depth": 24.35,
-          "raw_a_reading": 755.1139701,
-          "raw_b_reading": 1004.4648,
-          "raw_c_reading": 576.6498378
+          "raw_a_reading": 755.1,
+          "raw_b_reading": 1004.5,
+          "raw_c_reading": 576.6
         },
         {
           "depth": 24.4,
-          "raw_a_reading": 767.5600264,
-          "raw_b_reading": 1068.131667,
-          "raw_c_reading": 545.9813423
+          "raw_a_reading": 767.6,
+          "raw_b_reading": 1068.1,
+          "raw_c_reading": 546.0
         },
         {
           "depth": 24.45,
-          "raw_a_reading": 777.3820462,
-          "raw_b_reading": 1135.149636,
-          "raw_c_reading": 508.377651
+          "raw_a_reading": 777.4,
+          "raw_b_reading": 1135.1,
+          "raw_c_reading": 508.4
         },
         {
           "depth": 24.5,
-          "raw_a_reading": 784.8468442,
-          "raw_b_reading": 1181.192818,
-          "raw_c_reading": 470.7739597
+          "raw_a_reading": 784.8,
+          "raw_b_reading": 1181.2,
+          "raw_c_reading": 470.8
         },
         {
           "depth": 24.55,
-          "raw_a_reading": 790.2740087,
-          "raw_b_reading": 1227.236,
-          "raw_c_reading": 480.7017561
+          "raw_a_reading": 790.3,
+          "raw_b_reading": 1227.2,
+          "raw_c_reading": 480.7
         },
         {
           "depth": 24.6,
-          "raw_a_reading": 789.924561,
-          "raw_b_reading": 1167.776833,
-          "raw_c_reading": 508.0212157
+          "raw_a_reading": 789.9,
+          "raw_b_reading": 1167.8,
+          "raw_c_reading": 508.0
         },
         {
           "depth": 24.65,
-          "raw_a_reading": 786.2719691,
-          "raw_b_reading": 1102.177667,
-          "raw_c_reading": 541.5912453
+          "raw_a_reading": 786.3,
+          "raw_b_reading": 1102.2,
+          "raw_c_reading": 541.6
         },
         {
           "depth": 24.7,
-          "raw_a_reading": 783.1491153,
-          "raw_b_reading": 1047.703,
-          "raw_c_reading": 575.1450476
+          "raw_a_reading": 783.1,
+          "raw_b_reading": 1047.7,
+          "raw_c_reading": 575.1
         },
         {
           "depth": 24.75,
-          "raw_a_reading": 781.144379,
-          "raw_b_reading": 1016.7088,
-          "raw_c_reading": 592.1974286
+          "raw_a_reading": 781.1,
+          "raw_b_reading": 1016.7,
+          "raw_c_reading": 592.2
         },
         {
           "depth": 24.8,
-          "raw_a_reading": 780.1212331,
-          "raw_b_reading": 1008.111778,
-          "raw_c_reading": 609.2498095
+          "raw_a_reading": 780.1,
+          "raw_b_reading": 1008.1,
+          "raw_c_reading": 609.2
         },
         {
           "depth": 24.85,
-          "raw_a_reading": 779.1925434,
-          "raw_b_reading": 1004.174,
-          "raw_c_reading": 612.8014245
+          "raw_a_reading": 779.2,
+          "raw_b_reading": 1004.2,
+          "raw_c_reading": 612.8
         },
         {
           "depth": 24.9,
-          "raw_a_reading": 778.2638537,
-          "raw_b_reading": 1000.236222,
-          "raw_c_reading": 615.1790598
+          "raw_a_reading": 778.3,
+          "raw_b_reading": 1000.2,
+          "raw_c_reading": 615.2
         },
         {
           "depth": 24.95,
-          "raw_a_reading": 777.4082434,
-          "raw_b_reading": 997.8331111,
-          "raw_c_reading": 617.5566952
+          "raw_a_reading": 777.4,
+          "raw_b_reading": 997.8,
+          "raw_c_reading": 617.6
         },
         {
           "depth": 25.0,
-          "raw_a_reading": 777.591418,
-          "raw_b_reading": 1001.568667,
-          "raw_c_reading": 619.9343305
+          "raw_a_reading": 777.6,
+          "raw_b_reading": 1001.6,
+          "raw_c_reading": 619.9
         },
         {
           "depth": 25.05,
-          "raw_a_reading": 777.7745926,
-          "raw_b_reading": 1005.304222,
-          "raw_c_reading": 622.3119658
+          "raw_a_reading": 777.8,
+          "raw_b_reading": 1005.3,
+          "raw_c_reading": 622.3
         },
         {
           "depth": 25.1,
-          "raw_a_reading": 777.9577672,
-          "raw_b_reading": 1009.039778,
-          "raw_c_reading": 624.6896011
+          "raw_a_reading": 778.0,
+          "raw_b_reading": 1009.0,
+          "raw_c_reading": 624.7
         },
         {
           "depth": 25.15,
-          "raw_a_reading": 779.6594091,
-          "raw_b_reading": 1011.17045,
-          "raw_c_reading": 627.0672365
+          "raw_a_reading": 779.7,
+          "raw_b_reading": 1011.2,
+          "raw_c_reading": 627.1
         },
         {
           "depth": 25.2,
-          "raw_a_reading": 783.7024381,
-          "raw_b_reading": 1012.2312,
-          "raw_c_reading": 629.1425
+          "raw_a_reading": 783.7,
+          "raw_b_reading": 1012.2,
+          "raw_c_reading": 629.1
         },
         {
           "depth": 25.25,
-          "raw_a_reading": 787.745467,
-          "raw_b_reading": 1013.29195,
-          "raw_c_reading": 631.1841667
+          "raw_a_reading": 787.7,
+          "raw_b_reading": 1013.3,
+          "raw_c_reading": 631.2
         },
         {
           "depth": 25.3,
-          "raw_a_reading": 790.9771615,
-          "raw_b_reading": 1014.3527,
-          "raw_c_reading": 633.2258333
+          "raw_a_reading": 791.0,
+          "raw_b_reading": 1014.4,
+          "raw_c_reading": 633.2
         },
         {
           "depth": 25.35,
-          "raw_a_reading": 793.5377339,
-          "raw_b_reading": 1012.678565,
-          "raw_c_reading": 635.2675
+          "raw_a_reading": 793.5,
+          "raw_b_reading": 1012.7,
+          "raw_c_reading": 635.3
         },
         {
           "depth": 25.4,
-          "raw_a_reading": 796.0114845,
-          "raw_b_reading": 1009.181174,
-          "raw_c_reading": 637.3091667
+          "raw_a_reading": 796.0,
+          "raw_b_reading": 1009.2,
+          "raw_c_reading": 637.3
         },
         {
           "depth": 25.45,
-          "raw_a_reading": 793.397323,
-          "raw_b_reading": 1005.683783,
-          "raw_c_reading": 639.3508333
+          "raw_a_reading": 793.4,
+          "raw_b_reading": 1005.7,
+          "raw_c_reading": 639.4
         },
         {
           "depth": 25.5,
-          "raw_a_reading": 790.7831615,
-          "raw_b_reading": 1002.186391,
-          "raw_c_reading": 641.3925
+          "raw_a_reading": 790.8,
+          "raw_b_reading": 1002.2,
+          "raw_c_reading": 641.4
         },
         {
           "depth": 25.55,
-          "raw_a_reading": 788.169,
-          "raw_b_reading": 998.689,
-          "raw_c_reading": 643.4341667
+          "raw_a_reading": 788.2,
+          "raw_b_reading": 998.7,
+          "raw_c_reading": 643.4
         },
         {
           "depth": 25.6,
-          "raw_a_reading": 788.7026818,
-          "raw_b_reading": 1007.116317,
-          "raw_c_reading": 645.4568107
+          "raw_a_reading": 788.7,
+          "raw_b_reading": 1007.1,
+          "raw_c_reading": 645.5
         },
         {
           "depth": 25.65,
-          "raw_a_reading": 789.2363635,
-          "raw_b_reading": 1015.543634,
-          "raw_c_reading": 647.4604322
+          "raw_a_reading": 789.2,
+          "raw_b_reading": 1015.5,
+          "raw_c_reading": 647.5
         },
         {
           "depth": 25.7,
-          "raw_a_reading": 789.7700453,
-          "raw_b_reading": 1023.970951,
-          "raw_c_reading": 649.4640537
+          "raw_a_reading": 789.8,
+          "raw_b_reading": 1024.0,
+          "raw_c_reading": 649.5
         },
         {
           "depth": 25.75,
-          "raw_a_reading": 790.3037271,
-          "raw_b_reading": 1032.398268,
-          "raw_c_reading": 651.4676752
+          "raw_a_reading": 790.3,
+          "raw_b_reading": 1032.4,
+          "raw_c_reading": 651.5
         },
         {
           "depth": 25.8,
-          "raw_a_reading": 795.4681231,
-          "raw_b_reading": 1040.825585,
-          "raw_c_reading": 653.4712967
+          "raw_a_reading": 795.5,
+          "raw_b_reading": 1040.8,
+          "raw_c_reading": 653.5
         },
         {
           "depth": 25.85,
-          "raw_a_reading": 800.6325192,
-          "raw_b_reading": 1049.252902,
-          "raw_c_reading": 655.4749182
+          "raw_a_reading": 800.6,
+          "raw_b_reading": 1049.3,
+          "raw_c_reading": 655.5
         },
         {
           "depth": 25.9,
-          "raw_a_reading": 805.0228676,
-          "raw_b_reading": 1057.68022,
-          "raw_c_reading": 657.4785397
+          "raw_a_reading": 805.0,
+          "raw_b_reading": 1057.7,
+          "raw_c_reading": 657.5
         },
         {
           "depth": 25.95,
-          "raw_a_reading": 808.8971843,
-          "raw_b_reading": 1066.107537,
-          "raw_c_reading": 659.4821612
+          "raw_a_reading": 808.9,
+          "raw_b_reading": 1066.1,
+          "raw_c_reading": 659.5
         },
         {
           "depth": 26.0,
-          "raw_a_reading": 812.4379551,
-          "raw_b_reading": 1067.530391,
-          "raw_c_reading": 661.4857827
+          "raw_a_reading": 812.4,
+          "raw_b_reading": 1067.5,
+          "raw_c_reading": 661.5
         },
         {
           "depth": 26.05,
-          "raw_a_reading": 814.7026411,
-          "raw_b_reading": 1067.20213,
-          "raw_c_reading": 662.7737614
+          "raw_a_reading": 814.7,
+          "raw_b_reading": 1067.2,
+          "raw_c_reading": 662.8
         },
         {
           "depth": 26.1,
-          "raw_a_reading": 816.1721949,
-          "raw_b_reading": 1066.87387,
-          "raw_c_reading": 664.0160607
+          "raw_a_reading": 816.2,
+          "raw_b_reading": 1066.9,
+          "raw_c_reading": 664.0
         },
         {
           "depth": 26.15,
-          "raw_a_reading": 817.6417486,
-          "raw_b_reading": 1066.545609,
-          "raw_c_reading": 665.2583601
+          "raw_a_reading": 817.6,
+          "raw_b_reading": 1066.5,
+          "raw_c_reading": 665.3
         },
         {
           "depth": 26.2,
-          "raw_a_reading": 819.1357976,
-          "raw_b_reading": 1066.73175,
-          "raw_c_reading": 666.5006594
+          "raw_a_reading": 819.1,
+          "raw_b_reading": 1066.7,
+          "raw_c_reading": 666.5
         },
         {
           "depth": 26.25,
-          "raw_a_reading": 821.1512738,
-          "raw_b_reading": 1068.9755,
-          "raw_c_reading": 667.7429588
+          "raw_a_reading": 821.2,
+          "raw_b_reading": 1069.0,
+          "raw_c_reading": 667.7
         },
         {
           "depth": 26.3,
-          "raw_a_reading": 823.16675,
-          "raw_b_reading": 1071.21925,
-          "raw_c_reading": 668.9852581
+          "raw_a_reading": 823.2,
+          "raw_b_reading": 1071.2,
+          "raw_c_reading": 669.0
         },
         {
           "depth": 26.35,
-          "raw_a_reading": 825.2593532,
-          "raw_b_reading": 1075.082667,
-          "raw_c_reading": 670.2275575
+          "raw_a_reading": 825.3,
+          "raw_b_reading": 1075.1,
+          "raw_c_reading": 670.2
         },
         {
           "depth": 26.4,
-          "raw_a_reading": 831.430619,
-          "raw_b_reading": 1079.351,
-          "raw_c_reading": 671.4698568
+          "raw_a_reading": 831.4,
+          "raw_b_reading": 1079.4,
+          "raw_c_reading": 671.5
         },
         {
           "depth": 26.45,
-          "raw_a_reading": 838.6674841,
-          "raw_b_reading": 1084.685167,
-          "raw_c_reading": 672.7121562
+          "raw_a_reading": 838.7,
+          "raw_b_reading": 1084.7,
+          "raw_c_reading": 672.7
         },
         {
           "depth": 26.5,
-          "raw_a_reading": 846.4122626,
-          "raw_b_reading": 1090.019333,
-          "raw_c_reading": 673.1375742
+          "raw_a_reading": 846.4,
+          "raw_b_reading": 1090.0,
+          "raw_c_reading": 673.1
         },
         {
           "depth": 26.55,
-          "raw_a_reading": 854.2840195,
-          "raw_b_reading": 1095.3535,
-          "raw_c_reading": 673.2453161
+          "raw_a_reading": 854.3,
+          "raw_b_reading": 1095.4,
+          "raw_c_reading": 673.2
         },
         {
           "depth": 26.6,
-          "raw_a_reading": 856.5030136,
-          "raw_b_reading": 1096.169,
-          "raw_c_reading": 673.3530581
+          "raw_a_reading": 856.5,
+          "raw_b_reading": 1096.2,
+          "raw_c_reading": 673.4
         },
         {
           "depth": 26.65,
-          "raw_a_reading": 853.1469762,
-          "raw_b_reading": 1090.2065,
-          "raw_c_reading": 673.4608
+          "raw_a_reading": 853.1,
+          "raw_b_reading": 1090.2,
+          "raw_c_reading": 673.5
         },
         {
           "depth": 26.7,
-          "raw_a_reading": 843.2820952,
-          "raw_b_reading": 1084.244,
-          "raw_c_reading": 673.5685419
+          "raw_a_reading": 843.3,
+          "raw_b_reading": 1084.2,
+          "raw_c_reading": 673.6
         },
         {
           "depth": 26.75,
-          "raw_a_reading": 834.9912403,
-          "raw_b_reading": 1078.2815,
-          "raw_c_reading": 673.6762839
+          "raw_a_reading": 835.0,
+          "raw_b_reading": 1078.3,
+          "raw_c_reading": 673.7
         },
         {
           "depth": 26.8,
-          "raw_a_reading": 828.7573117,
-          "raw_b_reading": 1065.932636,
-          "raw_c_reading": 673.7840258
+          "raw_a_reading": 828.8,
+          "raw_b_reading": 1065.9,
+          "raw_c_reading": 673.8
         },
         {
           "depth": 26.85,
-          "raw_a_reading": 823.2762944,
-          "raw_b_reading": 1051.987182,
-          "raw_c_reading": 673.8917677
+          "raw_a_reading": 823.3,
+          "raw_b_reading": 1052.0,
+          "raw_c_reading": 673.9
         },
         {
           "depth": 26.9,
-          "raw_a_reading": 820.7834762,
-          "raw_b_reading": 1031.163,
-          "raw_c_reading": 673.9995097
+          "raw_a_reading": 820.8,
+          "raw_b_reading": 1031.2,
+          "raw_c_reading": 674.0
         },
         {
           "depth": 26.95,
-          "raw_a_reading": 818.0722857,
-          "raw_b_reading": 1005.753,
-          "raw_c_reading": 662.9419836
+          "raw_a_reading": 818.1,
+          "raw_b_reading": 1005.8,
+          "raw_c_reading": 662.9
         },
         {
           "depth": 27.0,
-          "raw_a_reading": 818.4285952,
-          "raw_b_reading": 1044.7605,
-          "raw_c_reading": 624.2199744
+          "raw_a_reading": 818.4,
+          "raw_b_reading": 1044.8,
+          "raw_c_reading": 624.2
         },
         {
           "depth": 27.05,
-          "raw_a_reading": 795.3525143,
-          "raw_b_reading": 1188.8428,
-          "raw_c_reading": 521.0322581
+          "raw_a_reading": 795.4,
+          "raw_b_reading": 1188.8,
+          "raw_c_reading": 521.0
         },
         {
           "depth": 27.1,
-          "raw_a_reading": 790.333381,
-          "raw_b_reading": 1360.421,
-          "raw_c_reading": 430.4735484
+          "raw_a_reading": 790.3,
+          "raw_b_reading": 1360.4,
+          "raw_c_reading": 430.5
         },
         {
           "depth": 27.15,
-          "raw_a_reading": 776.6859365,
-          "raw_b_reading": 1523.098,
-          "raw_c_reading": 339.9148387
+          "raw_a_reading": 776.7,
+          "raw_b_reading": 1523.1,
+          "raw_c_reading": 339.9
         },
         {
           "depth": 27.2,
-          "raw_a_reading": 752.081619,
-          "raw_b_reading": 1707.874,
-          "raw_c_reading": 267.5417391
+          "raw_a_reading": 752.1,
+          "raw_b_reading": 1707.9,
+          "raw_c_reading": 267.5
         },
         {
           "depth": 27.25,
-          "raw_a_reading": 761.8229116,
-          "raw_b_reading": 1573.598286,
-          "raw_c_reading": 358.8391304
+          "raw_a_reading": 761.8,
+          "raw_b_reading": 1573.6,
+          "raw_c_reading": 358.8
         },
         {
           "depth": 27.3,
-          "raw_a_reading": 773.9181786,
-          "raw_b_reading": 1408.24675,
-          "raw_c_reading": 450.1365217
+          "raw_a_reading": 773.9,
+          "raw_b_reading": 1408.2,
+          "raw_c_reading": 450.1
         },
         {
           "depth": 27.35,
-          "raw_a_reading": 792.5853538,
-          "raw_b_reading": 1275.012429,
-          "raw_c_reading": 537.4021538
+          "raw_a_reading": 792.6,
+          "raw_b_reading": 1275.0,
+          "raw_c_reading": 537.4
         },
         {
           "depth": 27.4,
-          "raw_a_reading": 819.577019,
-          "raw_b_reading": 1153.2774,
-          "raw_c_reading": 640.1779524
+          "raw_a_reading": 819.6,
+          "raw_b_reading": 1153.3,
+          "raw_c_reading": 640.2
         },
         {
           "depth": 27.45,
-          "raw_a_reading": 819.2069866,
-          "raw_b_reading": 1081.284842,
-          "raw_c_reading": 654.5106212
+          "raw_a_reading": 819.2,
+          "raw_b_reading": 1081.3,
+          "raw_c_reading": 654.5
         },
         {
           "depth": 27.5,
-          "raw_a_reading": 822.5731284,
-          "raw_b_reading": 1087.751947,
-          "raw_c_reading": 667.4735
+          "raw_a_reading": 822.6,
+          "raw_b_reading": 1087.8,
+          "raw_c_reading": 667.5
         },
         {
           "depth": 27.55,
-          "raw_a_reading": 825.9392704,
-          "raw_b_reading": 1094.219053,
-          "raw_c_reading": 677.7895282
+          "raw_a_reading": 825.9,
+          "raw_b_reading": 1094.2,
+          "raw_c_reading": 677.8
         },
         {
           "depth": 27.6,
-          "raw_a_reading": 829.3054123,
-          "raw_b_reading": 1100.686158,
-          "raw_c_reading": 682.9675524
+          "raw_a_reading": 829.3,
+          "raw_b_reading": 1100.7,
+          "raw_c_reading": 683.0
         },
         {
           "depth": 27.65,
-          "raw_a_reading": 832.4234715,
-          "raw_b_reading": 1101.943526,
-          "raw_c_reading": 688.1455766
+          "raw_a_reading": 832.4,
+          "raw_b_reading": 1101.9,
+          "raw_c_reading": 688.1
         },
         {
           "depth": 27.7,
-          "raw_a_reading": 835.3761422,
-          "raw_b_reading": 1099.727737,
-          "raw_c_reading": 693.3236008
+          "raw_a_reading": 835.4,
+          "raw_b_reading": 1099.7,
+          "raw_c_reading": 693.3
         },
         {
           "depth": 27.75,
-          "raw_a_reading": 838.605111,
-          "raw_b_reading": 1097.511947,
-          "raw_c_reading": 698.501625
+          "raw_a_reading": 838.6,
+          "raw_b_reading": 1097.5,
+          "raw_c_reading": 698.5
         },
         {
           "depth": 27.8,
-          "raw_a_reading": 842.0182786,
-          "raw_b_reading": 1095.296158,
-          "raw_c_reading": 701.9537456
+          "raw_a_reading": 842.0,
+          "raw_b_reading": 1095.3,
+          "raw_c_reading": 702.0
         },
         {
           "depth": 27.85,
-          "raw_a_reading": 845.5682653,
-          "raw_b_reading": 1095.953571,
-          "raw_c_reading": 702.5899181
+          "raw_a_reading": 845.6,
+          "raw_b_reading": 1096.0,
+          "raw_c_reading": 702.6
         },
         {
           "depth": 27.9,
-          "raw_a_reading": 847.9813946,
-          "raw_b_reading": 1097.329286,
-          "raw_c_reading": 703.2260907
+          "raw_a_reading": 848.0,
+          "raw_b_reading": 1097.3,
+          "raw_c_reading": 703.2
         },
         {
           "depth": 27.95,
-          "raw_a_reading": 850.3945238,
-          "raw_b_reading": 1098.705,
-          "raw_c_reading": 703.8622633
+          "raw_a_reading": 850.4,
+          "raw_b_reading": 1098.7,
+          "raw_c_reading": 703.9
         },
         {
           "depth": 28.0,
-          "raw_a_reading": 851.8333883,
-          "raw_b_reading": 1099.301154,
-          "raw_c_reading": 704.4984358
+          "raw_a_reading": 851.8,
+          "raw_b_reading": 1099.3,
+          "raw_c_reading": 704.5
         },
         {
           "depth": 28.05,
-          "raw_a_reading": 851.8665385,
-          "raw_b_reading": 1099.897308,
-          "raw_c_reading": 705.1346084
+          "raw_a_reading": 851.9,
+          "raw_b_reading": 1099.9,
+          "raw_c_reading": 705.1
         },
         {
           "depth": 28.1,
-          "raw_a_reading": 851.9706429,
-          "raw_b_reading": 1101.9835,
-          "raw_c_reading": 705.770781
+          "raw_a_reading": 852.0,
+          "raw_b_reading": 1102.0,
+          "raw_c_reading": 705.8
         },
         {
           "depth": 28.15,
-          "raw_a_reading": 849.9615357,
-          "raw_b_reading": 1106.30475,
-          "raw_c_reading": 706.4069535
+          "raw_a_reading": 850.0,
+          "raw_b_reading": 1106.3,
+          "raw_c_reading": 706.4
         },
         {
           "depth": 28.2,
-          "raw_a_reading": 849.8917143,
-          "raw_b_reading": 1110.626,
-          "raw_c_reading": 707.0431261
+          "raw_a_reading": 849.9,
+          "raw_b_reading": 1110.6,
+          "raw_c_reading": 707.0
         },
         {
           "depth": 28.25,
-          "raw_a_reading": 852.5054513,
-          "raw_b_reading": 1110.214478,
-          "raw_c_reading": 708.2075479
+          "raw_a_reading": 852.5,
+          "raw_b_reading": 1110.2,
+          "raw_c_reading": 708.2
         },
         {
           "depth": 28.3,
-          "raw_a_reading": 855.1191884,
-          "raw_b_reading": 1109.802957,
-          "raw_c_reading": 710.3973946
+          "raw_a_reading": 855.1,
+          "raw_b_reading": 1109.8,
+          "raw_c_reading": 710.4
         },
         {
           "depth": 28.35,
-          "raw_a_reading": 858.3228156,
-          "raw_b_reading": 1109.391435,
-          "raw_c_reading": 712.5872414
+          "raw_a_reading": 858.3,
+          "raw_b_reading": 1109.4,
+          "raw_c_reading": 712.6
         },
         {
           "depth": 28.4,
-          "raw_a_reading": 861.9197028,
-          "raw_b_reading": 1108.979913,
-          "raw_c_reading": 714.7770881
+          "raw_a_reading": 861.9,
+          "raw_b_reading": 1109.0,
+          "raw_c_reading": 714.8
         },
         {
           "depth": 28.45,
-          "raw_a_reading": 865.6363053,
-          "raw_b_reading": 1111.082412,
-          "raw_c_reading": 716.9669349
+          "raw_a_reading": 865.6,
+          "raw_b_reading": 1111.1,
+          "raw_c_reading": 717.0
         },
         {
           "depth": 28.5,
-          "raw_a_reading": 868.5442512,
-          "raw_b_reading": 1116.955941,
-          "raw_c_reading": 718.5657538
+          "raw_a_reading": 868.5,
+          "raw_b_reading": 1117.0,
+          "raw_c_reading": 718.6
         },
         {
           "depth": 28.55,
-          "raw_a_reading": 871.452197,
-          "raw_b_reading": 1122.829471,
-          "raw_c_reading": 715.8303692
+          "raw_a_reading": 871.5,
+          "raw_b_reading": 1122.8,
+          "raw_c_reading": 715.8
         },
         {
           "depth": 28.6,
-          "raw_a_reading": 874.3601429,
-          "raw_b_reading": 1128.703,
-          "raw_c_reading": 713.0949846
+          "raw_a_reading": 874.4,
+          "raw_b_reading": 1128.7,
+          "raw_c_reading": 713.1
         },
         {
           "depth": 28.65,
-          "raw_a_reading": 869.2263373,
-          "raw_b_reading": 1116.71975,
-          "raw_c_reading": 710.3596
+          "raw_a_reading": 869.2,
+          "raw_b_reading": 1116.7,
+          "raw_c_reading": 710.4
         },
         {
           "depth": 28.7,
-          "raw_a_reading": 864.0925317,
-          "raw_b_reading": 1104.7365,
-          "raw_c_reading": 707.6242154
+          "raw_a_reading": 864.1,
+          "raw_b_reading": 1104.7,
+          "raw_c_reading": 707.6
         },
         {
           "depth": 28.75,
-          "raw_a_reading": 858.9587262,
-          "raw_b_reading": 1092.75325,
-          "raw_c_reading": 704.8888308
+          "raw_a_reading": 859.0,
+          "raw_b_reading": 1092.8,
+          "raw_c_reading": 704.9
         },
         {
           "depth": 28.8,
-          "raw_a_reading": 852.1766667,
-          "raw_b_reading": 1080.77,
-          "raw_c_reading": 688.0762278
+          "raw_a_reading": 852.2,
+          "raw_b_reading": 1080.8,
+          "raw_c_reading": 688.1
         },
         {
           "depth": 28.85,
-          "raw_a_reading": 856.6936772,
-          "raw_b_reading": 1306.067222,
-          "raw_c_reading": 600.3231739
+          "raw_a_reading": 856.7,
+          "raw_b_reading": 1306.1,
+          "raw_c_reading": 600.3
         },
         {
           "depth": 28.9,
-          "raw_a_reading": 868.3304095,
-          "raw_b_reading": 1551.9886,
-          "raw_c_reading": 500.2557143
+          "raw_a_reading": 868.3,
+          "raw_b_reading": 1552.0,
+          "raw_c_reading": 500.3
         },
         {
           "depth": 28.95,
-          "raw_a_reading": 883.7936964,
-          "raw_b_reading": 1878.267625,
-          "raw_c_reading": 402.526
+          "raw_a_reading": 883.8,
+          "raw_b_reading": 1878.3,
+          "raw_c_reading": 402.5
         },
         {
           "depth": 29.0,
-          "raw_a_reading": 898.8495595,
-          "raw_b_reading": 2195.99075,
-          "raw_c_reading": 256.247
+          "raw_a_reading": 898.8,
+          "raw_b_reading": 2196.0,
+          "raw_c_reading": 256.2
         }
       ],
       "liquefaction_settings": {
