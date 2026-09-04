@@ -8,34 +8,19 @@ base_url = 'https://www.subsurfaceio.app'
 
 
 def get_cpt_test():
-    # Load sounding CSV (AGS-style GROUP / HEADING / DATA). Keep the SCPT table.
-    raw = pl.read_csv(
+    # Load sounding CSV.
+    data_frame = pl.read_csv(
         'https://docs.subsurfaceio.app/assets/CPTU-1.csv',
-        has_header=False,
-        truncate_ragged_lines=True,
+        skip_rows=9,
+        n_rows=281,
+        ignore_errors=True,
     )
-    group = None
-    names = None
-    records = []
-    for row in raw.iter_rows():
-        kind = row[0]
-        if kind == 'GROUP':
-            group = row[1]
-        elif kind == 'HEADING':
-            names = [value for value in row[1:] if value]
-            if group == 'SCPT':
-                records = []
-        elif kind == 'DATA' and group == 'SCPT' and names:
-            records.append(dict(zip(names, row[1:1 + len(names)])))
-    data_frame = pl.DataFrame(records)
 
-    # Cast measurement columns to numbers, then convert MPa to kPa.
+    # Convert MPa to kPa.
     data_frame = data_frame.with_columns(
         [
-            pl.col('SCPT_DPTH').cast(pl.Float64),
-            pl.col('SCPT_RES').cast(pl.Float64),
-            pl.col('SCPT_FRES').cast(pl.Float64) * 1000,
-            pl.col('SCPT_PWP').cast(pl.Float64) * 1000,
+            pl.col('SCPT_FRES') * 1000,
+            pl.col('SCPT_PWP') * 1000,
         ]
     )
 
@@ -76,34 +61,12 @@ def get_dmt_test():
 
 
 def get_ist_test():
-    # Load sounding CSV (AGS-style GROUP / HEADING / DATA). Keep the GIND table.
-    raw = pl.read_csv(
+    # Load sounding CSV.
+    data_frame = pl.read_csv(
         'https://docs.subsurfaceio.app/assets/Gibbs%20B-1%20vs.csv',
-        has_header=False,
-        truncate_ragged_lines=True,
-    )
-    group = None
-    names = None
-    records = []
-    for row in raw.iter_rows():
-        kind = row[0]
-        if kind == 'GROUP':
-            group = row[1]
-        elif kind == 'HEADING':
-            names = [value for value in row[1:] if value]
-            if group == 'GIND':
-                records = []
-        elif kind == 'DATA' and group == 'GIND' and names:
-            records.append(dict(zip(names, row[1:1 + len(names)])))
-    data_frame = pl.DataFrame(records)
-
-    # Cast measurement columns to numbers.
-    data_frame = data_frame.with_columns(
-        [
-            pl.col('GIND_DPTH').cast(pl.Float64),
-            pl.col('GIND_VS').cast(pl.Float64),
-            pl.col('GIND_VP').cast(pl.Float64),
-        ]
+        skip_rows=9,
+        n_rows=16,
+        ignore_errors=True,
     )
 
     # Remap columns to API field names.

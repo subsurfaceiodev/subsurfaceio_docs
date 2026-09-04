@@ -7,34 +7,19 @@ import plotly.graph_objects as go
 
 base_url = 'https://www.subsurfaceio.app'
 
-# Load sounding CSV (AGS-style GROUP / HEADING / DATA). Keep the SCPT table.
-raw = pl.read_csv(
+# Load sounding CSV.
+sounding = pl.read_csv(
     'https://docs.subsurfaceio.app/assets/CPTU-1.csv',
-    has_header=False,
-    truncate_ragged_lines=True,
+    skip_rows=9,
+    n_rows=281,
+    ignore_errors=True,
 )
-group = None
-names = None
-records = []
-for row in raw.iter_rows():
-    kind = row[0]
-    if kind == 'GROUP':
-        group = row[1]
-    elif kind == 'HEADING':
-        names = [value for value in row[1:] if value]
-        if group == 'SCPT':
-            records = []
-    elif kind == 'DATA' and group == 'SCPT' and names:
-        records.append(dict(zip(names, row[1:1 + len(names)])))
-sounding = pl.DataFrame(records)
 
-# Cast measurement columns to numbers, then convert MPa to kPa.
+# Convert MPa to kPa.
 sounding = sounding.with_columns(
     [
-        pl.col('SCPT_DPTH').cast(pl.Float64),
-        pl.col('SCPT_RES').cast(pl.Float64),
-        pl.col('SCPT_FRES').cast(pl.Float64) * 1000,
-        pl.col('SCPT_PWP').cast(pl.Float64) * 1000,
+        pl.col('SCPT_FRES') * 1000,
+        pl.col('SCPT_PWP') * 1000,
     ]
 )
 columns = sounding.to_dict(as_series=False)
