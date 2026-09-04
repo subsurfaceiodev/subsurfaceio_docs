@@ -131,10 +131,18 @@ site_payload = dict(
 )
 
 with httpx2.Client(base_url=base_url) as client:
+    # Fill missing borehole unit weights from blow counts, when present.
+    correlate_response = client.post(
+        '/site-investigation/correlate-null-unit-weight',
+        json=site_payload,
+    )
+    correlate_response.raise_for_status()
+    site = correlate_response.json()
+
     # Run interpretation, then liquefaction, on the assembled site.
     interpretation_response = client.post(
         '/site-investigation/calculate-interpretation',
-        json=site_payload,
+        json=site,
     )
     interpretation_response.raise_for_status()
     site = interpretation_response.json()
