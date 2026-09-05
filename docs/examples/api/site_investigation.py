@@ -6,13 +6,19 @@ import plotly.io as pio
 
 base_url = 'https://www.subsurfaceio.app'
 
+# Project liquefaction settings.
+liquefaction_settings = dict(
+    peak_ground_acceleration=0.14,
+    moment_magnitude=6.9,
+)
+
 
 def get_cpt_test():
     # Load sounding CSV.
     data_frame = pl.read_csv(
         'https://docs.subsurfaceio.app/assets/CPTU-1.csv',
         skip_rows=9,
-        n_rows=281,
+        n_rows=280,
         ignore_errors=True,
     )
 
@@ -24,10 +30,15 @@ def get_cpt_test():
         ]
     )
 
-    # Remap columns to API field names.
+    # Assemble the CPT payload.
     return dict(
         type='CPT',
         metadata=dict(test_id='CPTU-1'),
+        test_metadata=dict(
+            water_table_present=True,
+            water_table=0.7,
+        ),
+        liquefaction_settings=liquefaction_settings,
         data=[
             dict(
                 depth=record['SCPT_DPTH'],
@@ -42,18 +53,26 @@ def get_cpt_test():
 
 def get_dmt_test():
     # Load sounding CSV.
-    data_frame = pl.read_csv('https://docs.subsurfaceio.app/assets/DMT-1.csv')
+    data_frame = pl.read_csv(
+        'https://docs.subsurfaceio.app/assets/DMT-1.csv',
+        infer_schema_length=None
+    )
 
-    # Remap columns to API field names.
+    # Assemble the DMT payload.
     return dict(
         type='DMT',
         metadata=dict(test_id='DMT-1'),
+        test_metadata=dict(
+            water_table_present=True,
+            water_table=1.5,
+        ),
+        liquefaction_settings=liquefaction_settings,
         data=[
             dict(
                 depth=record['Depth (m)'],
-                raw_a_reading=record['A (kPa)'],
-                raw_b_reading=record['B (kPa)'],
-                raw_c_reading=record['C (kPa)'],
+                raw_a_reading=record['Raw A reading (kPa)'],
+                raw_b_reading=record['Raw B reading (kPa)'],
+                raw_c_reading=record['Raw C reading (kPa)'],
             )
             for record in data_frame.to_dicts()
         ],
@@ -69,7 +88,7 @@ def get_ist_test():
         ignore_errors=True,
     )
 
-    # Remap columns to API field names.
+    # Assemble the IST payload (no liquefaction settings on this test type).
     return dict(
         type='IST',
         metadata=dict(test_id='Gibbs B-1 vs'),
