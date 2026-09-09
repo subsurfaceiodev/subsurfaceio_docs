@@ -140,7 +140,7 @@
       "model": {
         "column_type": "text",
         "data_source": "specimens",
-        "text_field": "undrained_shear_strength_pocket_pen",
+        "text_field": "unconfined_compressive_strength_pocket_penetrometer",
         "y_top_field": "depth_top",
         "y_bottom_field": "depth",
         "parameters": {

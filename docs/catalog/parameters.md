@@ -5086,6 +5086,14 @@ value='rectangular' value_secondary=None color=None
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
+### `unconfined_compressive_strength_pocket_penetrometer`
+**symbol**: $q_{u\ pocket}$  
+**label**: Unconfined compressive strength pocket penetrometer  
+**unit**: kPa  
+**description**: Unconfined compressive strength from pocket penetrometer test  
+**data_type**: `float`  
+**corresponding_parameter_name**: `None`  
+    
 ### `undrained_shear_strength`
 **symbol**: $S_u$  
 **label**: Undrained shear strength  

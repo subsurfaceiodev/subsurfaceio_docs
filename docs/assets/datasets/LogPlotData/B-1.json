@@ -148,7 +148,7 @@
     {
       "depth_top": 1.5,
       "depth": 1.8,
-      "undrained_shear_strength_pocket_pen": 75,
+      "unconfined_compressive_strength_pocket_penetrometer": 75,
       "dry_density": 1.52,
       "water_content": 17,
       "liquid_limit": 38,
@@ -160,7 +160,7 @@
     {
       "depth_top": 3.0,
       "depth": 3.6,
-      "undrained_shear_strength_pocket_pen": null,
+      "unconfined_compressive_strength_pocket_penetrometer": null,
       "dry_density": null,
       "water_content": null,
       "liquid_limit": null,
@@ -172,7 +172,7 @@
     {
       "depth_top": 4.5,
       "depth": 5.1,
-      "undrained_shear_strength_pocket_pen": null,
+      "unconfined_compressive_strength_pocket_penetrometer": null,
       "dry_density": null,
       "water_content": 15,
       "liquid_limit": null,
@@ -184,7 +184,7 @@
     {
       "depth_top": 6.0,
       "depth": 6.6,
-      "undrained_shear_strength_pocket_pen": null,
+      "unconfined_compressive_strength_pocket_penetrometer": null,
       "dry_density": null,
       "water_content": 19,
       "liquid_limit": null,
