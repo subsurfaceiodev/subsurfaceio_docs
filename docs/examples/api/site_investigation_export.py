@@ -1,4 +1,4 @@
-"""Write a site investigation to Excel and KML."""
+"""Write a site investigation to Excel, KML, and a cross-section DXF."""
 
 import httpx2
 
@@ -45,5 +45,16 @@ with httpx2.Client(base_url=base_url) as client:
     with open('site_investigation.kml', 'wb') as kml_file:
         kml_file.write(kml_response.content)
 
+    # Download a cross-section drawing.
+    dxf_response = client.post(
+        '/site-investigation/write-cross-section-dxf',
+        params=dict(vertical='elevation'),
+        json=site,
+    )
+    dxf_response.raise_for_status()
+    with open('site_investigation.dxf', 'wb') as dxf_file:
+        dxf_file.write(dxf_response.content)
+
 print('site_investigation.xlsx')
 print('site_investigation.kml')
+print('site_investigation.dxf')
