@@ -177,6 +177,20 @@ with httpx2.Client(base_url=base_url) as client:
         plot_response.raise_for_status()
         pio.from_json(plot_response.content).show()
 
+    # Plot liquefaction summary.
+    plot_response = client.post(
+        '/site-investigation/plot-metadata',
+        json=site,
+        params=dict(y=[
+            'liquefaction_potential_index_sum',
+            'liquefaction_severity_number_sum',
+            'liquefaction_settlement_sum',
+            'lateral_displacement_index_sum',
+        ]),
+    )
+    plot_response.raise_for_status()
+    pio.from_json(plot_response.content).show()
+
     for name in (
             'ModifiedSoilBehaviourType',
             'SoilBehaviourTypeDMT',
