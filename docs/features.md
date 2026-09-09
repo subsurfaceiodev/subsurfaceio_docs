@@ -21,7 +21,9 @@ in-situ tests, laboratory specimens, and field strata.
 - [Field strata](reference/subsurfaceio/site_investigation/strata/).
 - [Depth aggregation and parametric analysis](reference/subsurfaceio/site_investigation/analysis/).
 - [Visualization](reference/subsurfaceio/site_investigation/visualization/):
-  geotechnical plots and plot sets, Plotly maps, multi-page HTML reports.
+  geotechnical plots and plot sets, published reference-figure overlays
+  (CPT/DMT soil-behavior charts, liquefaction damage, plasticity), Plotly
+  maps, multi-page HTML reports.
 - [Graphical logs](reference/subsurfaceio/logplot/): borehole, CPT, test-pit.
 - [IO and export](reference/subsurfaceio/site_investigation/io/): Excel,
   CPeT-IT Excel, AGS (including Next-Generation Liquefaction), KML maps, DXF

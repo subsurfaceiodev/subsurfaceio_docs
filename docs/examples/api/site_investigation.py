@@ -176,3 +176,16 @@ with httpx2.Client(base_url=base_url) as client:
         )
         plot_response.raise_for_status()
         pio.from_json(plot_response.content).show()
+
+    for name in (
+            'ModifiedSoilBehaviourType',
+            'SoilBehaviourTypeDMT',
+            'LiquefactionDamage',
+    ):
+        plot_response = client.post(
+            '/site-investigation/reference-figure',
+            json=site,
+            params=dict(name=name),
+        )
+        plot_response.raise_for_status()
+        pio.from_json(plot_response.content).show()
