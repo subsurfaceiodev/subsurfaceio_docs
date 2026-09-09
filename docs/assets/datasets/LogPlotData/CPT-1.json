@@ -5,17 +5,14 @@
     "project_name": "gINT Example",
     "location": "Somewhere, SOMEPLACE",
     "test_id": "CPT-1",
-    "date_start": "4/28/2008",
-    "date_end": "4/28/2008",
+    "date_start": "2008-04-28",
+    "date_end": "2008-04-28",
     "contractor": "AAAAA Drilling, Inc.",
     "method": null,
     "engineer": null,
     "remarks": "Weather:  Warm, sunny, slight westerly wind.",
     "surface_elevation": 38.25,
-    "Hole size": null,
-    "G.W.L. AT TIME OF DRILLING (m)": null,
-    "G.W.L. AT END OF DRILLING": null,
-    "G.W.L. 24hrs AFTER DRILLING": null
+    "water_table": null
   },
   "strata": [
     {

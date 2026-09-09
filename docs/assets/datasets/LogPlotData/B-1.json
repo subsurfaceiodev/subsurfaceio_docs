@@ -5,17 +5,14 @@
     "project_name": "gINT Example",
     "location": "Somewhere, SOMEPLACE",
     "test_id": "B-1",
-    "date_start": "4/28/2008",
-    "date_end": "4/28/2008",
+    "date_start": "2008-04-28",
+    "date_end": "2008-04-28",
     "contractor": "ABC Drilling",
     "method": "Hollow Stem Auger 2\"",
     "engineer": "A. Bore / Y. Me",
     "remarks": "General remarks",
     "surface_elevation": 37.6,
-    "Hole size": "0.15m to 7.5m, NX to BOH",
-    "G.W.L. AT TIME OF DRILLING (m)": "4.55 m / Elev 33.05 m",
-    "G.W.L. AT END OF DRILLING": "3.65 m / Elev 33.95 m",
-    "G.W.L. 24hrs AFTER DRILLING": "7.50 m / Elev 30.10 m"
+    "water_table": 7.5
   },
   "strata": [
     {

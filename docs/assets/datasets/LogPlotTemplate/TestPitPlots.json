@@ -3,7 +3,25 @@
     "size": "15%"
   },
   "header": {
-    "nrows": 8
+    "nrows": 8,
+    "fields": [
+      "project_name",
+      "client",
+      "location",
+      "easting",
+      "northing",
+      "test_id",
+      "date_start",
+      "date_end",
+      "surface_elevation",
+      "water_table",
+      "final_depth",
+      "method",
+      "contractor",
+      "crew",
+      "engineer",
+      "remarks"
+    ]
   },
   "figure": {
     "title": "LOG OF TEST PIT {test_id}",
