@@ -1,46 +1,39 @@
 {
   "metadata": {
-    "client": "ABC Corporation",
+    "test_id": "TP-1",
     "project_id": "ABC-12345",
     "project_name": "gINT Example",
-    "location": "Somewhere, SOMEPLACE",
-    "test_id": "TP-1",
-    "date_start": "2002-11-21",
-    "date_end": "2002-11-21",
+    "client": "ABC Corporation",
     "contractor": "AAAAA Drilling, Inc.",
-    "method": "Backhoe",
     "engineer": "A. Bore / Y. Me",
+    "location": "Somewhere, SOMEPLACE",
+    "method": "Backhoe",
     "remarks": "Weather:  Warm, sunny, slight westerly wind.",
     "surface_elevation": 37.65,
-    "water_table": null
+    "date_start": "2002-11-21",
+    "date_end": "2002-11-21"
   },
   "strata": [
     {
       "depth_top": 0.0,
       "depth": 1.25,
       "hatch": "GW-GC",
-      "color": null,
       "description": "Gray-brown clayey sandy gravel, medium dense to dense, moist to wet, gravels subrounded up to 2\" diameter"
     },
     {
       "depth_top": 1.25,
       "depth": 3.0,
       "hatch": "SC",
-      "color": null,
       "description": "Brown clayey sand, medium stiff, moist"
     },
     {
       "depth_top": 2.75,
-      "depth": null,
-      "hatch": null,
-      "color": null,
       "description": "grades more clayey"
     },
     {
       "depth_top": 3.0,
       "depth": 4.0,
       "hatch": "CL",
-      "color": null,
       "description": "Blue-gray sandy clay, medium stiff, moist"
     }
   ],
@@ -49,22 +42,19 @@
       "depth_top": 0.3,
       "depth": 0.9,
       "sample": "1",
-      "sampler_type": "GB",
-      "recovery": null
+      "sampler_type": "GB"
     },
     {
       "depth_top": 1.5,
       "depth": 2.1,
       "sample": "2",
-      "sampler_type": "GB",
-      "recovery": null
+      "sampler_type": "GB"
     },
     {
       "depth_top": 3.0,
       "depth": 3.45,
       "sample": "3",
-      "sampler_type": "GB",
-      "recovery": null
+      "sampler_type": "GB"
     }
   ]
 }

@@ -1,67 +1,55 @@
 {
   "metadata": {
-    "client": "ABC Corporation",
+    "test_id": "CPT-1",
     "project_id": "ABC-12345",
     "project_name": "gINT Example",
-    "location": "Somewhere, SOMEPLACE",
-    "test_id": "CPT-1",
-    "date_start": "2008-04-28",
-    "date_end": "2008-04-28",
+    "client": "ABC Corporation",
     "contractor": "AAAAA Drilling, Inc.",
-    "method": null,
-    "engineer": null,
+    "location": "Somewhere, SOMEPLACE",
     "remarks": "Weather:  Warm, sunny, slight westerly wind.",
     "surface_elevation": 38.25,
-    "water_table": null
+    "date_start": "2008-04-28",
+    "date_end": "2008-04-28"
   },
   "strata": [
     {
       "depth_top": 0.0,
       "depth": 1.5,
       "hatch": "CL",
-      "color": null,
       "description": "SILTY CLAY(CL), firm"
     },
     {
       "depth_top": 1.5,
       "depth": 2.4,
       "hatch": "SM",
-      "color": null,
       "description": "SILTY SAND(SM), loose to 1.8m, medium dense below 1.8m"
     },
     {
       "depth_top": 2.4,
       "depth": 3.0,
       "hatch": "SC",
-      "color": null,
       "description": "CLAYEY SAND(SC), medium dense"
     },
     {
       "depth_top": 3.0,
       "depth": 5.3,
       "hatch": "ML",
-      "color": null,
       "description": "CLAYEY SILT(ML), stiff to very stiff"
     },
     {
       "depth_top": 5.3,
       "depth": 11.1,
       "hatch": "SM",
-      "color": null,
       "description": "SILTY SAND(SM), medium dense to dense"
     },
     {
       "depth_top": 7.5,
-      "depth": null,
-      "hatch": null,
-      "color": null,
       "description": "@ 7.5m, dense to very dense"
     },
     {
       "depth_top": 11.1,
       "depth": 14.1,
       "hatch": "ML",
-      "color": null,
       "description": "SILT(ML), hard"
     }
   ],

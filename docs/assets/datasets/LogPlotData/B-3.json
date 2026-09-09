@@ -1,81 +1,68 @@
 {
   "metadata": {
-    "client": "ABC Corporation",
+    "test_id": "B-3",
     "project_id": "ABC-12345",
     "project_name": "gINT Example",
-    "location": "Somewhere, SOMEPLACE",
-    "test_id": "B-3",
-    "date_start": "2002-11-21",
-    "date_end": "2002-11-22",
+    "client": "ABC Corporation",
     "contractor": "AAAAA Drilling, Inc.",
-    "method": "Hollow Stem Auger",
     "engineer": "A. Bore / Y. Me",
+    "location": "Somewhere, SOMEPLACE",
+    "method": "Hollow Stem Auger",
     "remarks": "Weather:  Warm, sunny, slight westerly wind.",
     "surface_elevation": 35.84,
-    "water_table": null
+    "date_start": "2002-11-21",
+    "date_end": "2002-11-22"
   },
   "strata": [
     {
       "depth_top": 0.0,
       "depth": 1.25,
       "hatch": "GW-GC",
-      "color": null,
       "description": "Gray-brown clayey sandy gravel, medium dense to dense, moist to wet, gravels subrounded up to 2\" diameter"
     },
     {
       "depth_top": 1.25,
       "depth": 3.0,
       "hatch": "SC",
-      "color": null,
       "description": "Brown clayey sand, medium stiff, moist"
     },
     {
       "depth_top": 2.75,
-      "depth": null,
-      "hatch": null,
-      "color": null,
       "description": "grades more clayey"
     },
     {
       "depth_top": 3.0,
       "depth": 3.95,
       "hatch": "CLS",
-      "color": null,
       "description": "Blue-gray sandy clay, medium stiff, moist"
     },
     {
       "depth_top": 3.95,
       "depth": 4.1,
       "hatch": "SP",
-      "color": null,
       "description": "Light gray sand lense"
     },
     {
       "depth_top": 4.1,
       "depth": 4.55,
-      "hatch": "CLS",
-      "color": null,
-      "description": null
+      "hatch": "CLS"
     },
     {
       "depth_top": 4.55,
       "depth": 6.4,
       "hatch": "SP",
-      "color": null,
       "description": "Dark brown to gray silty sand, dense, wet to saturated"
     },
     {
       "depth_top": 6.4,
       "depth": 7.0,
       "hatch": "SC",
-      "color": null,
       "description": "Brown clayey sand, dense, saturated"
     },
     {
       "depth_top": 7.0,
       "depth": 7.6,
       "hatch": "SC",
-      "color": null,
       "description": "becoming black"
     }
   ]
