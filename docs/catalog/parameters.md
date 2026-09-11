@@ -456,6 +456,14 @@ left=150.1 right=None value=1.15 color=None
 **data_type**: `float`  
 **corresponding_parameter_name**: `None`  
     
+### `color`
+**symbol**: $\text{color}$  
+**label**: Color  
+**unit**: None  
+**description**: Observed or graphic color of a material  
+**data_type**: `str`  
+**corresponding_parameter_name**: `None`  
+    
 ### `compactability`
 **symbol**: $\text{compactability}$  
 **label**: Compactability  
