@@ -1,6 +1,7 @@
 nav:
   - index.md
   - features.md
+  - gallery
   - examples
   - catalog
   - reference

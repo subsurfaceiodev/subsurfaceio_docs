@@ -20,12 +20,16 @@ in-situ tests, laboratory specimens, and field strata.
   index and strength tests, sample classification.
 - [Field strata](reference/subsurfaceio/site_investigation/strata/).
 - [Depth aggregation and parametric analysis](reference/subsurfaceio/site_investigation/analysis/).
+  A filled site CPT profile is in the [gallery](gallery/index.md).
 - [Visualization](reference/subsurfaceio/site_investigation/visualization/):
   geotechnical plots and plot sets, scalar summary bars (LPI and related
   sums), published reference-figure overlays
   (CPT/DMT soil-behavior charts, liquefaction damage, plasticity), Plotly
-  maps, multi-page HTML reports.
+  maps, multi-page HTML reports. Interpreted profiles, liquefaction
+  summary bars, and liquefaction depth plots are in the
+  [gallery](gallery/index.md).
 - [Graphical logs](reference/subsurfaceio/logplot/): borehole, CPT, test-pit.
+  Filled logs are in the [gallery](gallery/index.md).
 - [IO and export](reference/subsurfaceio/site_investigation/io/): Excel,
   CPeT-IT Excel, AGS (including Next-Generation Liquefaction), KML maps, DXF
   maps, and DXF [cross-sections](reference/subsurfaceio/cross_section/).
@@ -81,4 +85,5 @@ in-situ tests, laboratory specimens, and field strata.
 ## Catalogs and project data
 
 Named parameters, references, datasets, and graphics are in the
-[catalog](catalog/index.md).
+[catalog](catalog/index.md). Filled logs and plots are in the
+[gallery](gallery/index.md).

@@ -7,4 +7,4 @@ alwaysApply: true
 
 Sibling of `subsurfaceio` (library), `subsurfaceio_docs_builder` (generators), and `subsurfaceio-server` (FastAPI + Dash). Full split and voice live in `subsurfaceio/.cursor/rules/docs-repos.mdc`.
 
-Do not hand-edit `docs/reference/**` or generated catalog pages. Authored pages: `docs/index.md`, `docs/features.md`, `docs/llms.txt`, `docs/.pages`, `mkdocs.yml`.
+Do not hand-edit `docs/reference/**`, generated catalog pages, or `docs/assets/gallery/**`. Authored pages: `docs/index.md`, `docs/features.md`, `docs/llms.txt`, `docs/.pages`, `docs/catalog/index.md`, `docs/catalog/.pages`, `docs/examples/.pages`, `docs/gallery/index.md`, `docs/gallery/.pages`, `mkdocs.yml`.

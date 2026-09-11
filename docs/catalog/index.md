@@ -6,6 +6,8 @@ description: Generated catalogs of parameters, function sequences, references, d
 # Catalog
 
 Indexes of parameters, function sequences, references, datasets, and graphics.
+Empty chart templates live here; filled logs and plots are in the
+[gallery](../gallery/index.md).
 
 - [Function sequences](function_sequences.md) — named calculation pipelines
 - [Parameters](parameters.md) — named calculation parameters
