@@ -57,7 +57,6 @@
           "depth": 6.2,
           "sample_id": "9385",
           "energy_ratio": 68.0,
-          "unit_weight": 18.8352,
           "water_content": 19.9
         },
         {
@@ -86,7 +85,6 @@
           "depth": 9.7,
           "sample_id": "9390",
           "energy_ratio": 68.0,
-          "unit_weight": 18.8352,
           "water_content": 21.3
         },
         {
@@ -117,6 +115,15 @@
           "energy_ratio": 68.0
         },
         {
+          "depth": 18.3,
+          "sample_id": "9408",
+          "energy_ratio": 68.0,
+          "water_content": 50.2,
+          "liquid_limit": 51.0,
+          "plastic_limit": 25.0,
+          "plasticity_index": 26.0
+        },
+        {
           "depth": 21.8,
           "sample_id": "9396",
           "energy_ratio": 68.0
@@ -130,7 +137,6 @@
           "depth": 27.8,
           "sample_id": "9398",
           "energy_ratio": 68.0,
-          "unit_weight": 17.7561,
           "water_content": 41.9,
           "liquid_limit": 42.0,
           "plastic_limit": 23.0,
@@ -146,14 +152,12 @@
           "depth": 33.9,
           "sample_id": "9400",
           "energy_ratio": 68.0,
-          "unit_weight": 17.9523,
           "water_content": 21.8
         },
         {
           "depth": 40.1,
           "sample_id": "9401",
           "energy_ratio": 68.0,
-          "unit_weight": 17.9523,
           "water_content": 37.0,
           "liquid_limit": 37.0,
           "plastic_limit": 14.0,
@@ -168,7 +172,6 @@
           "depth": 52.2,
           "sample_id": "9403",
           "energy_ratio": 68.0,
-          "unit_weight": 20.1105,
           "water_content": 20.7,
           "liquid_limit": 34.0,
           "plastic_limit": 15.0,
@@ -183,7 +186,6 @@
           "depth": 71.1,
           "sample_id": "9405",
           "energy_ratio": 68.0,
-          "unit_weight": 18.0504,
           "water_content": 33.3,
           "liquid_limit": 48.0,
           "plastic_limit": 18.0,
@@ -1338,18 +1340,13 @@
           "sample_id": "9419",
           "uscs_symbol": "Clay",
           "blow_count": 1,
-          "energy_ratio": 68.0,
-          "fines_content": 63.0,
-          "liquid_limit": 34.0,
-          "plastic_limit": 15.0,
-          "plasticity_index": 19.0
+          "energy_ratio": 68.0
         },
         {
           "depth": 18.3,
           "sample_id": "9420",
           "uscs_symbol": "Clay",
           "energy_ratio": 68.0,
-          "unit_weight": 16.9713,
           "water_content": 48.8,
           "liquid_limit": 50.0,
           "plastic_limit": 23.0,
@@ -1361,17 +1358,71 @@
           "energy_ratio": 68.0
         },
         {
+          "depth": 30.3,
+          "sample_id": "9424",
+          "uscs_symbol": "Sand",
+          "energy_ratio": 68.0,
+          "fines_content": 12.0
+        },
+        {
+          "depth": 30.35,
+          "sample_id": "9429",
+          "uscs_symbol": "Sand",
+          "blow_count": 81,
+          "energy_ratio": 68.0
+        },
+        {
+          "depth": 31.2,
+          "sample_id": "9425",
+          "uscs_symbol": "Sand",
+          "energy_ratio": 68.0,
+          "fines_content": 11.0
+        },
+        {
+          "depth": 31.25,
+          "sample_id": "9430",
+          "blow_count": 82,
+          "energy_ratio": 68.0
+        },
+        {
+          "depth": 33.35,
+          "sample_id": "9431",
+          "blow_count": 33,
+          "energy_ratio": 68.0
+        },
+        {
+          "depth": 33.8,
+          "sample_id": "9426",
+          "energy_ratio": 68.0,
+          "fines_content": 22.0
+        },
+        {
           "depth": 33.9,
           "sample_id": "9421",
-          "uscs_symbol": "Sand",
+          "energy_ratio": 68.0
+        },
+        {
+          "depth": 35.2,
+          "sample_id": "9427",
+          "energy_ratio": 68.0,
+          "fines_content": 8.0
+        },
+        {
+          "depth": 35.5,
+          "sample_id": "9428",
+          "energy_ratio": 68.0,
+          "fines_content": 11.0
+        },
+        {
+          "depth": 35.65,
+          "sample_id": "9432",
+          "blow_count": 100,
           "energy_ratio": 68.0
         },
         {
           "depth": 44.8,
           "sample_id": "9422",
-          "uscs_symbol": "Sand",
           "energy_ratio": 68.0,
-          "unit_weight": 20.7972,
           "water_content": 23.5,
           "liquid_limit": 38.0,
           "plastic_limit": 17.0,
@@ -1380,9 +1431,7 @@
         {
           "depth": 45.1,
           "sample_id": "9423",
-          "uscs_symbol": "Sand",
           "energy_ratio": 68.0,
-          "unit_weight": 20.0124,
           "water_content": 23.8,
           "liquid_limit": 38.0,
           "plastic_limit": 15.0,
@@ -2445,15 +2494,13 @@
           "depth": 2.8,
           "sample_id": "9433",
           "blow_count": 16,
-          "energy_ratio": 68.0,
-          "fines_content": 7.0
+          "energy_ratio": 68.0
         },
         {
           "depth": 3.8,
           "sample_id": "9434",
           "blow_count": 15,
-          "energy_ratio": 68.0,
-          "fines_content": 30.0
+          "energy_ratio": 68.0
         },
         {
           "depth": 5.8,
@@ -2472,8 +2519,7 @@
           "depth": 10.3,
           "sample_id": "9437",
           "blow_count": 12,
-          "energy_ratio": 68.0,
-          "fines_content": 14.0
+          "energy_ratio": 68.0
         },
         {
           "depth": 10.8,

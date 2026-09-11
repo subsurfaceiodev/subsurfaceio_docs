@@ -11344,7 +11344,7 @@
           "uscs_symbol": "SP",
           "blow_count": 18,
           "energy_ratio": 75.0,
-          "fines_content": 1.0
+          "fines_content": 2.0
         },
         {
           "depth": 7.16,
@@ -11352,7 +11352,7 @@
           "uscs_symbol": "SP",
           "blow_count": 26,
           "energy_ratio": 75.0,
-          "fines_content": 1.0
+          "fines_content": 2.0
         },
         {
           "depth": 7.92,
@@ -11360,7 +11360,7 @@
           "uscs_symbol": "SP",
           "blow_count": 20,
           "energy_ratio": 75.0,
-          "fines_content": 0.333333
+          "fines_content": 1.0
         },
         {
           "depth": 8.68,
@@ -12979,7 +12979,7 @@
           "uscs_symbol": "SP",
           "blow_count": 27,
           "energy_ratio": 75.0,
-          "fines_content": 1.5
+          "fines_content": 2.0
         },
         {
           "depth": 7.92,
@@ -12993,8 +12993,7 @@
           "depth": 9.44,
           "sample_id": "26586",
           "blow_count": 18,
-          "energy_ratio": 75.0,
-          "fines_content": 1.5
+          "energy_ratio": 75.0
         },
         {
           "depth": 10.97,
@@ -13007,8 +13006,7 @@
           "depth": 12.49,
           "sample_id": "26588",
           "blow_count": 21,
-          "energy_ratio": 75.0,
-          "fines_content": 11.5
+          "energy_ratio": 75.0
         }
       ],
       "liquefaction_settings": {
