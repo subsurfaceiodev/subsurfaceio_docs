@@ -68,13 +68,13 @@ Strength and stiffness:
 
 ## Cross-section
 
-### DXF section — Treasure Island
+### DXF section — Moss Landing
 
-The same four tests on an elevation CAD export with default column templates:
-strata and N60/fines, CPT sleeve friction, tip, and Ic, DMT P0/P1/P2 and
-material index, and downhole Vs (Pass et al. 1994; Gibbs et al. 1992 USGS).
+UC-B1 and UC-15 on a depth CAD export with default column templates:
+strata and N60/fines, and CPT sleeve friction, tip, and Ic (Boulanger et al.
+1995).
 
-![Treasure Island DXF cross-section](../assets/gallery/treasure-island-cross-section.png){: .gallery-still }
+![Moss Landing DXF cross-section](../assets/gallery/moss-landing-cross-section.png){: .gallery-still }
 
 ## Liquefaction
 
