@@ -103,6 +103,12 @@ Bibliographic sources cited by calculation functions and models.
 **year**: 2003  
 **link**: [https://doi.org/10.1061/(ASCE)1090-0241(2003)129:12(1071)](https://doi.org/10.1061/(ASCE)1090-0241(2003)129:12(1071)){:target="_blank"}
     
+### `boulanger2012probabilistic`
+**title**: Probabilistic Standard Penetration Test-Based Liquefaction-Triggering Procedure  
+**author**: Boulanger, Ross W. and Idriss, I. M.  
+**year**: 2012  
+**link**: [https://doi.org/10.1061/(ASCE)GT.1943-5606.0000700](https://doi.org/10.1061/(ASCE)GT.1943-5606.0000700){:target="_blank"}
+    
 ### `boulanger2014cpt`
 **title**: CPT and SPT based liquefaction triggering procedures  
 **author**: Boulanger, Ross W and Idriss, Izzat M  
