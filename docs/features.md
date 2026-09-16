@@ -33,6 +33,7 @@ in-situ tests, laboratory specimens, and field strata.
 - [IO and export](reference/subsurfaceio/site_investigation/io/): Excel,
   CPeT-IT Excel, AGS (including Next-Generation Liquefaction), KML maps, DXF
   maps, and DXF [cross-sections](reference/subsurfaceio/cross_section/).
+  A filled cross-section is in the [gallery](gallery/index.md).
 - Example [datasets](reference/subsurfaceio/datasets/) and generic
   [file helpers](reference/subsurfaceio/io/).
 
@@ -85,5 +86,5 @@ in-situ tests, laboratory specimens, and field strata.
 ## Catalogs and project data
 
 Named parameters, references, datasets, and graphics are in the
-[catalog](catalog/index.md). Filled logs and plots are in the
-[gallery](gallery/index.md).
+[catalog](catalog/index.md). Filled logs, plots, and cross-sections are in
+the [gallery](gallery/index.md).

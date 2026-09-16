@@ -1,12 +1,13 @@
 ---
 title: Gallery
-description: Filled logs, interpretation plots, and liquefaction profiles from open site data.
+description: Filled logs, interpretation plots, DXF cross-sections, and liquefaction profiles from open site data.
 ---
 
 # Gallery
 
-Filled logs, interpretation plots, and liquefaction profiles from open site
-data. Empty chart templates, hatches, and named registries live in the
+Filled logs, interpretation plots, DXF cross-sections, and liquefaction
+profiles from open site data. Empty chart templates, hatches, and named
+registries live in the
 [catalog](../catalog/index.md). Try the same workflows in the
 [web app](https://subsurfaceio.app/){:target="_blank"}.
 
@@ -64,6 +65,16 @@ Classification and index:
 Strength and stiffness:
 
 ![Treasure Island interpreted strength and stiffness](../assets/gallery/treasure-island-interpretation-strength.png){: .gallery-still }
+
+## Cross-section
+
+### DXF section — Treasure Island
+
+The same four tests on an elevation CAD export with default column templates:
+strata and N60/fines, CPT sleeve friction, tip, and Ic, DMT P0/P1/P2 and
+material index, and downhole Vs (Pass et al. 1994; Gibbs et al. 1992 USGS).
+
+![Treasure Island DXF cross-section](../assets/gallery/treasure-island-cross-section.png){: .gallery-still }
 
 ## Liquefaction
 
