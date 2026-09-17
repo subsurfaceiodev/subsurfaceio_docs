@@ -25,8 +25,9 @@ in-situ tests, laboratory specimens, and field strata.
   geotechnical plots and plot sets, scalar summary bars (LPI and related
   sums), published reference-figure overlays
   (CPT/DMT soil-behavior charts, liquefaction damage, plasticity), Plotly
-  maps, multi-page HTML reports. Interpreted profiles, liquefaction
-  summary bars, and liquefaction depth plots are in the
+  maps, multi-page HTML reports. Interpreted profiles, CPT and DMT plot-set
+  pages, a filled Robertson soil-behavior-type chart, liquefaction summary
+  bars, and liquefaction depth plots are in the
   [gallery](gallery/index.md).
 - [Graphical logs](reference/subsurfaceio/logplot/): borehole, CPT, test-pit.
   Filled logs are in the [gallery](gallery/index.md).

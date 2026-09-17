@@ -1,12 +1,12 @@
 ---
 title: Gallery
-description: Filled logs, interpretation plots, DXF cross-sections, and liquefaction profiles from open site data.
+description: Filled logs, interpretation plots, reference charts, DXF cross-sections, and liquefaction profiles from open site data.
 ---
 
 # Gallery
 
-Filled logs, interpretation plots, DXF cross-sections, and liquefaction
-profiles from open site data. Empty chart templates, hatches, and named
+Filled logs, interpretation plots, reference charts, DXF cross-sections, and
+liquefaction profiles from open site data. Empty chart templates, hatches, and named
 registries live in the
 [catalog](../catalog/index.md). Try the same workflows in the
 [web app](https://subsurfaceio.app/){:target="_blank"}.
@@ -47,11 +47,10 @@ and pore pressure. One page, 15 m depth span.
 
 ### Site CPT profile — Treasure Island
 
-All CPTs in gray; black is the site characteristic profile on a common
-depth grid (Gibbs et al. 1992 USGS). Raw traces: tip, sleeve, and pore
-pressure.
+All CPTs in gray; black is the site mean profile on a common depth grid
+(Gibbs et al. 1992 USGS). Raw traces: tip, sleeve, and pore pressure.
 
-![Treasure Island characteristic CPT profile](../assets/gallery/treasure-island-cpt-characteristic.png){: .gallery-still }
+![Treasure Island mean CPT profile](../assets/gallery/treasure-island-cpt-mean.png){: .gallery-still }
 
 ### Interpreted profiles — Treasure Island
 
@@ -65,6 +64,32 @@ Classification and index:
 Strength and stiffness:
 
 ![Treasure Island interpreted strength and stiffness](../assets/gallery/treasure-island-interpretation-strength.png){: .gallery-still }
+
+### CPT basic — CPTU-1, Treasure Island
+
+Sounding CPTU-1 (Pass et al. 1994). Corrected tip, friction ratio, pore
+pressure, non-normalized soil-behavior-type index, and SBT label. Depth is
+shown to 30 m.
+
+![Treasure Island CPTU-1 CPT basic](../assets/gallery/treasure-island-cptu-1-cpt-basic.png){: .gallery-still }
+
+### DMT interpretation — DMT-1, Treasure Island
+
+Sounding DMT-1 (Pass et al. 1994). Marchetti material index and description,
+constrained modulus, undrained shear strength, friction angle, horizontal
+stress index, and shear-wave velocity. Depth is shown to 30 m.
+
+![Treasure Island DMT-1 DMT interpretation](../assets/gallery/treasure-island-dmt-1-dmt-interpretation.png){: .gallery-still }
+
+## Reference charts
+
+### Soil behavior type — Treasure Island
+
+All CPTs on the Robertson soil-behavior-type chart (Gibbs et al. 1992 USGS;
+Pass et al. 1994). Empty chart templates live in the
+[catalog](../catalog/reference-figures.md).
+
+![Treasure Island Robertson soil-behavior-type chart](../assets/gallery/treasure-island-soil-behaviour-type.png){: .gallery-still }
 
 ## Cross-section
 
