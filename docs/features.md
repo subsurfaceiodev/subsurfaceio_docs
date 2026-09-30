@@ -35,7 +35,7 @@ in-situ tests, laboratory specimens, and field strata.
   CPeT-IT Excel, AGS (including Next-Generation Liquefaction), KML maps, DXF
   maps, and DXF [cross-sections](reference/subsurfaceio/cross_section/).
   A filled cross-section is in the [gallery](gallery/index.md).
-- Example [datasets](reference/subsurfaceio/datasets/) and generic
+- Example [datasets](catalog/datasets/) and generic
   [file helpers](reference/subsurfaceio/io/).
 
 ## Calculations

@@ -11,6 +11,7 @@ The Features page lists every public capability. This file is a map for agents.
 - [Gallery](https://docs.subsurfaceio.app/gallery/): Filled logs, interpretation plots, reference charts, DXF cross-sections, and liquefaction profiles
 - [Examples](https://docs.subsurfaceio.app/examples/api/): Runnable API scripts
 - [Catalog](https://docs.subsurfaceio.app/catalog/): Parameters, function sequences, references, datasets, graphics
+- [Datasets](https://docs.subsurfaceio.app/catalog/datasets/): Example JSON inputs
 - [Function sequences](https://docs.subsurfaceio.app/catalog/function_sequences/): Named calculation recipes
 - [Parameters](https://docs.subsurfaceio.app/catalog/parameters/): Named calculation parameters
 - [References](https://docs.subsurfaceio.app/catalog/references/): Bibliographic sources
