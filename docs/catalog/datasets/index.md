@@ -9,73 +9,73 @@ Example JSON inputs grouped by model.
 
 ### FootingFoundation
 
-- [example5_4_das2018principlesa](<FootingFoundation/example5_4_das2018principlesa.md>) — [JSON](<../../assets/datasets/FootingFoundation/example5_4_das2018principlesa.json>)
-- [example5_5_das2018principlesa](<FootingFoundation/example5_5_das2018principlesa.md>) — [JSON](<../../assets/datasets/FootingFoundation/example5_5_das2018principlesa.json>)
-- [example7_2_coduto2015foundation](<FootingFoundation/example7_2_coduto2015foundation.md>) — [JSON](<../../assets/datasets/FootingFoundation/example7_2_coduto2015foundation.json>)
-- [example7_3_coduto2015foundation](<FootingFoundation/example7_3_coduto2015foundation.md>) — [JSON](<../../assets/datasets/FootingFoundation/example7_3_coduto2015foundation.json>)
+- [example5_4_das2018principlesa](<FootingFoundation/example5_4_das2018principlesa.md>)
+- [example5_5_das2018principlesa](<FootingFoundation/example5_5_das2018principlesa.md>)
+- [example7_2_coduto2015foundation](<FootingFoundation/example7_2_coduto2015foundation.md>)
+- [example7_3_coduto2015foundation](<FootingFoundation/example7_3_coduto2015foundation.md>)
 
 ### FootingFoundationAverageParameters
 
-- [Sample](<FootingFoundationAverageParameters/Sample.md>) — [JSON](<../../assets/datasets/FootingFoundationAverageParameters/Sample.json>)
+- [Sample](<FootingFoundationAverageParameters/Sample.md>)
 
 ### GeotechFigure
 
-- [Sample](<GeotechFigure/Sample.md>) — [JSON](<../../assets/datasets/GeotechFigure/Sample.json>)
+- [Sample](<GeotechFigure/Sample.md>)
 
 ### Interpolate
 
-- [Sample](<Interpolate/Sample.md>) — [JSON](<../../assets/datasets/Interpolate/Sample.json>)
+- [Sample](<Interpolate/Sample.md>)
 
 ### LogPlotData
 
-- [B-1](<LogPlotData/B-1.md>) — [JSON](<../../assets/datasets/LogPlotData/B-1.json>)
-- [B-2](<LogPlotData/B-2.md>) — [JSON](<../../assets/datasets/LogPlotData/B-2.json>)
-- [B-3](<LogPlotData/B-3.md>) — [JSON](<../../assets/datasets/LogPlotData/B-3.json>)
-- [CPT-1](<LogPlotData/CPT-1.md>) — [JSON](<../../assets/datasets/LogPlotData/CPT-1.json>)
-- [TP-1](<LogPlotData/TP-1.md>) — [JSON](<../../assets/datasets/LogPlotData/TP-1.json>)
+- [B-1](<LogPlotData/B-1.md>)
+- [B-2](<LogPlotData/B-2.md>)
+- [B-3](<LogPlotData/B-3.md>)
+- [CPT-1](<LogPlotData/CPT-1.md>)
+- [TP-1](<LogPlotData/TP-1.md>)
 
 ### LogPlotTemplate
 
-- [Borehole](<LogPlotTemplate/Borehole.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/Borehole.json>)
-- [BoreholeEs](<LogPlotTemplate/BoreholeEs.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/BoreholeEs.json>)
-- [GintBorehole](<LogPlotTemplate/GintBorehole.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/GintBorehole.json>)
-- [GintBoreholePlots](<LogPlotTemplate/GintBoreholePlots.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/GintBoreholePlots.json>)
-- [GintCPT](<LogPlotTemplate/GintCPT.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/GintCPT.json>)
-- [GintEnvironmental](<LogPlotTemplate/GintEnvironmental.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/GintEnvironmental.json>)
-- [GintTestPit](<LogPlotTemplate/GintTestPit.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/GintTestPit.json>)
-- [TestPit](<LogPlotTemplate/TestPit.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/TestPit.json>)
-- [TestPitPlots](<LogPlotTemplate/TestPitPlots.md>) — [JSON](<../../assets/datasets/LogPlotTemplate/TestPitPlots.json>)
+- [Borehole](<LogPlotTemplate/Borehole.md>)
+- [BoreholeEs](<LogPlotTemplate/BoreholeEs.md>)
+- [GintBorehole](<LogPlotTemplate/GintBorehole.md>)
+- [GintBoreholePlots](<LogPlotTemplate/GintBoreholePlots.md>)
+- [GintCPT](<LogPlotTemplate/GintCPT.md>)
+- [GintEnvironmental](<LogPlotTemplate/GintEnvironmental.md>)
+- [GintTestPit](<LogPlotTemplate/GintTestPit.md>)
+- [TestPit](<LogPlotTemplate/TestPit.md>)
+- [TestPitPlots](<LogPlotTemplate/TestPitPlots.md>)
 
 ### PileFoundationSettlement
 
-- [Sample](<PileFoundationSettlement/Sample.md>) — [JSON](<../../assets/datasets/PileFoundationSettlement/Sample.json>)
+- [Sample](<PileFoundationSettlement/Sample.md>)
 
 ### PileGroup
 
-- [GroupTechnicalManualExample6_2](<PileGroup/GroupTechnicalManualExample6_2.md>) — [JSON](<../../assets/datasets/PileGroup/GroupTechnicalManualExample6_2.json>)
+- [GroupTechnicalManualExample6_2](<PileGroup/GroupTechnicalManualExample6_2.md>)
 
 ### SeismicSiteClassAveraging
 
-- [FEMA2020Example3_5_2](<SeismicSiteClassAveraging/FEMA2020Example3_5_2.md>) — [JSON](<../../assets/datasets/SeismicSiteClassAveraging/FEMA2020Example3_5_2.json>)
+- [FEMA2020Example3_5_2](<SeismicSiteClassAveraging/FEMA2020Example3_5_2.md>)
 
 ### SiteDesignSpectra
 
-- [Table10Validation1](<SiteDesignSpectra/Table10Validation1.md>) — [JSON](<../../assets/datasets/SiteDesignSpectra/Table10Validation1.json>)
+- [Table10Validation1](<SiteDesignSpectra/Table10Validation1.md>)
 
 ### SiteInvestigation
 
-- [Moss Landing State Beach](<SiteInvestigation/Moss Landing State Beach.md>) — [JSON](<../../assets/datasets/SiteInvestigation/Moss Landing State Beach.json>)
-- [Treasure Island](<SiteInvestigation/Treasure Island.md>) — [JSON](<../../assets/datasets/SiteInvestigation/Treasure Island.json>)
+- [Moss Landing State Beach](<SiteInvestigation/Moss Landing State Beach.md>)
+- [Treasure Island](<SiteInvestigation/Treasure Island.md>)
 
 ### SoilClassification
 
-- [AASHTOSample](<SoilClassification/AASHTOSample.md>) — [JSON](<../../assets/datasets/SoilClassification/AASHTOSample.json>)
-- [USCSSample](<SoilClassification/USCSSample.md>) — [JSON](<../../assets/datasets/SoilClassification/USCSSample.json>)
-- [USDAMoreno2018Sample](<SoilClassification/USDAMoreno2018Sample.md>) — [JSON](<../../assets/datasets/SoilClassification/USDAMoreno2018Sample.json>)
-- [USDASample](<SoilClassification/USDASample.md>) — [JSON](<../../assets/datasets/SoilClassification/USDASample.json>)
+- [AASHTOSample](<SoilClassification/AASHTOSample.md>)
+- [USCSSample](<SoilClassification/USCSSample.md>)
+- [USDAMoreno2018Sample](<SoilClassification/USDAMoreno2018Sample.md>)
+- [USDASample](<SoilClassification/USDASample.md>)
 
 ### SoilStructureInteraction
 
-- [ETABS](<SoilStructureInteraction/ETABS.md>) — [JSON](<../../assets/datasets/SoilStructureInteraction/ETABS.json>)
-- [Sherman Oaks](<SoilStructureInteraction/Sherman Oaks.md>) — [JSON](<../../assets/datasets/SoilStructureInteraction/Sherman Oaks.json>)
+- [ETABS](<SoilStructureInteraction/ETABS.md>)
+- [Sherman Oaks](<SoilStructureInteraction/Sherman Oaks.md>)
 
