@@ -45,6 +45,11 @@ in-situ tests, laboratory specimens, and field strata.
   SSI.
 - [Pipelines](reference/subsurfaceio/function_sequences/) covering those same
   domains.
+- Batch inputs on those pipelines: a field may be a scalar, a 1-d list, or a
+  2-d array. Values follow numpy broadcasting. See
+  [soil classification](examples/api/soil_classification.md),
+  [CPT interpretation](examples/api/cpt_interpretation.md), and
+  [CPT liquefaction parametric analysis](examples/api/cpt_liquefaction_parametric.md).
 - Shared [parameters](reference/subsurfaceio/parameters/).
 - [Function sequence catalog](catalog/function_sequences.md): every named
   recipe.

@@ -12,7 +12,7 @@ The Features page lists every public capability. This file is a map for agents.
 - [Examples](https://docs.subsurfaceio.app/examples/api/): Runnable API scripts
 - [Catalog](https://docs.subsurfaceio.app/catalog/): Parameters, function sequences, references, datasets, graphics
 - [Datasets](https://docs.subsurfaceio.app/catalog/datasets/): Example JSON inputs
-- [Function sequences](https://docs.subsurfaceio.app/catalog/function_sequences/): Named calculation recipes
+- [Function sequences](https://docs.subsurfaceio.app/catalog/function_sequences/): Named calculation recipes. Inputs may be scalars, 1-d lists, or 2-d arrays and follow numpy broadcasting.
 - [Parameters](https://docs.subsurfaceio.app/catalog/parameters/): Named calculation parameters
 - [References](https://docs.subsurfaceio.app/catalog/references/): Bibliographic sources
 - [Package reference](https://docs.subsurfaceio.app/reference/subsurfaceio/): Python API
