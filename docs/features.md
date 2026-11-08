@@ -32,8 +32,8 @@ in-situ tests, laboratory specimens, and field strata.
 - [Graphical logs](reference/subsurfaceio/logplot/): borehole, CPT, test-pit.
   Filled logs are in the [gallery](gallery/index.md).
 - [IO and export](reference/subsurfaceio/site_investigation/io/): Excel,
-  CPeT-IT Excel, AGS (including Next-Generation Liquefaction), KML maps, DXF
-  maps, and DXF [cross-sections](reference/subsurfaceio/cross_section/).
+  CPeT-IT Excel, AGS, KML maps, DXF maps, and DXF
+  [cross-sections](reference/subsurfaceio/cross_section/).
   A filled cross-section is in the [gallery](gallery/index.md).
 - Example [datasets](catalog/datasets/) and generic
   [file helpers](reference/subsurfaceio/io/).
