@@ -815,7 +815,7 @@ Bibliographic sources cited by calculation functions and models.
 **title**: Evaluation of flow liquefaction and liquefied strength using the cone penetration test: an update  
 **author**: Robertson, Peter K  
 **year**: 2022  
-**link**: [https://doi.org/10.1139/cgj-2021-0488](https://doi.org/10.1139/cgj-2021-0488){:target="_blank"}
+**link**: [https://doi.org/10.1139/cgj-2020-0657](https://doi.org/10.1139/cgj-2020-0657){:target="_blank"}
     
 ### `robertson2024guide`
 **title**: GUIDE TO CONE PENETRATION TESTING  
