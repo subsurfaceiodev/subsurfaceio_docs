@@ -9,9 +9,9 @@ Bibliographic sources cited by calculation functions and models.
 
 ### `aashto1996standard`
 **title**: Standard specifications for highway bridges  
-**author**: American Association of State Highway Officials  
+**author**: American Association of State Highway and Transportation Officials  
 **year**: 1996  
-**link**: [https://doi.org/10.13140/RG.2.2.19815.04008](https://doi.org/10.13140/RG.2.2.19815.04008){:target="_blank"}
+**link**: [https://isbnsearch.org/isbn/9781560510406](https://isbnsearch.org/isbn/9781560510406){:target="_blank"}
     
 ### `ameratunga2016correlations`
 **title**: Correlations of soil and rock properties in geotechnical engineering  
@@ -20,7 +20,7 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://doi.org/10.1007/978-81-322-2629-1](https://doi.org/10.1007/978-81-322-2629-1){:target="_blank"}
     
 ### `amoroso2013prediction`
-**title**: Prediction of the Shear Wave Velocity Vs from CPT and DMT  
+**title**: Prediction of the shear wave velocity Vs from CPT and DMT at research sites  
 **author**: Amoroso, Sara  
 **year**: 2013  
 **link**: [https://doi.org/10.1007/s11709-013-0234-6](https://doi.org/10.1007/s11709-013-0234-6){:target="_blank"}
@@ -62,7 +62,7 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://doi.org/10.1520/D0421-85R07](https://doi.org/10.1520/D0421-85R07){:target="_blank"}
     
 ### `astm2007d422`
-**title**: Standard Test Method for Particle-Size Analysis of Soils  
+**title**: Standard Test Method for Particle-Size Analysis of Soils (Withdrawn 2016)  
 **author**: ASTM International  
 **year**: 2007  
 **link**: [https://doi.org/10.1520/D0422-63R07](https://doi.org/10.1520/D0422-63R07){:target="_blank"}
@@ -83,7 +83,7 @@ Bibliographic sources cited by calculation functions and models.
 **title**: Estimation of in-situ water content and void ratio using CPT for saturated sands  
 **author**: Barounis, N and Philpot, J  
 **year**: 2018  
-**link**: [https://doi.org/10.1201/9780429505980](https://doi.org/10.1201/9780429505980){:target="_blank"}
+**link**: [https://isbnsearch.org/isbn/9781138584495](https://isbnsearch.org/isbn/9781138584495){:target="_blank"}
     
 ### `benham2009clarification`
 **title**: Clarification of soil texture class boundaries  
@@ -236,10 +236,10 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://www.nehrp.gov/pdf/fema450provisions.pdf](https://www.nehrp.gov/pdf/fema450provisions.pdf){:target="_blank"}
     
 ### `cox1968review`
-**title**: A review of the engineering characteristics of the recent marine clay in southeastasia  
+**title**: A review of the engineering characteristics of the recent marine clay in Southeast Asia  
 **author**: Cox, John B  
 **year**: 1968  
-**link**: [https://scholar.google.com/scholar?q=A%20review%20of%20the%20engineering%20characteristics%20of%20the%20recent%20marine%20clay%20in%20southeastasia%201968](https://scholar.google.com/scholar?q=A%20review%20of%20the%20engineering%20characteristics%20of%20the%20recent%20marine%20clay%20in%20southeastasia%201968){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=A%20review%20of%20the%20engineering%20characteristics%20of%20the%20recent%20marine%20clay%20in%20Southeast%20Asia%201968](https://scholar.google.com/scholar?q=A%20review%20of%20the%20engineering%20characteristics%20of%20the%20recent%20marine%20clay%20in%20Southeast%20Asia%201968){:target="_blank"}
     
 ### `cubrinovski1999empirical`
 **title**: Empirical correlation between SPT N-value and relative density for sandy soils  
@@ -249,7 +249,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `d1970closure`
 **title**: Closure to “settlement of spread footings on sand”  
-**author**: D'appolonia, David J and D'appolonia, Elio and Brissette, Richard F  
+**author**: D'Appolonia, David J. and D'Appolonia, Elio and Brissette, Richard F.  
 **year**: 1970  
 **link**: [https://doi.org/10.1061/JSFEAQ.0005552](https://doi.org/10.1061/JSFEAQ.0005552){:target="_blank"}
     
@@ -278,10 +278,10 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://isbnsearch.org/isbn/9781305970939](https://isbnsearch.org/isbn/9781305970939){:target="_blank"}
     
 ### `day2005foundation`
-**title**: Foundation Engineering Handbook  
-**author**: Day, Robert W  
+**title**: Foundation engineering handbook: design and construction with the 2006 International Building Code  
+**author**: Day, Robert W.  
 **year**: 2005  
-**link**: [https://isbnsearch.org/isbn/9780071501507](https://isbnsearch.org/isbn/9780071501507){:target="_blank"}
+**link**: [https://isbnsearch.org/isbn/9780071447690](https://isbnsearch.org/isbn/9780071447690){:target="_blank"}
     
 ### `degroot2019engineering`
 **title**: Engineering properties of low to medium overconsolidation ratio offshore clays  
@@ -297,7 +297,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `dobry2000new`
 **title**: New site coefficients and site classification system used in recent building seismic code provisions  
-**author**: Dobry, R and Borcherdt, RD and Crouse, CB and Idriss, IM and Joyner, WB and Martin, G Rinne and Power, MS and Rinne, EE and Seed, RB  
+**author**: Dobry, Ricardo and Borcherdt, R. D. and Crouse, C. B. and Idriss, I. M. and Joyner, W. B. and Martin, G. R. and Power, M. S. and Rinne, E. E. and Seed, R. B.  
 **year**: 2000  
 **link**: [https://doi.org/10.1193/1.1586082](https://doi.org/10.1193/1.1586082){:target="_blank"}
     
@@ -321,7 +321,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `gibbs1957research`
 **title**: Research on determining the density of sands by spoon penetration testing  
-**author**: Gibbs, Harold J and Holtz, Wesley G  
+**author**: Gibbs, Harold J. and Holtz, Wesley G.  
 **year**: 1957  
 **link**: [https://scholar.google.com/scholar?q=Research%20on%20determining%20the%20density%20of%20sands%20by%20spoon%20penetration%20testing%201957](https://scholar.google.com/scholar?q=Research%20on%20determining%20the%20density%20of%20sands%20by%20spoon%20penetration%20testing%201957){:target="_blank"}
     
@@ -375,9 +375,9 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `hynes2018influence`
 **title**: Influence of confining stress on liquefaction resistance  
-**author**: Hynes, Mary Ellen and Olsen, Richard S  
-**year**: 2018  
-**link**: [https://doi.org/10.1201/9780203743294](https://doi.org/10.1201/9780203743294){:target="_blank"}
+**author**: Hynes, Mary Ellen and Olsen, Richard S.  
+**year**: 1999  
+**link**: [https://doi.org/10.1201/9780203743317-12](https://doi.org/10.1201/9780203743317-12){:target="_blank"}
     
 ### `idriss2003estimating`
 **title**: Estimating Kα for use in evaluating cyclic resistance of sloping ground  
@@ -387,7 +387,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `idriss2003relating`
 **title**: Relating Kα and Kσ to SPT blow count and to CPT tip resistance for use in evaluating liquefaction potential  
-**author**: Idriss, IM and Boulanger, Ross W  
+**author**: Idriss, I. M. and Boulanger, Ross W.  
 **year**: 2003  
 **link**: [https://scholar.google.com/scholar?q=Relating%20K%CE%B1%20and%20K%CF%83%20to%20SPT%20blow%20count%20and%20to%20CPT%20tip%20resistance%20for%20use%20in%20evaluating%20liquefaction%20potential%202003](https://scholar.google.com/scholar?q=Relating%20K%CE%B1%20and%20K%CF%83%20to%20SPT%20blow%20count%20and%20to%20CPT%20tip%20resistance%20for%20use%20in%20evaluating%20liquefaction%20potential%202003){:target="_blank"}
     
@@ -398,8 +398,8 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://doi.org/10.1016/j.soildyn.2004.11.023](https://doi.org/10.1016/j.soildyn.2004.11.023){:target="_blank"}
     
 ### `idriss2007spt`
-**title**: SPT and CPT-based Relationships for the Residual Shear Strength of Liquefiable Soils, Earthquake Geotechnical Engineering  
-**author**: Idriss, IM and Boulanger, RW  
+**title**: SPT- and CPT-based relationships for the residual shear strength of liquefied soils  
+**author**: Idriss, I. M. and Boulanger, Ross W.  
 **year**: 2007  
 **link**: [https://doi.org/10.1007/978-1-4020-5893-6_1](https://doi.org/10.1007/978-1-4020-5893-6_1){:target="_blank"}
     
@@ -429,13 +429,13 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `iwasaki1978practical`
 **title**: A practical method for assessing soil liquefaction potential based on case studies at various sites in Japan  
-**author**: Iwasaki, Toshio  
+**author**: Iwasaki, Toshio and Tatsuoka, Fumio and Tokida, Ken-ichi and Yasuda, Susumu  
 **year**: 1978  
 **link**: [https://scholar.google.com/scholar?q=A%20practical%20method%20for%20assessing%20soil%20liquefaction%20potential%20based%20on%20case%20studies%20at%20various%20sites%20in%20Japan%201978](https://scholar.google.com/scholar?q=A%20practical%20method%20for%20assessing%20soil%20liquefaction%20potential%20based%20on%20case%20studies%20at%20various%20sites%20in%20Japan%201978){:target="_blank"}
     
 ### `jamilkowski1988new`
 **title**: New correlations of penetration tests for design practice  
-**author**: Jamilkowski, M  
+**author**: Jamiolkowski, M. and Ghionna, V. N. and Lancellotta, R. and Pasqualini, E.  
 **year**: 1988  
 **link**: [https://scholar.google.com/scholar?q=New%20correlations%20of%20penetration%20tests%20for%20design%20practice%201988](https://scholar.google.com/scholar?q=New%20correlations%20of%20penetration%20tests%20for%20design%20practice%201988){:target="_blank"}
     
@@ -446,16 +446,16 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://doi.org/10.1680/geot.1985.35.3.241](https://doi.org/10.1680/geot.1985.35.3.241){:target="_blank"}
     
 ### `jra1990seismic`
-**title**: Seismic design specifications for highway bridges.  
+**title**: Specifications for highway bridges, part V: seismic design  
 **author**: Japan Road Association  
 **year**: 1990  
-**link**: [https://scholar.google.com/scholar?q=Seismic%20design%20specifications%20for%20highway%20bridges.%201990](https://scholar.google.com/scholar?q=Seismic%20design%20specifications%20for%20highway%20bridges.%201990){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Specifications%20for%20highway%20bridges%2C%20part%20V%3A%20seismic%20design%201990](https://scholar.google.com/scholar?q=Specifications%20for%20highway%20bridges%2C%20part%20V%3A%20seismic%20design%201990){:target="_blank"}
     
 ### `jra2002seismic`
-**title**: Seismic design specifications for highway bridges.  
+**title**: Specifications for highway bridges, part V: seismic design  
 **author**: Japan Road Association  
 **year**: 2002  
-**link**: [https://scholar.google.com/scholar?q=Seismic%20design%20specifications%20for%20highway%20bridges.%202002](https://scholar.google.com/scholar?q=Seismic%20design%20specifications%20for%20highway%20bridges.%202002){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Specifications%20for%20highway%20bridges%2C%20part%20V%3A%20seismic%20design%202002](https://scholar.google.com/scholar?q=Specifications%20for%20highway%20bridges%2C%20part%20V%3A%20seismic%20design%202002){:target="_blank"}
     
 ### `karatzia2012horizontal`
 **title**: Horizontal response of piles in inhomogeneous soil: Simple analysis  
@@ -471,7 +471,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `kolk1996reliable`
 **title**: A reliable method to determine friction capacity of piles driven into clays  
-**author**: Kolk, HJ and Der Velde, E  
+**author**: Kolk, H. J. and van der Velde, E.  
 **year**: 1996  
 **link**: [https://doi.org/10.4043/7993-MS](https://doi.org/10.4043/7993-MS){:target="_blank"}
     
@@ -525,7 +525,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `leroueil1983proprietes`
 **title**: Propriétés caractéristiques des argiles de l'est du Canada  
-**author**: Leroueil, Serge and Tavenas, François and Bihan, Jean-Pierre Le  
+**author**: Leroueil, Serge and Tavenas, François and Le Bihan, Jean-Pierre  
 **year**: 1983  
 **link**: [https://doi.org/10.1139/t83-076](https://doi.org/10.1139/t83-076){:target="_blank"}
     
@@ -608,7 +608,7 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://scholar.google.com/scholar?q=Stress-strain-strength-flow%20parameters%20from%20enhanced%20in-situ%20tests%202001](https://scholar.google.com/scholar?q=Stress-strain-strength-flow%20parameters%20from%20enhanced%20in-situ%20tests%202001){:target="_blank"}
     
 ### `mayne2005integrated`
-**title**: Integrated ground behavior: In-situ and labs tests  
+**title**: Integrated ground behavior: in-situ and lab tests  
 **author**: Mayne, PW  
 **year**: 2005  
 **link**: [https://isbnsearch.org/isbn/9780203970812](https://isbnsearch.org/isbn/9780203970812){:target="_blank"}
@@ -627,9 +627,9 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `meyerhof1956penetration`
 **title**: Penetration tests and bearing capacity of cohesionless soils  
-**author**: Meyerhof, GG  
+**author**: Meyerhof, G. G.  
 **year**: 1956  
-**link**: [https://scholar.google.com/scholar?q=Penetration%20tests%20and%20bearing%20capacity%20of%20cohesionless%20soils%201956](https://scholar.google.com/scholar?q=Penetration%20tests%20and%20bearing%20capacity%20of%20cohesionless%20soils%201956){:target="_blank"}
+**link**: [https://doi.org/10.1061/JSFEAQ.0000001](https://doi.org/10.1061/JSFEAQ.0000001){:target="_blank"}
     
 ### `meyerhof1959compaction`
 **title**: Compaction of sands and bearing capacity of piles  
@@ -651,7 +651,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `moran1958study`
 **title**: Study of deep soil stabilization by vertical sand drains  
-**author**: Moran and Proctor and Mueser & Rutledge  
+**author**: Moran, Proctor, Mueser & Rutledge  
 **year**: 1958  
 **link**: [https://scholar.google.com/scholar?q=Study%20of%20deep%20soil%20stabilization%20by%20vertical%20sand%20drains%201958](https://scholar.google.com/scholar?q=Study%20of%20deep%20soil%20stabilization%20by%20vertical%20sand%20drains%201958){:target="_blank"}
     
@@ -663,15 +663,15 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `muromachi1974penetration`
 **title**: Penetration testing in Japan  
-**author**: Muromachi, T and Oguro, I and Miyashita, T  
-**year**: 1976  
-**link**: [https://scholar.google.com/scholar?q=Penetration%20testing%20in%20Japan%201976](https://scholar.google.com/scholar?q=Penetration%20testing%20in%20Japan%201976){:target="_blank"}
+**author**: Muromachi, T. and Oguro, I. and Miyashita, T.  
+**year**: 1974  
+**link**: [https://scholar.google.com/scholar?q=Penetration%20testing%20in%20Japan%201974](https://scholar.google.com/scholar?q=Penetration%20testing%20in%20Japan%201974){:target="_blank"}
     
 ### `navfac1982soil`
-**title**: Soil Mechanics  
+**title**: Soil mechanics  
 **author**: Naval Facilities Engineering Command  
 **year**: 1982  
-**link**: [https://scholar.google.com/scholar?q=Soil%20Mechanics%201982](https://scholar.google.com/scholar?q=Soil%20Mechanics%201982){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Soil%20mechanics%201982](https://scholar.google.com/scholar?q=Soil%20mechanics%201982){:target="_blank"}
     
 ### `ngi2002early`
 **title**: Early soil investigations for ‘Fast track projects’  
@@ -683,7 +683,7 @@ Bibliographic sources cited by calculation functions and models.
 **title**: A brief note on compression index of soil  
 **author**: Nishida, Yoshichika  
 **year**: 1956  
-**link**: [https://scholar.google.com/scholar?q=A%20brief%20note%20on%20compression%20index%20of%20soil%201956](https://scholar.google.com/scholar?q=A%20brief%20note%20on%20compression%20index%20of%20soil%201956){:target="_blank"}
+**link**: [https://doi.org/10.1061/JSFEAQ.0000015](https://doi.org/10.1061/JSFEAQ.0000015){:target="_blank"}
     
 ### `olson2002liquefied`
 **title**: Liquefied strength ratio from liquefaction flow failure case histories  
@@ -722,8 +722,8 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://isbnsearch.org/isbn/9780471675853](https://isbnsearch.org/isbn/9780471675853){:target="_blank"}
     
 ### `pitilakis2007earthquake`
-**title**: Earthquake geotechnical engineering: 4th international conference on earthquake geotechnical engineering-invited lectures  
-**author**: Pitilakis, Kyriazis D  
+**title**: Earthquake geotechnical engineering: 4th international conference on earthquake geotechnical engineering — invited lectures  
+**author**: Pitilakis, Kyriazis D.  
 **year**: 2007  
 **link**: [https://doi.org/10.1007/978-1-4020-5893-6](https://doi.org/10.1007/978-1-4020-5893-6){:target="_blank"}
     
@@ -743,7 +743,7 @@ Bibliographic sources cited by calculation functions and models.
 **title**: Estimating plasticity index directly from piezocone penetration tests in saturated natural soils  
 **author**: Ramsey, N and Tho, KK  
 **year**: 2023  
-**link**: [https://doi.org/10.1139/cgj-2022-0455](https://doi.org/10.1139/cgj-2022-0455){:target="_blank"}
+**link**: [https://doi.org/10.1139/cgj-2023-0106](https://doi.org/10.1139/cgj-2023-0106){:target="_blank"}
     
 ### `rendon1983closure`
 **title**: Closure to “universal compression index equation” by Oswald Rendon-Herrero (November, 1980)  
@@ -753,7 +753,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `reyna1991dilatometer`
 **title**: Dilatometer based liquefaction potential of sites in the Imperial Valley  
-**author**: Reyna, F and Chameau, JL  
+**author**: Reyna, F. and Chameau, J. L.  
 **year**: 1991  
 **link**: [https://scholar.google.com/scholar?q=Dilatometer%20based%20liquefaction%20potential%20of%20sites%20in%20the%20Imperial%20Valley%201991](https://scholar.google.com/scholar?q=Dilatometer%20based%20liquefaction%20potential%20of%20sites%20in%20the%20Imperial%20Valley%201991){:target="_blank"}
     
@@ -773,7 +773,7 @@ Bibliographic sources cited by calculation functions and models.
 **title**: Interpretation of cone penetration tests—a unified approach  
 **author**: Robertson, Peter K  
 **year**: 2009  
-**link**: [https://doi.org/10.1139/T09-050](https://doi.org/10.1139/T09-050){:target="_blank"}
+**link**: [https://doi.org/10.1139/T09-065](https://doi.org/10.1139/T09-065){:target="_blank"}
     
 ### `robertson2010estimatinga`
 **title**: Estimating soil unit weight from CPT  
@@ -791,18 +791,24 @@ Bibliographic sources cited by calculation functions and models.
 **title**: Evaluation of flow liquefaction and liquefied strength using the cone penetration test  
 **author**: Robertson, PK  
 **year**: 2010  
-**link**: [https://doi.org/10.1061/(ASCE)GT.1943-5606.0000321](https://doi.org/10.1061/(ASCE)GT.1943-5606.0000321){:target="_blank"}
+**link**: [https://doi.org/10.1061/(ASCE)GT.1943-5606.0000286](https://doi.org/10.1061/(ASCE)GT.1943-5606.0000286){:target="_blank"}
     
 ### `robertson2012guide`
-**title**: GUIDE TO CONE PENETRATION TESTING  
-**author**: Robertson, PK and Cabal, K  
+**title**: Guide to cone penetration testing for geotechnical engineering  
+**author**: Robertson, P. K. and Cabal, K. L.  
 **year**: 2012  
 **link**: [https://cpt-robertson.com/publications/](https://cpt-robertson.com/publications/){:target="_blank"}
     
 ### `robertson2012interpretation`
-**title**: The James K. Mitchell Lecture: Interpretation of in-situ tests--some insights  
+**title**: The James K. Mitchell Lecture: interpretation of in-situ tests — some insights  
 **author**: Robertson, PK  
 **year**: 2012  
+**link**: [https://cpt-robertson.com/publications/](https://cpt-robertson.com/publications/){:target="_blank"}
+    
+### `robertson2014guide`
+**title**: Guide to cone penetration testing for geotechnical engineering  
+**author**: Robertson, P. K. and Cabal, K. L.  
+**year**: 2014  
 **link**: [https://cpt-robertson.com/publications/](https://cpt-robertson.com/publications/){:target="_blank"}
     
 ### `robertson2016cone`
@@ -817,10 +823,10 @@ Bibliographic sources cited by calculation functions and models.
 **year**: 2022  
 **link**: [https://doi.org/10.1139/cgj-2020-0657](https://doi.org/10.1139/cgj-2020-0657){:target="_blank"}
     
-### `robertson2024guide`
-**title**: GUIDE TO CONE PENETRATION TESTING  
-**author**: Robertson, PK and Cabal, K  
-**year**: 2024  
+### `robertson2022guide`
+**title**: Guide to cone penetration testing  
+**author**: Robertson, P. K. and Cabal, K.  
+**year**: 2022  
 **link**: [https://cpt-robertson.com/publications/](https://cpt-robertson.com/publications/){:target="_blank"}
     
 ### `saye2017linear`
@@ -842,16 +848,16 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://scholar.google.com/scholar?q=Measurement%20of%20in%20situ%20shear%20strength%2C%20SOA%20Report%201975](https://scholar.google.com/scholar?q=Measurement%20of%20in%20situ%20shear%20strength%2C%20SOA%20Report%201975){:target="_blank"}
     
 ### `schmertmann1978use`
-**title**: Use the SPT to measure dynamic soil properties?-Yes, But..!  
-**author**: Schmertmann, John H  
+**title**: Use the SPT to measure dynamic soil properties?—Yes, but..!  
+**author**: Schmertmann, John H.  
 **year**: 1978  
-**link**: [https://scholar.google.com/scholar?q=Use%20the%20SPT%20to%20measure%20dynamic%20soil%20properties%3F-Yes%2C%20But..%21%201978](https://scholar.google.com/scholar?q=Use%20the%20SPT%20to%20measure%20dynamic%20soil%20properties%3F-Yes%2C%20But..%21%201978){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Use%20the%20SPT%20to%20measure%20dynamic%20soil%20properties%3F%E2%80%94Yes%2C%20but..%21%201978](https://scholar.google.com/scholar?q=Use%20the%20SPT%20to%20measure%20dynamic%20soil%20properties%3F%E2%80%94Yes%2C%20but..%21%201978){:target="_blank"}
     
 ### `schnaid2009prediction`
 **title**: Prediction of soil properties from the concepts of energy transfer in dynamic penetration tests  
 **author**: Schnaid, Fernando and Odebrecht, Edgar and Rocha, Marcelo Maia and de Paula Bernardes, George  
 **year**: 2009  
-**link**: [https://doi.org/10.1061/(ASCE)GT.1943-5606.000005](https://doi.org/10.1061/(ASCE)GT.1943-5606.000005){:target="_blank"}
+**link**: [https://doi.org/10.1061/(ASCE)GT.1943-5606.0000059](https://doi.org/10.1061/(ASCE)GT.1943-5606.0000059){:target="_blank"}
     
 ### `schneider2008analysis`
 **title**: Analysis of factors influencing soil classification using normalized piezocone tip resistance and pore pressure parameters  
@@ -881,7 +887,7 @@ Bibliographic sources cited by calculation functions and models.
 **title**: NGA-West2 models for ground motion directionality  
 **author**: Shahi, Shrey K and Baker, Jack W  
 **year**: 2014  
-**link**: [https://doi.org/10.1193/082212EQS259M](https://doi.org/10.1193/082212EQS259M){:target="_blank"}
+**link**: [https://doi.org/10.1193/040913eqs097m](https://doi.org/10.1193/040913eqs097m){:target="_blank"}
     
 ### `sivrikaya2006determination`
 **title**: Determination of undrained strength of fine-grained soils by means of SPT and its application in Turkey  
@@ -915,7 +921,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `sorensen2013correlation`
 **title**: Correlation between drained shear strength and plasticity index of undisturbed overconsolidated clays  
-**author**: Sorensen, Kenny Kataoka and Okkels, N  
+**author**: Sørensen, Kenny Kataoka and Okkels, N.  
 **year**: 2013  
 **link**: [https://www.issmge.org/publications/publication/correlation-between-drained-shear-strength-and-plasticity-index-of-undisturbed-overconsolidated-clays](https://www.issmge.org/publications/publication/correlation-between-drained-shear-strength-and-plasticity-index-of-undisturbed-overconsolidated-clays){:target="_blank"}
     
@@ -950,10 +956,10 @@ Bibliographic sources cited by calculation functions and models.
 **link**: [https://scholar.google.com/scholar?q=Seismic%20response%20of%20piles%20and%20pile-supported%20bridge%20piers%20evaluated%20through%20case%20histories%202004](https://scholar.google.com/scholar?q=Seismic%20response%20of%20piles%20and%20pile-supported%20bridge%20piers%20evaluated%20through%20case%20histories%202004){:target="_blank"}
     
 ### `tan1991engineering`
-**title**: Engineering Manual for Shallow Foundations  
-**author**: Tan, C.K. and National Cooperative Highway Research Program and National Research Council (U.S.). Transportation Research Board and Virginia Polytechnic Institute and State University. Charles E. Via Department of Civil Engineering  
+**title**: Engineering manual for shallow foundations  
+**author**: Tan, C. K.  
 **year**: 1991  
-**link**: [https://scholar.google.com/scholar?q=Engineering%20Manual%20for%20Shallow%20Foundations%201991](https://scholar.google.com/scholar?q=Engineering%20Manual%20for%20Shallow%20Foundations%201991){:target="_blank"}
+**link**: [https://scholar.google.com/scholar?q=Engineering%20manual%20for%20shallow%20foundations%201991](https://scholar.google.com/scholar?q=Engineering%20manual%20for%20shallow%20foundations%201991){:target="_blank"}
     
 ### `tatsuoka1990evaluation`
 **title**: Evaluation method of liquefaction potential and its application  
@@ -1017,12 +1023,12 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `van2014assessment`
 **title**: Assessment of liquefaction-induced land damage for residential Christchurch  
-**author**: Van Ballegooy, S and Malan, P and Lacrosse, V and Jacka, ME and Cubrinovski, M and Bray, JD and O'Rourke, TD and Crawford, SA and Cowan, H  
+**author**: van Ballegooy, S. and Malan, P. and Lacrosse, V. and Jacka, M. E. and Cubrinovski, M. and Bray, J. D. and O'Rourke, T. D. and Crawford, S. A. and Cowan, H.  
 **year**: 2014  
 **link**: [https://doi.org/10.1193/031813eqs070m](https://doi.org/10.1193/031813eqs070m){:target="_blank"}
     
 ### `vardanega2014undrained`
-**title**: The undrained strength--liquidity index relationship  
+**title**: The undrained strength–liquidity index relationship  
 **author**: Vardanega, PJ and Haigh, Stuart K  
 **year**: 2014  
 **link**: [https://doi.org/10.1139/cgj-2013-0169](https://doi.org/10.1139/cgj-2013-0169){:target="_blank"}
@@ -1035,7 +1041,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `vesic1975bearing`
 **title**: Bearing capacity of shallow foundations  
-**author**: Vesic, Alexandar S  
+**author**: Vesić, Aleksandar S.  
 **year**: 1975  
 **link**: [https://scholar.google.com/scholar?q=Bearing%20capacity%20of%20shallow%20foundations%201975](https://scholar.google.com/scholar?q=Bearing%20capacity%20of%20shallow%20foundations%201975){:target="_blank"}
     
@@ -1077,13 +1083,13 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `yoshida1988empirical`
 **title**: Empirical formulas of SPT blow-counts for gravelly soils  
-**author**: Yoshida, Y  
+**author**: Yoshida, Y.  
 **year**: 1988  
 **link**: [https://scholar.google.com/scholar?q=Empirical%20formulas%20of%20SPT%20blow-counts%20for%20gravelly%20soils%201988](https://scholar.google.com/scholar?q=Empirical%20formulas%20of%20SPT%20blow-counts%20for%20gravelly%20soils%201988){:target="_blank"}
     
 ### `youd2001liquefaction`
 **title**: Liquefaction resistance of soils: summary report from the 1996 NCEER and 1998 NCEER/NSF workshops on evaluation of liquefaction resistance of soils  
-**author**: Youd, T Leslie and Idriss, Izzat M  
+**author**: Youd, T. Leslie and Idriss, Izzat M. and Andrus, Ronald D. and Arango, Ignacio and Castro, Gonzalo and Christian, John T. and Dobry, Ricardo and Finn, W. D. Liam and Harder, Jr., Leslie F. and Hynes, Mary Ellen and Ishihara, Kenji and Koester, Joseph P. and Liao, Sam S. C. and Marcuson, III, William F. and Martin, Geoffrey R. and Mitchell, James K. and Moriwaki, Yoshiharu and Power, Maurice S. and Robertson, Peter K. and Seed, Raymond B. and Stokoe, II, Kenneth H.  
 **year**: 2001  
 **link**: [https://doi.org/10.1061/(ASCE)1090-0241(2001)127:10(817)](https://doi.org/10.1061/(ASCE)1090-0241(2001)127:10(817)){:target="_blank"}
     
@@ -1095,7 +1101,7 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `zhang2002estimating`
 **title**: Estimating liquefaction-induced ground settlements from CPT for level ground  
-**author**: Zhang, G and Robertson, PK and Brachman, R WI  
+**author**: Zhang, G. and Robertson, P. K. and Brachman, R. W. I.  
 **year**: 2002  
 **link**: [https://doi.org/10.1139/t02-047](https://doi.org/10.1139/t02-047){:target="_blank"}
     
@@ -1107,25 +1113,13 @@ Bibliographic sources cited by calculation functions and models.
     
 ### `2020SciPy-NMeth`
 **title**: SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python  
-**author**: Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and
- Haberland, Matt and Reddy, Tyler and Cournapeau, David and
- Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and
- Bright, Jonathan and {van der Walt}, Stéfan J. and
- Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and
- Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and
- Kern, Robert and Larson, Eric and Carey, C J and
- Polat, İlhan and Feng, Yu and Moore, Eric W. and
-            {VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and
- Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and
- Harris, Charles R. and Archibald, Anne M. and
- Ribeiro, Antônio H. and Pedregosa, Fabian and
-            {van Mulbregt}, Paul and {SciPy 1.0 Contributors  
+**author**: Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and van der Walt, Stéfan J. and Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C. J. and Polat, İlhan and Feng, Yu and Moore, Eric W. and VanderPlas, Jake and Laxalde, Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro, Antônio H. and Pedregosa, Fabian and van Mulbregt, Paul and SciPy 1.0 Contributors  
 **year**: 2020  
 **link**: [https://doi.org/10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2){:target="_blank"}
     
 ### `gmspy2025`
 **title**: gmspy  
-**author**: Yexiang Yan  
+**author**: Yan, Yexiang  
 **year**: 2025  
 **link**: [https://github.com/yexiang92/gmspy](https://github.com/yexiang92/gmspy){:target="_blank"}
     
