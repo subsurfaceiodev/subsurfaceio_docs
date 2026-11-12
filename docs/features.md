@@ -45,13 +45,12 @@ in-situ tests, laboratory specimens, and field strata.
   SSI.
 - [Pipelines](reference/subsurfaceio/function_sequences/) covering those same
   domains.
-- Batch inputs on those pipelines: a field may be a scalar, a 1-d list, or a
-  2-d array. Values follow numpy broadcasting. See
-  [soil classification](examples/api/soil_classification.md),
-  [CPT interpretation](examples/api/cpt_interpretation.md), and
-  [CPT liquefaction parametric analysis](examples/api/cpt_liquefaction_parametric.md).
+- Batch inputs on those pipelines: a field may be a scalar or a 1-d list.
+  Values follow numpy broadcasting. See
+  [soil classification](examples/api/soil_classification.md) and
+  [CPT interpretation](examples/api/cpt_interpretation.md).
 - One-sounding grids:
-  [CPT liquefaction](examples/api/cpt_liquefaction_parametric_analysis.md),
+  [CPT liquefaction](examples/api/cpt_liquefaction_parametric.md),
   [CPT footing capacity](examples/api/cpt_footing_capacity_parametric.md),
   and
   [DMT footing settlement](examples/api/dmt_footing_settlements_parametric.md).
