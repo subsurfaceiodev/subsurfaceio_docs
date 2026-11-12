@@ -1,4 +1,4 @@
-"""Sweep CPT bearing capacity over footing width and embedment."""
+"""Sweep CPT footing capacity and settlement over width and embedment."""
 
 import httpx2
 import polars as pl
@@ -46,21 +46,35 @@ analysis = dict(
 )
 
 with httpx2.Client(base_url=base_url) as client:
-    response = client.post(
+    capacity_response = client.post(
         '/in-situ-test/footing-capacity-parametric/calculate',
         json=dict(test=test, analysis=analysis),
     )
-    response.raise_for_status()
-    calculated = response.json()
+    capacity_response.raise_for_status()
+    capacity = capacity_response.json()
+    pl.DataFrame(capacity['results']['data']).glimpse()
 
-    pl.DataFrame(calculated['results']['data']).glimpse()
-
-    figure_response = client.post(
+    capacity_figure = client.post(
         '/in-situ-test/footing-capacity-parametric/figure',
         params=dict(field='ultimate_bearing_capacity'),
-        json=calculated,
+        json=capacity,
     )
-    figure_response.raise_for_status()
+    capacity_figure.raise_for_status()
 
-fig = pio.from_json(figure_response.content)
-fig.show()
+    settlement_response = client.post(
+        '/in-situ-test/footing-settlements-parametric/calculate',
+        json=dict(test=test, analysis=analysis),
+    )
+    settlement_response.raise_for_status()
+    settlement = settlement_response.json()
+    pl.DataFrame(settlement['results']['data']).glimpse()
+
+    settlement_figure = client.post(
+        '/in-situ-test/footing-settlements-parametric/figure',
+        params=dict(field='footing_settlement_sum'),
+        json=settlement,
+    )
+    settlement_figure.raise_for_status()
+
+pio.from_json(capacity_figure.content).show()
+pio.from_json(settlement_figure.content).show()

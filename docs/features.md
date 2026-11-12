@@ -50,10 +50,9 @@ in-situ tests, laboratory specimens, and field strata.
   [soil classification](examples/api/soil_classification.md) and
   [CPT interpretation](examples/api/cpt_interpretation.md).
 - One-sounding grids:
-  [CPT liquefaction](examples/api/cpt_liquefaction_parametric.md),
-  [CPT footing capacity](examples/api/cpt_footing_capacity_parametric.md),
+  [CPT liquefaction](examples/api/cpt_liquefaction_parametric.md)
   and
-  [DMT footing settlement](examples/api/dmt_footing_settlements_parametric.md).
+  [CPT footing capacity and settlement](examples/api/cpt_footing_parametric.md).
 - Shared [parameters](reference/subsurfaceio/parameters/).
 - [Function sequence catalog](catalog/function_sequences.md): every named
   recipe.
