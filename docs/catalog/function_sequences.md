@@ -833,15 +833,11 @@ Named calculation pipelines and the functions each recipe calls.
 * [`spt.get_recompression_index__lo1982prediction`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_recompression_index__lo1982prediction)  
 * [`spt.get_compression_ratio__lambe1969soil`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_compression_ratio__lambe1969soil)  
 * [`spt.get_recompression_ratio__lo1982prediction`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_recompression_ratio__lo1982prediction)  
-* [`spt.get_constrained_modulus__janbu1985soil`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_constrained_modulus__janbu1985soil)  
 * [`cpt.get_void_ratio__barounis2018estimation`](../reference/subsurfaceio/functions/cpt.md#subsurfaceio.functions.cpt.get_void_ratio__barounis2018estimation)  
 * [`spt.get_permeability__chapuis2012predicting`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_permeability__chapuis2012predicting)  
-* [`spt.get_coefficient_of_consolidation__navfac1982soil`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_coefficient_of_consolidation__navfac1982soil)  
 * [`spt.get_peak_friction_angle__sorensen2013correlation`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_peak_friction_angle__sorensen2013correlation)  
 * [`spt.get_shear_velocity__wair2012guidelines`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_shear_velocity__wair2012guidelines)  
 * [`base.get_small_strain_shear_modulus__landau1959theory`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_small_strain_shear_modulus__landau1959theory)  
-* [`spt.get_poisson_ratio__bowles1996foundation`](../reference/subsurfaceio/functions/spt.md#subsurfaceio.functions.spt.get_poisson_ratio__bowles1996foundation)  
-* [`base.get_elasticity_modulus_from_shear_modulus`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_elasticity_modulus_from_shear_modulus)  
 * [`base.get_coefficient_of_earth_pressure_at_rest__mayne1982ko`](../reference/subsurfaceio/functions/base.md#subsurfaceio.functions.base.get_coefficient_of_earth_pressure_at_rest__mayne1982ko)  
 
 ### SPTLiquefactionBoulanger2014
